@@ -4,7 +4,7 @@ description: >-
   all aspects of this beautiful sport.
 ---
 
-# Index
+# Soccer Analytics - Index
 
 ### Table of Contents
 
