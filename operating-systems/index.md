@@ -21,8 +21,6 @@ description: hardcore stuff
 
 ### Links
 
-{% page-ref page="index.md" %}
-
 
 
 
