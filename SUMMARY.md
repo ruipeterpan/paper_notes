@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Introduction](README.md)
+* [Vocabulary List](vocabulary-list.md)
 
 ## Systems for ML
 
