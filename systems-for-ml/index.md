@@ -11,10 +11,10 @@ description: >-
 
 #### Subarea 1
 
-| Paper Title | Authors | Link |
-| :--- | :--- | :--- |
-|  |  |  |
-|  |  |  |
+| Paper Title | Link |
+| :--- | :--- |
+|  |  |
+|  |  |
 
 #### Subarea 2
 
