@@ -1,7 +1,8 @@
 # Table of contents
 
-* [Introduction](README.md)
+* [Rui's Paper Reading Notes - Introduction](README.md)
 * [Vocabulary List](vocabulary-list.md)
+* [Template](template.md)
 
 ## Systems for ML
 
@@ -13,5 +14,6 @@
 
 ## Soccer Analytics
 
-* [Soccer Analytics - Index](soccer-analytics/index.md)
+* [Soccer Analytics - Index](soccer-analytics/index/README.md)
+  * [Decomposing the Immeasurable Sport: A deep learning expected possession value framework for soccer](soccer-analytics/index/decomposing-the-immeasurable-sport-a-deep-learning-expected-possession-value-framework-for-soccer.md)
 
