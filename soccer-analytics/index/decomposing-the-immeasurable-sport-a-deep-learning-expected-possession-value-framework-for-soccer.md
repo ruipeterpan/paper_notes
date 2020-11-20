@@ -2,6 +2,8 @@
 
 ### One-liner Summary
 
+In this paper, the authors presented a model that quantifies the expected outcome at every moment in a possession.
+
 ### Outline
 
 1. Introduction
@@ -18,6 +20,8 @@
 7. Discussion
 
 ### Background & Motivation
+
+
 
 ### Links
 
