@@ -14,6 +14,10 @@
 
 ## Soccer Analytics
 
-* [Soccer Analytics - Index](soccer-analytics/index/README.md)
-  * [Decomposing the Immeasurable Sport: A deep learning expected possession value framework for soccer](soccer-analytics/index/decomposing-the-immeasurable-sport-a-deep-learning-expected-possession-value-framework-for-soccer.md)
+* [Soccer Analytics - Index](soccer-analytics/index.md)
+
+## Papers by Rui Pan
+
+* [Papers by Rui Pan -- Index](papers-by-rui-pan/papers-by-rui-pan-index/README.md)
+  * [Decomposing the Immeasurable Sport: A deep learning expected possession value framework for soccer](papers-by-rui-pan/papers-by-rui-pan-index/decomposing-the-immeasurable-sport-a-deep-learning-expected-possession-value-framework-for-soccer.md)
 
