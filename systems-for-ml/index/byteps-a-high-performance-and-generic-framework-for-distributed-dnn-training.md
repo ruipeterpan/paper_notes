@@ -47,7 +47,7 @@ Existing architectures \(all\_reduce and parameter server\) for distributed DNN 
 
 ![Even with ByteScheduler, we are still 30% away from the optimal performance](../../.gitbook/assets/screen-shot-2020-11-30-at-11.17.12-am.png)
 
-The paper analyzed three problems that lead to this slowdown, and then presented a solution to each problem:
+The paper analyzed three problems that led to this slowdown, and then presented a solution to each problem:
 
 1. Sub-optimal Inter-machine Communication
 2. Sub-optimal Intra-machine Communication
@@ -103,7 +103,7 @@ The PS server's role can be divided into two parts: Gradient Summation & Paramet
 
 * Network Interface Controller \(NIC\): 
 * PCI Express \(PCIe\): 
-* Goodput: Throughput and good. Goodput is the rate at which **useful** data passes through a link, while throughput measures the rate at which **all** data passes through a link. For example, in a local area network \(LAN\), goodput only measures the throughput of the original data, while throughput also measures all the protocol overhead information \(packet headers, etc.\).
+* Goodput: Throughput that's good. Goodput is the rate at which **useful** data passes through a link, while throughput measures the rate at which **all** data passes through a link. For example, in a local area network \(LAN\), goodput only measures the throughput of the original data, while throughput also measures all the protocol overhead information \(packet headers, etc.\).
 
 ### Links
 
