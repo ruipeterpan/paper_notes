@@ -16,6 +16,10 @@
 * 
 ### Links
 
+* Paper PDF
+* Presentation Video at xxx
+* Presentation Slides
+* * xxx on GitHub
 * 
 
 
