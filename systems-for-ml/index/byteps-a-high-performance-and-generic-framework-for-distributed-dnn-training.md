@@ -39,8 +39,6 @@ description: >-
 9. Related Work
 10. Conclusion
 
-
-
 ### Background & Motivation
 
 Existing architectures \(all\_reduce and parameter server\) for distributed DNN training are insufficient.
@@ -93,10 +91,19 @@ The PS server's role can be divided into two parts: Gradient Summation & Paramet
 
 ### Evaluation
 
+![BytePS achieves near-optimal communication performance](../../.gitbook/assets/screen-shot-2020-11-30-at-12.14.50-pm.png)
+
+![10% - 20% gains](../../.gitbook/assets/screen-shot-2020-11-30-at-12.17.47-pm.png)
+
+![BytePS outperforms allreduce &amp; PS by up to 84% and 245%, respectively](../../.gitbook/assets/screen-shot-2020-11-30-at-12.19.10-pm.png)
+
+![Breakdown of Performance Gains](../../.gitbook/assets/screen-shot-2020-11-30-at-12.20.02-pm.png)
+
 ### New Vocabulary
 
-* Network Interface Controller \(NIC\)
-* PCI Express \(PCIe\)
+* Network Interface Controller \(NIC\): 
+* PCI Express \(PCIe\): 
+* Goodput: Similar to throughput. Goodput is the rate at which **useful** data passes through a link, while throughput measures the rate at which **all** data passes through a link. For example, in a local area network \(LAN\), goodput only measures the throughput of the original data, while throughput also measures all the protocol overhead information \(packet headers, etc.\)
 
 ### Links
 
@@ -104,4 +111,5 @@ The PS server's role can be divided into two parts: Gradient Summation & Paramet
 * [Presentation Video at OSDI '20](https://www.youtube.com/watch?v=j8PHNglSZX8&feature=emb_logo&ab_channel=USENIX)
 * [Presentation Slides PDF](https://www.usenix.org/sites/default/files/conference/protected-files/osdi20_slides_jiang.pdf)
 * [BytePS on GitHub](https://github.com/bytedance/byteps)
+* [The rationale for BytePS](https://github.com/bytedance/byteps/blob/master/docs/rationale.md)
 
