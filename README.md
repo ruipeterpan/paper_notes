@@ -1,7 +1,5 @@
 # Rui's Paper Reading Notes - Introduction
 
-Wow gitbook is so nice
-
 ### Meta-papers
 
 * [How to Read a Paper](http://pages.cs.wisc.edu/~akella/CS740/S12/740-Papers/paper-reading-keshav.pdf): An introduction to the "three-pass" method of reading research papers.

@@ -69,9 +69,27 @@ There are often multiple GPUs in a GPU machine IRL. The internal topology is als
 
 #### The CPU Bottleneck
 
-In the parameter server setup, the GPU workers send the gradients to CPU servers. The CPU servers first aggregate the gradients received, and then update the parameters using the optimizer function. The problem is that CPUs might not match network rates, thus creating bottlenecks. **The solution is a summation service that moves parameter updates to GPUs.**
+In the parameter server setup, the GPU workers send the gradients to CPU servers. The CPU servers first aggregate the gradients received, and then update the parameters using the optimizer function. The problem is that CPUs might not match network rates, thus creating bottlenecks. **The solution is a summation service that moves parameter updates from CPUs to GPUs.**
 
 ### Design and Implementation
+
+#### Sub-optimal Inter-machine Communication
+
+PS only uses links between CPUs and GPUs and does not utilize the bandwidth between GPU machines. In the allreduce setup, the communication solely relies on inter-GPU communications, not utilizing the CPU at all. BytePS takes the best of both worlds and combines these two strategies. In the paper, the authors presented an optimal partition strategy that adjusts the proportion of CPU-GPU and GPU-GPU communications.
+
+![](../../.gitbook/assets/screen-shot-2020-11-30-at-11.57.04-am.png)
+
+#### Sub-optimal Intra-machine Communication
+
+![I might come back to this later, this is a bit complicated to understand for now :P](../../.gitbook/assets/screen-shot-2020-11-30-at-12.00.35-pm.png)
+
+#### The CPU Bottleneck
+
+The PS server's role can be divided into two parts: Gradient Summation & Parameter Update. Typically, forward propagation and backward propagation get placed on GPUs, while gradient summation and parameter update are placed on GPUs. The authors found that the gradient summation step is CPU-friendly, while the parameter update step is heavy. To resolve this issue, the authors presented the Summation Service, which moves the parameter update to GPUs to resolve the aforementioned bottleneck.
+
+#### System Architecture Overview
+
+![](../../.gitbook/assets/screen-shot-2020-11-30-at-12.05.47-pm.png)
 
 ### Evaluation
 
@@ -85,5 +103,5 @@ In the parameter server setup, the GPU workers send the gradients to CPU servers
 * [Paper PDF](https://www.usenix.org/system/files/osdi20-jiang.pdf)
 * [Presentation Video at OSDI '20](https://www.youtube.com/watch?v=j8PHNglSZX8&feature=emb_logo&ab_channel=USENIX)
 * [Presentation Slides PDF](https://www.usenix.org/sites/default/files/conference/protected-files/osdi20_slides_jiang.pdf)
-* [Byteps on GitHub](https://github.com/bytedance/byteps)
+* [BytePS on GitHub](https://github.com/bytedance/byteps)
 
