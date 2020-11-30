@@ -8,7 +8,7 @@ description: >-
 
 ### One-liner Summary
 
-### Table of Contents
+### Paper Structure Outline
 
 1. Introduction
 2. Background
@@ -103,7 +103,7 @@ The PS server's role can be divided into two parts: Gradient Summation & Paramet
 
 * Network Interface Controller \(NIC\): 
 * PCI Express \(PCIe\): 
-* Goodput: Similar to throughput. Goodput is the rate at which **useful** data passes through a link, while throughput measures the rate at which **all** data passes through a link. For example, in a local area network \(LAN\), goodput only measures the throughput of the original data, while throughput also measures all the protocol overhead information \(packet headers, etc.\)
+* Goodput: Throughput and good. Goodput is the rate at which **useful** data passes through a link, while throughput measures the rate at which **all** data passes through a link. For example, in a local area network \(LAN\), goodput only measures the throughput of the original data, while throughput also measures all the protocol overhead information \(packet headers, etc.\).
 
 ### Links
 
