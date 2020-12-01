@@ -47,9 +47,9 @@ In this section, the authors validate the correctness and quantify the virtualiz
 
 The correctness of ReVirt was confirmed by having ReVirt replay logging runs of benchmarks and comparing the result with the original run.
 
-![UMLinux adds very little overhead for compute-intensive applications and the overheads are unnoticeable for daily use. The overheads for some applications are higher because they issue more guest kernel calls, each of which must be trapped by the VMM kernle module and reflected back to the guest kernel by sending a signal. Even with a ~60% overhead, it is still comparatively optimal and is a desirable tradeoff for security.](../../.gitbook/assets/screen-shot-2020-12-01-at-2.57.22-pm.png)
+![UMLinux adds very little overhead for compute-intensive applications and the overheads are unnoticeable for daily use. The overheads for some applications are higher because they issue more guest kernel calls, each of which must be trapped by the VMM kernel module and reflected back to the guest kernel by sending a signal. Even with a ~60% overhead, it is still comparatively optimal and is a desirable trade-off for security.](../../.gitbook/assets/screen-shot-2020-12-01-at-2.57.22-pm.png)
 
-![The time overhead of logging is small \(8% at most\). The space overhead is low enough so that the logs can be saved over a long period of time at low cost. The replay runtime is similar to the speed during logging.](../../.gitbook/assets/screen-shot-2020-12-01-at-3.05.26-pm.png)
+![The time overhead of logging is small \(8% at most\). The space overhead is low enough so that the logs can be saved over a long period of time at a low cost. The replay runtime is similar to the speed during logging.](../../.gitbook/assets/screen-shot-2020-12-01-at-3.05.26-pm.png)
 
 
 
