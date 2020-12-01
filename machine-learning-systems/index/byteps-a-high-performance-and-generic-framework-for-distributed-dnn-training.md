@@ -2,7 +2,7 @@
 
 ### One-liner Summary
 
-In this paper, the authors introduced BytePS, a unified architecture for accelerating distributed DNN training in heterogeneous GPU/CPU clusters. Yes, this is the OG title of the paper, but it's so long that it does not fit in the GitBook title.
+In this paper, the authors introduced BytePS, a unified architecture for accelerating distributed DNN training in heterogeneous GPU/CPU clusters. Yes, this is the OG title of the paper, but it's so long that it does not fit in the GitBook title, so...
 
 ### Paper Structure Outline
 
