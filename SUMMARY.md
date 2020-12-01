@@ -12,6 +12,8 @@
 ## Operating Systems
 
 * [Operating Systems - Index](operating-systems/index/README.md)
+  * [CS 736 @ UW-Madison Fall 2020 Reading List](operating-systems/index/cs-736-uw-madison-fall-2020-reading-list.md)
+  * [ReVirt: Enabling Intrusion Analysis through Virtual-Machine Logging and Replay](operating-systems/index/revirt-enabling-intrusion-analysis-through-virtual-machine-logging-and-replay.md)
   * [Memory Resource Management in VMware ESX Server](operating-systems/index/memory-resource-management-in-vmware-esx-server.md)
 
 ## Soccer Analytics
