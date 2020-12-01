@@ -4,6 +4,38 @@ description: hardcore stuff
 
 # Operating Systems - Index
 
+### TODOs
+
+| To move from local note to gitbook | To read |
+| :--- | :--- |
+| FFS | Revirt |
+| LFS | KernlInst |
+| RAID | KLEE |
+|  | Debug |
+|  | Hints |
+| DDP |  |
+| iBench |  |
+| SnapMirror |  |
+| Venti |  |
+| Deduplication |  |
+| ARC |  |
+| ALICE |  |
+| OptFS |  |
+| Unwritten Contract |  |
+| Bourbon/Sazerac |  |
+| Mnemosyne |  |
+| Level Hash |  |
+| Monitors |  |
+| Monitors in Mesa |  |
+| Scalability Analysis |  |
+| RCL |  |
+| Scheduler Activations |  |
+| Lottery Scheduling |  |
+| Arachne |  |
+| Monotasks |  |
+| Exokernel |  |
+| LegoOS |  |
+
 ### Table of Contents
 
 #### Subarea 1

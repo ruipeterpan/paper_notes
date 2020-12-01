@@ -8,13 +8,6 @@
 
 * [Machine Learning Systems - Index](machine-learning-systems/index/README.md)
   * [BytePS: A High Performance and Generic Framework for Distributed DNN Training](machine-learning-systems/index/byteps-a-high-performance-and-generic-framework-for-distributed-dnn-training.md)
-  * [ByteScheduler: A Generic Communication Scheduler for DistributedDNN Training Acceleration](machine-learning-systems/index/bytescheduler-a-generic-communication-scheduler-for-distributeddnn-training-acceleration.md)
-  * [Gandiva: Introspective Cluster Scheduling for Deep Learning](machine-learning-systems/index/gandiva-introspective-cluster-scheduling-for-deep-learning.md)
-  * [MapReduce: Simplified Data Processing on Large Clusters](machine-learning-systems/index/mapreduce-simplified-data-processing-on-large-clusters.md)
-  * [Parameter Server: Scaling Distributed Machine Learning with the Parameter Server](machine-learning-systems/index/parameter-server-scaling-distributed-machine-learning-with-the-parameter-server.md)
-  * [PyTorch Distributed: Experiences on Accelerating Data Parallel Training](machine-learning-systems/index/pytorch-distributed-experiences-on-accelerating-data-parallel-training.md)
-  * [Tiresias: A GPU Cluster Manager for Distributed Deep Learning](machine-learning-systems/index/tiresias-a-gpu-cluster-manager-for-distributed-deep-learning.md)
-  * [Themis: Fair and Efficient GPU Cluster Scheduling](machine-learning-systems/index/themis-fair-and-efficient-gpu-cluster-scheduling.md)
 
 ## Operating Systems
 
