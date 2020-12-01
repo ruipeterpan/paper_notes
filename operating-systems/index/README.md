@@ -36,6 +36,10 @@ description: hardcore stuff
 | Exokernel |  |
 | LegoOS |  |
 
+### Reading List
+
+[http://pages.cs.wisc.edu/~dusseau/Classes/CS736/CS736-F13/papers.html](http://pages.cs.wisc.edu/~dusseau/Classes/CS736/CS736-F13/papers.html)
+
 ### Table of Contents
 
 #### Subarea 1
