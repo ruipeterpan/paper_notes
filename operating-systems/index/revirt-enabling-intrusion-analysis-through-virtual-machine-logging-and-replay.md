@@ -55,7 +55,8 @@ The correctness of ReVirt was confirmed by having ReVirt replay logging runs of 
 
 ### New Vocabulary
 
-* 
+* Hypervisor: It's a virtual machine monitor that creates and runs VMs.
+
 ### Links
 
 * [Paper PDF](https://web.eecs.umich.edu/virtual/papers/dunlap02.pdf)
