@@ -4,6 +4,13 @@
 * [Vocabulary List](vocabulary-list.md)
 * [Template](template.md)
 
+## Blog
+
+* [Blog - Index](blog/blog-index/README.md)
+  * [How to Create Picture-in-Picture Effect / Video Overlay for a Presentation Video](blog/blog-index/how-to-create-picture-in-picture-effect-video-overlay-for-a-presentation-video.md)
+  * [How to Get a Driver's License in Wisconsin](blog/blog-index/how-to-get-a-drivers-license-in-wisconsin.md)
+  * [How to Transfer Credits Back to UW-Madison](blog/blog-index/how-to-transfer-credits-back-to-uw-madison.md)
+
 ## Machine Learning Systems
 
 * [Machine Learning Systems - Index](machine-learning-systems/index/README.md)
