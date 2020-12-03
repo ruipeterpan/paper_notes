@@ -41,9 +41,9 @@ Several novel techniques and mechanisms are presented.
 
 ![](../../.gitbook/assets/screen-shot-2020-11-30-at-4.53.06-pm.png)
 
-This technique allows memories to be reclaimed by ESX Servers from the guest OS. When a VM is claimed memory, the ballooning technique persuades the guest OS into cooperating with it. A balloon module is loaded into the guest OS as a pseudo-device driver or kernel service. When the balloon is inflated \(by pinning physical pages\), the guest OS gets pressured and invokes its own memory management algorithms. Based on the amount of remaining memory, the guest OS either returns memory from its free list or pages out some particular pages to its own virtual disk. In contrast, when a balloon is deflated, the guest OS gets to use more memory.
+This technique allows memories to be reclaimed by ESX Servers from the guest OS. When a VM is claimed memory, the ballooning technique persuades the guest OS into cooperating with it. A balloon module is loaded into the guest OS as a pseudo-device driver or kernel service. When the balloon is inflated \(by pinning physical pages\), the guest OS gets pressured and invokes its own memory management algorithms. Based on the amount of remaining memory, the guest OS either returns pages from its free list or pages out some particular pages to its own virtual disk. In contrast, when a balloon is deflated, the guest OS gets to use more memory.
 
-![Ballooning adds a small overhead \(1.4% to 4.4%\) while obtaining similar performance compared with a server w/o ballooning.](../../.gitbook/assets/screen-shot-2020-11-30-at-5.35.20-pm.png)
+![Ballooning adds a small overhead \(1.4% to 4.4%, because guest OS uses more resources when given more memory initially\) while obtaining similar performance compared with a VM w/o ballooning.](../../.gitbook/assets/screen-shot-2020-11-30-at-5.35.20-pm.png)
 
 #### Idle Memory Tax
 
@@ -53,7 +53,7 @@ Idle clients can hoard memory while active clients without enough memory suffer 
 
 #### Content-Based Page Sharing
 
-To achieve page sharing, Disco needs to make interface changes in the guest OS. In this paper, ESX Server finds identical pages between VMs by scanning for shared opportunities and hashing the contents for easy comparison. If a match is found, a standard copy-on-write \(COW\) technique is used to share the pages.
+Transparent page sharing is pioneered by Disco, but in order to achieve page sharing, Disco needs to make interface changes in the guest OS. In this paper, ESX Server finds identical pages between VMs by scanning for shared opportunities and hashing the contents for easy comparison. If a match is found, a standard copy-on-write \(COW\) technique is used to share the pages.
 
 ![](../../.gitbook/assets/screen-shot-2020-11-30-at-5.23.29-pm.png)
 
@@ -74,6 +74,7 @@ Unlike a traditional paper, this paper does not have a section dedicated to eval
 ### Links
 
 * [Paper PDF](http://pages.cs.wisc.edu/~remzi/Classes/736/Fall2010/Papers/esx-osdi02.pdf)
+* [Presentation Slides](http://www.waldspurger.org/carl/papers/esx-osdi02-slides.pdf)
 * [What is VMware ESX Server?](https://www.pluralsight.com/blog/it-ops/what-is-vmware-esx-server-and-why-you-need-it)
 * [Paper review](https://zhu45.org/posts/2019/Mar/11/memory-resource-management-in-vmware-esx-server/) by [Zeyuan Hu](https://zhu45.org/about-me.html), a UW-Madison alumni, now a Ph.D. student at UT-Austin.
 * [CS 736 @ UW-Madison Spring 2015 Panel Discussion](http://pages.cs.wisc.edu/~swift/classes/cs736-sp15/blog/2015/02/memory_resource_management_in.html)

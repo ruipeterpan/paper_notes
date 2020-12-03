@@ -2,7 +2,7 @@
 
 ### One-liner Summary
 
-ReVirt utilizes techniques in virtual machines and fault-tolerance to allow a system to replay a long-term, instruction-by-instruction execution log. It does so by moving the target OS and applications into a VM and do logging below it.
+ReVirt utilizes techniques in virtual machines and fault-tolerance to allow a system to replay a long-term, instruction-by-instruction execution log. It does so by moving the target OS and applications into a VM and logging below it.
 
 ### Paper Structure Outline
 
@@ -30,8 +30,8 @@ ReVirt utilizes techniques in virtual machines and fault-tolerance to allow a sy
 
 A typical system relies on event loggers \(login attempts, TCP connection requests, file system mount requests, etc.\) for post-attack analysis. Current system loggers have two problems: 
 
-1. They lack integrity because they assume the operating system kernel is trustworthy, while the kernel is vulnerable to many forms of attacks.
-2. Also, they lack completeness as they do not log enough information to recreate some attacks in hindsight.
+1. They lack integrity because they assume the operating system kernel is trustworthy, while the kernel is vulnerable to many forms of attacks. Attackers who compromise OS can delete log records or prevent writing of new records.
+2.  Also, they lack completeness as they do not log enough information to recreate some attacks in hindsight. Only a few system events are saved, so we must guess what happened.
 
 ReVirt removes the dependency on the OS by encapsulating the OS and applications into a virtual machine and logging below the virtual machine. This separates the logger from potential vulnerabilities. ReVirt also logs enough information to replay a long-term execution of the virtual machine instruction-by-instruction. It does so by adapting techniques used in fault-tolerance for primary-backup recovery \(checkpointing, logging, roll-forward recovery, etc.\).
 

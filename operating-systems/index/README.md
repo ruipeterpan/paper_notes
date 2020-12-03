@@ -8,11 +8,8 @@ description: hardcore stuff
 
 | To move from local note to gitbook | To read |
 | :--- | :--- |
-| FFS | Revirt |
-| LFS | KernlInst |
-| RAID | KLEE |
-|  | Debug |
-|  | Hints |
+| FFS |  |
+| LFS |  |
 | DDP |  |
 | iBench |  |
 | SnapMirror |  |

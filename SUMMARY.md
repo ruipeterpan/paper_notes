@@ -33,7 +33,3 @@
   * [Soccer analytics: Unravelling the complexity of “the beautiful game”](soccer-analytics/index/soccer-analytics-unravelling-the-complexity-of-the-beautiful-game.md)
   * [Wide Open Spaces: A statistical technique for measuring space creation in professional soccer](soccer-analytics/index/wide-open-spaces-a-statistical-technique-for-measuring-space-creation-in-professional-soccer.md)
 
-## Papers by Rui Pan
-
-* [Papers by Rui Pan - Index](papers-by-rui-pan/papers-by-rui-pan-index.md)
-
