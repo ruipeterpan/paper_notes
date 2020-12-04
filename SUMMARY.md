@@ -19,6 +19,7 @@
 ## Operating Systems
 
 * [Drafts](operating-systems/drafts/README.md)
+  * [The Linux Scheduler: a Decade of Wasted Cores](operating-systems/drafts/the-linux-scheduler-a-decade-of-wasted-cores.md)
   * [seL4: Formal Verification of an OS Kernel](operating-systems/drafts/sel4-formal-verification-of-an-os-kernel.md)
   * [Disco: Running Commodity Operating Systems on Scalable Multiprocessors](operating-systems/drafts/disco-running-commodity-operating-systems-on-scalable-multiprocessors.md)
 * [Operating Systems - Index](operating-systems/index/README.md)
