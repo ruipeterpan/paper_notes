@@ -40,11 +40,10 @@ This paper pinpoints some performance bugs in the Linux scheduler and proposes f
 * 
 ### Links
 
-* Paper PDF
-* Presentation Video at xxx
-* Presentation Slides
-* * xxx on GitHub
-* 
+* [Paper PDF](https://www.ece.ubc.ca/~sasha/papers/eurosys16-final29.pdf)
+* [Presentation Slides](http://www.i3s.unice.fr/~jplozi/wastedcores/files/talk.pdf)
+* [Patches for Linux kernel 4.1 on GitHub](https://github.com/jplozi/wastedcores)
+
 
 
 
