@@ -3,7 +3,7 @@
 * [Rui's Paper Reading Notes - Introduction](README.md)
 * [Vocabulary List](vocabulary-list.md)
 * [Template](template.md)
-* [Untitled](untitled.md)
+* [Drafts](untitled.md)
 
 ## Blog
 
@@ -11,9 +11,11 @@
   * [How to Create Picture-in-Picture Effect / Video Overlay for a Presentation Video](blog/blog-index/how-to-create-picture-in-picture-effect-video-overlay-for-a-presentation-video.md)
   * [How to Get a Driver's License in Wisconsin](blog/blog-index/how-to-get-a-drivers-license-in-wisconsin.md)
   * [How to Transfer Credits Back to UW-Madison](blog/blog-index/how-to-transfer-credits-back-to-uw-madison.md)
+  * [How to Use Piazza](blog/blog-index/how-to-use-piazza.md)
 
 ## Machine Learning Systems
 
+* [Drafts](machine-learning-systems/drafts.md)
 * [Machine Learning Systems - Index](machine-learning-systems/index/README.md)
   * [BytePS: A High Performance and Generic Framework for Distributed DNN Training](machine-learning-systems/index/byteps-a-high-performance-and-generic-framework-for-distributed-dnn-training.md)
   * [Themis: Fair and Efficient GPU Cluster Scheduling](machine-learning-systems/index/themis-fair-and-efficient-gpu-cluster-scheduling.md)
