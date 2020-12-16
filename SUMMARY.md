@@ -23,6 +23,7 @@
 ## Operating Systems
 
 * [Drafts](operating-systems/drafts/README.md)
+  * [LegoOS: A Disseminated, Distributed OS for Hardware Resource Disaggregation](operating-systems/drafts/legoos-a-disseminated-distributed-os-for-hardware-resource-disaggregation.md)
   * [Biscuit: The benefits and costs of writing a POSIX kernel in a high-level language](operating-systems/drafts/biscuit-the-benefits-and-costs-of-writing-a-posix-kernel-in-a-high-level-language.md)
   * [The Linux Scheduler: a Decade of Wasted Cores](operating-systems/drafts/the-linux-scheduler-a-decade-of-wasted-cores.md)
   * [seL4: Formal Verification of an OS Kernel](operating-systems/drafts/sel4-formal-verification-of-an-os-kernel.md)

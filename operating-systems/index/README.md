@@ -25,13 +25,29 @@ description: hardcore stuff
 | Monitors |  |
 | Monitors in Mesa |  |
 | Scalability Analysis |  |
-| RCL |  |
+| Scalable Commutativity |  |
+| RCL \(Delegation\) |  |
+| Shuffle Locks |  |
+|  |  |
 | Scheduler Activations |  |
+| SEDA |  |
 | Lottery Scheduling |  |
-| Arachne |  |
+| Resource Containers |  |
+| Linux Scheduler |  |
+| TAM |  |
 | Monotasks |  |
+| Arachne |  |
+| THE |  |
+| Nucleus |  |
 | Exokernel |  |
+| Arrakis |  |
 | LegoOS |  |
+| Biscuit \(HLL\) |  |
+| Disco |  |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
 
 ### Reading List
 
