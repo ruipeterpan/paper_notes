@@ -51,7 +51,11 @@ description: hardcore stuff
 
 ### Reading List
 
-[http://pages.cs.wisc.edu/~dusseau/Classes/CS736/CS736-F13/papers.html](http://pages.cs.wisc.edu/~dusseau/Classes/CS736/CS736-F13/papers.html)
+{% embed url="http://pages.cs.wisc.edu/~dusseau/Classes/CS736/CS736-F13/papers.html" %}
+
+{% embed url="https://ucbrise.github.io/cs262a-spring2018/" %}
+
+
 
 ### Table of Contents
 
