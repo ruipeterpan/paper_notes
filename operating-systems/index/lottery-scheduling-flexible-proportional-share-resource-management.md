@@ -39,7 +39,7 @@ Multiple clients hold various number of tickets. A winning ticket is randomly se
 
 ### Background & Motivation
 
-Existing schedulers do not have accurate control over computational service rates. Current systems are limited due to the assumptions and overheads associated with existing fair share schedulers. In this work, the authors present lottery scheduling, a randomized scheduler that implements proportional-share resource management. It also provides good support for modular resource management. The idea of a lottery scheduling mechanism is really abstract and can be applied to many problem areas.
+Existing schedulers do not have accurate control over computational service rates, are poorly understood, and are difficult to control.. Current systems are limited due to the assumptions and overheads associated with existing fair share schedulers. In this work, the authors present lottery scheduling, a randomized scheduler that implements proportional-share resource management. It also provides good support for modular resource management. The idea of a lottery scheduling mechanism is really abstract and can be applied to many problem areas.
 
 ### Design and Implementation
 
@@ -53,7 +53,7 @@ How lottery scheduling works on the high level is really intuitive. The interest
 
 Currencies provides abstraction barriers across logical truct boundaries.
 
-![With currencies, the inflation is contained within a currency.](../../.gitbook/assets/screen-shot-2020-12-16-at-9.48.31-pm.png)
+![With currencies, the inflation is contained/insulated within a currency.](../../.gitbook/assets/screen-shot-2020-12-16-at-9.48.31-pm.png)
 
 #### Ticket Transfers
 
@@ -65,7 +65,7 @@ It is an alternative to explicit ticket transfers. This sounds like a bad idea b
 
 #### Compensation Tickets
 
-If a client only consumes a fraction f of its allocated resources, it can be granted a compensation ticket that inflates its value by 1/f until the client starts its next quantum. Without compensation tickets, a client that does not utilize all of its allocated quantum may receive less than its entitled share of the processor.
+If a client only consumes a fraction f of its allocated resources, it can be granted a compensation ticket that inflates its value by 1/f until the client starts its next quantum. Without compensation tickets, a client that does not utilize all of its allocated quantum may receive less than its entitled share of the processor. As an example, compensation tickets can be used when a process is blocked for a short period of time.
 
 ### Evaluation
 
