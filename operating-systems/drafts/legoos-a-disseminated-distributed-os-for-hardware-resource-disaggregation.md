@@ -38,7 +38,7 @@ The traditional monolithic server model in datacenters is having issues in resou
    3. Failure Analysis
 7. Related Work
 8. Discussion and Conclusion
-9. 
+
 ### Background & Motivation
 
 ### Design and Implementation
