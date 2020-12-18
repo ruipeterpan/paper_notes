@@ -15,7 +15,8 @@
 
 ## Machine Learning Systems
 
-* [Drafts](machine-learning-systems/drafts.md)
+* [Drafts](machine-learning-systems/drafts/README.md)
+  * [PyTorch Distributed: Experiences on Accelerating Data Parallel Training](machine-learning-systems/drafts/pytorch-distributed-experiences-on-accelerating-data-parallel-training.md)
 * [Machine Learning Systems - Index](machine-learning-systems/index/README.md)
   * [BytePS: A High Performance and Generic Framework for Distributed DNN Training](machine-learning-systems/index/byteps-a-high-performance-and-generic-framework-for-distributed-dnn-training.md)
   * [Themis: Fair and Efficient GPU Cluster Scheduling](machine-learning-systems/index/themis-fair-and-efficient-gpu-cluster-scheduling.md)
