@@ -1,10 +1,10 @@
 # Themis: Fair and Efficient GPU Cluster Scheduling
 
-### One-liner Summary
+## One-line Summary
 
 The authors present a new fairness metric, finish-time fairness, and a newer scheduler architecture and API that supports resource division according to the metric.
 
-### Paper Structure Outline
+## Paper Structure Outline
 
 1. Introduction
 2. Motivation
@@ -40,7 +40,7 @@ The authors present a new fairness metric, finish-time fairness, and a newer sch
 7. Related Work
 8. Conclusion
 
-### Background & Motivation
+## Background & Motivation
 
 ![An analysis of existing workloads](../../.gitbook/assets/screen-shot-2020-12-13-at-1.58.40-pm.png)
 
@@ -57,9 +57,9 @@ Existing cluster scheduling frameworks are not adequate:
 
 ![A violation of the SI due to the placement preferences being ignored](../../.gitbook/assets/screen-shot-2020-12-13-at-1.53.55-pm.png)
 
-### Design and Implementation
+## Design and Implementation
 
-#### Metric
+### Metric
 
 The authors presented the new metric finish-time fairness, $$\rho$$:$$\rho = T_{sh} / T_{id}$$
 
@@ -71,11 +71,11 @@ The SI requires that for every application, $$\rho \leq 1$$.
 
 ![Calculating \rho for single-job ML apps](../../.gitbook/assets/screen-shot-2020-12-13-at-2.31.46-pm.png)
 
-#### Interface
+### Interface
 
 Hyperparameter Optimizers \(Hyperparam-Opt, like Google Vizier\) manage deep learning applications. The Hyperparam-Opt tracks per-job progress and determines which jobs to terminate early. Applications calculate $$\rho$$, and the scheduler pulls updated values of rho from the Agent co-located with the app's Hyperparam-Opt. For the CS 736 final, this is as deep as it will cover. In the future, I'll do a second read to try to dig deeper.
 
-#### Mechanism
+### Mechanism
 
 SI's focus is minimizing the max rho: min\(max\(rho\)\)
 
@@ -95,7 +95,7 @@ Themis introduces a knob, f, that manages a tradeoff between SI and efficiency.
 
 ![Partial Allocation Auction: Too detailed for CS 736, will cover in 2nd pass](../../.gitbook/assets/screen-shot-2020-12-13-at-2.58.41-pm.png)
 
-### Evaluation
+## Evaluation
 
 Baseline frameworks for comparison:
 
@@ -122,13 +122,13 @@ From Figure 19, we can observe:
 
 
 
-### New Vocabulary
+## New Vocabulary
 
 * Hyperparameters: Data that govern the training process itself. Hyperparameters are set before the learning process begins. For example, the number of hidden layers, the number of nodes each layer should use, etc. 
 * Hyperparameter tuning: The process of finding the best values of the hyperparameters.
 * [Preemptive and Non-Preemptive Scheduling](https://www.geeksforgeeks.org/preemptive-and-non-preemptive-scheduling/)
 
-### Links
+## Links
 
 * [Paper PDF](https://www.usenix.org/system/files/nsdi20-paper-mahajan.pdf)
 * [Presentation Video at NSDI '20](https://www.youtube.com/watch?v=K2a7DRcZdIU&ab_channel=USENIX)

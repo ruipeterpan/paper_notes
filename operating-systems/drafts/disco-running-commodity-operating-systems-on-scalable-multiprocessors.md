@@ -1,24 +1,24 @@
 # Disco: Running Commodity Operating Systems on Scalable Multiprocessors
 
-### One-liner Summary
+## One-line Summary
 
-### Paper Structure Outline
+## Paper Structure Outline
 
 1. 
-### Background & Motivation
+## Background & Motivation
 
 The motivation is to enable existing commodity operating systems to handle Non-Uniform Memory Access \(NUMA\) architectures.
 
-### Design and Implementation
+## Design and Implementation
 
-### Evaluation
+## Evaluation
 
-### New Vocabulary
+## New Vocabulary
 
 * IRIX: A variety of UNIX System V with BSD extensions.
 * NUMA: [What is NUMA?](https://www.kernel.org/doc/html/v4.18/vm/numa.html)
 
-### Links
+## Links
 
 * Paper PDF
 * Presentation Video at xxx

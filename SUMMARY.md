@@ -25,7 +25,6 @@
 
 * [Drafts](operating-systems/drafts/README.md)
   * [Resource containers: A new facility for resource management in server systems ](operating-systems/drafts/resource-containers-a-new-facility-for-resource-management-in-server-systems.md)
-  * [Untitled](operating-systems/drafts/untitled.md)
   * [LegoOS: A Disseminated, Distributed OS for Hardware Resource Disaggregation](operating-systems/drafts/legoos-a-disseminated-distributed-os-for-hardware-resource-disaggregation.md)
   * [Biscuit: The benefits and costs of writing a POSIX kernel in a high-level language](operating-systems/drafts/biscuit-the-benefits-and-costs-of-writing-a-posix-kernel-in-a-high-level-language.md)
   * [The Linux Scheduler: a Decade of Wasted Cores](operating-systems/drafts/the-linux-scheduler-a-decade-of-wasted-cores.md)

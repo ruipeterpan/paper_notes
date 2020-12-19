@@ -1,10 +1,10 @@
 # Resource containers: A new facility for resource management in server systems 
 
-### One-liner Summary
+## One-line Summary
 
 A resource container is an operating systems abstraction that separates the notion of a protection domain from a resource principal. It allows for fine-grained resource management.
 
-### Paper Structure Outline
+## Paper Structure Outline
 
 1. Introduction
 2. Typical models for high-performance servers
@@ -33,18 +33,18 @@ A resource container is an operating systems abstraction that separates the noti
 6. Related Work
 7. Conclusion
 
-### Background & Motivation
+## Background & Motivation
 
 In resource management, current systems do not separate the notion of "protection domain" \(where accounting of the tasks is done\) and "resource principal" \(where actual work gets performed\). Also, an application does not have control over how much resources the kernel consumes on behalf of the application. In this work, the two notions are separated by the new operating systems abstraction, resource containers.
 
-### Design and Implementation
+## Design and Implementation
 
-### Evaluation
+## Evaluation
 
-### New Vocabulary
+## New Vocabulary
 
 * 
-### Links
+## Links
 
 * Paper PDF
 * Presentation Video at xxx

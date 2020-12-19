@@ -1,10 +1,10 @@
 # ReVirt: Enabling Intrusion Analysis through Virtual-Machine Logging and Replay
 
-### One-liner Summary
+## One-line Summary
 
 ReVirt utilizes techniques in virtual machines and fault-tolerance to allow a system to replay a long-term, instruction-by-instruction execution log. It does so by moving the target OS and applications into a VM and logging below it.
 
-### Paper Structure Outline
+## Paper Structure Outline
 
 1. Introduction
 2. Virtual Machines
@@ -26,7 +26,7 @@ ReVirt utilizes techniques in virtual machines and fault-tolerance to allow a sy
 7. Future Work
 8. Conclusions
 
-### Background & Motivation
+## Background & Motivation
 
 A typical system relies on event loggers \(login attempts, TCP connection requests, file system mount requests, etc.\) for post-attack analysis. Current system loggers have two problems: 
 
@@ -35,13 +35,13 @@ A typical system relies on event loggers \(login attempts, TCP connection reques
 
 ReVirt removes the dependency on the OS by encapsulating the OS and applications into a virtual machine and logging below the virtual machine. This separates the logger from potential vulnerabilities. ReVirt also logs enough information to replay a long-term execution of the virtual machine instruction-by-instruction. It does so by adapting techniques used in fault-tolerance for primary-backup recovery \(checkpointing, logging, roll-forward recovery, etc.\).
 
-### Design and Implementation
+## Design and Implementation
 
 ![The modifications are based on a modified version of UMLinux.](../../.gitbook/assets/screen-shot-2020-12-01-at-2.52.01-pm.png)
 
 ReVirt is implemented as a set of modifications to the host kernel. It logs both asynchronous virtual interrupts and all input from external entities \(keyboard, CD-ROM, etc.\).
 
-### Evaluation
+## Evaluation
 
 In this section, the authors validate the correctness and quantify the virtualization and logging overheads. All experiments are done by running five workloads.
 
@@ -53,11 +53,11 @@ The correctness of ReVirt was confirmed by having ReVirt replay logging runs of 
 
 
 
-### New Vocabulary
+## New Vocabulary
 
 * Hypervisor: It's a virtual machine monitor that creates and runs VMs.
 
-### Links
+## Links
 
 * [Paper PDF](https://web.eecs.umich.edu/virtual/papers/dunlap02.pdf)
 

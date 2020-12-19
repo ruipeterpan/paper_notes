@@ -1,10 +1,10 @@
 # LegoOS: A Disseminated, Distributed OS for Hardware Resource Disaggregation
 
-### One-liner Summary
+## One-line Summary
 
 The traditional monolithic server model in datacenters is having issues in resource utilization, elasticity, heterogeneity, and failure handling. LegoOS breaks down traditional OS functionalities into hardware components like Lego bricks and connects them with fast networks.
 
-### Paper Structure Outline
+## Paper Structure Outline
 
 1. Introduction
 2. Disaggregate Hardware Resource
@@ -39,17 +39,17 @@ The traditional monolithic server model in datacenters is having issues in resou
 7. Related Work
 8. Discussion and Conclusion
 
-### Background & Motivation
+## Background & Motivation
 
-### Design and Implementation
+## Design and Implementation
 
-### Evaluation
+## Evaluation
 
-### New Vocabulary
+## New Vocabulary
 
 * Monolithic server: A single server that contains all the hardware resources \(typically a processor, some main memory, and a disk or an SSD\) that are needed to run a user program.
 
-### Links
+## Links
 
 * [Paper PDF](https://www.usenix.org/system/files/osdi18-shan.pdf)
 * [Presentation Video at OSDI '18](https://www.youtube.com/watch?v=GX74Q2-ZOQE)

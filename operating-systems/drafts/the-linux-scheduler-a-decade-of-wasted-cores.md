@@ -1,6 +1,6 @@
 # The Linux Scheduler: a Decade of Wasted Cores
 
-### One-liner Summary
+## One-line Summary
 
 ~~Linus gets roasted.~~
 
@@ -8,7 +8,7 @@
 
 This paper pinpoints some performance bugs in the Linux scheduler \(especially in multi-core systems\) and proposes fixes, during which the authors developed tools for checking and understanding these bugs.
 
-### Paper Structure Outline
+## Paper Structure Outline
 
 1. Introduction
 2. The Linux Scheduler
@@ -29,7 +29,7 @@ This paper pinpoints some performance bugs in the Linux scheduler \(especially i
 6. Related Work 
 7. Conclusion
 
-### Background & Motivation
+## Background & Motivation
 
 The Linux kernel's process scheduler underwent three main periods of evolutions: 
 
@@ -46,9 +46,9 @@ Modern Linux uses a Completely Fair Scheduler \(CFS\) which implements the Weigh
 
 
 
-### Bugs & Performance Improvement after Fixing 
+## Bugs & Performance Improvement after Fixing 
 
-#### The Group Imbalance bug
+### The Group Imbalance bug
 
 ![](../../.gitbook/assets/screen-shot-2020-12-15-at-11.15.37-pm.png)
 
@@ -60,19 +60,19 @@ The fix is simple: When the algorithm compares the load of scheduling groups, it
 
 
 
-#### The Scheduling Group Construction bug
+### The Scheduling Group Construction bug
 
-#### The Overhead-on-Wakeup bug
+### The Overhead-on-Wakeup bug
 
-#### The Missing Scheduling Domains bug
+### The Missing Scheduling Domains bug
 
-### Tools
+## Tools
 
-### New Vocabulary
+## New Vocabulary
 
 * LKML: The Linux Kernel Mailing List
 * 
-### Links
+## Links
 
 * [Paper PDF](https://www.ece.ubc.ca/~sasha/papers/eurosys16-final29.pdf)
 * [Presentation Slides](http://www.i3s.unice.fr/~jplozi/wastedcores/files/talk.pdf)

@@ -1,10 +1,10 @@
 # Biscuit: The benefits and costs of writing a POSIX kernel in a high-level language
 
-### One-liner Summary
+## One-line Summary
 
 This paper analyzes \(duh\) the benefits and costs of writing a POSIX kernel in a high-level language, Go.
 
-### Paper Structure Outline
+## Paper Structure Outline
 
 1. Introduction
 2. Related work
@@ -41,16 +41,16 @@ This paper analyzes \(duh\) the benefits and costs of writing a POSIX kernel in 
 9. Discussion and future work
 10. Conclusions
 
-### Background & Motivation
+## Background & Motivation
 
-### Design and Implementation
+## Design and Implementation
 
-### Evaluation
+## Evaluation
 
-### New Vocabulary
+## New Vocabulary
 
 * 
-### Links
+## Links
 
 * [Paper PDF](https://www.usenix.org/system/files/osdi18-cutler.pdf)
 * [Presentation Audio at OSDI '18](https://www.usenix.org/conference/osdi18/presentation/cutler)

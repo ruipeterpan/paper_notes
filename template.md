@@ -1,20 +1,20 @@
 # Template
 
-### One-liner Summary
+## One-line Summary
 
-### Paper Structure Outline
+## Paper Structure Outline
 
 1. 
-### Background & Motivation
+## Background & Motivation
 
-### Design and Implementation
+## Design and Implementation
 
-### Evaluation
+## Evaluation
 
-### New Vocabulary
+## New Vocabulary
 
 * 
-### Links
+## Links
 
 * Paper PDF
 * Presentation Video at xxx
