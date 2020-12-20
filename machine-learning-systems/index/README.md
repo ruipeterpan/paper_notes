@@ -22,8 +22,8 @@ description: >-
 | :--- | :--- |
 | MapReduce: Simplified Data Processing on Large Clusters | ByteScheduler: A Generic Communication Scheduler for DistributedDNN Training Acceleration |
 | Parameter Server: Scaling Distributed Machine Learning with the Parameter Server | Gandiva: Introspective Cluster Scheduling for Deep Learning |
-| PyTorch Distributed: Experiences on Accelerating Data Parallel Training | Horovod: Fast and Easy Distributed Deep Learning in TensorFlow |
-| Themis: Fair and Efficient GPU Cluster Scheduling | Tiresias: A GPU Cluster Manager for Distributed Deep Learning |
+|  | Horovod: Fast and Easy Distributed Deep Learning in TensorFlow |
+|  | Tiresias: A GPU Cluster Manager for Distributed Deep Learning |
 | Analysis of Large-Scale Multi-Tenant GPU Clusters for DNN Training Workloads | TensorFlow: A system for large-scale machine learning |
 |  | In-Datacenter Performance Analysis of a Tensor Processing Unit |
 |  | [PipeDream: Generalized Pipeline Parallelism for DNN Training](https://cs.stanford.edu/~matei/papers/2019/sosp_pipedream.pdf) |
