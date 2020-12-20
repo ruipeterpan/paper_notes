@@ -27,7 +27,6 @@
   * [Resource containers: A new facility for resource management in server systems ](operating-systems/drafts/resource-containers-a-new-facility-for-resource-management-in-server-systems.md)
   * [LegoOS: A Disseminated, Distributed OS for Hardware Resource Disaggregation](operating-systems/drafts/legoos-a-disseminated-distributed-os-for-hardware-resource-disaggregation.md)
   * [Biscuit: The benefits and costs of writing a POSIX kernel in a high-level language](operating-systems/drafts/biscuit-the-benefits-and-costs-of-writing-a-posix-kernel-in-a-high-level-language.md)
-  * [The Linux Scheduler: a Decade of Wasted Cores](operating-systems/drafts/the-linux-scheduler-a-decade-of-wasted-cores.md)
   * [seL4: Formal Verification of an OS Kernel](operating-systems/drafts/sel4-formal-verification-of-an-os-kernel.md)
   * [Disco: Running Commodity Operating Systems on Scalable Multiprocessors](operating-systems/drafts/disco-running-commodity-operating-systems-on-scalable-multiprocessors.md)
 * [Operating Systems - Index](operating-systems/index/README.md)
@@ -35,6 +34,7 @@
   * [Lottery Scheduling: Flexible Proportional-Share Resource Management](operating-systems/index/lottery-scheduling-flexible-proportional-share-resource-management.md)
   * [Memory Resource Management in VMware ESX Server](operating-systems/index/memory-resource-management-in-vmware-esx-server.md)
   * [ReVirt: Enabling Intrusion Analysis through Virtual-Machine Logging and Replay](operating-systems/index/revirt-enabling-intrusion-analysis-through-virtual-machine-logging-and-replay.md)
+  * [The Linux Scheduler: a Decade of Wasted Cores](operating-systems/index/the-linux-scheduler-a-decade-of-wasted-cores.md)
 
 ## Soccer Analytics
 

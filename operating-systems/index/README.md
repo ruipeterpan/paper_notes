@@ -31,9 +31,9 @@ description: hardcore stuff
 |  |  |
 | Scheduler Activations |  |
 | SEDA |  |
-| Lottery Scheduling |  |
+|  |  |
 | Resource Containers |  |
-| Linux Scheduler |  |
+|  |  |
 | TAM |  |
 | Monotasks |  |
 | Arachne |  |
