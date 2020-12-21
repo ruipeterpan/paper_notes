@@ -24,6 +24,7 @@
 ## Operating Systems
 
 * [Drafts](operating-systems/drafts/README.md)
+  * [Monotasks: Architecting for Performance Clarity in Data Analytics Frameworks](operating-systems/drafts/monotasks-architecting-for-performance-clarity-in-data-analytics-frameworks.md)
   * [Resource containers: A new facility for resource management in server systems ](operating-systems/drafts/resource-containers-a-new-facility-for-resource-management-in-server-systems.md)
   * [LegoOS: A Disseminated, Distributed OS for Hardware Resource Disaggregation](operating-systems/drafts/legoos-a-disseminated-distributed-os-for-hardware-resource-disaggregation.md)
   * [seL4: Formal Verification of an OS Kernel](operating-systems/drafts/sel4-formal-verification-of-an-os-kernel.md)
