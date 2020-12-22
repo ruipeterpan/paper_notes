@@ -26,12 +26,12 @@
 * [Drafts](operating-systems/drafts/README.md)
   * [Monotasks: Architecting for Performance Clarity in Data Analytics Frameworks](operating-systems/drafts/monotasks-architecting-for-performance-clarity-in-data-analytics-frameworks.md)
   * [Resource containers: A new facility for resource management in server systems ](operating-systems/drafts/resource-containers-a-new-facility-for-resource-management-in-server-systems.md)
-  * [LegoOS: A Disseminated, Distributed OS for Hardware Resource Disaggregation](operating-systems/drafts/legoos-a-disseminated-distributed-os-for-hardware-resource-disaggregation.md)
   * [seL4: Formal Verification of an OS Kernel](operating-systems/drafts/sel4-formal-verification-of-an-os-kernel.md)
   * [Disco: Running Commodity Operating Systems on Scalable Multiprocessors](operating-systems/drafts/disco-running-commodity-operating-systems-on-scalable-multiprocessors.md)
 * [Operating Systems - Index](operating-systems/index/README.md)
   * [CS 736 @ UW-Madison Fall 2020 Reading List](operating-systems/index/cs-736-uw-madison-fall-2020-reading-list.md)
   * [Biscuit: The benefits and costs of writing a POSIX kernel in a high-level language](operating-systems/index/biscuit-the-benefits-and-costs-of-writing-a-posix-kernel-in-a-high-level-language.md)
+  * [LegoOS: A Disseminated, Distributed OS for Hardware Resource Disaggregation](operating-systems/index/legoos-a-disseminated-distributed-os-for-hardware-resource-disaggregation.md)
   * [Lottery Scheduling: Flexible Proportional-Share Resource Management](operating-systems/index/lottery-scheduling-flexible-proportional-share-resource-management.md)
   * [Memory Resource Management in VMware ESX Server](operating-systems/index/memory-resource-management-in-vmware-esx-server.md)
   * [ReVirt: Enabling Intrusion Analysis through Virtual-Machine Logging and Replay](operating-systems/index/revirt-enabling-intrusion-analysis-through-virtual-machine-logging-and-replay.md)
@@ -43,4 +43,10 @@
   * [Decomposing the Immeasurable Sport: A deep learning expected possession value framework for soccer](soccer-analytics/index/decomposing-the-immeasurable-sport-a-deep-learning-expected-possession-value-framework-for-soccer.md)
   * [Soccer analytics: Unravelling the complexity of “the beautiful game”](soccer-analytics/index/soccer-analytics-unravelling-the-complexity-of-the-beautiful-game.md)
   * [Wide Open Spaces: A statistical technique for measuring space creation in professional soccer](soccer-analytics/index/wide-open-spaces-a-statistical-technique-for-measuring-space-creation-in-professional-soccer.md)
+
+## Misc Subjects
+
+* [Security](misc-subjects/security.md)
+* [Computer Vision](misc-subjects/computer-vision.md)
+* [High Performance Computing](misc-subjects/high-performance-computing.md)
 
