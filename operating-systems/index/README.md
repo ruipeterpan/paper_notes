@@ -28,26 +28,16 @@ description: hardcore stuff
 | Scalable Commutativity |  |
 | RCL \(Delegation\) |  |
 | Shuffle Locks |  |
-|  |  |
 | Scheduler Activations |  |
 | SEDA |  |
-|  |  |
 | Resource Containers |  |
-|  |  |
 | TAM |  |
-| Monotasks |  |
 | Arachne |  |
 | THE |  |
 | Nucleus |  |
 | Exokernel |  |
 | Arrakis |  |
-| LegoOS |  |
-| Biscuit \(HLL\) |  |
 | Disco |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
 
 ### Reading List
 

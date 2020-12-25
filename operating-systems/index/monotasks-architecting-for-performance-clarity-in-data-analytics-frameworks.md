@@ -1,6 +1,6 @@
 # Monotasks: Architecting for Performance Clarity in Data Analytics Frameworks
 
-## One-liner Summary
+## One-line Summary
 
 Instead of breaking data analytics jobs into tasks that pipeline many resources, we break the jobs into monotasks, each of which uses a single resource. This makes the analysis on performance bottlenecks in data analytics frameworks easier for users while retaining performance.
 
