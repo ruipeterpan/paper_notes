@@ -1,22 +1,18 @@
----
-description: >-
-  The field of MLSys can be broken into two parts: Systems for Machine Learning,
-  and Machine Learning for Systems.
----
-
 # Machine Learning Systems - Index
 
-### Meta-papers
-
-* [A Berkeley View of Systems Challenges for AI](https://thodrek.github.io/CS839_spring18/papers/EECS-2017-159.pdf)
-* [MLSys: The New Frontier of Machine Learning Systems](https://arxiv.org/pdf/1904.03257.pdf)
-
-### Reading Lists
+## Reading Lists
 
 * [CS 294 @ Berkeley: Machine Learning Systems](https://ucbrise.github.io/cs294-ai-sys-fa19/)
 * [CS 744 @ UW-Madison: Big Data Systems](http://pages.cs.wisc.edu/~shivaram/cs744-fa20/)
 
-### TODOs
+## Meta-papers
+
+* [A Berkeley View of Systems Challenges for AI](https://thodrek.github.io/CS839_spring18/papers/EECS-2017-159.pdf)
+* [MLSys: The New Frontier of Machine Learning Systems](https://arxiv.org/pdf/1904.03257.pdf)
+
+
+
+## TODOs
 
 | To move from local note to gitbook | To read |
 | :--- | :--- |
@@ -29,20 +25,5 @@ description: >-
 |  | [PipeDream: Generalized Pipeline Parallelism for DNN Training](https://cs.stanford.edu/~matei/papers/2019/sosp_pipedream.pdf) |
 |  |  |
 
-### Table of Contents
 
-#### Subarea 1
-
-| Paper Title | Link |
-| :--- | :--- |
-|  |  |
-|  |  |
-
-#### Subarea 2
-
-#### Subarea 3
-
-#### Subarea 4
-
-### Links
 
