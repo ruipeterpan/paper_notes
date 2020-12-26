@@ -18,6 +18,8 @@ description: ''
 
 # How to Transfer Credits Back to UW-Madison
 
+**Update: As of Dec 2020,** [**UW College Online is no longer offering courses**](https://online.uwc.edu/)**. The best alternative at this point seems to be** [**UC Berkeley Extension**](https://extension.berkeley.edu/)**.**
+
 Looking back, I have a mixed feeling about my course plan at UW-Madison. Taking courses that's not in my area of interest is fun and challenging by pushing me out of my comfort zone. The problem is that as of spring 2020, the tuition for taking 12-18 credits as an international student is about $19,500, which means each 3-credit class costs you $3,250.
 
 This sucks, a lot.
