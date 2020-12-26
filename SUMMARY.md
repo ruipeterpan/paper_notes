@@ -30,6 +30,7 @@
 * [Operating Systems - Index](operating-systems/index/README.md)
   * [CS 736 @ UW-Madison Fall 2020 Reading List](operating-systems/index/cs-736-uw-madison-fall-2020-reading-list.md)
   * [Biscuit: The benefits and costs of writing a POSIX kernel in a high-level language](operating-systems/index/biscuit-the-benefits-and-costs-of-writing-a-posix-kernel-in-a-high-level-language.md)
+  * [FFS: A Fast File System for UNIX](operating-systems/index/ffs-a-fast-file-system-for-unix.md)
   * [LegoOS: A Disseminated, Distributed OS for Hardware Resource Disaggregation](operating-systems/index/legoos-a-disseminated-distributed-os-for-hardware-resource-disaggregation.md)
   * [Lottery Scheduling: Flexible Proportional-Share Resource Management](operating-systems/index/lottery-scheduling-flexible-proportional-share-resource-management.md)
   * [Memory Resource Management in VMware ESX Server](operating-systems/index/memory-resource-management-in-vmware-esx-server.md)

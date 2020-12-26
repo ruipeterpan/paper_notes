@@ -64,9 +64,9 @@ On each worker, monotasks are scheduled using two layers of schedulers.
 * **Top-level scheduler \(local DAG scheduler\)**: Manages the DAG of monotasks for each multitask. Tracks dependencies for monotasks and submit the monotask to the resource that it's waiting for when the dependencies are complete.
 * **Low-level scheduler \(dedicated, per-resource \(CPU, disk, network\) scheduler\)**: Written at the application level and not within the OS, meaning that the resource use is not perfectly controlled.
 
-When more monotasks are waiting for a resource than can run concurrently, monotasks will be queued. The queues implement round-robin over monotasks in different phases of the multitask DAG.
+When more monotasks are waiting for a resource that can run concurrently, monotasks will be queued. The queues implement round-robin over monotasks in different phases of the multitask DAG.
 
-A MonoSpark job scheduler works like the Spark job scheduler but it assigns more concurrent multitasks to each machine to improve the resource utilization.
+A MonoSpark job scheduler works like the Spark job scheduler but it assigns more concurrent multitasks to each machine to improve resource utilization.
 
 MonoSpark is compatible with Spark's public API in that if someone has an application on top of Spark, switching to MonoSpark requires only a modification in the build file.
 
