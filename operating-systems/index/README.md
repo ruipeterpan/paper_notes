@@ -2,7 +2,7 @@
 
 ## Reading List
 
-* [CS 736 @ UW-Madison: Advanced Operating Systems](http://pages.cs.wisc.edu/~dusseau/Classes/CS736/CS736-F13/papers.html)
+* [CS 736 @ UW-Madison: Advanced Operating Systems](cs-736-uw-madison-fall-2020-reading-list.md)
 * [CS 262a @ Berkeley: Advanced Topics in Computer Systems](https://ucbrise.github.io/cs262a-spring2018/)
 
 ## Table of Contents
@@ -15,6 +15,7 @@
 | [LFS: The Design and Implementation of a Log-Structured File System](lfs-the-design-and-implementation-of-a-log-structured-file-system.md) | ACM Transactions on Computer Systems ‘92 |
 | [RAID: A Case for Redundant Arrays of Inexpensive Disks](raid-a-case-for-redundant-arrays-of-inexpensive-disks.md) | ACM SIGMOD ‘88 |
 | [RDP: Row-Diagonal Parity for Double Disk Failure Correction](rdp-row-diagonal-parity-for-double-disk-failure-correction.md) | FAST '04 |
+| [A File is Not a File: Understanding the I/O Behavior of Apple Desktop Applications](a-file-is-not-a-file-understanding-the-i-o-behavior-of-apple-desktop-applications.md) | SOSP '11 |
 
 ### Process Synchronization and Scalability
 
@@ -46,7 +47,6 @@
 
 | To move from local note to gitbook | To read |
 | :--- | :--- |
-| iBench |  |
 | SnapMirror |  |
 | Venti |  |
 | Deduplication |  |

@@ -25,6 +25,7 @@
 
 * [Operating Systems - Index](operating-systems/index/README.md)
   * [CS 736 @ UW-Madison Fall 2020 Reading List](operating-systems/index/cs-736-uw-madison-fall-2020-reading-list.md)
+  * [A File is Not a File: Understanding the I/O Behavior of Apple Desktop Applications](operating-systems/index/a-file-is-not-a-file-understanding-the-i-o-behavior-of-apple-desktop-applications.md)
   * [Biscuit: The benefits and costs of writing a POSIX kernel in a high-level language](operating-systems/index/biscuit-the-benefits-and-costs-of-writing-a-posix-kernel-in-a-high-level-language.md)
   * [FFS: A Fast File System for UNIX](operating-systems/index/ffs-a-fast-file-system-for-unix.md)
   * [LegoOS: A Disseminated, Distributed OS for Hardware Resource Disaggregation](operating-systems/index/legoos-a-disseminated-distributed-os-for-hardware-resource-disaggregation.md)
