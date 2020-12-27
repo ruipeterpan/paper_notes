@@ -41,6 +41,7 @@
 
 ## Misc Topics
 
+* [Deep Learning Specialization @ Coursera](misc-topics/deep-learning-specialization-coursera.md)
 * [Computer Vision - Index](misc-topics/computer-vision.md)
 * [High Performance Computing - Index](misc-topics/high-performance-computing.md)
 * [Security - Index](misc-topics/security.md)
