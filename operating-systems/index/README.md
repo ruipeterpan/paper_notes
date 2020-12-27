@@ -30,6 +30,7 @@
 | [Lottery Scheduling: Flexible Proportional-Share Resource Management](lottery-scheduling-flexible-proportional-share-resource-management.md) | OSDI '94 |
 | [Monotasks: Architecting for Performance Clarity in Data Analytics Frameworks](monotasks-architecting-for-performance-clarity-in-data-analytics-frameworks.md) | SOSP '17 |
 | [Themis: Fair and Efficient GPU Cluster Scheduling](../../machine-learning-systems/index/themis-fair-and-efficient-gpu-cluster-scheduling.md) | NSDI '20 |
+| [The Linux Scheduler: A Decade of Wasted Cores](the-linux-scheduler-a-decade-of-wasted-cores.md) | EuroSys '16 |
 
 ### OS Structure and Virtual Machines
 
