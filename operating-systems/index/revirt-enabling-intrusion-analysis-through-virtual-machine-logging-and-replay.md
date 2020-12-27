@@ -51,8 +51,6 @@ The correctness of ReVirt was confirmed by having ReVirt replay logging runs of 
 
 ![The time overhead of logging is small \(8% at most\). The space overhead is low enough so that the logs can be saved over a long period of time at a low cost. The replay runtime is similar to the speed during logging.](../../.gitbook/assets/screen-shot-2020-12-01-at-3.05.26-pm.png)
 
-
-
 ## New Vocabulary
 
 * Hypervisor: It's a virtual machine monitor that creates and runs VMs.
@@ -60,12 +58,4 @@ The correctness of ReVirt was confirmed by having ReVirt replay logging runs of 
 ## Links
 
 * [Paper PDF](https://web.eecs.umich.edu/virtual/papers/dunlap02.pdf)
-
-
-
-
-
-
-
-
 

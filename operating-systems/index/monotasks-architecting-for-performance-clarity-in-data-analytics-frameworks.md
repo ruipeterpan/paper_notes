@@ -107,11 +107,3 @@ Three benchmark workloads are used: Sort, Big Data Benchmark, and Machine Learni
 * [Slides for CS34702 @ U Chicago](https://people.cs.uchicago.edu/~junchenj/34702/slides/34702-MonoTasks.pdf)
 * [spark-monotasks on GitHub](https://github.com/NetSys/spark-monotasks)
 
-
-
-
-
-
-
-
-

@@ -121,11 +121,3 @@ The authors developed two tools that help with understanding the bugs:
 * [Paper reading notes](https://blog.acolyer.org/2016/04/26/the-linux-scheduler-a-decade-of-wasted-cores/) on [the morning paper](https://blog.acolyer.org/)
 * [A brief history of the Linux Kernel's process scheduler: The very first scheduler, v0.01](https://dev.to/satorutakeuchi/a-brief-history-of-the-linux-kernel-s-process-scheduler-the-very-first-scheduler-v0-01-9e4)
 
-
-
-
-
-
-
-
-

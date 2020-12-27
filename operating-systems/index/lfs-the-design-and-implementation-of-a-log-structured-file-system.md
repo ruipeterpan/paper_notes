@@ -2,7 +2,7 @@
 
 ## One-line Summary
 
-
+A new file system structure that tries to use the disk sequentially using log-like structures.
 
 ## Paper Structure Outline
 

@@ -78,11 +78,3 @@ Some interesting graphs:
 * [Paper PDF](https://www.usenix.org/legacy/publications/library/proceedings/osdi/full_papers/waldspurger.pdf)
 * [Lottery and Stride Scheduling on YouTube](https://youtu.be/qAx4IxrOoAM) by CS4414 @ U of Virginia
 
-
-
-
-
-
-
-
-
