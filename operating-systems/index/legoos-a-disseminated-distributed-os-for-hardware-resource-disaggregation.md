@@ -121,11 +121,3 @@ LegoOS supports 113 syscalls, 15 pseudo-files, and 10 vectored syscall opcodes. 
 * [LegoOS on GitHub](https://github.com/WukLab/LegoOS)
 * Thanks to Yuhao Zhang for the review notes!
 
-
-
-
-
-
-
-
-

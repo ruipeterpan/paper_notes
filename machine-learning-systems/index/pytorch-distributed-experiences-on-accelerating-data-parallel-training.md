@@ -125,11 +125,3 @@ Some future directions for optimizations:
 * [CS 744 Slides & Notes](http://pages.cs.wisc.edu/~shivaram/cs744-fa20-slides/cs744-pytorch-notes.pdf)
 * [Debugging and Visualization in PyTorch using Hooks](https://blog.paperspace.com/pytorch-hooks-gradient-clipping-debugging/)
 
-
-
-
-
-
-
-
-

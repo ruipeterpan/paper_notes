@@ -134,13 +134,3 @@ From Figure 19, we can observe:
 * [Presentation Video at NSDI '20](https://www.youtube.com/watch?v=K2a7DRcZdIU&ab_channel=USENIX)
 * [Presentation Slides](https://www.usenix.org/sites/default/files/conference/protected-files/nsdi20_slides_mahajan.pdf)
 
-
-
-
-
-
-
-
-
-
-

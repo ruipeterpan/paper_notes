@@ -94,11 +94,3 @@ FFS also introduced some neat file system functional enhancements that are routi
 * [FFS in OSTEP](http://pages.cs.wisc.edu/~remzi/OSTEP/file-ffs.pdf)
 * [FFS in CS 537 @ UW-Madison](http://pages.cs.wisc.edu/~shivaram/cs537-sp20-notes/ffs/cs537-ffs-notes.pdf)
 
-
-
-
-
-
-
-
-

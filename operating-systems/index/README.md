@@ -5,11 +5,13 @@
 * [CS 736 @ UW-Madison: Advanced Operating Systems](http://pages.cs.wisc.edu/~dusseau/Classes/CS736/CS736-F13/papers.html)
 * [CS 262a @ Berkeley: Advanced Topics in Computer Systems](https://ucbrise.github.io/cs262a-spring2018/)
 
-
-
 ## File and Storage Systems
 
 {% page-ref page="ffs-a-fast-file-system-for-unix.md" %}
+
+{% page-ref page="lfs-the-design-and-implementation-of-a-log-structured-file-system.md" %}
+
+
 
 
 

@@ -120,13 +120,3 @@ The experiments used three kernel-intensive applications: CMailbench, NGINX, and
 * [Presentation Audio at OSDI '18](https://www.usenix.org/conference/osdi18/presentation/cutler)
 * [Presentation Slides](https://www.usenix.org/sites/default/files/conference/protected-files/osdi18_slides_cutler.pdf)
 
-
-
-
-
-
-
-
-
-
-
