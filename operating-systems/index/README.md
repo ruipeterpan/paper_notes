@@ -16,6 +16,7 @@
 | [RAID: A Case for Redundant Arrays of Inexpensive Disks](raid-a-case-for-redundant-arrays-of-inexpensive-disks.md) | ACM SIGMOD ‘88 |
 | [RDP: Row-Diagonal Parity for Double Disk Failure Correction](rdp-row-diagonal-parity-for-double-disk-failure-correction.md) | FAST '04 |
 | [A File is Not a File: Understanding the I/O Behavior of Apple Desktop Applications](a-file-is-not-a-file-understanding-the-i-o-behavior-of-apple-desktop-applications.md) | SOSP '11 |
+| [SnapMirror: File-System-Based Asynchronous Mirroring for Disaster Recovery](snapmirror-file-system-based-asynchronous-mirroring-for-disaster-recovery.md) | FAST '02 |
 
 ### Process Synchronization and Scalability
 

@@ -36,6 +36,7 @@
   * [RAID: A Case for Redundant Arrays of Inexpensive Disks](operating-systems/index/raid-a-case-for-redundant-arrays-of-inexpensive-disks.md)
   * [RDP: Row-Diagonal Parity for Double Disk Failure Correction](operating-systems/index/rdp-row-diagonal-parity-for-double-disk-failure-correction.md)
   * [ReVirt: Enabling Intrusion Analysis through Virtual-Machine Logging and Replay](operating-systems/index/revirt-enabling-intrusion-analysis-through-virtual-machine-logging-and-replay.md)
+  * [SnapMirror: File-System-Based Asynchronous Mirroring for Disaster Recovery](operating-systems/index/snapmirror-file-system-based-asynchronous-mirroring-for-disaster-recovery.md)
   * [The Linux Scheduler: a Decade of Wasted Cores](operating-systems/index/the-linux-scheduler-a-decade-of-wasted-cores.md)
 * [Drafts](operating-systems/drafts/README.md)
   * [Resource containers: A new facility for resource management in server systems ](operating-systems/drafts/resource-containers-a-new-facility-for-resource-management-in-server-systems.md)
