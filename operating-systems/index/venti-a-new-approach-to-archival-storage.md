@@ -49,7 +49,7 @@ Applications are responsible for mapping the namespace to fingerprints. One appr
 
 ![The data is append-only log on a RAID array.](../../.gitbook/assets/screen-shot-2020-12-28-at-11.27.47-pm.png)
 
-When a fingerprint comes in, a lookup on an on-disk index is performed to check where the data is stored \(horrible performance due to random lookups of random fingerprints with no locality on disk\). The caches are used to leverage the terrible performance, it's still not that good though \(a lot of room for improvements\).
+When a fingerprint comes in, a lookup on an on-disk index is performed to check where the data is stored \(horrible performance due to random lookups of random fingerprints with no locality on disk\). The caches are used to leverage the terrible performance, it's still not that good though \(a lot of room for improvements, see the [Data Domain](data-domain-avoiding-the-disk-bottleneck-in-the-data-domain-deduplication-file-system.md) paper for some follow-ups\).
 
 ## Evaluation
 

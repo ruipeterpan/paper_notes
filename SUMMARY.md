@@ -25,6 +25,7 @@
 
 * [Operating Systems - Index](operating-systems/index/README.md)
   * [CS 736 @ UW-Madison Fall 2020 Reading List](operating-systems/index/cs-736-uw-madison-fall-2020-reading-list.md)
+  * [ARC: A Self-Tuning, Low Overhead Replacement Cache](operating-systems/index/arc-a-self-tuning-low-overhead-replacement-cache.md)
   * [A File is Not a File: Understanding the I/O Behavior of Apple Desktop Applications](operating-systems/index/a-file-is-not-a-file-understanding-the-i-o-behavior-of-apple-desktop-applications.md)
   * [Biscuit: The benefits and costs of writing a POSIX kernel in a high-level language](operating-systems/index/biscuit-the-benefits-and-costs-of-writing-a-posix-kernel-in-a-high-level-language.md)
   * [Data Domain: Avoiding the Disk Bottleneck in the Data Domain Deduplication File System](operating-systems/index/data-domain-avoiding-the-disk-bottleneck-in-the-data-domain-deduplication-file-system.md)

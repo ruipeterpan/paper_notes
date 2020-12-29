@@ -19,6 +19,7 @@
 | [SnapMirror: File-System-Based Asynchronous Mirroring for Disaster Recovery](snapmirror-file-system-based-asynchronous-mirroring-for-disaster-recovery.md) | FAST '02 |
 | [Venti: A New Approach to Archival Storage](venti-a-new-approach-to-archival-storage.md) | FAST '02 |
 | [Data Domain: Avoiding the Disk Bottleneck in the Data Domain Deduplication File System](data-domain-avoiding-the-disk-bottleneck-in-the-data-domain-deduplication-file-system.md) | FAST '08 |
+| [ARC: A Self-Tuning, Low Overhead Replacement Cache](arc-a-self-tuning-low-overhead-replacement-cache.md) | FAST '03 |
 
 ### Process Synchronization and Scalability
 
