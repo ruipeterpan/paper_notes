@@ -17,6 +17,8 @@
 | [RDP: Row-Diagonal Parity for Double Disk Failure Correction](rdp-row-diagonal-parity-for-double-disk-failure-correction.md) | FAST '04 |
 | [A File is Not a File: Understanding the I/O Behavior of Apple Desktop Applications](a-file-is-not-a-file-understanding-the-i-o-behavior-of-apple-desktop-applications.md) | SOSP '11 |
 | [SnapMirror: File-System-Based Asynchronous Mirroring for Disaster Recovery](snapmirror-file-system-based-asynchronous-mirroring-for-disaster-recovery.md) | FAST '02 |
+| [Venti: A New Approach to Archival Storage](venti-a-new-approach-to-archival-storage.md) | FAST '02 |
+| [Data Domain: Avoiding the Disk Bottleneck in the Data Domain Deduplication File System](data-domain-avoiding-the-disk-bottleneck-in-the-data-domain-deduplication-file-system.md) | FAST '08 |
 
 ### Process Synchronization and Scalability
 
