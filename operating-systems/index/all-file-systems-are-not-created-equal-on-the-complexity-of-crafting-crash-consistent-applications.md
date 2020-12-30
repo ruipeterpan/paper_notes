@@ -44,6 +44,22 @@
 
 ## Background & Motivation
 
+To provide crash consistency for update-in-place file systems, journaling is performed. A high-level overview of journaling:
+
+* Intuition
+  * Before updating the file system, write a note describing the update
+  * Make sure note is safely on disk
+  * Once the note is safe, update the file system
+  * If interrupted, read the note and redo updates
+* Protocol
+  * Write the data \(no pointers to it\) - Optional
+  * Write the note: Journal Metadata
+  * Make sure the note is durably written: Journal Commit
+  * Update the in-place metadata: Checkpointing
+  * Replay the note: Recovery
+
+
+
 ## Design and Implementation
 
 ## Evaluation
@@ -53,8 +69,7 @@
 * 
 ## Links
 
-* Paper PDF
-* Presentation Video at xxx
-* Presentation Slides
-* * xxx on GitHub
-* 
+* [Paper PDF](https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-pillai.pdf)
+* [Presentation Video at OSDI '14](https://www.usenix.org/conference/osdi14/technical-sessions/presentation/pillai)
+* [Presentation Slides at OSDI '14](https://www.usenix.org/sites/default/files/conference/protected-files/osdi14_slides_pillai.pdf)
+

@@ -13,7 +13,7 @@
 | :--- | :--- |
 | [FFS: A Fast File System for UNIX](ffs-a-fast-file-system-for-unix.md) | ACM Transactions on Computer Systems ‘84 |
 | [LFS: The Design and Implementation of a Log-Structured File System](lfs-the-design-and-implementation-of-a-log-structured-file-system.md) | ACM Transactions on Computer Systems ‘92 |
-| [RAID: A Case for Redundant Arrays of Inexpensive Disks](raid-a-case-for-redundant-arrays-of-inexpensive-disks.md) | ACM SIGMOD ‘88 |
+| [RAID: A Case for Redundant Arrays of Inexpensive Disks](raid-a-case-for-redundant-arrays-of-inexpensive-disks.md) | SIGMOD ‘88 |
 | [RDP: Row-Diagonal Parity for Double Disk Failure Correction](rdp-row-diagonal-parity-for-double-disk-failure-correction.md) | FAST '04 |
 | [A File is Not a File: Understanding the I/O Behavior of Apple Desktop Applications](a-file-is-not-a-file-understanding-the-i-o-behavior-of-apple-desktop-applications.md) | SOSP '11 |
 | [SnapMirror: File-System-Based Asynchronous Mirroring for Disaster Recovery](snapmirror-file-system-based-asynchronous-mirroring-for-disaster-recovery.md) | FAST '02 |
@@ -52,10 +52,6 @@
 
 | To move from local note to gitbook | To read |
 | :--- | :--- |
-| SnapMirror |  |
-| Venti |  |
-| Deduplication |  |
-| ARC |  |
 | ALICE |  |
 | OptFS |  |
 | Unwritten Contract |  |
