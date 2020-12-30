@@ -66,3 +66,5 @@ When a fingerprint comes in, a lookup on an on-disk index is performed to check 
 * [Paper PDF](https://www.usenix.org/legacy/publications/library/proceedings/fast02/quinlan/quinlan.pdf)
 * Thanks to Brian Chang for the review notes!
 
+{% file src="../../.gitbook/assets/venti.pdf" caption="Prof. Andrea Arpaci-Dusseau\'s course notes on Venti" %}
+

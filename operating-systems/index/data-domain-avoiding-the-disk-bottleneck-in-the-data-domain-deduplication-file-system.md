@@ -92,3 +92,5 @@ An extension of the idea that motivated stream-informed layout. We divide the ca
 * [Presentation Video at FAST '08](https://www.usenix.org/conference/fast-08/avoiding-disk-bottleneck-data-domain-deduplication-file-system)
 * [Presentation Audio at FAST '08](https://c59951.ssl.cf2.rackcdn.com/legacy_media/fast08/tech/full_papers/zhu/zhu.mp3)
 
+{% file src="../../.gitbook/assets/data-deduplication.pdf" caption="Prof. Andrea Arpaci-Dusseau\'s course notes on Data Deduplication" %}
+

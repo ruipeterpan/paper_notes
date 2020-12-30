@@ -105,3 +105,5 @@ Some interesting data points:
 * [RAID in OSTEP](http://pages.cs.wisc.edu/~remzi/OSTEP/file-raid.pdf)
 * [RAID in CS 537 @ UW-Madison](http://pages.cs.wisc.edu/~shivaram/cs537-sp20-notes/raid/cs537-raid-notes.pdf)
 
+{% file src="../../.gitbook/assets/l3+l4+l5-raid+rdp+ibench.pptx" caption="Prof. Andrea\'s slides on RAID and RDP" %}
+

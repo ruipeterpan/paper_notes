@@ -102,3 +102,5 @@ Sprite LFS is a prototype LFS that outperforms the current UNIX file systems by 
 * [LFS in OSTEP](http://pages.cs.wisc.edu/~remzi/OSTEP/file-lfs.pdf)
 * [LFS in CS 537 @ UW-Madison](http://pages.cs.wisc.edu/~shivaram/cs537-sp20-notes/lfs/cs537-lfs-notes.pdf)
 
+{% file src="../../.gitbook/assets/l2-ffs+lfs.pptx" caption="Prof. Anrea\'s notes on FFS and LFS" %}
+

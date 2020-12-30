@@ -81,3 +81,5 @@ A mirror is a block-by-block, read-only, online replica of the file system. Copi
 * [Asynchronous SnapMirror disaster recovery basic by NetApp](https://docs.netapp.com/ontap-9/index.jsp?topic=%2Fcom.netapp.doc.pow-dap%2FGUID-18263F03-486B-434C-A190-C05D3AFC05DD.html)
 * Thanks to Brian Chang for the paper review notes!
 
+{% file src="../../.gitbook/assets/snap-mirror.pdf" caption="Prof. Andrea\'s notes on SnapMirror" %}
+

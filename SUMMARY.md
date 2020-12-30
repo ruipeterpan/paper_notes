@@ -25,6 +25,7 @@
 
 * [Operating Systems - Index](operating-systems/index/README.md)
   * [CS 736 @ UW-Madison Fall 2020 Reading List](operating-systems/index/cs-736-uw-madison-fall-2020-reading-list.md)
+  * [All File Systems Are Not Created Equal: On the Complexity of Crafting Crash-Consistent Applications](operating-systems/index/all-file-systems-are-not-created-equal-on-the-complexity-of-crafting-crash-consistent-applications.md)
   * [ARC: A Self-Tuning, Low Overhead Replacement Cache](operating-systems/index/arc-a-self-tuning-low-overhead-replacement-cache.md)
   * [A File is Not a File: Understanding the I/O Behavior of Apple Desktop Applications](operating-systems/index/a-file-is-not-a-file-understanding-the-i-o-behavior-of-apple-desktop-applications.md)
   * [Biscuit: The benefits and costs of writing a POSIX kernel in a high-level language](operating-systems/index/biscuit-the-benefits-and-costs-of-writing-a-posix-kernel-in-a-high-level-language.md)

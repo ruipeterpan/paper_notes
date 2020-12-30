@@ -57,3 +57,5 @@ RDP can also be extended to encompass multiple RAID-4 or RAID-5 disk arrays in a
 
 * [Paper PDF](https://www.usenix.org/legacy/publications/library/proceedings/fast04/tech/corbett/corbett.pdf)
 
+{% file src="../../.gitbook/assets/l3+l4+l5-raid+rdp+ibench.pptx" caption="Prof. Andrea\'s slides on RAID and RDP" %}
+
