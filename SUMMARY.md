@@ -39,6 +39,7 @@
   * [RAID: A Case for Redundant Arrays of Inexpensive Disks](operating-systems/index/raid-a-case-for-redundant-arrays-of-inexpensive-disks.md)
   * [RDP: Row-Diagonal Parity for Double Disk Failure Correction](operating-systems/index/rdp-row-diagonal-parity-for-double-disk-failure-correction.md)
   * [ReVirt: Enabling Intrusion Analysis through Virtual-Machine Logging and Replay](operating-systems/index/revirt-enabling-intrusion-analysis-through-virtual-machine-logging-and-replay.md)
+  * [Scheduler Activations: Effective Kernel Support for the User-Level Management of Parallelism](operating-systems/index/scheduler-activations-effective-kernel-support-for-the-user-level-management-of-parallelism.md)
   * [SnapMirror: File-System-Based Asynchronous Mirroring for Disaster Recovery](operating-systems/index/snapmirror-file-system-based-asynchronous-mirroring-for-disaster-recovery.md)
   * [The Linux Scheduler: a Decade of Wasted Cores](operating-systems/index/the-linux-scheduler-a-decade-of-wasted-cores.md)
   * [Venti: A New Approach to Archival Storage](operating-systems/index/venti-a-new-approach-to-archival-storage.md)
@@ -49,8 +50,9 @@
 
 ## Misc Topics
 
-* [Deep Learning Specialization @ Coursera](misc-topics/deep-learning-specialization-coursera.md)
+* [Misc Topics - Index](misc-topics/misc-topics-index.md)
 * [Computer Vision - Index](misc-topics/computer-vision.md)
+* [Deep Learning Specialization @ Coursera](misc-topics/deep-learning-specialization-coursera.md)
 * [High Performance Computing - Index](misc-topics/high-performance-computing.md)
 * [Security - Index](misc-topics/security.md)
 * [Soccer Analytics - Index](misc-topics/index/README.md)

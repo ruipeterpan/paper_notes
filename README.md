@@ -1,8 +1,12 @@
 # Rui's Paper Reading Notes - Introduction
 
-## If you are looking for my non-academic blog:
+## Introduction
 
-{% page-ref page="blog/blog-index/" %}
+This GitBook mainly hosts [Rui Pan](https://ruipan.xyz)'s paper reading notes. I also keep a non-hardcore blog [here](blog/blog-index/).
+
+The majority of the papers here are in the field of [Machine Learning Systems](machine-learning-systems/index/) and [Operating Systems](operating-systems/index/). There are some miscellaneous papers, though, that are under the index [Misc Topics](misc-topics/misc-topics-index.md).
+
+If you spot a mistake or have any suggestions, you are more than welcome to drop me an email at rpan33@wisc.edu!
 
 ## Meta-papers
 
@@ -13,11 +17,11 @@
 
 ## Topics
 
+{% page-ref page="blog/blog-index/" %}
+
 {% page-ref page="machine-learning-systems/index/" %}
 
 {% page-ref page="operating-systems/index/" %}
 
-
-
-
+{% page-ref page="misc-topics/misc-topics-index.md" %}
 

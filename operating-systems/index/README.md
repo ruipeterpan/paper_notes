@@ -36,6 +36,7 @@
 | [Monotasks: Architecting for Performance Clarity in Data Analytics Frameworks](monotasks-architecting-for-performance-clarity-in-data-analytics-frameworks.md) | SOSP '17 |
 | [Themis: Fair and Efficient GPU Cluster Scheduling](../../machine-learning-systems/index/themis-fair-and-efficient-gpu-cluster-scheduling.md) | NSDI '20 |
 | [The Linux Scheduler: A Decade of Wasted Cores](the-linux-scheduler-a-decade-of-wasted-cores.md) | EuroSys '16 |
+| [Scheduler Activations: Effective Kernel Support for the User-Level Management of Parallelism](scheduler-activations-effective-kernel-support-for-the-user-level-management-of-parallelism.md) | ACM SIGOPS '91 |
 
 ### OS Structure and Virtual Machines
 
@@ -46,13 +47,10 @@
 | [Memory Resource Management in VMWare ESX Server](memory-resource-management-in-vmware-esx-server.md) | OSDI '02 |
 | [ReVirt: Enabling Intrusion Analysis through Virtual Machine Logging and Replay](revirt-enabling-intrusion-analysis-through-virtual-machine-logging-and-replay.md) | OSDI '02 |
 
-
-
-## TODOs
+## To Read
 
 | To move from local note to gitbook | To read |
 | :--- | :--- |
-| ALICE |  |
 | OptFS |  |
 | Unwritten Contract |  |
 | Bourbon/Sazerac |  |
