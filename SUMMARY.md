@@ -51,12 +51,11 @@
 
 ## Misc Topics
 
-* [Misc Topics - Index](misc-topics/misc-topics-index.md)
-* [High Performance Computing - Index](misc-topics/high-performance-computing.md)
-* [Machine Learning - Index](misc-topics/deep-learning-specialization-coursera.md)
-* [Security - Index](misc-topics/security.md)
-* [Soccer Analytics - Index](misc-topics/index/README.md)
-  * [Decomposing the Immeasurable Sport: A deep learning expected possession value framework for soccer](misc-topics/index/decomposing-the-immeasurable-sport-a-deep-learning-expected-possession-value-framework-for-soccer.md)
-  * [Soccer analytics: Unravelling the complexity of “the beautiful game”](misc-topics/index/soccer-analytics-unravelling-the-complexity-of-the-beautiful-game.md)
-  * [Wide Open Spaces: A statistical technique for measuring space creation in professional soccer](misc-topics/index/wide-open-spaces-a-statistical-technique-for-measuring-space-creation-in-professional-soccer.md)
+* [Misc Topics - Index](misc-topics/index.md)
+* [Machine Learning - Index](misc-topics/machine-learning-index.md)
+* [Security - Index](misc-topics/security-index.md)
+* [Soccer Analytics - Index](misc-topics/soccer-analytics-index/README.md)
+  * [Decomposing the Immeasurable Sport: A deep learning expected possession value framework for soccer](misc-topics/soccer-analytics-index/decomposing-the-immeasurable-sport-a-deep-learning-expected-possession-value-framework-for-soccer.md)
+  * [Soccer analytics: Unravelling the complexity of “the beautiful game”](misc-topics/soccer-analytics-index/soccer-analytics-unravelling-the-complexity-of-the-beautiful-game.md)
+  * [Wide Open Spaces: A statistical technique for measuring space creation in professional soccer](misc-topics/soccer-analytics-index/wide-open-spaces-a-statistical-technique-for-measuring-space-creation-in-professional-soccer.md)
 
