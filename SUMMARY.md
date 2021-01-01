@@ -3,7 +3,7 @@
 * [Rui's Paper Reading Notes - Introduction](README.md)
 * [Vocabulary List](vocabulary-list.md)
 * [Template](template.md)
-* [Drafts](untitled.md)
+* [Random stuff](untitled.md)
 
 ## Blog
 
@@ -16,6 +16,7 @@
 ## Machine Learning Systems
 
 * [Machine Learning Systems - Index](machine-learning-systems/index/README.md)
+  * [Analysis of Large-Scale Multi-Tenant GPU Clusters for DNN Training Workloads](machine-learning-systems/index/analysis-of-large-scale-multi-tenant-gpu-clusters-for-dnn-training-workloads.md)
   * [BytePS: A High Performance and Generic Framework for Distributed DNN Training](machine-learning-systems/index/byteps-a-high-performance-and-generic-framework-for-distributed-dnn-training.md)
   * [PyTorch Distributed: Experiences on Accelerating Data Parallel Training](machine-learning-systems/index/pytorch-distributed-experiences-on-accelerating-data-parallel-training.md)
   * [Themis: Fair and Efficient GPU Cluster Scheduling](machine-learning-systems/index/themis-fair-and-efficient-gpu-cluster-scheduling.md)
@@ -51,9 +52,8 @@
 ## Misc Topics
 
 * [Misc Topics - Index](misc-topics/misc-topics-index.md)
-* [Computer Vision - Index](misc-topics/computer-vision.md)
-* [Deep Learning Specialization @ Coursera](misc-topics/deep-learning-specialization-coursera.md)
 * [High Performance Computing - Index](misc-topics/high-performance-computing.md)
+* [Machine Learning - Index](misc-topics/deep-learning-specialization-coursera.md)
 * [Security - Index](misc-topics/security.md)
 * [Soccer Analytics - Index](misc-topics/index/README.md)
   * [Decomposing the Immeasurable Sport: A deep learning expected possession value framework for soccer](misc-topics/index/decomposing-the-immeasurable-sport-a-deep-learning-expected-possession-value-framework-for-soccer.md)
