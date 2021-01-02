@@ -39,7 +39,7 @@
 | Scaling Distributed Machine Learning with the Parameter Server | OSDI '14 |
 | [BytePS: A High Performance and Generic Framework for Distributed DNN Training](byteps-a-high-performance-and-generic-framework-for-distributed-dnn-training.md) | OSDI '20 |
 | [PyTorch Distributed: Experiences on Accelerating Data Parallel Training](pytorch-distributed-experiences-on-accelerating-data-parallel-training.md) | VLDB '20 |
-| Horovod: Fast and Easy Distributed Deep Learning in TensorFlow | arXiv |
+| Horovod: Fast and Easy Distributed Deep Learning in TensorFlow | arXiv '18 |
 | TensorFlow: A system for large-scale machine learning | OSDI '16 |
 | PyTorch: An Imperative Style, High-Performance Deep Learning Library | NeurIPS '19 |
 | Ray: A Distributed Framework for Emerging AI Applications |  |
@@ -55,7 +55,7 @@
 
 | Title | Venue |
 | :--- | :--- |
-| The Dataflow Model: A Practical Approach to Balancing Correctness, Latency, and Cost in Massive-Sclae, Unbounded, Out-of-Order Data Processing |  |
+| The Dataflow Model: A Practical Approach to Balancing Correctness, Latency, and Cost in Massive-Scale, Unbounded, Out-of-Order Data Processing |  |
 
 ### Graph Processing
 
