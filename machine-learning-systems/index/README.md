@@ -36,7 +36,7 @@
 
 | Title | Venue |
 | :--- | :--- |
-| Scaling Distributed Machine Learning with the Parameter Server | OSDI '14 |
+| [Scaling Distributed Machine Learning with the Parameter Server](scaling-distributed-machine-learning-with-the-parameter-server.md) | OSDI '14 |
 | [BytePS: A High Performance and Generic Framework for Distributed DNN Training](byteps-a-high-performance-and-generic-framework-for-distributed-dnn-training.md) | OSDI '20 |
 | [PyTorch Distributed: Experiences on Accelerating Data Parallel Training](pytorch-distributed-experiences-on-accelerating-data-parallel-training.md) | VLDB '20 |
 | Horovod: Fast and Easy Distributed Deep Learning in TensorFlow | arXiv '18 |

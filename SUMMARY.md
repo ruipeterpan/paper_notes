@@ -19,9 +19,9 @@
   * [Analysis of Large-Scale Multi-Tenant GPU Clusters for DNN Training Workloads](machine-learning-systems/index/analysis-of-large-scale-multi-tenant-gpu-clusters-for-dnn-training-workloads.md)
   * [BytePS: A High Performance and Generic Framework for Distributed DNN Training](machine-learning-systems/index/byteps-a-high-performance-and-generic-framework-for-distributed-dnn-training.md)
   * [PyTorch Distributed: Experiences on Accelerating Data Parallel Training](machine-learning-systems/index/pytorch-distributed-experiences-on-accelerating-data-parallel-training.md)
+  * [Scaling Distributed Machine Learning with the Parameter Server](machine-learning-systems/index/scaling-distributed-machine-learning-with-the-parameter-server.md)
   * [Themis: Fair and Efficient GPU Cluster Scheduling](machine-learning-systems/index/themis-fair-and-efficient-gpu-cluster-scheduling.md)
-* [Drafts](machine-learning-systems/drafts/README.md)
-  * [Scaling Distributed Machine Learning with the Parameter Server](machine-learning-systems/drafts/scaling-distributed-machine-learning-with-the-parameter-server.md)
+* [Drafts](machine-learning-systems/drafts.md)
 
 ## Operating Systems
 
