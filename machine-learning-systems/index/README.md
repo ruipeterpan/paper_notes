@@ -74,7 +74,7 @@
 ### To move from local note to GitBook
 
 * [ ] MapReduce: Simplified Data Processing on Large Clusters
-* [ ] Parameter Server: Scaling Distributed Machine Learning with the Parameter Server
+* [x] Parameter Server: Scaling Distributed Machine Learning with the Parameter Server
 * [x] Analysis of Large-Scale Multi-Tenant GPU Clusters for DNN Training Workloads
 
 ### To read

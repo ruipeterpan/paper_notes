@@ -19,7 +19,7 @@
 ## Links
 
 * Paper PDF
-* Presentation Video at xxx
-* Presentation Slides
+* Presentation video at xxx
+* Presentation slides
 * * xxx on GitHub
 * 

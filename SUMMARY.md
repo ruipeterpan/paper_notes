@@ -46,7 +46,7 @@
   * [The Linux Scheduler: a Decade of Wasted Cores](operating-systems/index/the-linux-scheduler-a-decade-of-wasted-cores.md)
   * [Venti: A New Approach to Archival Storage](operating-systems/index/venti-a-new-approach-to-archival-storage.md)
 * [Drafts](operating-systems/drafts/README.md)
-  * [Resource containers: A new facility for resource management in server systems ](operating-systems/drafts/resource-containers-a-new-facility-for-resource-management-in-server-systems.md)
+  * [Resource Containers: A New Facility for Resource Management in Server Systems](operating-systems/drafts/resource-containers-a-new-facility-for-resource-management-in-server-systems.md)
   * [seL4: Formal Verification of an OS Kernel](operating-systems/drafts/sel4-formal-verification-of-an-os-kernel.md)
   * [Disco: Running Commodity Operating Systems on Scalable Multiprocessors](operating-systems/drafts/disco-running-commodity-operating-systems-on-scalable-multiprocessors.md)
 
