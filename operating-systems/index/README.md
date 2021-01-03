@@ -37,7 +37,7 @@
 | [Themis: Fair and Efficient GPU Cluster Scheduling](../../machine-learning-systems/index/themis-fair-and-efficient-gpu-cluster-scheduling.md) | NSDI '20 |
 | [The Linux Scheduler: A Decade of Wasted Cores](the-linux-scheduler-a-decade-of-wasted-cores.md) | EuroSys '16 |
 | [Scheduler Activations: Effective Kernel Support for the User-Level Management of Parallelism](scheduler-activations-effective-kernel-support-for-the-user-level-management-of-parallelism.md) | ACM SIGOPS '91 |
-| [Resource Containers: A New Facility for Resource Management in Server Systems](../drafts/resource-containers-a-new-facility-for-resource-management-in-server-systems.md) | OSDI '99 |
+| [Resource Containers: A New Facility for Resource Management in Server Systems](resource-containers-a-new-facility-for-resource-management-in-server-systems.md) | OSDI '99 |
 
 ### OS Structure and Virtual Machines
 
@@ -63,7 +63,6 @@
 | Scalable Commutativity |  |
 | RCL \(Delegation\) |  |
 | Shuffle Locks |  |
-| Scheduler Activations |  |
 | SEDA |  |
 | Resource Containers |  |
 | TAM |  |

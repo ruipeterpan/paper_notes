@@ -1,5 +1,7 @@
 ---
-description: 'Imported from https://canvas.wisc.edu/courses/205576/pages/paper-list'
+description: >-
+  Imported from https://canvas.wisc.edu/courses/205576/pages/paper-list. The
+  reading list was put together by Prof. Andrea Arpaci-Dusseau.
 ---
 
 # CS 736 @ UW-Madison Fall 2020 Reading List
