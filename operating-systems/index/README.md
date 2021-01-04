@@ -1,9 +1,12 @@
 # Operating Systems - Index
 
-## Reading List
+## Meta stuff
 
-* [CS 736 @ UW-Madison: Advanced Operating Systems](cs-736-uw-madison-fall-2020-reading-list.md)
-* [CS 262a @ Berkeley: Advanced Topics in Computer Systems](https://ucbrise.github.io/cs262a-spring2018/)
+* Reading lists
+  * [CS 736 @ UW-Madison: Advanced Operating Systems](cs-736-uw-madison-fall-2020-reading-list.md)
+  * [CS 262a @ Berkeley: Advanced Topics in Computer Systems](https://ucbrise.github.io/cs262a-fall2020/)
+* Some other stuff
+  * [CS 262a @ Berkeley Fall 2020 class summary slides](https://ucbrise.github.io/cs262a-fall2020/notes/26-Class-Summary.pdf)
 
 ## Table of Contents
 
@@ -47,6 +50,7 @@
 | [LegoOS: A Disseminated, Distributed OS for Hardware Resource Disaggregation](legoos-a-disseminated-distributed-os-for-hardware-resource-disaggregation.md) | OSDI '18 |
 | [Memory Resource Management in VMWare ESX Server](memory-resource-management-in-vmware-esx-server.md) | OSDI '02 |
 | [ReVirt: Enabling Intrusion Analysis through Virtual Machine Logging and Replay](revirt-enabling-intrusion-analysis-through-virtual-machine-logging-and-replay.md) | OSDI '02 |
+| Disco: Running Commodity Operating Systems on Scalable Multiprocessors | SOSP '97 |
 
 ## To Read
 
@@ -71,7 +75,6 @@
 | Nucleus |  |
 | Exokernel |  |
 | Arrakis |  |
-| Disco |  |
 
 
 

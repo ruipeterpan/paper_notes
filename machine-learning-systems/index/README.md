@@ -1,14 +1,13 @@
 # Machine Learning Systems - Index
 
-## Reading Lists
+## Meta stuff
 
-* [CS 294 @ Berkeley: Machine Learning Systems](https://ucbrise.github.io/cs294-ai-sys-fa19/)
-* [CS 744 @ UW-Madison: Big Data Systems](http://pages.cs.wisc.edu/~shivaram/cs744-fa20/)
-
-## Meta-papers
-
-* [A Berkeley View of Systems Challenges for AI](https://thodrek.github.io/CS839_spring18/papers/EECS-2017-159.pdf)
-* [MLSys: The New Frontier of Machine Learning Systems](https://arxiv.org/pdf/1904.03257.pdf)
+* Reading lists
+  * [CS 294 @ Berkeley: Machine Learning Systems](https://ucbrise.github.io/cs294-ai-sys-fa19/)
+  * [CS 744 @ UW-Madison: Big Data Systems](http://pages.cs.wisc.edu/~shivaram/cs744-fa20/)
+* Meta papers
+  * [A Berkeley View of Systems Challenges for AI](https://thodrek.github.io/CS839_spring18/papers/EECS-2017-159.pdf)
+  * [MLSys: The New Frontier of Machine Learning Systems](https://arxiv.org/pdf/1904.03257.pdf)
 
 ## Table of Contents
 
@@ -20,6 +19,7 @@
 | The Hadoop Distributed File System |  |
 | The Google File System | SOSP '03 |
 | NFS: Sun's Network File System |  |
+| Spark: Cluster Computing with Working Sets |  |
 
 ### Scheduling
 
@@ -91,6 +91,7 @@
 * [ ] PyTorch: An Imperative Style, High-Performance Deep Learning Library
 * [ ] The Hadoop Distributed File System
 * [ ] The Power of Choice in Data-aware Cluster Scheduling
+* [ ] [Spark: Cluster Computing with Working Sets](https://www.usenix.org/legacy/event/hotcloud10/tech/full_papers/Zaharia.pdf)
 
 
 

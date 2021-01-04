@@ -55,6 +55,7 @@ The security and reliability of a computer system depend on that of the underlyi
 * [Paper PDF](https://www.sigops.org/s/conferences/sosp/2009/papers/klein-sosp09.pdf)
 * [The seL4 Microkernel](https://sel4.systems/)
 * [The seL4 Microkernel Whitepaper](https://sel4.systems/About/seL4-whitepaper.pdf)
+* [Lecture slides from CS 262a @ Berkeley by Prof. Ion Stoica and Ali Ghodsi](https://ucbrise.github.io/cs262a-fall2020/notes/16-microkerenels-Mach-seL4.pdf)
 
 
 

@@ -32,6 +32,7 @@
   * [A File is Not a File: Understanding the I/O Behavior of Apple Desktop Applications](operating-systems/index/a-file-is-not-a-file-understanding-the-i-o-behavior-of-apple-desktop-applications.md)
   * [Biscuit: The benefits and costs of writing a POSIX kernel in a high-level language](operating-systems/index/biscuit-the-benefits-and-costs-of-writing-a-posix-kernel-in-a-high-level-language.md)
   * [Data Domain: Avoiding the Disk Bottleneck in the Data Domain Deduplication File System](operating-systems/index/data-domain-avoiding-the-disk-bottleneck-in-the-data-domain-deduplication-file-system.md)
+  * [Disco: Running Commodity Operating Systems on Scalable Multiprocessors](operating-systems/index/disco-running-commodity-operating-systems-on-scalable-multiprocessors.md)
   * [FFS: A Fast File System for UNIX](operating-systems/index/ffs-a-fast-file-system-for-unix.md)
   * [LegoOS: A Disseminated, Distributed OS for Hardware Resource Disaggregation](operating-systems/index/legoos-a-disseminated-distributed-os-for-hardware-resource-disaggregation.md)
   * [LFS: The Design and Implementation of a Log-Structured File System](operating-systems/index/lfs-the-design-and-implementation-of-a-log-structured-file-system.md)
@@ -48,7 +49,6 @@
   * [Venti: A New Approach to Archival Storage](operating-systems/index/venti-a-new-approach-to-archival-storage.md)
 * [Drafts](operating-systems/drafts/README.md)
   * [seL4: Formal Verification of an OS Kernel](operating-systems/drafts/sel4-formal-verification-of-an-os-kernel.md)
-  * [Disco: Running Commodity Operating Systems on Scalable Multiprocessors](operating-systems/drafts/disco-running-commodity-operating-systems-on-scalable-multiprocessors.md)
 
 ## Misc Topics
 
