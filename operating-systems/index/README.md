@@ -24,6 +24,7 @@
 | [Data Domain: Avoiding the Disk Bottleneck in the Data Domain Deduplication File System](data-domain-avoiding-the-disk-bottleneck-in-the-data-domain-deduplication-file-system.md) | FAST '08 |
 | [ARC: A Self-Tuning, Low Overhead Replacement Cache](arc-a-self-tuning-low-overhead-replacement-cache.md) | FAST '03 |
 | [All File Systems Are Not Created Equal: On the Complexity of Crafting Crash-Consistent Applications](all-file-systems-are-not-created-equal-on-the-complexity-of-crafting-crash-consistent-applications.md) | OSDI '14 |
+| [From WiscKey to Bourbon: A Learned Index for Log-Structured Merge Trees](from-wisckey-to-bourbon-a-learned-index-for-log-structured-merge-trees.md) | OSDI '20 |
 
 ### Process Synchronization and Scalability
 

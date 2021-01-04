@@ -34,6 +34,7 @@
   * [Data Domain: Avoiding the Disk Bottleneck in the Data Domain Deduplication File System](operating-systems/index/data-domain-avoiding-the-disk-bottleneck-in-the-data-domain-deduplication-file-system.md)
   * [Disco: Running Commodity Operating Systems on Scalable Multiprocessors](operating-systems/index/disco-running-commodity-operating-systems-on-scalable-multiprocessors.md)
   * [FFS: A Fast File System for UNIX](operating-systems/index/ffs-a-fast-file-system-for-unix.md)
+  * [From WiscKey to Bourbon: A Learned Index for Log-Structured Merge Trees](operating-systems/index/from-wisckey-to-bourbon-a-learned-index-for-log-structured-merge-trees.md)
   * [LegoOS: A Disseminated, Distributed OS for Hardware Resource Disaggregation](operating-systems/index/legoos-a-disseminated-distributed-os-for-hardware-resource-disaggregation.md)
   * [LFS: The Design and Implementation of a Log-Structured File System](operating-systems/index/lfs-the-design-and-implementation-of-a-log-structured-file-system.md)
   * [Lottery Scheduling: Flexible Proportional-Share Resource Management](operating-systems/index/lottery-scheduling-flexible-proportional-share-resource-management.md)
