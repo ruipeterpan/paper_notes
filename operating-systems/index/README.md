@@ -50,7 +50,7 @@
 | [LegoOS: A Disseminated, Distributed OS for Hardware Resource Disaggregation](legoos-a-disseminated-distributed-os-for-hardware-resource-disaggregation.md) | OSDI '18 |
 | [Memory Resource Management in VMWare ESX Server](memory-resource-management-in-vmware-esx-server.md) | OSDI '02 |
 | [ReVirt: Enabling Intrusion Analysis through Virtual Machine Logging and Replay](revirt-enabling-intrusion-analysis-through-virtual-machine-logging-and-replay.md) | OSDI '02 |
-| Disco: Running Commodity Operating Systems on Scalable Multiprocessors | SOSP '97 |
+| [Disco: Running Commodity Operating Systems on Scalable Multiprocessors](disco-running-commodity-operating-systems-on-scalable-multiprocessors.md) | SOSP '97 |
 
 ## To Read
 
