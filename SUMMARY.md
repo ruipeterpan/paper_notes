@@ -40,6 +40,7 @@
   * [Lottery Scheduling: Flexible Proportional-Share Resource Management](operating-systems/index/lottery-scheduling-flexible-proportional-share-resource-management.md)
   * [Memory Resource Management in VMware ESX Server](operating-systems/index/memory-resource-management-in-vmware-esx-server.md)
   * [Monotasks: Architecting for Performance Clarity in Data Analytics Frameworks](operating-systems/index/monotasks-architecting-for-performance-clarity-in-data-analytics-frameworks.md)
+  * [OptFS: Optimistic Crash Consistency](operating-systems/index/optfs-optimistic-crash-consistency.md)
   * [RAID: A Case for Redundant Arrays of Inexpensive Disks](operating-systems/index/raid-a-case-for-redundant-arrays-of-inexpensive-disks.md)
   * [RDP: Row-Diagonal Parity for Double Disk Failure Correction](operating-systems/index/rdp-row-diagonal-parity-for-double-disk-failure-correction.md)
   * [Resource Containers: A New Facility for Resource Management in Server Systems](operating-systems/index/resource-containers-a-new-facility-for-resource-management-in-server-systems.md)

@@ -25,6 +25,7 @@
 | [ARC: A Self-Tuning, Low Overhead Replacement Cache](arc-a-self-tuning-low-overhead-replacement-cache.md) | FAST '03 |
 | [All File Systems Are Not Created Equal: On the Complexity of Crafting Crash-Consistent Applications](all-file-systems-are-not-created-equal-on-the-complexity-of-crafting-crash-consistent-applications.md) | OSDI '14 |
 | [From WiscKey to Bourbon: A Learned Index for Log-Structured Merge Trees](from-wisckey-to-bourbon-a-learned-index-for-log-structured-merge-trees.md) | OSDI '20 |
+| [OptFS: Optimistic Crash Consistency](optfs-optimistic-crash-consistency.md) | SOSP '13 |
 
 ### Process Synchronization and Scalability
 
@@ -55,31 +56,41 @@
 
 ## To Read
 
-| To move from local note to gitbook | To read |
-| :--- | :--- |
-| OptFS |  |
-| Unwritten Contract |  |
-| Bourbon/Sazerac |  |
-| Mnemosyne |  |
-| Level Hash |  |
-| Monitors |  |
-| Monitors in Mesa |  |
-| Scalability Analysis |  |
-| Scalable Commutativity |  |
-| RCL \(Delegation\) |  |
-| Shuffle Locks |  |
-| SEDA |  |
-| Resource Containers |  |
-| TAM |  |
-| Arachne |  |
-| THE |  |
-| Nucleus |  |
-| Exokernel |  |
-| Arrakis |  |
+### To move from local note to GitBook
 
+#### File and Storage Systems
 
+* [x] OptFS: Optimistic Crash Consistency
+* [ ] The Unwritten Contract of Solid State Drives
+* [ ] Mnemosyne: Lightweight Persistent Memory
+* [ ] Level Hash: Write-Optimized and High-Performance Hashing Index Scheme for Persistent Memory
 
+#### Process Synchronization and Scalability
 
+* [ ] Monitors: An Operating System Structuring Concept
+* [ ] Mesa: Experiences with Processes and Monitors in Mesa
+* [ ] Scalability Analysis: An Analysis of Linux Scalability to Many Cores
+* [ ] Scalable Commutativity: The Scalable Commutativity Rule: Designing Scalable Software for Multicore Processors
+* [ ] \(Delegation/RCL\) Remote Core Locking: Migrating Critical-Section Execution to Improve the Performance of Multithreaded Applications
+* [ ] Shuffle Locks: Scalable and Practical Locking with Shuffling
+* [ ] Arachne: Core-Aware Thread Management
+
+#### Scheduling
+
+* [ ] SEDA: An Architecture for Well-Conditioned, Scalable Internet Services
+* [ ] TAM: Principled Schedulability Analysis for Distributed Storage Systems using Thread Architecture Models
+
+#### OS Structure and Virtual Machines
+
+* [ ] THE: The Structure of "THE" Multiprogramming System
+* [ ] Nucleus: The Nucleus of a Multiprogramming System
+* [ ] Exokernel: An Operating System Architecture for Application-Level Resource Management
+* [ ] Arrakis: The Operating System is the Control Plane
+* [ ] UNIX: The UNIX Time-Sharing System
+
+### To read
+
+* [ ] seL4: Formal Verification of an OS Kernel
 
 
 
