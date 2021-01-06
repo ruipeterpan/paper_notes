@@ -5,6 +5,7 @@
 * Reading lists
   * [CS 736 @ UW-Madison: Advanced Operating Systems](cs-736-uw-madison-fall-2020-reading-list.md)
   * [CS 262a @ Berkeley: Advanced Topics in Computer Systems](https://ucbrise.github.io/cs262a-fall2020/)
+  * [OSTEP \(Operating Systems: Three Easy Pieces\)](http://pages.cs.wisc.edu/~remzi/OSTEP/) is written by the brilliant Remzi & Andrea and each chapter is followed by a lovely reading list about the topic covered in the chapter.
 * Some other stuff
   * [CS 262a @ Berkeley Fall 2020 class summary slides](https://ucbrise.github.io/cs262a-fall2020/notes/26-Class-Summary.pdf)
 
@@ -26,6 +27,7 @@
 | [All File Systems Are Not Created Equal: On the Complexity of Crafting Crash-Consistent Applications](all-file-systems-are-not-created-equal-on-the-complexity-of-crafting-crash-consistent-applications.md) | OSDI '14 |
 | [From WiscKey to Bourbon: A Learned Index for Log-Structured Merge Trees](from-wisckey-to-bourbon-a-learned-index-for-log-structured-merge-trees.md) | OSDI '20 |
 | [OptFS: Optimistic Crash Consistency](optfs-optimistic-crash-consistency.md) | SOSP '13 |
+| [NFS: Sun's Network File System](nfs-suns-network-file-system.md) | USENIX '86 |
 
 ### Process Synchronization and Scalability
 

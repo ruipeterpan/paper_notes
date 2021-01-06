@@ -18,7 +18,7 @@
 | MapReduce: Simplified Data Processing on Large Clusters | OSDI '04 |
 | The Hadoop Distributed File System |  |
 | The Google File System | SOSP '03 |
-| NFS: Sun's Network File System |  |
+| [NFS: Sun's Network File System](../../operating-systems/index/nfs-suns-network-file-system.md) | USENIX '86 |
 | Spark: Cluster Computing with Working Sets |  |
 
 ### Scheduling
