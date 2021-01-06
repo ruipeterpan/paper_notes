@@ -49,7 +49,7 @@
 
 | Title | Venue |
 | :--- | :--- |
-|  |  |
+| Spark SQL: Relational Data Processing in Spark |  |
 
 ### Stream Processing
 
