@@ -60,9 +60,9 @@
 * [Security - Index](misc-topics/security-index.md)
 * [Soccer Analytics - Index](misc-topics/soccer-analytics-index/README.md)
   * [Merging Pose And Contextual Data To Estimate Orientation Of Soccer Players](misc-topics/soccer-analytics-index/merging-pose-and-contextual-data-to-estimate-orientation-of-soccer-players.md)
+  * [Soccer analytics: Unravelling the complexity of “the beautiful game”](misc-topics/soccer-analytics-index/soccer-analytics-unravelling-the-complexity-of-the-beautiful-game.md)
+  * [Using Player’s Body-Orientation to Model Pass Feasibility in Soccer](misc-topics/soccer-analytics-index/using-players-body-orientation-to-model-pass-feasibility-in-soccer.md)
 * [Drafts](misc-topics/drafts/README.md)
   * [Wide Open Spaces: A statistical technique for measuring space creation in professional soccer](misc-topics/drafts/wide-open-spaces-a-statistical-technique-for-measuring-space-creation-in-professional-soccer.md)
-  * [Soccer analytics: Unravelling the complexity of “the beautiful game”](misc-topics/drafts/soccer-analytics-unravelling-the-complexity-of-the-beautiful-game.md)
   * [Decomposing the Immeasurable Sport: A deep learning expected possession value framework for soccer](misc-topics/drafts/decomposing-the-immeasurable-sport-a-deep-learning-expected-possession-value-framework-for-soccer.md)
-  * [Using Player’s Body-Orientation to Model Pass Feasibility in Soccer](misc-topics/drafts/using-players-body-orientation-to-model-pass-feasibility-in-soccer.md)
 

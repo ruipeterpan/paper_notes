@@ -11,7 +11,7 @@
 | RNNs: Recurrent Neural Network Based Language Model |  |
 | LSTM: LSTM Neural Networks for Language Modeling |  |
 | [Always Look On The Bright Side Of The Field: Merging Pose And Contextual Data To Estimate Orientation Of Soccer Players](soccer-analytics-index/merging-pose-and-contextual-data-to-estimate-orientation-of-soccer-players.md) | ICIP '20 |
-| Using Player’s Body-Orientation to Model Pass Feasibility in Soccer | CVPR '20 |
+| [Using Player’s Body-Orientation to Model Pass Feasibility in Soccer](soccer-analytics-index/using-players-body-orientation-to-model-pass-feasibility-in-soccer.md) | CVPR '20 |
 
 ## To Read
 
