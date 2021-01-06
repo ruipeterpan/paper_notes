@@ -1,19 +1,33 @@
 # Machine Learning - Index
 
-## To read
+## Table of Contents
 
-LSTM: LSTM Neural Networks for Language Modeling
+| Title | Venue |
+| :--- | :--- |
+| ResNet: Deep Residual Learning for Image Recognition |  |
+| VGG-16: Very Deep Convolutional Networks for Large-scale Image Recognition | ICLR '2015 |
+| AlexNet: ImageNet Classification with Deep Convolutional Neural Networks |  |
+| LeNet: Gradient-Based Learning Applied to Document Recognition |  |
+| RNNs: Recurrent Neural Network Based Language Model |  |
+| LSTM: LSTM Neural Networks for Language Modeling |  |
+| [Always Look On The Bright Side Of The Field: Merging Pose And Contextual Data To Estimate Orientation Of Soccer Players](soccer-analytics-index/merging-pose-and-contextual-data-to-estimate-orientation-of-soccer-players.md) | ICIP '20 |
+| Using Player’s Body-Orientation to Model Pass Feasibility in Soccer | CVPR '20 |
 
-RNNs: Recurrent Neural Network Based Language Model
+## To Read
 
-ImageNet Classification with Deep Convolutional Neural Networks.
-
-* [LeNet](http://yann.lecun.com/exdb/publis/pdf/lecun-98.pdf)
-* [AlexNet](https://papers.nips.cc/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf)
-* [VGG-16](https://arxiv.org/pdf/1409.1556.pdf)
-* [ResNet](https://arxiv.org/pdf/1512.03385.pdf)
+* [ ] [ResNet: Deep Residual Learning for Image Recognition](https://arxiv.org/pdf/1512.03385.pdf)
+* [ ] [VGG-16: Very Deep Convolutional Networks for Large-scale Image Recognition](https://arxiv.org/pdf/1409.1556.pdf)
+* [ ] [AlexNet: ImageNet Classification with Deep Convolutional Neural Networks](https://papers.nips.cc/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf)
+* [ ] [LeNet: Gradient-Based Learning Applied to Document Recognition](http://yann.lecun.com/exdb/publis/pdf/lecun-98.pdf)
+* [ ] [Using Player’s Body-Orientation to Model Pass Feasibility in Soccer](https://openaccess.thecvf.com/content_CVPRW_2020/papers/w53/Arbues-Sanguesa_Using_Players_Body-Orientation_to_Model_Pass_Feasibility_in_Soccer_CVPRW_2020_paper.pdf)
+* [ ] [RNNs: Recurrent Neural Network Based Language Model](https://www.fit.vutbr.cz/research/groups/speech/publi/2010/mikolov_interspeech2010_IS100722.pdf)
+* [ ] [LSTM: LSTM Neural Networks for Language Modeling](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.248.4448&rep=rep1&type=pdf)
 
 ## Deep Learning Specialization @ Coursera
 
-[https://github.com/mbadry1/DeepLearning.ai-Summary](https://github.com/mbadry1/DeepLearning.ai-Summary)
+{% embed url="https://github.com/mbadry1/DeepLearning.ai-Summary" %}
+
+{% embed url="https://www.slideshare.net/TessFerrandez/notes-from-coursera-deep-learning-courses-by-andrew-ng" caption="Graphical notes for the deep learning specialization" %}
+
+
 
