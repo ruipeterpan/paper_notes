@@ -28,6 +28,7 @@
 | [From WiscKey to Bourbon: A Learned Index for Log-Structured Merge Trees](from-wisckey-to-bourbon-a-learned-index-for-log-structured-merge-trees.md) | OSDI '20 |
 | [OptFS: Optimistic Crash Consistency](optfs-optimistic-crash-consistency.md) | SOSP '13 |
 | [NFS: Sun's Network File System](nfs-suns-network-file-system.md) | USENIX '86 |
+| [The Unwritten Contract of Solid State Drives](the-unwritten-contract-of-solid-state-drives.md) | EuroSys '17 |
 
 ### Process Synchronization and Scalability
 
@@ -63,7 +64,7 @@
 #### File and Storage Systems
 
 * [x] OptFS: Optimistic Crash Consistency
-* [ ] The Unwritten Contract of Solid State Drives
+* [x] The Unwritten Contract of Solid State Drives
 * [ ] Mnemosyne: Lightweight Persistent Memory
 * [ ] Level Hash: Write-Optimized and High-Performance Hashing Index Scheme for Persistent Memory
 

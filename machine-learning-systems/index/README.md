@@ -25,7 +25,7 @@
 
 | Title | Venue |
 | :--- | :--- |
-| [Analysis of Large-Scale Multi-Tenant GPU Clusters for DNN Training Workloads](analysis-of-large-scale-multi-tenant-gpu-clusters-for-dnn-training-workloads.md) | USENIX ATC '19 |
+| [Analysis of Large-Scale Multi-Tenant GPU Clusters for DNN Training Workloads](analysis-of-large-scale-multi-tenant-gpu-clusters-for-dnn-training-workloads.md) | ATC '19 |
 | [Themis: Fair and Efficient GPU Cluster Scheduling](themis-fair-and-efficient-gpu-cluster-scheduling.md) | NSDI '20 |
 | ByteScheduler: A Generic Communication Scheduler for Distributed DNN Training Acceleration | SOSP '19 |
 | Gandiva: Introspective Cluster Scheduling for Deep Learning | OSDI '18 |
@@ -42,8 +42,8 @@
 | Horovod: Fast and Easy Distributed Deep Learning in TensorFlow | arXiv '18 |
 | TensorFlow: A system for large-scale machine learning | OSDI '16 |
 | PyTorch: An Imperative Style, High-Performance Deep Learning Library | NeurIPS '19 |
-| Ray: A Distributed Framework for Emerging AI Applications |  |
-| Clipper: A Low-Latency Online Prediction Serving System |  |
+| Ray: A Distributed Framework for Emerging AI Applications | OSDI '18 |
+| Clipper: A Low-Latency Online Prediction Serving System | NSDI '17 |
 
 ### SQL Frameworks
 

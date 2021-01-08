@@ -49,6 +49,7 @@
   * [Scheduler Activations: Effective Kernel Support for the User-Level Management of Parallelism](operating-systems/index/scheduler-activations-effective-kernel-support-for-the-user-level-management-of-parallelism.md)
   * [SnapMirror: File-System-Based Asynchronous Mirroring for Disaster Recovery](operating-systems/index/snapmirror-file-system-based-asynchronous-mirroring-for-disaster-recovery.md)
   * [The Linux Scheduler: a Decade of Wasted Cores](operating-systems/index/the-linux-scheduler-a-decade-of-wasted-cores.md)
+  * [The Unwritten Contract of Solid State Drives](operating-systems/index/the-unwritten-contract-of-solid-state-drives.md)
   * [Venti: A New Approach to Archival Storage](operating-systems/index/venti-a-new-approach-to-archival-storage.md)
 * [Drafts](operating-systems/drafts/README.md)
   * [seL4: Formal Verification of an OS Kernel](operating-systems/drafts/sel4-formal-verification-of-an-os-kernel.md)
