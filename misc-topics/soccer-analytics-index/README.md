@@ -10,12 +10,12 @@ description: >-
 
 | Title | Venue |
 | :--- | :--- |
-| Decomposing the Immeasurable Sport: A deep learning expected possession value framework for soccer | MIT SSAC '19 |
 | Real Time Quantification of Dangerousity in Football Using Spatiotemporal Tracking Data | PLOS One '16 |
 | An examination of expected goals and shot efficiency in soccer | JHSE '17 |
-| Beyond Expected Goals | MIT SSAC '18 |
-| [Using Player’s Body-Orientation to Model Pass Feasibility in Soccer](using-players-body-orientation-to-model-pass-feasibility-in-soccer.md) | CVPR '20 |
 | [Soccer analytics: Unravelling the complexity of “the beautiful game”](soccer-analytics-unravelling-the-complexity-of-the-beautiful-game.md) | RSS '18 |
+| Beyond Expected Goals | MIT SSAC '18 |
+| Decomposing the Immeasurable Sport: A deep learning expected possession value framework for soccer | MIT SSAC '19 |
+| [Using Player’s Body-Orientation to Model Pass Feasibility in Soccer](using-players-body-orientation-to-model-pass-feasibility-in-soccer.md) | CVPR '20 |
 | [Always Look On The Bright Side Of The Field: Merging Pose And Contextual Data To Estimate Orientation Of Soccer Players](merging-pose-and-contextual-data-to-estimate-orientation-of-soccer-players.md) | ICIP '20 |
 
 ## To Read

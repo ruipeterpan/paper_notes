@@ -5,9 +5,11 @@
 * Reading lists
   * [CS 294 @ Berkeley: Machine Learning Systems](https://ucbrise.github.io/cs294-ai-sys-fa19/)
   * [CS 744 @ UW-Madison: Big Data Systems](http://pages.cs.wisc.edu/~shivaram/cs744-fa20/)
-* Meta papers
-  * [A Berkeley View of Systems Challenges for AI](https://thodrek.github.io/CS839_spring18/papers/EECS-2017-159.pdf)
-  * [MLSys: The New Frontier of Machine Learning Systems](https://arxiv.org/pdf/1904.03257.pdf)
+* Some other stuff
+  * Meta papers
+    * [A Berkeley View of Systems Challenges for AI](https://thodrek.github.io/CS839_spring18/papers/EECS-2017-159.pdf)
+    * [MLSys: The New Frontier of Machine Learning Systems](https://arxiv.org/pdf/1904.03257.pdf)
+  * [Systems Benchmarking Crimes](https://www.cse.unsw.edu.au/~gernot/benchmarking-crimes.html)
 
 ## Table of Contents
 
@@ -15,35 +17,35 @@
 
 | Title | Venue |
 | :--- | :--- |
-| MapReduce: Simplified Data Processing on Large Clusters | OSDI '04 |
-| The Hadoop Distributed File System |  |
-| The Google File System | SOSP '03 |
 | [NFS: Sun's Network File System](../../operating-systems/index/nfs-suns-network-file-system.md) | USENIX '86 |
-| Spark: Cluster Computing with Working Sets |  |
+| The Google File System | SOSP '03 |
+| MapReduce: Simplified Data Processing on Large Clusters | OSDI '04 |
+| The Hadoop Distributed File System | ??? '07 |
+| Spark: Cluster Computing with Working Sets | HotCloud '10 |
 
 ### Scheduling
 
 | Title | Venue |
 | :--- | :--- |
-| [Analysis of Large-Scale Multi-Tenant GPU Clusters for DNN Training Workloads](analysis-of-large-scale-multi-tenant-gpu-clusters-for-dnn-training-workloads.md) | ATC '19 |
-| [Themis: Fair and Efficient GPU Cluster Scheduling](themis-fair-and-efficient-gpu-cluster-scheduling.md) | NSDI '20 |
-| ByteScheduler: A Generic Communication Scheduler for Distributed DNN Training Acceleration | SOSP '19 |
-| Gandiva: Introspective Cluster Scheduling for Deep Learning | OSDI '18 |
-| Tiresias: A GPU Cluster Manager for Distributed Deep Learning | NSDI '19 |
 | The Power of Choice in Data-aware Cluster Scheduling | OSDI '14 |
+| Gandiva: Introspective Cluster Scheduling for Deep Learning | OSDI '18 |
+| [Analysis of Large-Scale Multi-Tenant GPU Clusters for DNN Training Workloads](analysis-of-large-scale-multi-tenant-gpu-clusters-for-dnn-training-workloads.md) | ATC '19 |
+| [Tiresias: A GPU Cluster Manager for Distributed Deep Learning](tiresias-a-gpu-cluster-manager-for-distributed-deep-learning.md) | NSDI '19 |
+| [Themis: Fair and Efficient GPU Cluster Scheduling](themis-fair-and-efficient-gpu-cluster-scheduling.md) | NSDI '20 |
 
 ### Machine Learning
 
 | Title | Venue |
 | :--- | :--- |
 | [Scaling Distributed Machine Learning with the Parameter Server](scaling-distributed-machine-learning-with-the-parameter-server.md) | OSDI '14 |
+| TensorFlow: A system for large-scale machine learning | OSDI '16 |
+| Clipper: A Low-Latency Online Prediction Serving System | NSDI '17 |
+| Ray: A Distributed Framework for Emerging AI Applications | OSDI '18 |
+| Horovod: Fast and Easy Distributed Deep Learning in TensorFlow | arXiv '18 |
+| PyTorch: An Imperative Style, High-Performance Deep Learning Library | NeurIPS '19 |
+| ByteScheduler: A Generic Communication Scheduler for Distributed DNN Training Acceleration | SOSP '19 |
 | [BytePS: A High Performance and Generic Framework for Distributed DNN Training](byteps-a-high-performance-and-generic-framework-for-distributed-dnn-training.md) | OSDI '20 |
 | [PyTorch Distributed: Experiences on Accelerating Data Parallel Training](pytorch-distributed-experiences-on-accelerating-data-parallel-training.md) | VLDB '20 |
-| Horovod: Fast and Easy Distributed Deep Learning in TensorFlow | arXiv '18 |
-| TensorFlow: A system for large-scale machine learning | OSDI '16 |
-| PyTorch: An Imperative Style, High-Performance Deep Learning Library | NeurIPS '19 |
-| Ray: A Distributed Framework for Emerging AI Applications | OSDI '18 |
-| Clipper: A Low-Latency Online Prediction Serving System | NSDI '17 |
 
 ### SQL Frameworks
 
@@ -82,7 +84,7 @@
 * [ ] ByteScheduler: A Generic Communication Scheduler for Distributed DNN Training Acceleration
 * [ ] Gandiva: Introspective Cluster Scheduling for Deep Learning
 * [ ] Horovod: Fast and Easy Distributed Deep Learning in TensorFlow
-* [ ] Tiresias: A GPU Cluster Manager for Distributed Deep Learning
+* [x] Tiresias: A GPU Cluster Manager for Distributed Deep Learning
 * [ ] TensorFlow: A system for large-scale machine learning
 * [ ] In-Datacenter Performance Analysis of a Tensor Processing Unit
 * [ ] PipeDream: Generalized Pipeline Parallelism for DNN Training

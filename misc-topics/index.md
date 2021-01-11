@@ -2,7 +2,7 @@
 
 ## Topics
 
-{% page-ref page="machine-learning-index.md" %}
+{% page-ref page="machine-learning-index/" %}
 
 {% page-ref page="security-index.md" %}
 

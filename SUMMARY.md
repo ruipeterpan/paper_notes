@@ -21,6 +21,7 @@
   * [PyTorch Distributed: Experiences on Accelerating Data Parallel Training](machine-learning-systems/index/pytorch-distributed-experiences-on-accelerating-data-parallel-training.md)
   * [Scaling Distributed Machine Learning with the Parameter Server](machine-learning-systems/index/scaling-distributed-machine-learning-with-the-parameter-server.md)
   * [Themis: Fair and Efficient GPU Cluster Scheduling](machine-learning-systems/index/themis-fair-and-efficient-gpu-cluster-scheduling.md)
+  * [Tiresias: A GPU Cluster Manager for Distributed Deep Learning](machine-learning-systems/index/tiresias-a-gpu-cluster-manager-for-distributed-deep-learning.md)
 * [Drafts](machine-learning-systems/drafts.md)
 
 ## Operating Systems
@@ -52,12 +53,14 @@
   * [The Unwritten Contract of Solid State Drives](operating-systems/index/the-unwritten-contract-of-solid-state-drives.md)
   * [Venti: A New Approach to Archival Storage](operating-systems/index/venti-a-new-approach-to-archival-storage.md)
 * [Drafts](operating-systems/drafts/README.md)
+  * [Mnemosyne: Lightweight Persistent Memory](operating-systems/drafts/mnemosyne-lightweight-persistent-memory.md)
   * [seL4: Formal Verification of an OS Kernel](operating-systems/drafts/sel4-formal-verification-of-an-os-kernel.md)
 
 ## Misc Topics
 
 * [Misc Topics - Index](misc-topics/index.md)
-* [Machine Learning - Index](misc-topics/machine-learning-index.md)
+* [Machine Learning - Index](misc-topics/machine-learning-index/README.md)
+  * [Backpropagation Applied to Handwritten Zip Code Recognition](misc-topics/machine-learning-index/backpropagation-applied-to-handwritten-zip-code-recognition.md)
 * [Security - Index](misc-topics/security-index.md)
 * [Soccer Analytics - Index](misc-topics/soccer-analytics-index/README.md)
   * [Merging Pose And Contextual Data To Estimate Orientation Of Soccer Players](misc-topics/soccer-analytics-index/merging-pose-and-contextual-data-to-estimate-orientation-of-soccer-players.md)
