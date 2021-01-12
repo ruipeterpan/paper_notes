@@ -67,6 +67,7 @@
   * [Soccer analytics: Unravelling the complexity of “the beautiful game”](misc-topics/soccer-analytics-index/soccer-analytics-unravelling-the-complexity-of-the-beautiful-game.md)
   * [Using Player’s Body-Orientation to Model Pass Feasibility in Soccer](misc-topics/soccer-analytics-index/using-players-body-orientation-to-model-pass-feasibility-in-soccer.md)
 * [Drafts](misc-topics/drafts/README.md)
+  * [HOGWILD!: A Lock-Free Approach to Parallelizing Stochastic Gradient Descent](misc-topics/drafts/hogwild-a-lock-free-approach-to-parallelizing-stochastic-gradient-descent.md)
   * [Wide Open Spaces: A statistical technique for measuring space creation in professional soccer](misc-topics/drafts/wide-open-spaces-a-statistical-technique-for-measuring-space-creation-in-professional-soccer.md)
   * [Decomposing the Immeasurable Sport: A deep learning expected possession value framework for soccer](misc-topics/drafts/decomposing-the-immeasurable-sport-a-deep-learning-expected-possession-value-framework-for-soccer.md)
 

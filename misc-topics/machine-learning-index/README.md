@@ -6,6 +6,8 @@
 | :--- | :--- |
 | [Backpropagation Applied to Handwritten Zip Code Recognition](backpropagation-applied-to-handwritten-zip-code-recognition.md) | Neural Computation '89 |
 | ResNet: Deep Residual Learning for Image Recognition |  |
+| [HOGWILD!: A Lock-Free Approach to Parallelizing Stochastic Gradient Descent](../drafts/hogwild-a-lock-free-approach-to-parallelizing-stochastic-gradient-descent.md) | NeurIPS '11 |
+|  |  |
 | VGG-16: Very Deep Convolutional Networks for Large-scale Image Recognition | ICLR '2015 |
 | AlexNet: ImageNet Classification with Deep Convolutional Neural Networks |  |
 | LeNet: Gradient-Based Learning Applied to Document Recognition |  |
@@ -23,6 +25,7 @@
 * [ ] [Using Player’s Body-Orientation to Model Pass Feasibility in Soccer](https://openaccess.thecvf.com/content_CVPRW_2020/papers/w53/Arbues-Sanguesa_Using_Players_Body-Orientation_to_Model_Pass_Feasibility_in_Soccer_CVPRW_2020_paper.pdf)
 * [ ] [RNNs: Recurrent Neural Network Based Language Model](https://www.fit.vutbr.cz/research/groups/speech/publi/2010/mikolov_interspeech2010_IS100722.pdf)
 * [ ] [LSTM: LSTM Neural Networks for Language Modeling](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.248.4448&rep=rep1&type=pdf)
+* [ ] HOGWILD
 
 ## Deep Learning Specialization @ Coursera
 
