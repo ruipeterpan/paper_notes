@@ -47,6 +47,7 @@
 | [Resource Containers: A New Facility for Resource Management in Server Systems](resource-containers-a-new-facility-for-resource-management-in-server-systems.md) | OSDI '99 |
 | [The Linux Scheduler: A Decade of Wasted Cores](the-linux-scheduler-a-decade-of-wasted-cores.md) | EuroSys '16 |
 | [Monotasks: Architecting for Performance Clarity in Data Analytics Frameworks](monotasks-architecting-for-performance-clarity-in-data-analytics-frameworks.md) | SOSP '17 |
+| [Gandiva: Introspective Cluster Scheduling for Deep Learning](../../machine-learning-systems/drafts/gandiva-introspective-cluster-scheduling-for-deep-learning.md) | OSDI '18 |
 | [Tiresias: A GPU Cluster Manager for Distributed Deep Learning](../../machine-learning-systems/index/tiresias-a-gpu-cluster-manager-for-distributed-deep-learning.md) | NSDI '19 |
 | [Themis: Fair and Efficient GPU Cluster Scheduling](../../machine-learning-systems/index/themis-fair-and-efficient-gpu-cluster-scheduling.md) | NSDI '20 |
 

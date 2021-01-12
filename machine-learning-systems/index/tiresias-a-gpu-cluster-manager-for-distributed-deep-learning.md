@@ -122,7 +122,7 @@ The skew level of a model is a good predictor of whether a job benefits from con
 
 * [Apache Hadoop YARN](https://hadoop.apache.org/docs/current/hadoop-yarn/hadoop-yarn-site/YARN.html)
 * SRSF \(Shortest Remaining Service First\): The multiplication of a job's remaining time and the number of GPUs.
-* Preemption: The act of temporarily interrupting a task being executed \(w/o requiring its cooperation\) and with the intention of resuming the task later. Such changes are know as context switches.
+* Preemption: The act of temporarily interrupting a task being executed \(w/o requiring its cooperation\) and with the intention of resuming the task later. Such changes are known as context switches.
 * ILP formulation: The mathematical formulation of an optimization problem in which variables are restricted to integer values and the constraints and objective function are linear. Mixed integer linear programming \(MILP\) refers to optimization problems in which some of the variables are continuous.
 
 ## Links

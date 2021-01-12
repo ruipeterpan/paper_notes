@@ -22,7 +22,8 @@
   * [Scaling Distributed Machine Learning with the Parameter Server](machine-learning-systems/index/scaling-distributed-machine-learning-with-the-parameter-server.md)
   * [Themis: Fair and Efficient GPU Cluster Scheduling](machine-learning-systems/index/themis-fair-and-efficient-gpu-cluster-scheduling.md)
   * [Tiresias: A GPU Cluster Manager for Distributed Deep Learning](machine-learning-systems/index/tiresias-a-gpu-cluster-manager-for-distributed-deep-learning.md)
-* [Drafts](machine-learning-systems/drafts.md)
+* [Drafts](machine-learning-systems/drafts/README.md)
+  * [Gandiva: Introspective Cluster Scheduling for Deep Learning](machine-learning-systems/drafts/gandiva-introspective-cluster-scheduling-for-deep-learning.md)
 
 ## Operating Systems
 

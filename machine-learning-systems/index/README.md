@@ -28,7 +28,7 @@
 | Title | Venue |
 | :--- | :--- |
 | The Power of Choice in Data-aware Cluster Scheduling | OSDI '14 |
-| Gandiva: Introspective Cluster Scheduling for Deep Learning | OSDI '18 |
+| [Gandiva: Introspective Cluster Scheduling for Deep Learning](../drafts/gandiva-introspective-cluster-scheduling-for-deep-learning.md) | OSDI '18 |
 | [Analysis of Large-Scale Multi-Tenant GPU Clusters for DNN Training Workloads](analysis-of-large-scale-multi-tenant-gpu-clusters-for-dnn-training-workloads.md) | ATC '19 |
 | [Tiresias: A GPU Cluster Manager for Distributed Deep Learning](tiresias-a-gpu-cluster-manager-for-distributed-deep-learning.md) | NSDI '19 |
 | [Themis: Fair and Efficient GPU Cluster Scheduling](themis-fair-and-efficient-gpu-cluster-scheduling.md) | NSDI '20 |
@@ -51,19 +51,19 @@
 
 | Title | Venue |
 | :--- | :--- |
-| Spark SQL: Relational Data Processing in Spark |  |
+| Spark SQL: Relational Data Processing in Spark | SIGMOD '15 |
 
 ### Stream Processing
 
 | Title | Venue |
 | :--- | :--- |
-| The Dataflow Model: A Practical Approach to Balancing Correctness, Latency, and Cost in Massive-Scale, Unbounded, Out-of-Order Data Processing |  |
+| The Dataflow Model: A Practical Approach to Balancing Correctness, Latency, and Cost in Massive-Scale, Unbounded, Out-of-Order Data Processing | VLDB '15 |
 
 ### Graph Processing
 
 | Title | Venue |
 | :--- | :--- |
-| PowerGraph: Distributed Graph-Parallel Computation on Neural Graphs |  |
+| PowerGraph: Distributed Graph-Parallel Computation on Neural Graphs | OSDI '12 |
 
 ### New Data, Hardware Models
 
