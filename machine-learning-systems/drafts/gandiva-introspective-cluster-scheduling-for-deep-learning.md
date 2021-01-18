@@ -30,16 +30,33 @@
 
 ## Background & Motivation
 
+Today's DNN schedulers \(e.g., YARN, Kubernetes\) treat deep learning jobs naively \(as if they are traditional big-data jobs\): A job is scheduled on a set of GPUs exclusively, and the job holds the GPUs until completion. There are some problems:
+
+1. High Latency \(head-of-line blocking\): Long DNN jobs have runtimes of hours and days, so we need time-slicing of jobs. However, GPUs are not efficiently virtualizable.
+2. Low Efficiency \(fixed decision at the  job-placement time\): Need the ability to migrate jobs, and the sensitivity to locality varies across jobs.
+
+![Domain knowledge: Intra-job predictability. When suspending a job, as GPUs are not efficiently virtualizable, the state needs to be moved from GPU to CPU before suspension.](../../.gitbook/assets/screen-shot-2021-01-12-at-5.55.18-pm.png)
+
 ## Design and Implementation
+
+
+
+
 
 ## Evaluation
 
+
+
+
+
 ## New Vocabulary
 
-* 
+* Introspection \(反省\): The examination of one's own conscious thoughts and feelings.
+
 ## Links
 
 * [Paper PDF](https://www.usenix.org/system/files/osdi18-xiao.pdf)
 * [Presentation audio at OSDI '18](https://www.usenix.org/conference/osdi18/presentation/xiao)
 * [Presentation slides at OSDI '18](https://www.usenix.org/sites/default/files/conference/protected-files/osdi18_slides_sivathanu.pdf)
+* [Presentation video by Muthian Sivathanu, one of the authors and a UW-Madison alumni](https://www.youtube.com/watch?v=i4YOKOLsyFI&ab_channel=MicrosoftResearch)
 
