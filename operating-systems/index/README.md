@@ -6,6 +6,9 @@
   * [CS 736 @ UW-Madison: Advanced Operating Systems](cs-736-uw-madison-fall-2020-reading-list.md)
   * [CS 262a @ Berkeley: Advanced Topics in Computer Systems](https://ucbrise.github.io/cs262a-fall2020/)
   * [OSTEP \(Operating Systems: Three Easy Pieces\)](http://pages.cs.wisc.edu/~remzi/OSTEP/) is written by the brilliant Remzi & Andrea and each chapter is followed by a lovely reading list about the topic covered in the chapter.
+
+![Source: http://pages.cs.wisc.edu/~remzi/OSTEP/](../../.gitbook/assets/v2-522ded6304485cdac723f25d03c012dd_1200x500.jpg)
+
 * Some other stuff
   * [CS 262a @ Berkeley Fall 2020 class summary slides](https://ucbrise.github.io/cs262a-fall2020/notes/26-Class-Summary.pdf)
   * [Systems Benchmarking Crimes](https://www.cse.unsw.edu.au/~gernot/benchmarking-crimes.html)
@@ -47,7 +50,7 @@
 | [Resource Containers: A New Facility for Resource Management in Server Systems](resource-containers-a-new-facility-for-resource-management-in-server-systems.md) | OSDI '99 |
 | [The Linux Scheduler: A Decade of Wasted Cores](the-linux-scheduler-a-decade-of-wasted-cores.md) | EuroSys '16 |
 | [Monotasks: Architecting for Performance Clarity in Data Analytics Frameworks](monotasks-architecting-for-performance-clarity-in-data-analytics-frameworks.md) | SOSP '17 |
-| [Gandiva: Introspective Cluster Scheduling for Deep Learning](../../machine-learning-systems/drafts/gandiva-introspective-cluster-scheduling-for-deep-learning.md) | OSDI '18 |
+| [Gandiva: Introspective Cluster Scheduling for Deep Learning](../../machine-learning-systems/index/gandiva-introspective-cluster-scheduling-for-deep-learning.md) | OSDI '18 |
 | [Tiresias: A GPU Cluster Manager for Distributed Deep Learning](../../machine-learning-systems/index/tiresias-a-gpu-cluster-manager-for-distributed-deep-learning.md) | NSDI '19 |
 | [Themis: Fair and Efficient GPU Cluster Scheduling](../../machine-learning-systems/index/themis-fair-and-efficient-gpu-cluster-scheduling.md) | NSDI '20 |
 
