@@ -30,6 +30,7 @@
 | :--- | :--- |
 | The Power of Choice in Data-aware Cluster Scheduling | OSDI '14 |
 | [Gandiva: Introspective Cluster Scheduling for Deep Learning](gandiva-introspective-cluster-scheduling-for-deep-learning.md) | OSDI '18 |
+| Optimus: An Efficient Dynamic Resource Scheduler for Deep Learning Clusters | EuroSys '18 |
 | [Analysis of Large-Scale Multi-Tenant GPU Clusters for DNN Training Workloads](analysis-of-large-scale-multi-tenant-gpu-clusters-for-dnn-training-workloads.md) | ATC '19 |
 | [Tiresias: A GPU Cluster Manager for Distributed Deep Learning](tiresias-a-gpu-cluster-manager-for-distributed-deep-learning.md) | NSDI '19 |
 | [Themis: Fair and Efficient GPU Cluster Scheduling](themis-fair-and-efficient-gpu-cluster-scheduling.md) | NSDI '20 |
@@ -43,6 +44,7 @@
 | Clipper: A Low-Latency Online Prediction Serving System | NSDI '17 |
 | Ray: A Distributed Framework for Emerging AI Applications | OSDI '18 |
 | Horovod: Fast and Easy Distributed Deep Learning in TensorFlow | arXiv '18 |
+| Deep Gradient Compression: Reducing the Communication Bandwidth for Distributed Training | ICLR '18 |
 | PyTorch: An Imperative Style, High-Performance Deep Learning Library | NeurIPS '19 |
 | ByteScheduler: A Generic Communication Scheduler for Distributed DNN Training Acceleration | SOSP '19 |
 | [BytePS: A High Performance and Generic Framework for Distributed DNN Training](byteps-a-high-performance-and-generic-framework-for-distributed-dnn-training.md) | OSDI '20 |
@@ -84,6 +86,7 @@
 
 * [ ] ByteScheduler: A Generic Communication Scheduler for Distributed DNN Training Acceleration
 * [x] Gandiva: Introspective Cluster Scheduling for Deep Learning
+* [ ] Optimus: An Efficient Dynamic Resource Scheduler for Deep Learning Clusters
 * [ ] Horovod: Fast and Easy Distributed Deep Learning in TensorFlow
 * [x] Tiresias: A GPU Cluster Manager for Distributed Deep Learning
 * [ ] TensorFlow: A system for large-scale machine learning
@@ -93,8 +96,7 @@
 * [ ] Caffe: Convolutional Architecture for Fast Feature Embedding
 * [ ] PyTorch: An Imperative Style, High-Performance Deep Learning Library
 * [ ] The Hadoop Distributed File System
+* [ ] Deep Gradient Compression: Reducing the Communication Bandwidth for Distributed Training
 * [ ] The Power of Choice in Data-aware Cluster Scheduling
-* [ ] [Spark: Cluster Computing with Working Sets](https://www.usenix.org/legacy/event/hotcloud10/tech/full_papers/Zaharia.pdf)
-
-
+* [ ] [Spark: Cluster Computing with Working ](https://www.usenix.org/legacy/event/hotcloud10/tech/full_papers/Zaharia.pdf)Sets
 

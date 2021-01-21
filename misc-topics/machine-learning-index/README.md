@@ -13,6 +13,7 @@
 | LeNet: Gradient-Based Learning Applied to Document Recognition |  |
 | RNNs: Recurrent Neural Network Based Language Model |  |
 | LSTM: LSTM Neural Networks for Language Modeling |  |
+| Deep Gradient Compression: Reducing the Communication Bandwidth for Distributed Training | ICLR '18 |
 | [Always Look On The Bright Side Of The Field: Merging Pose And Contextual Data To Estimate Orientation Of Soccer Players](../soccer-analytics-index/merging-pose-and-contextual-data-to-estimate-orientation-of-soccer-players.md) | ICIP '20 |
 | [Using Player’s Body-Orientation to Model Pass Feasibility in Soccer](../soccer-analytics-index/using-players-body-orientation-to-model-pass-feasibility-in-soccer.md) | CVPR '20 |
 
