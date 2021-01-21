@@ -5,6 +5,7 @@
 * Reading lists
   * [CS 294 @ Berkeley: Machine Learning Systems](https://ucbrise.github.io/cs294-ai-sys-fa19/)
   * [CS 744 @ UW-Madison: Big Data Systems](http://pages.cs.wisc.edu/~shivaram/cs744-fa20/)
+  * [Awesome-System-for-Machine-Learning](https://github.com/HuaizhengZhang/Awesome-System-for-Machine-Learning): An open-sourced reading list
   * [CSE 559W @ U Washington Slides](http://dlsys.cs.washington.edu/schedule)
 * Some other stuff
   * Meta papers
@@ -39,6 +40,7 @@
 
 | Title | Venue |
 | :--- | :--- |
+| Large Scale Distributed Deep Networks | NeurIPS '12 |
 | [Scaling Distributed Machine Learning with the Parameter Server](scaling-distributed-machine-learning-with-the-parameter-server.md) | OSDI '14 |
 | TensorFlow: A system for large-scale machine learning | OSDI '16 |
 | Clipper: A Low-Latency Online Prediction Serving System | NSDI '17 |
@@ -86,8 +88,8 @@
 
 * [ ] ByteScheduler: A Generic Communication Scheduler for Distributed DNN Training Acceleration
 * [x] Gandiva: Introspective Cluster Scheduling for Deep Learning
-* [ ] Optimus: An Efficient Dynamic Resource Scheduler for Deep Learning Clusters
 * [ ] Horovod: Fast and Easy Distributed Deep Learning in TensorFlow
+* [ ] Optimus: An Efficient Dynamic Resource Scheduler for Deep Learning Clusters
 * [x] Tiresias: A GPU Cluster Manager for Distributed Deep Learning
 * [ ] TensorFlow: A system for large-scale machine learning
 * [ ] In-Datacenter Performance Analysis of a Tensor Processing Unit
@@ -96,7 +98,9 @@
 * [ ] Caffe: Convolutional Architecture for Fast Feature Embedding
 * [ ] PyTorch: An Imperative Style, High-Performance Deep Learning Library
 * [ ] The Hadoop Distributed File System
-* [ ] Deep Gradient Compression: Reducing the Communication Bandwidth for Distributed Training
 * [ ] The Power of Choice in Data-aware Cluster Scheduling
-* [ ] [Spark: Cluster Computing with Working ](https://www.usenix.org/legacy/event/hotcloud10/tech/full_papers/Zaharia.pdf)Sets
+* [ ] [Spark: Cluster Computing with Working Sets](https://www.usenix.org/legacy/event/hotcloud10/tech/full_papers/Zaharia.pdf)
+* [ ] L[arge Scale Distributed Deep Networks](https://proceedings.neurips.cc/paper/2012/file/6aca97005c68f1206823815f66102863-Paper.pdf)
+* [ ] Ray: A Distributed Framework for Emerging AI Applications
+* [ ] [Salus: Fine-Grained GPU Sharing Primitives for Deep Learning Applications](http://web.eecs.umich.edu/~mosharaf/Readings/Salus.pdf)
 
