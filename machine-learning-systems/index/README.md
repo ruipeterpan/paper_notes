@@ -35,6 +35,7 @@
 | [Analysis of Large-Scale Multi-Tenant GPU Clusters for DNN Training Workloads](analysis-of-large-scale-multi-tenant-gpu-clusters-for-dnn-training-workloads.md) | ATC '19 |
 | [Tiresias: A GPU Cluster Manager for Distributed Deep Learning](tiresias-a-gpu-cluster-manager-for-distributed-deep-learning.md) | NSDI '19 |
 | [Themis: Fair and Efficient GPU Cluster Scheduling](themis-fair-and-efficient-gpu-cluster-scheduling.md) | NSDI '20 |
+| [Salus: Fine-Grained GPU Sharing Primitives for Deep Learning Applications](salus-fine-grained-gpu-sharing-primitives-for-deep-learning-applications.md) | MLSys '20 |
 
 ### Machine Learning
 

@@ -1,4 +1,4 @@
-# Rui's Paper Reading Notes - Introduction
+# Rui's Blog/Paper Reading Notes - Introduction
 
 ## Introduction
 

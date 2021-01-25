@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Rui's Paper Reading Notes - Introduction](README.md)
+* [Rui's Blog/Paper Reading Notes - Introduction](README.md)
 * [Vocabulary List](vocabulary-list.md)
 * [Template](template.md)
 * [Random stuff](untitled.md)
@@ -20,9 +20,12 @@
   * [BytePS: A High Performance and Generic Framework for Distributed DNN Training](machine-learning-systems/index/byteps-a-high-performance-and-generic-framework-for-distributed-dnn-training.md)
   * [Gandiva: Introspective Cluster Scheduling for Deep Learning](machine-learning-systems/index/gandiva-introspective-cluster-scheduling-for-deep-learning.md)
   * [PyTorch Distributed: Experiences on Accelerating Data Parallel Training](machine-learning-systems/index/pytorch-distributed-experiences-on-accelerating-data-parallel-training.md)
+  * [Salus: Fine-Grained GPU Sharing Primitives for Deep Learning Applications](machine-learning-systems/index/salus-fine-grained-gpu-sharing-primitives-for-deep-learning-applications.md)
   * [Scaling Distributed Machine Learning with the Parameter Server](machine-learning-systems/index/scaling-distributed-machine-learning-with-the-parameter-server.md)
   * [Themis: Fair and Efficient GPU Cluster Scheduling](machine-learning-systems/index/themis-fair-and-efficient-gpu-cluster-scheduling.md)
   * [Tiresias: A GPU Cluster Manager for Distributed Deep Learning](machine-learning-systems/index/tiresias-a-gpu-cluster-manager-for-distributed-deep-learning.md)
+* [CS759 \(HPC\) Course Notes](machine-learning-systems/cs759-hpc-course-notes/README.md)
+  * [Lecture 2: From Code to Instructions. The FDX Cycle. Instruction Level Parallelism.](machine-learning-systems/cs759-hpc-course-notes/lecture-2-from-code-to-instructions.-the-fdx-cycle.-instruction-level-parallelism..md)
 * [Drafts](machine-learning-systems/drafts.md)
 
 ## Operating Systems
