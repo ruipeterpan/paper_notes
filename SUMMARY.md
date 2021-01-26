@@ -24,7 +24,8 @@
   * [Scaling Distributed Machine Learning with the Parameter Server](machine-learning-systems/index/scaling-distributed-machine-learning-with-the-parameter-server.md)
   * [Themis: Fair and Efficient GPU Cluster Scheduling](machine-learning-systems/index/themis-fair-and-efficient-gpu-cluster-scheduling.md)
   * [Tiresias: A GPU Cluster Manager for Distributed Deep Learning](machine-learning-systems/index/tiresias-a-gpu-cluster-manager-for-distributed-deep-learning.md)
-* [CS759 \(HPC\) Course Notes](machine-learning-systems/cs759-hpc-course-notes/README.md)
+* [High Performance Computing Course Notes](machine-learning-systems/cs759-hpc-course-notes/README.md)
+  * [Lecture 1: Course Overview](machine-learning-systems/cs759-hpc-course-notes/lecture-1-course-overview.md)
   * [Lecture 2: From Code to Instructions. The FDX Cycle. Instruction Level Parallelism.](machine-learning-systems/cs759-hpc-course-notes/lecture-2-from-code-to-instructions.-the-fdx-cycle.-instruction-level-parallelism..md)
 * [Drafts](machine-learning-systems/drafts.md)
 
@@ -71,6 +72,7 @@
   * [Soccer analytics: Unravelling the complexity of “the beautiful game”](misc-topics/soccer-analytics-index/soccer-analytics-unravelling-the-complexity-of-the-beautiful-game.md)
   * [Using Player’s Body-Orientation to Model Pass Feasibility in Soccer](misc-topics/soccer-analytics-index/using-players-body-orientation-to-model-pass-feasibility-in-soccer.md)
 * [Drafts](misc-topics/drafts/README.md)
+  * [Winnowing: Local Algorithms for Document Fingerprinting](misc-topics/drafts/winnowing-local-algorithms-for-document-fingerprinting.md)
   * [HOGWILD!: A Lock-Free Approach to Parallelizing Stochastic Gradient Descent](misc-topics/drafts/hogwild-a-lock-free-approach-to-parallelizing-stochastic-gradient-descent.md)
   * [Wide Open Spaces: A statistical technique for measuring space creation in professional soccer](misc-topics/drafts/wide-open-spaces-a-statistical-technique-for-measuring-space-creation-in-professional-soccer.md)
   * [Decomposing the Immeasurable Sport: A deep learning expected possession value framework for soccer](misc-topics/drafts/decomposing-the-immeasurable-sport-a-deep-learning-expected-possession-value-framework-for-soccer.md)

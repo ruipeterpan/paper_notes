@@ -8,5 +8,9 @@
 
 {% page-ref page="soccer-analytics-index/" %}
 
+## Miscellaneous Papers
 
+| Title | Venue |
+| :--- | :--- |
+| [Winnowing: Local Algorithms for Document Fingerprinting](drafts/winnowing-local-algorithms-for-document-fingerprinting.md) | SIGMOD '03 |
 
