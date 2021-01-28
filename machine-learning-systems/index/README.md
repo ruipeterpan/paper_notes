@@ -6,12 +6,12 @@
   * [CS 294 @ Berkeley: Machine Learning Systems](https://ucbrise.github.io/cs294-ai-sys-fa19/)
   * [CS 744 @ UW-Madison: Big Data Systems](http://pages.cs.wisc.edu/~shivaram/cs744-fa20/)
   * [Awesome-System-for-Machine-Learning](https://github.com/HuaizhengZhang/Awesome-System-for-Machine-Learning): An open-sourced reading list
-  * [CSE 559W @ U Washington Slides](http://dlsys.cs.washington.edu/schedule)
 * Some other stuff
   * Meta papers
     * [A Berkeley View of Systems Challenges for AI](https://thodrek.github.io/CS839_spring18/papers/EECS-2017-159.pdf)
     * [MLSys: The New Frontier of Machine Learning Systems](https://arxiv.org/pdf/1904.03257.pdf)
   * [Systems Benchmarking Crimes](https://www.cse.unsw.edu.au/~gernot/benchmarking-crimes.html)
+  * [CSE 559W @ U Washington Slides](http://dlsys.cs.washington.edu/schedule): Not a paper reading class, more of an end-to-end comprehensive introduction of foundations of DL Systems
 
 ## Table of Contents
 

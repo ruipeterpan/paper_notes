@@ -52,6 +52,8 @@ bash: nvcc: command not found
 
 Slurm is used on Euler for job management and scheduling.
 
+Slurm usage \(SBATCH flags documentation\) can be found [here](https://slurm.schedmd.com/sbatch.html).
+
 {% code title="Example of a Slurm-specific batch script" %}
 ```bash
 #!/usr/bin/env bash                     # intepret file as bash script

@@ -120,8 +120,6 @@ From Figure 19, we can observe:
 2. Increasing f gives us fewer scheduling choices, so it decreases GPU performance
 3. Short lease -&gt; switch more rapidly between different jobs -&gt; fairer
 
-
-
 ## New Vocabulary
 
 * Hyperparameters: Data that govern the training process itself. Hyperparameters are set before the learning process begins. For example, the number of hidden layers, the number of nodes each layer should use, etc. 

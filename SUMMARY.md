@@ -27,6 +27,7 @@
 * [High Performance Computing Course Notes](machine-learning-systems/cs759-hpc-course-notes/README.md)
   * [Lecture 1: Course Overview](machine-learning-systems/cs759-hpc-course-notes/lecture-1-course-overview.md)
   * [Lecture 2: From Code to Instructions. The FDX Cycle. Instruction Level Parallelism.](machine-learning-systems/cs759-hpc-course-notes/lecture-2-from-code-to-instructions.-the-fdx-cycle.-instruction-level-parallelism..md)
+  * [Lecture 3: Superscalar architectures. Measuring Computer Performance. Memory Aspects.](machine-learning-systems/cs759-hpc-course-notes/lecture-3-superscalar-architectures.-measuring-computer-performance.-memory-aspects..md)
 * [Drafts](machine-learning-systems/drafts.md)
 
 ## Operating Systems

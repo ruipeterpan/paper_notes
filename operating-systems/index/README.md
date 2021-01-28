@@ -35,7 +35,7 @@
 | [The Unwritten Contract of Solid State Drives](the-unwritten-contract-of-solid-state-drives.md) | EuroSys '17 |
 | [From WiscKey to Bourbon: A Learned Index for Log-Structured Merge Trees](from-wisckey-to-bourbon-a-learned-index-for-log-structured-merge-trees.md) | OSDI '20 |
 
-### Process Synchronization and Scalability
+### Process Synchronization and Scalability \( 🥵 \)
 
 | Title | Venue |
 | :--- | :--- |
