@@ -6,6 +6,9 @@
   * [CS 736 @ UW-Madison: Advanced Operating Systems](cs-736-uw-madison-fall-2020-reading-list.md)
   * [CS 262a @ Berkeley: Advanced Topics in Computer Systems](https://ucbrise.github.io/cs262a-fall2020/)
   * [OSTEP \(Operating Systems: Three Easy Pieces\)](http://pages.cs.wisc.edu/~remzi/OSTEP/) is written by the brilliant Remzi & Andrea and each chapter is followed by a lovely reading list about the topic covered in the chapter.
+  * Some reading notes by individuals:
+    * [Zeyuan Hu's paper reading notes](https://zhu45.org/), with a focus on database systems
+    * [An open-source reading notes in CN](https://github.com/dyweb/papers-notebook), with a focus on virtualization and distributed systems
 
 ![Source: http://pages.cs.wisc.edu/~remzi/OSTEP/](../../.gitbook/assets/v2-522ded6304485cdac723f25d03c012dd_1200x500.jpg)
 

@@ -9,6 +9,7 @@ description: >-
 ## Acknowledgments
 
 * All slides/files linked are accessible on Box using a UW-Madison account
+* Almost every figure and piece of code in these notes is excerpted from Prof. Dan Negrut's course slides
 * [Slides from ME459 \(Computing Concepts for Applications in Engineering\)](https://uwmadison.app.box.com/s/943jyv29y4u145uajfedgxamhn4ru9qx)
 
 ## Table of Contents
@@ -18,7 +19,7 @@ description: >-
 | 1/25 | [Course Overview](lecture-1-course-overview.md) | [Basic Linux Command Line Usage](https://www.lynda.com/Linux-tutorials/Learning-Linux-Command-Line/753913-2.html); Slurm usage \(ME459 p95-97\) |
 | 1/27 | [From Code to Instructions. The FDX Cycle. Instruction Level Parallelism.](lecture-2-from-code-to-instructions.-the-fdx-cycle.-instruction-level-parallelism..md) | C recap \(ME459 p114-\); [Euler usage](https://uwmadison.app.box.com/s/eu45vz9uc1a913i831b1saiu554ueb4z) |
 | 1/29 | [Superscalar architectures. Measuring Computer Performance. Memory Aspects.](lecture-3-superscalar-architectures.-measuring-computer-performance.-memory-aspects..md) | gdb recap \(ME459 p649-\); Ch.5 of the [C book](https://www.amazon.com/Programming-Language-2nd-Brian-Kernighan/dp/0131103628) |
-| 2/1 | The memory hierarchy. Caches. |  |
+| 2/1 | [The memory hierarchy. Caches.](lecture-4-the-memory-hierarchy.-caches..md) | Build mgmt & cmake \(ME459 p354-\) |
 | 2/3 | Caches, wrap up. Virtual Memory. |  |
 | 2/5 | The Walls to Sequential Computing. Moore’s Law. |  |
 | 2/8 | Parallel Computing. Flynn’s Taxonomy. Amdahl’s Law. |  |

@@ -2,7 +2,7 @@
 
 * [Rui's Blog/Paper Reading Notes - Introduction](README.md)
 * [Vocabulary List](vocabulary-list.md)
-* [Template](template.md)
+* [Template for Paper Reviews](template.md)
 * [Random stuff](untitled.md)
 
 ## Blog
@@ -28,6 +28,7 @@
   * [Lecture 1: Course Overview](machine-learning-systems/cs759-hpc-course-notes/lecture-1-course-overview.md)
   * [Lecture 2: From Code to Instructions. The FDX Cycle. Instruction Level Parallelism.](machine-learning-systems/cs759-hpc-course-notes/lecture-2-from-code-to-instructions.-the-fdx-cycle.-instruction-level-parallelism..md)
   * [Lecture 3: Superscalar architectures. Measuring Computer Performance. Memory Aspects.](machine-learning-systems/cs759-hpc-course-notes/lecture-3-superscalar-architectures.-measuring-computer-performance.-memory-aspects..md)
+  * [Lecture 4: The memory hierarchy. Caches.](machine-learning-systems/cs759-hpc-course-notes/lecture-4-the-memory-hierarchy.-caches..md)
 * [Drafts](machine-learning-systems/drafts.md)
 
 ## Operating Systems
@@ -67,7 +68,6 @@
 * [Misc Topics - Index](misc-topics/index.md)
 * [Machine Learning - Index](misc-topics/machine-learning-index/README.md)
   * [Backpropagation Applied to Handwritten Zip Code Recognition](misc-topics/machine-learning-index/backpropagation-applied-to-handwritten-zip-code-recognition.md)
-* [Security - Index](misc-topics/security-index.md)
 * [Soccer Analytics - Index](misc-topics/soccer-analytics-index/README.md)
   * [Merging Pose And Contextual Data To Estimate Orientation Of Soccer Players](misc-topics/soccer-analytics-index/merging-pose-and-contextual-data-to-estimate-orientation-of-soccer-players.md)
   * [Soccer analytics: Unravelling the complexity of “the beautiful game”](misc-topics/soccer-analytics-index/soccer-analytics-unravelling-the-complexity-of-the-beautiful-game.md)

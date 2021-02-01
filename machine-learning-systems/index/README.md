@@ -5,7 +5,10 @@
 * Reading lists
   * [CS 294 @ Berkeley: Machine Learning Systems](https://ucbrise.github.io/cs294-ai-sys-fa19/)
   * [CS 744 @ UW-Madison: Big Data Systems](http://pages.cs.wisc.edu/~shivaram/cs744-fa20/)
+  * [CS 6787 @ Cornell: Advanced Machine Learning Systems](https://www.cs.cornell.edu/courses/cs6787/2020fa/), with a focus on the ML side
   * [Awesome-System-for-Machine-Learning](https://github.com/HuaizhengZhang/Awesome-System-for-Machine-Learning): An open-sourced reading list
+  * [The MLSys conference](https://mlsys.org/)
+  * [SOSP AI Systems workshop](http://learningsys.org/sosp19/acceptedpapers.html)
 * Some other stuff
   * Meta papers
     * [A Berkeley View of Systems Challenges for AI](https://thodrek.github.io/CS839_spring18/papers/EECS-2017-159.pdf)
@@ -104,4 +107,5 @@
 * [ ] L[arge Scale Distributed Deep Networks](https://proceedings.neurips.cc/paper/2012/file/6aca97005c68f1206823815f66102863-Paper.pdf)
 * [ ] Ray: A Distributed Framework for Emerging AI Applications
 * [x] [Salus: Fine-Grained GPU Sharing Primitives for Deep Learning Applications](http://web.eecs.umich.edu/~mosharaf/Readings/Salus.pdf)
+* [ ] [On the importance of initialization and momentum in deep learning \(ICML '13\)](http://www.cs.toronto.edu/~hinton/absps/momentum.pdf)
 

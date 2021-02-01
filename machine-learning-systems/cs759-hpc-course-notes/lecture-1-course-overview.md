@@ -2,7 +2,7 @@
 
 ## Course Description
 
-This course seeks to: 
+This grad-level course seeks to: 
 
 1. Provide an overview of various advanced computing software and hardware solutions
 2. Introduce **CUDA** for parallel computing on the Graphics Processing Unit \(GPU\)

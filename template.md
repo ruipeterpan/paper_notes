@@ -1,8 +1,8 @@
-# Template
+# Template for Paper Reviews
 
 ## One-line Summary
 
-> If you understand this, you get the basic idea. But as with all complicated systems, the devil is in the details.
+> If you understand this, you get the basic idea. But as with all complicated systems, the devil is in the details.  -- Remzi & Andrea, OSTEP
 
 ## Paper Structure Outline
 
@@ -20,6 +20,6 @@
 
 * Paper PDF
 * Presentation video at xxx
-* Presentation slides
-* * xxx on GitHub
-* 
+* Presentation slides at xxx
+* xxx on GitHub
+
