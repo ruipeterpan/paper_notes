@@ -27,6 +27,8 @@
 * [ ] [RNNs: Recurrent Neural Network Based Language Model](https://www.fit.vutbr.cz/research/groups/speech/publi/2010/mikolov_interspeech2010_IS100722.pdf)
 * [ ] [LSTM: LSTM Neural Networks for Language Modeling](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.248.4448&rep=rep1&type=pdf)
 * [ ] HOGWILD
+* [ ] [https://pytorch.org/docs/stable/torchvision/models.html](https://pytorch.org/docs/stable/torchvision/models.html)
+* [ ] O[ne weird trick for parallelizing convolutional neural networks \(AlexNet\)](https://arxiv.org/pdf/1404.5997.pdf)
 
 ## Deep Learning Specialization @ Coursera
 

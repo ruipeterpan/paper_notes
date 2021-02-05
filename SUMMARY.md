@@ -29,7 +29,10 @@
   * [Lecture 2: From Code to Instructions. The FDX Cycle. Instruction Level Parallelism.](machine-learning-systems/cs759-hpc-course-notes/lecture-2-from-code-to-instructions.-the-fdx-cycle.-instruction-level-parallelism..md)
   * [Lecture 3: Superscalar architectures. Measuring Computer Performance. Memory Aspects.](machine-learning-systems/cs759-hpc-course-notes/lecture-3-superscalar-architectures.-measuring-computer-performance.-memory-aspects..md)
   * [Lecture 4: The memory hierarchy. Caches.](machine-learning-systems/cs759-hpc-course-notes/lecture-4-the-memory-hierarchy.-caches..md)
-* [Drafts](machine-learning-systems/drafts.md)
+  * [Lecture 5: Caches, wrap up. Virtual Memory.](machine-learning-systems/cs759-hpc-course-notes/lecture-5-caches-wrap-up.-virtual-memory..md)
+  * [Lecture 6: The Walls to Sequential Computing. Moore’s Law.](machine-learning-systems/cs759-hpc-course-notes/lecture-6-the-walls-to-sequential-computing.-moores-law..md)
+* [Drafts](machine-learning-systems/drafts/README.md)
+  * [HiveD: Sharing a GPU Cluster for Deep Learning with Guarantees](machine-learning-systems/drafts/hived-sharing-a-gpu-cluster-for-deep-learning-with-guarantees.md)
 
 ## Operating Systems
 

@@ -109,6 +109,9 @@
 * [x] [Salus: Fine-Grained GPU Sharing Primitives for Deep Learning Applications](http://web.eecs.umich.edu/~mosharaf/Readings/Salus.pdf)
 * [ ] [On the importance of initialization and momentum in deep learning \(ICML '13\)](http://www.cs.toronto.edu/~hinton/absps/momentum.pdf)
 * [ ] Serving DNNs like Clockwork: Performance Predictability from the Bottom Up
+* [ ] HiveD: Sharing a GPU Cluster for Deep Learning with Guarantees
+* [ ] antman: dynamic scaling on gpu clusters for deep learning
+* [ ] **PipeSwitch: Fast Pipelined Context Switching for Deep Learning Applications**
 
 
 

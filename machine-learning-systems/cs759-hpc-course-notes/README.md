@@ -20,7 +20,7 @@ description: >-
 | 1/27 | [From Code to Instructions. The FDX Cycle. Instruction Level Parallelism.](lecture-2-from-code-to-instructions.-the-fdx-cycle.-instruction-level-parallelism..md) | C recap \(ME459 p114-\); [Euler usage](https://uwmadison.app.box.com/s/eu45vz9uc1a913i831b1saiu554ueb4z) |
 | 1/29 | [Superscalar architectures. Measuring Computer Performance. Memory Aspects.](lecture-3-superscalar-architectures.-measuring-computer-performance.-memory-aspects..md) | gdb recap \(ME459 p649-\); Ch.5 of the [C book](https://www.amazon.com/Programming-Language-2nd-Brian-Kernighan/dp/0131103628) |
 | 2/1 | [The memory hierarchy. Caches.](lecture-4-the-memory-hierarchy.-caches..md) | Build mgmt & cmake \(ME459 p354-\) |
-| 2/3 | Caches, wrap up. Virtual Memory. |  |
+| 2/3 | [Caches, wrap up. Virtual Memory.](lecture-5-caches-wrap-up.-virtual-memory..md) | Git \(ME459 p449-\); [How to Write a Git Commit](https://chris.beams.io/posts/git-commit/) |
 | 2/5 | The Walls to Sequential Computing. Moore’s Law. |  |
 | 2/8 | Parallel Computing. Flynn’s Taxonomy. Amdahl’s Law. |  |
 | 2/10 | GPU Computing Intro. The CUDA Programming Model. CUDA Execution Configuration |  |

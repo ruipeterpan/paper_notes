@@ -63,25 +63,3 @@ return sum;
 
 Take-home message: Well-written programs leverage data/instruction locality \(which brings cache into the play\) for better performance
 
-### Caches
-
-Types of cache misses, ranged by the amount of delay caused:
-
-* Cache read miss from instruction cache
-* Cache read miss from data cache
-* Cache write miss to data cache
-
-Reasons for cache misses:
-
-* Cold \(compulsory\) miss: Cache is empty
-* Capacity miss: Not enough space
-* Conflict miss: Enough space, a lot of conflicts \(and thus replacements\)
-
-Common placement policies are:
-
-* Fully associative
-* K-way associative
-* Direct mapped
-
-[Here are some comic illustrations for understanding cache basics, cache misses, and cache associativity. Source: CS Illustrated from Berkeley.](http://csillustrated.berkeley.edu/illustrations.php)
-
