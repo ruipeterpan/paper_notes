@@ -9,7 +9,7 @@ description: >-
 ## Acknowledgments
 
 * All slides/files linked are accessible on Box using a UW-Madison account
-* Almost every figure and piece of code in these notes is excerpted from Prof. Dan Negrut's course slides
+* Almost every figure and piece of code in these notes is excerpted from Prof. Dan Negrut's course slides. Some of the slides are taken from other places by Prof. Negrut--he cited those in his slides.
 * [Slides from ME459 \(Computing Concepts for Applications in Engineering\)](https://uwmadison.app.box.com/s/943jyv29y4u145uajfedgxamhn4ru9qx)
 
 ## Table of Contents
@@ -21,8 +21,8 @@ description: >-
 | 1/29 | [Superscalar architectures. Measuring Computer Performance. Memory Aspects.](lecture-3-superscalar-architectures.-measuring-computer-performance.-memory-aspects..md) | gdb recap \(ME459 p649-\); Ch.5 of the [C book](https://www.amazon.com/Programming-Language-2nd-Brian-Kernighan/dp/0131103628) |
 | 2/1 | [The memory hierarchy. Caches.](lecture-4-the-memory-hierarchy.-caches..md) | Build mgmt & cmake \(ME459 p354-\) |
 | 2/3 | [Caches, wrap up. Virtual Memory.](lecture-5-caches-wrap-up.-virtual-memory..md) | Git \(ME459 p449-\); [How to Write a Git Commit](https://chris.beams.io/posts/git-commit/) |
-| 2/5 | The Walls to Sequential Computing. Moore’s Law. |  |
-| 2/8 | Parallel Computing. Flynn’s Taxonomy. Amdahl’s Law. |  |
+| 2/5 | [The Walls to Sequential Computing. Moore’s Law.](lecture-6-the-walls-to-sequential-computing.-moores-law..md) |  |
+| 2/8 | [Parallel Computing. Flynn’s Taxonomy. Amdahl’s Law.](lecture-8-parallel-computing.-flynns-taxonomy.-amdahls-law..md) |  |
 | 2/10 | GPU Computing Intro. The CUDA Programming Model. CUDA Execution Configuration |  |
 | 2/12 | GPU Memory Spaces. |  |
 | 2/15 | GPU Scheduling Issues. |  |

@@ -55,6 +55,7 @@
 | ByteScheduler: A Generic Communication Scheduler for Distributed DNN Training Acceleration | SOSP '19 |
 | [BytePS: A High Performance and Generic Framework for Distributed DNN Training](byteps-a-high-performance-and-generic-framework-for-distributed-dnn-training.md) | OSDI '20 |
 | [PyTorch Distributed: Experiences on Accelerating Data Parallel Training](pytorch-distributed-experiences-on-accelerating-data-parallel-training.md) | VLDB '20 |
+| Accordion: Adaptive Gradient Communication via Critical Learning Regime Identification |  |
 
 ### SQL Frameworks
 
@@ -112,6 +113,7 @@
 * [ ] HiveD: Sharing a GPU Cluster for Deep Learning with Guarantees
 * [ ] antman: dynamic scaling on gpu clusters for deep learning
 * [ ] **PipeSwitch: Fast Pipelined Context Switching for Deep Learning Applications**
+* [ ] **accordion**
 
 
 

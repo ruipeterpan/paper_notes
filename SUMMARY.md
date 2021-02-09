@@ -8,6 +8,7 @@
 ## Blog
 
 * [Blog - Index](blog/blog-index/README.md)
+  * [Common Issues \(& Fixes\) when Playing with GPUs](blog/blog-index/common-issues-and-fixes-when-playing-with-gpus.md)
   * [How to Create Picture-in-Picture Effect / Video Overlay for a Presentation Video](blog/blog-index/how-to-create-picture-in-picture-effect-video-overlay-for-a-presentation-video.md)
   * [How to Get a Driver's License in Wisconsin](blog/blog-index/how-to-get-a-drivers-license-in-wisconsin.md)
   * [How to Transfer Credits Back to UW-Madison](blog/blog-index/how-to-transfer-credits-back-to-uw-madison.md)
@@ -31,8 +32,9 @@
   * [Lecture 4: The memory hierarchy. Caches.](machine-learning-systems/cs759-hpc-course-notes/lecture-4-the-memory-hierarchy.-caches..md)
   * [Lecture 5: Caches, wrap up. Virtual Memory.](machine-learning-systems/cs759-hpc-course-notes/lecture-5-caches-wrap-up.-virtual-memory..md)
   * [Lecture 6: The Walls to Sequential Computing. Moore’s Law.](machine-learning-systems/cs759-hpc-course-notes/lecture-6-the-walls-to-sequential-computing.-moores-law..md)
+  * [Lecture 7: Parallel Computing. Flynn’s Taxonomy. Amdahl’s Law.](machine-learning-systems/cs759-hpc-course-notes/lecture-8-parallel-computing.-flynns-taxonomy.-amdahls-law..md)
 * [Drafts](machine-learning-systems/drafts/README.md)
-  * [HiveD: Sharing a GPU Cluster for Deep Learning with Guarantees](machine-learning-systems/drafts/hived-sharing-a-gpu-cluster-for-deep-learning-with-guarantees.md)
+  * [Accordion: Adaptive Gradient Communication via Critical Learning Regime Identification](machine-learning-systems/drafts/accordion-adaptive-gradient-communication-via-critical-learning-regime-identification.md)
 
 ## Operating Systems
 
