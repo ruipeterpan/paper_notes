@@ -13,6 +13,7 @@
   * [How to Get a Driver's License in Wisconsin](blog/blog-index/how-to-get-a-drivers-license-in-wisconsin.md)
   * [How to Transfer Credits Back to UW-Madison](blog/blog-index/how-to-transfer-credits-back-to-uw-madison.md)
   * [How to Use Piazza](blog/blog-index/how-to-use-piazza.md)
+  * [Some blog posts to do a second read on](blog/blog-index/some-blog-posts-to-do-a-second-read-on.md)
 
 ## Machine Learning Systems
 
@@ -34,7 +35,8 @@
   * [Lecture 5: Caches, wrap up. Virtual Memory.](machine-learning-systems/cs759-hpc-course-notes/lecture-5-caches-wrap-up.-virtual-memory..md)
   * [Lecture 6: The Walls to Sequential Computing. Moore’s Law.](machine-learning-systems/cs759-hpc-course-notes/lecture-6-the-walls-to-sequential-computing.-moores-law..md)
   * [Lecture 7: Parallel Computing. Flynn’s Taxonomy. Amdahl’s Law.](machine-learning-systems/cs759-hpc-course-notes/lecture-8-parallel-computing.-flynns-taxonomy.-amdahls-law..md)
-* [Drafts](machine-learning-systems/drafts.md)
+* [Drafts](machine-learning-systems/drafts/README.md)
+  * [Gavel: Heterogeneity-Aware Cluster Scheduling Policies for Deep Learning Workloads](machine-learning-systems/drafts/gavel-heterogeneity-aware-cluster-scheduling-policies-for-deep-learning-workloads.md)
 
 ## Operating Systems
 
