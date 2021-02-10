@@ -35,6 +35,7 @@
   * [Lecture 5: Caches, wrap up. Virtual Memory.](machine-learning-systems/cs759-hpc-course-notes/lecture-5-caches-wrap-up.-virtual-memory..md)
   * [Lecture 6: The Walls to Sequential Computing. Moore’s Law.](machine-learning-systems/cs759-hpc-course-notes/lecture-6-the-walls-to-sequential-computing.-moores-law..md)
   * [Lecture 7: Parallel Computing. Flynn’s Taxonomy. Amdahl’s Law.](machine-learning-systems/cs759-hpc-course-notes/lecture-8-parallel-computing.-flynns-taxonomy.-amdahls-law..md)
+  * [Lecture 8: GPU Computing Intro. The CUDA Programming Model. CUDA Execution Configuration](machine-learning-systems/cs759-hpc-course-notes/lecture-8-gpu-computing-intro.-the-cuda-programming-model.-cuda-execution-configuration.md)
 * [Drafts](machine-learning-systems/drafts/README.md)
   * [Gavel: Heterogeneity-Aware Cluster Scheduling Policies for Deep Learning Workloads](machine-learning-systems/drafts/gavel-heterogeneity-aware-cluster-scheduling-policies-for-deep-learning-workloads.md)
 
