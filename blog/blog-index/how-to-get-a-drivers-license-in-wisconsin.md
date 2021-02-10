@@ -53,7 +53,7 @@ From my experience, I believe that a Zipcard cannot be delivered to some apartme
 
 The rate for on-campus Zipcars is $5.5/hr. It's really awesome for weekend road trips or grocery runs, especially if multiple people are on board!
 
-If you feel this tutorial helped you, please consider dropping me an email so that I can send you a referral link and we both get $25 of driving credits :\) When searching for an organization, choose the option`University of Wisconsin, Madison (UW) - Student Leaders` so you can drive without having to pay an annual fee. I think everyone gets approved, so kudos to whoever reviews these applications.
+If you feel this tutorial helped you, please consider dropping me an email \(or just try this referral [link](https://refer.zipcar.com/s/RuiPan)\) so that I can send you a referral link and we both get $25 of driving credits :\) When searching for an organization, choose the option`University of Wisconsin, Madison (UW) - Student Leaders` so you can drive without having to pay an annual fee. I think everyone gets approved, so kudos to whoever reviews these applications.
 
 Enjoy driving!
 
