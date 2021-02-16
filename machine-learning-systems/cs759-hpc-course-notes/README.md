@@ -23,9 +23,9 @@ description: >-
 | 2/3 | [Caches, wrap up. Virtual Memory.](lecture-5-caches-wrap-up.-virtual-memory..md) | Git \(ME459 p449-\); [How to Write a Git Commit](https://chris.beams.io/posts/git-commit/) |
 | 2/5 | [The Walls to Sequential Computing. Moore’s Law.](lecture-6-the-walls-to-sequential-computing.-moores-law..md) |  |
 | 2/8 | [Parallel Computing. Flynn’s Taxonomy. Amdahl’s Law.](lecture-8-parallel-computing.-flynns-taxonomy.-amdahls-law..md) |  |
-| 2/10 | GPU Computing Intro. The CUDA Programming Model. CUDA Execution Configuration |  |
+| 2/10 | [GPU Computing Intro. The CUDA Programming Model. CUDA Execution Configuration](lecture-8-gpu-computing-intro.-the-cuda-programming-model.-cuda-execution-configuration.md) |  |
 | 2/12 | GPU Memory Spaces. |  |
-| 2/15 | GPU Scheduling Issues. |  |
+| 2/15 | [GPU Scheduling Issues.](lecture-10-gpu-scheduling-issues..md) |  |
 | 2/17 | Execution Divergence. Control Flow in CUDA. Global Memory Access Patterns and Implications. |  |
 | 2/19 | CUDA Shared Memory Issues. Atomic operations in CUDA. |  |
 | 2/22 | Using the CUDA profiler. Example: 1D Stencil Operation. |  |

@@ -36,7 +36,10 @@
   * [Lecture 6: The Walls to Sequential Computing. Moore’s Law.](machine-learning-systems/cs759-hpc-course-notes/lecture-6-the-walls-to-sequential-computing.-moores-law..md)
   * [Lecture 7: Parallel Computing. Flynn’s Taxonomy. Amdahl’s Law.](machine-learning-systems/cs759-hpc-course-notes/lecture-8-parallel-computing.-flynns-taxonomy.-amdahls-law..md)
   * [Lecture 8: GPU Computing Intro. The CUDA Programming Model. CUDA Execution Configuration](machine-learning-systems/cs759-hpc-course-notes/lecture-8-gpu-computing-intro.-the-cuda-programming-model.-cuda-execution-configuration.md)
+  * [Lecture 9](machine-learning-systems/cs759-hpc-course-notes/lecture-9.md)
+  * [Lecture 10: GPU Scheduling Issues.](machine-learning-systems/cs759-hpc-course-notes/lecture-10-gpu-scheduling-issues..md)
 * [Drafts](machine-learning-systems/drafts/README.md)
+  * [PipeDream: Generalized Pipeline Parallelism for DNN Training](machine-learning-systems/drafts/pipedream-generalized-pipeline-parallelism-for-dnn-training.md)
   * [Gavel: Heterogeneity-Aware Cluster Scheduling Policies for Deep Learning Workloads](machine-learning-systems/drafts/gavel-heterogeneity-aware-cluster-scheduling-policies-for-deep-learning-workloads.md)
 
 ## Operating Systems
