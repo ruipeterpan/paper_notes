@@ -1,4 +1,4 @@
-# Lecture 9
+# Lecture 9: GPU Memory Spaces.
 
 ## Lecture Summary
 

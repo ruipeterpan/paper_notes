@@ -26,7 +26,7 @@ description: >-
 | 2/10 | [GPU Computing Intro. The CUDA Programming Model. CUDA Execution Configuration](lecture-8-gpu-computing-intro.-the-cuda-programming-model.-cuda-execution-configuration.md) |  |
 | 2/12 | GPU Memory Spaces. |  |
 | 2/15 | [GPU Scheduling Issues.](lecture-10-gpu-scheduling-issues..md) |  |
-| 2/17 | Execution Divergence. Control Flow in CUDA. Global Memory Access Patterns and Implications. |  |
+| 2/17 | [Execution Divergence. Control Flow in CUDA. Global Memory Access Patterns and Implications.](lecture-11-execution-divergence.-control-flow-in-cuda.-global-memory-access-patterns-and.md) |  |
 | 2/19 | CUDA Shared Memory Issues. Atomic operations in CUDA. |  |
 | 2/22 | Using the CUDA profiler. Example: 1D Stencil Operation. |  |
 | 2/24 | Tiling as a Programing Pattern in CUDA. Example: Vector Reduction in CUDA. |  |
