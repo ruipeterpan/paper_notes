@@ -9,7 +9,7 @@ description: >-
 ## Acknowledgments
 
 * All slides/files linked are accessible on Box using a UW-Madison account
-* Almost every figure and piece of code in these notes is excerpted from Prof. Dan Negrut's course slides. Some of the slides are taken from other places by Prof. Negrut--he cited those in his slides.
+* Almost every figure and piece of code in these notes is excerpted from Prof. Dan Negrut's course slides. Some of the slides are taken from other places by Prof. Negrut -- he cited those in his slides.
 * [Slides from ME459 \(Computing Concepts for Applications in Engineering\)](https://uwmadison.app.box.com/s/943jyv29y4u145uajfedgxamhn4ru9qx)
 
 ## Table of Contents
@@ -27,7 +27,7 @@ description: >-
 | 2/12 | GPU Memory Spaces. |  |
 | 2/15 | [GPU Scheduling Issues.](lecture-10-gpu-scheduling-issues..md) |  |
 | 2/17 | [Execution Divergence. Control Flow in CUDA. Global Memory Access Patterns and Implications.](lecture-11-execution-divergence.-control-flow-in-cuda.-global-memory-access-patterns-and.md) |  |
-| 2/19 | CUDA Shared Memory Issues. Atomic operations in CUDA. |  |
+| 2/19 | [CUDA Shared Memory Issues. Atomic operations in CUDA.](lecture-12-cuda-shared-memory-issues.-atomic-operations-in-cuda..md) |  |
 | 2/22 | Using the CUDA profiler. Example: 1D Stencil Operation. |  |
 | 2/24 | Tiling as a Programing Pattern in CUDA. Example: Vector Reduction in CUDA. |  |
 | 2/26 | CUDA Optimization Issues. Resource Utilization Issues. Parallel Prefix Scan on the GPU. Using Multiple Streams in CUDA. |  |

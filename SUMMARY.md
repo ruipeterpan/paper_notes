@@ -39,6 +39,7 @@
   * [Lecture 9: GPU Memory Spaces.](machine-learning-systems/cs759-hpc-course-notes/lecture-9.md)
   * [Lecture 10: GPU Scheduling Issues.](machine-learning-systems/cs759-hpc-course-notes/lecture-10-gpu-scheduling-issues..md)
   * [Lecture 11: Execution Divergence. Control Flow in CUDA. Global Memory Access Patterns and](machine-learning-systems/cs759-hpc-course-notes/lecture-11-execution-divergence.-control-flow-in-cuda.-global-memory-access-patterns-and.md)
+  * [Lecture 12: CUDA Shared Memory Issues. Atomic operations in CUDA.](machine-learning-systems/cs759-hpc-course-notes/lecture-12-cuda-shared-memory-issues.-atomic-operations-in-cuda..md)
 * [Drafts](machine-learning-systems/drafts/README.md)
   * [PipeDream: Generalized Pipeline Parallelism for DNN Training](machine-learning-systems/drafts/pipedream-generalized-pipeline-parallelism-for-dnn-training.md)
   * [Gavel: Heterogeneity-Aware Cluster Scheduling Policies for Deep Learning Workloads](machine-learning-systems/drafts/gavel-heterogeneity-aware-cluster-scheduling-policies-for-deep-learning-workloads.md)
