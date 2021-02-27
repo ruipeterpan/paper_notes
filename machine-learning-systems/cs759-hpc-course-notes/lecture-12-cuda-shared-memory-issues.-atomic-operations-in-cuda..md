@@ -1,4 +1,4 @@
-# Lecture 12: CUDA Shared Memory Issues. Atomic operations in CUDA.
+# Lecture 13: Atomic operations in CUDA.
 
 ## Lecture Summary
 

@@ -1,4 +1,4 @@
-# Lecture 7: Parallel Computing. Flynn’s Taxonomy. Amdahl’s Law.
+# Lecture 7: Parallel Computing.
 
 ## Lecture Summary
 

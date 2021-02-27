@@ -1,8 +1,4 @@
----
-description: ... Implications.
----
-
-# Lecture 11: Execution Divergence. Control Flow in CUDA. Global Memory Access Patterns and
+# Lecture 11: Control Flow in CUDA. Global Memory Access Patterns and Implications.
 
 ## Lecture Summary
 
@@ -16,7 +12,7 @@ description: ... Implications.
 
 ## The NVIDIA GPU Memory Ecosystem
 
-![From high vantage point](../../.gitbook/assets/screen-shot-2021-02-20-at-12.45.24-pm.png)
+![From high vantage point \(2 blocks w/ 2 threads each\)](../../.gitbook/assets/screen-shot-2021-02-20-at-12.45.24-pm.png)
 
 Each thread can:
 
@@ -42,6 +38,10 @@ Different memories:
 
 Global, texture and constant memories are accessible by host \(done at high latency, low bandwidth\).
 
+![](../../.gitbook/assets/screen-shot-2021-02-26-at-11.20.44-pm.png)
+
+![](../../.gitbook/assets/screen-shot-2021-02-26-at-11.20.58-pm.png)
+
 ![Memory Access Times](../../.gitbook/assets/screen-shot-2021-02-20-at-12.52.54-pm.png)
 
 ![Storage Locations](../../.gitbook/assets/screen-shot-2021-02-20-at-12.53.19-pm.png)
@@ -53,13 +53,13 @@ Global, texture and constant memories are accessible by host \(done at high late
 Purpose:
 
 * See an example where the use of multiple blocks of threads play a central role
-* Highlight the use/role fo the shared memory
+* Highlight the use/role of the shared memory
 * Point out the \_\_syncthreads\(\) function call \(synchronizes all threads in a block\)
 
 
 
 * The previous example: Low arithmetic intensity, a lot of unnecessary movements from global memory to device
-* Rule of thumb: If the data that you, as a thread, use can also be used by another thread in your block, then you should consider using shared memory
+* **Rule of thumb: If the data that you, as a thread, use can also be used by another thread in your block, then you should consider using shared memory**
 * To use shared memory:
   * Partition data into data subsets \(tiles\) that each fits into shared memory
   * Handle each data subset \(tile\) with one thread block by:
@@ -70,13 +70,34 @@ Purpose:
 
 ![](../../.gitbook/assets/screen-shot-2021-02-20-at-1.05.57-pm.png)
 
+* `__syncthreads()` synchronizes all threads in a block
+  * Used to avoid RAW/WAR/WAW hazards when accessing shared or global memory
+  * Be very careful when using it in a conditional
+* 3 ways to set aside shared memory:
+  * Statically, declare inside a kernel
+  * Through the execution configuration \(see code block below\)
+  * Dynamically, via CUDA driver API `cuFuncSetSharedSize()` \(out of scope\)
 
+```text
+__global__ void MyFunc(float*) // __device__ or __global__ function 
+{
+    extern __shared__ float shMemArray[];
+    // Size of shMemArray determined through the execution configuration
+    // You can use shMemArrayas you wish here...
+}
 
+// invoke like this. Ns indicates the size in bytes to be allocated in shared memory
+MyFunc<<< Dg, Db, Ns>>>(parameter);
+```
 
+![Example: Reversing an array using dynamic shared memory](../../.gitbook/assets/screen-shot-2021-02-26-at-11.31.07-pm.png)
 
+![How different technology fetches data into shared memory](../../.gitbook/assets/screen-shot-2021-02-26-at-11.33.21-pm.png)
 
+* Each SM has shared memory organized in 32 memory banks
+  * Successive 32-bit words map to successive banks
+  * Each bank has a bandwidth of 32 bits per clock cycle
+* ShMem and L1 cache draw on the same physical memory inside an SM
 
-
-
-
+![](../../.gitbook/assets/screen-shot-2021-02-26-at-11.48.42-pm.png)
 

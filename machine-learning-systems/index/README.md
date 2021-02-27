@@ -28,6 +28,7 @@
 | MapReduce: Simplified Data Processing on Large Clusters | OSDI '04 |
 | The Hadoop Distributed File System | ??? '07 |
 | Spark: Cluster Computing with Working Sets | HotCloud '10 |
+| Lakehouse: A New Generation of Open Platforms that Unify Data Warehousing and Advanced Analytics | CIDR '21 |
 
 ### Scheduling
 

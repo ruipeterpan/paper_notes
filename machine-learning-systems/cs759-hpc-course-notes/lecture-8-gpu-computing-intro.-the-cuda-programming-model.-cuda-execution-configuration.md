@@ -1,4 +1,4 @@
-# Lecture 8: GPU Computing Intro. The CUDA Programming Model. CUDA Execution Configuration
+# Lecture 8: Flynn’s Taxonomy. Amdahl’s Law.
 
 ## Lecture Summary
 
