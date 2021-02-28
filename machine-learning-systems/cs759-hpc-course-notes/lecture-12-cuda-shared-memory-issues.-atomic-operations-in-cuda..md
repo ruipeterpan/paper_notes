@@ -27,8 +27,6 @@ As `threadIdx.x` changes faster than `threadIdx.y`, we should have `C[j][i] = A[
 3. Misaligned, non-coalesced
 4. Level of indirection
 
-
-
 Two ways to store data in global memory:
 
 1. Array of structures \(AoS\)
