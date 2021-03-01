@@ -43,6 +43,7 @@
   * [Lecture 13: Atomic operations in CUDA.](machine-learning-systems/cs759-hpc-course-notes/lecture-12-cuda-shared-memory-issues.-atomic-operations-in-cuda..md)
   * [Lecture 14: Tiling as a Programing Pattern in CUDA. Example: Vector Reduction in CUDA.](machine-learning-systems/cs759-hpc-course-notes/lecture-14-tiling-as-a-programing-pattern-in-cuda.-example-vector-reduction-in-cuda..md)
   * [Lecture 15: CUDA Optimization Issues. Resource Utilization Issues. Parallel Prefix Scan on the GPU.](machine-learning-systems/cs759-hpc-course-notes/lecture-15-cuda-optimization-issues.-resource-utilization-issues.-parallel-prefix-scan-on-the-gpu..md)
+  * [Lecture 16: Streams, and overlapping data copy with execution.](machine-learning-systems/cs759-hpc-course-notes/lecture-16-streams-and-overlapping-data-copy-with-execution..md)
 * [Drafts](machine-learning-systems/drafts/README.md)
   * [Lakehouse: A New Generation of Open Platforms that UnifyData Warehousing and Advanced Analytics](machine-learning-systems/drafts/lakehouse-a-new-generation-of-open-platforms-that-unifydata-warehousing-and-advanced-analytics.md)
   * [PipeDream: Generalized Pipeline Parallelism for DNN Training](machine-learning-systems/drafts/pipedream-generalized-pipeline-parallelism-for-dnn-training.md)
