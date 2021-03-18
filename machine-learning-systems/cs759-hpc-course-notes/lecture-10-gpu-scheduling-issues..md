@@ -1,4 +1,4 @@
-# Lecture 10: GPU Memory Spaces. GPU Scheduling Issues. Execution Divergence.
+# Lecture 10: GPU Scheduling Issues.
 
 ## Lecture Summary
 

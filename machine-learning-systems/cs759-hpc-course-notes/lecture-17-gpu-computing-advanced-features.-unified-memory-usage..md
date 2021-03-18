@@ -1,4 +1,4 @@
-# Lecture 17: GPU Computing: Advanced Features. Unified Memory Usage.
+# Lecture 17: GPU Computing: Advanced Features.
 
 ## Lecture Summary
 

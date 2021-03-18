@@ -1,4 +1,4 @@
-# Lecture 11: Control Flow in CUDA. Global Memory Access Patterns and Implications.
+# Lecture 11: Execution Divergence. Control Flow in CUDA. CUDA Shared Memory Issues.
 
 ## Lecture Summary
 

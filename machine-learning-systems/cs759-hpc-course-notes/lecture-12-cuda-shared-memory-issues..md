@@ -1,4 +1,4 @@
-# Lecture 12: CUDA Shared Memory Issues.
+# Lecture 12: Global Memory Access Patterns and Implications.
 
 ## Lecture Summary
 

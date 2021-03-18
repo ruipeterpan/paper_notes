@@ -1,4 +1,4 @@
-# Lecture 13: Atomic operations in CUDA.
+# Lecture 13: Atomic operations in CUDA. GPU ode optimization rules of thumb.
 
 ## Lecture Summary
 

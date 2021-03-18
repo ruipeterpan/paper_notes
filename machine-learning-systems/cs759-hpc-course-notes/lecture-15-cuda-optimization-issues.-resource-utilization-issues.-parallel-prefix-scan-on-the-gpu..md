@@ -1,4 +1,4 @@
-# Lecture 15: CUDA Optimization Issues. Resource Utilization Issues. Parallel Prefix Scan on the GPU.
+# Lecture 15: CUDA Case Studies. \(3\) Parallel Prefix Scan on the GPU. Using Multiple Streams in CUDA.
 
 ## Lecture Summary
 

@@ -1,4 +1,4 @@
-# Lecture 14: Tiling as a Programing Pattern in CUDA. Example: Vector Reduction in CUDA.
+# Lecture 14: CUDA Case Studies. \(1\) 1D Stencil Operation. \(2\) Vector Reduction in CUDA.
 
 ## Lecture Summary
 

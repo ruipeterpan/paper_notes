@@ -1,4 +1,4 @@
-# Lecture 9: GPU Computing Intro. The CUDA Programming Model. CUDA Execution Configuration.
+# Lecture 9: GPU Memory Spaces
 
 ## Lecture Summary
 
