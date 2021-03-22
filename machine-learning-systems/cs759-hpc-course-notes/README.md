@@ -35,8 +35,8 @@ description: >-
 | 3/1 | [Lecture 16: Streams, and overlapping data copy with execution.](lecture-16-streams-and-overlapping-data-copy-with-execution..md) |  |
 | 3/3 | [Lecture 17: GPU Computing: Advanced Features.](lecture-17-gpu-computing-advanced-features.-unified-memory-usage..md) |  |
 | 3/5 | [Lecture 18: GPU Computing with thrust and cub.](lecture-18-gpu-computing-with-thrust-and-cub..md) |  |
-| 3/8 | Lecture 19: Hardware aspects relevant in multi-core, shared memory parallel computing. |  |
-| 3/10 | Lecture 20: Multi-core Parallel Computing with OpenMP. Parallel Regions. |  |
+| 3/8 | [Lecture 19: Hardware aspects relevant in multi-core, shared memory parallel computing.](lecture-19-hardware-aspects-relevant-in-multi-core-shared-memory-parallel-computing..md) |  |
+| 3/10 | [Lecture 20: Multi-core Parallel Computing with OpenMP. Parallel Regions.](lecture-20-multi-core-parallel-computing-with-openmp.-parallel-regions..md) |  |
 | 3/12 | Lecture 21: OpenMP Work Sharing. |  |
 | 3/15 | Lecture 22: OpenMP Work Sharing. |  |
 | 3/17 | Lecture 23: OpenMP NUMA Aspects. Caching and OpenMP. |  |
