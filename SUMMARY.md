@@ -10,6 +10,7 @@
 * [Blog - Index](blog/blog-index/README.md)
   * [Common Issues \(& Fixes\) when Playing with GPUs](blog/blog-index/common-issues-and-fixes-when-playing-with-gpus.md)
   * [How to Create Picture-in-Picture Effect / Video Overlay for a Presentation Video](blog/blog-index/how-to-create-picture-in-picture-effect-video-overlay-for-a-presentation-video.md)
+  * [How to do your part to protect the environment in Wisconsin](blog/blog-index/how-to-do-your-part-to-protect-the-environment-in-wisconsin.md)
   * [How to Get a Driver's License in Wisconsin](blog/blog-index/how-to-get-a-drivers-license-in-wisconsin.md)
   * [How to Transfer Credits Back to UW-Madison](blog/blog-index/how-to-transfer-credits-back-to-uw-madison.md)
   * [How to Use Piazza](blog/blog-index/how-to-use-piazza.md)
