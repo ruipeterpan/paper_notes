@@ -42,7 +42,7 @@ description: >-
 | 3/17 | Lecture 23: OpenMP NUMA Aspects. Caching and OpenMP. |  |
 | 3/19 | Lecture 24: Critical Thinking. Code Optimization Aspects. |  |
 | 3/22 | Lecture 25: Computing with Supercomputers. |  |
-| 3/24 | Lecture 26: MPI Parallel Programming General Introduction. Point-to-Point Communication. |  |
+| 3/24 | [Lecture 26: MPI Parallel Programming General Introduction. Point-to-Point Communication.](lecture-26-mpi-parallel-programming-general-introduction.-point-to-point-communication..md) |  |
 | 3/26 | Lecture 27: MPI Parallel Programming Point-to-Point communication: Blocking vs. Non-blocking sends. |  |
 | 3/29 | Lecture 28: MPI Parallel Programming: MPI Collectives. Overview of topics covered in the class. |  |
 

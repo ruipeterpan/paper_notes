@@ -50,6 +50,7 @@
   * [Lecture 19: Hardware aspects relevant in multi-core, shared memory parallel computing.](machine-learning-systems/cs759-hpc-course-notes/lecture-19-hardware-aspects-relevant-in-multi-core-shared-memory-parallel-computing..md)
   * [Lecture 20: Multi-core Parallel Computing with OpenMP. Parallel Regions.](machine-learning-systems/cs759-hpc-course-notes/lecture-20-multi-core-parallel-computing-with-openmp.-parallel-regions..md)
   * [Lecture 21: OpenMP Work Sharing.](machine-learning-systems/cs759-hpc-course-notes/lecture-21-openmp-work-sharing..md)
+  * [Lecture 26: MPI Parallel Programming General Introduction. Point-to-Point Communication.](machine-learning-systems/cs759-hpc-course-notes/lecture-26-mpi-parallel-programming-general-introduction.-point-to-point-communication..md)
 * [An Incomplete Guide to GPU Profiling](machine-learning-systems/an-incomplete-guide-to-gpu-profiling.md)
 * [Drafts](machine-learning-systems/drafts/README.md)
   * [Lakehouse: A New Generation of Open Platforms that UnifyData Warehousing and Advanced Analytics](machine-learning-systems/drafts/lakehouse-a-new-generation-of-open-platforms-that-unifydata-warehousing-and-advanced-analytics.md)
