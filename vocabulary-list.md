@@ -28,6 +28,8 @@ description: >-
   * Goodput: Application-level throughput, i.e. the amount of useful information.
 * Vanilla \(software\): It is used to refer when a piece of software is not customized from its original form.
 * Nightly build \(e.g., a nightly build of PyTorch\): This is a software engineering term that is somewhat in contrast to a stable build. It \(quite literally\) means that every night, everything that is in a large project is built so that the individual developers do not need to spend a lot of time rebuilding the whole project. 
+* Pareto efficiency: Pareto efficiency is when an economy has its resources and goods allocated to the maximum level of efficiency, and no change can be made without making someone worse off. This term is borrowed by scheduling frameworks sometimes.
+* Utility function: Economics, everywhere I go I see his face...
 
 ## Soccer Analytics
 
