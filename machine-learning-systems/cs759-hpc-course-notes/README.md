@@ -40,8 +40,8 @@ description: >-
 | 3/12 | [Lecture 21: OpenMP Work Sharing.](lecture-21-openmp-work-sharing..md) | [Node-Level Performance Engineering \(SC '19\)](https://uwmadison.app.box.com/s/cvva3ybaq0867e160hqf6l92yp9gbthx) |
 | 3/15 | [Lecture 22: OpenMP Work Sharing.](lecture-22-openmp-work-sharing.md) | [Advanced OpenMP: Performance and 5.0 Features \(SC '19\)](https://uwmadison.app.box.com/s/dftxq7z83u6bc1e33lbihhcuvb5ek2uc) |
 | 3/17 | [Lecture 23: OpenMP NUMA Aspects. Caching and OpenMP.](lecture-23-openmp-numa-aspects.-caching-and-openmp..md) | [Mastering Tasking with OpenMP \(SC '19\)](https://uwmadison.app.box.com/s/40yxdvu41prgvfuzvv668lhx78eafos0) |
-| 3/19 | Lecture 24: Critical Thinking. Code Optimization Aspects. | [Ch. 12 of Optimizing Software in C++](https://www.agner.org/optimize/optimizing_cpp.pdf) |
-| 3/22 | Lecture 25: Computing with Supercomputers. |  |
+| 3/19 | [Lecture 24: Critical Thinking. Code Optimization Aspects.](lecture-24-critical-thinking.-code-optimizatino-aspects..md) | [Ch. 12 of Optimizing Software in C++](https://www.agner.org/optimize/optimizing_cpp.pdf) |
+| 3/22 | [Lecture 25: Computing with Supercomputers.](lecture-25-computing-with-supercomputers..md) |  |
 | 3/24 | [Lecture 26: MPI Parallel Programming General Introduction. Point-to-Point Communication.](lecture-26-mpi-parallel-programming-general-introduction.-point-to-point-communication..md) | [HPC Perspectives \(Dongarra et. al., '05\)](https://uwmadison.app.box.com/s/fi2h0s0d4rgvviepc1dd92m9jqoemq86) |
 | 3/26 | [Lecture 27: MPI Parallel Programming Point-to-Point communication: Blocking vs. Non-blocking sends.](lecture-27-mpi-parallel-programming-point-to-point-communication-blocking-vs.-non-blocking-sends..md) | [Advanced MPI Programming \(SC '19\)](https://uwmadison.app.box.com/s/ymhcrw7xc49u3cvs86jeva9bnek99sfe) |
 | 3/29 | [Lecture 28: MPI Parallel Programming: MPI Collectives. Overview of topics covered in the class.](lecture-28-mpi-parallel-programming-mpi-collectives.-overview-of-topics-covered-in-the-class..md) |  |
