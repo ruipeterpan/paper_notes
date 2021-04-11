@@ -38,8 +38,8 @@ description: >-
 | 3/8 | [Lecture 19: Hardware aspects relevant in multi-core, shared memory parallel computing.](lecture-19-hardware-aspects-relevant-in-multi-core-shared-memory-parallel-computing..md) | [Unified Memory in CUDA 6: A Brief Overview and Related Data Access/Transfer Issues \(by Dan and some other guys! '14\)](https://sbel.wisc.edu/wp-content/uploads/sites/569/2018/05/TR-2014-09.pdf) |
 | 3/10 | [Lecture 20: Multi-core Parallel Computing with OpenMP. Parallel Regions.](lecture-20-multi-core-parallel-computing-with-openmp.-parallel-regions..md) | Cache Coherence on Power 9 - Volta systems w/ NVLINK2 |
 | 3/12 | [Lecture 21: OpenMP Work Sharing.](lecture-21-openmp-work-sharing..md) | [Node-Level Performance Engineering \(SC '19\)](https://uwmadison.app.box.com/s/cvva3ybaq0867e160hqf6l92yp9gbthx) |
-| 3/15 | Lecture 22: OpenMP Work Sharing. | [Advanced OpenMP: Performance and 5.0 Features \(SC '19\)](https://uwmadison.app.box.com/s/dftxq7z83u6bc1e33lbihhcuvb5ek2uc) |
-| 3/17 | Lecture 23: OpenMP NUMA Aspects. Caching and OpenMP. | [Mastering Tasking with OpenMP \(SC '19\)](https://uwmadison.app.box.com/s/40yxdvu41prgvfuzvv668lhx78eafos0) |
+| 3/15 | [Lecture 22: OpenMP Work Sharing.](lecture-22-openmp-work-sharing.md) | [Advanced OpenMP: Performance and 5.0 Features \(SC '19\)](https://uwmadison.app.box.com/s/dftxq7z83u6bc1e33lbihhcuvb5ek2uc) |
+| 3/17 | [Lecture 23: OpenMP NUMA Aspects. Caching and OpenMP.](lecture-23-openmp-numa-aspects.-caching-and-openmp..md) | [Mastering Tasking with OpenMP \(SC '19\)](https://uwmadison.app.box.com/s/40yxdvu41prgvfuzvv668lhx78eafos0) |
 | 3/19 | Lecture 24: Critical Thinking. Code Optimization Aspects. | [Ch. 12 of Optimizing Software in C++](https://www.agner.org/optimize/optimizing_cpp.pdf) |
 | 3/22 | Lecture 25: Computing with Supercomputers. |  |
 | 3/24 | [Lecture 26: MPI Parallel Programming General Introduction. Point-to-Point Communication.](lecture-26-mpi-parallel-programming-general-introduction.-point-to-point-communication..md) | [HPC Perspectives \(Dongarra et. al., '05\)](https://uwmadison.app.box.com/s/fi2h0s0d4rgvviepc1dd92m9jqoemq86) |
