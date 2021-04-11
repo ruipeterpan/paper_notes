@@ -51,6 +51,8 @@
   * [Lecture 20: Multi-core Parallel Computing with OpenMP. Parallel Regions.](machine-learning-systems/cs759-hpc-course-notes/lecture-20-multi-core-parallel-computing-with-openmp.-parallel-regions..md)
   * [Lecture 21: OpenMP Work Sharing.](machine-learning-systems/cs759-hpc-course-notes/lecture-21-openmp-work-sharing..md)
   * [Lecture 26: MPI Parallel Programming General Introduction. Point-to-Point Communication.](machine-learning-systems/cs759-hpc-course-notes/lecture-26-mpi-parallel-programming-general-introduction.-point-to-point-communication..md)
+  * [Lecture 27: MPI Parallel Programming Point-to-Point communication: Blocking vs. Non-blocking sends.](machine-learning-systems/cs759-hpc-course-notes/lecture-27-mpi-parallel-programming-point-to-point-communication-blocking-vs.-non-blocking-sends..md)
+  * [Lecture 28: MPI Parallel Programming: MPI Collectives. Overview of topics covered in the class.](machine-learning-systems/cs759-hpc-course-notes/lecture-28-mpi-parallel-programming-mpi-collectives.-overview-of-topics-covered-in-the-class..md)
 * [An Incomplete Guide to GPU Profiling](machine-learning-systems/an-incomplete-guide-to-gpu-profiling.md)
 * [Drafts](machine-learning-systems/drafts/README.md)
   * [Lakehouse: A New Generation of Open Platforms that UnifyData Warehousing and Advanced Analytics](machine-learning-systems/drafts/lakehouse-a-new-generation-of-open-platforms-that-unifydata-warehousing-and-advanced-analytics.md)
