@@ -1,4 +1,4 @@
-# Lecture 24: Critical Thinking. Code Optimizatino Aspects.
+# Lecture 24: Critical Thinking. Code Optimization Aspects.
 
 ## Lecture Summary
 

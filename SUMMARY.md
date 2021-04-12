@@ -52,7 +52,7 @@
   * [Lecture 21: OpenMP Work Sharing.](machine-learning-systems/cs759-hpc-course-notes/lecture-21-openmp-work-sharing..md)
   * [Lecture 22: OpenMP Work Sharing](machine-learning-systems/cs759-hpc-course-notes/lecture-22-openmp-work-sharing.md)
   * [Lecture 23: OpenMP NUMA Aspects. Caching and OpenMP.](machine-learning-systems/cs759-hpc-course-notes/lecture-23-openmp-numa-aspects.-caching-and-openmp..md)
-  * [Lecture 24: Critical Thinking. Code Optimizatino Aspects.](machine-learning-systems/cs759-hpc-course-notes/lecture-24-critical-thinking.-code-optimizatino-aspects..md)
+  * [Lecture 24: Critical Thinking. Code Optimization Aspects.](machine-learning-systems/cs759-hpc-course-notes/lecture-24-critical-thinking.-code-optimizatino-aspects..md)
   * [Lecture 25: Computing with Supercomputers.](machine-learning-systems/cs759-hpc-course-notes/lecture-25-computing-with-supercomputers..md)
   * [Lecture 26: MPI Parallel Programming General Introduction. Point-to-Point Communication.](machine-learning-systems/cs759-hpc-course-notes/lecture-26-mpi-parallel-programming-general-introduction.-point-to-point-communication..md)
   * [Lecture 27: MPI Parallel Programming Point-to-Point communication: Blocking vs. Non-blocking sends.](machine-learning-systems/cs759-hpc-course-notes/lecture-27-mpi-parallel-programming-point-to-point-communication-blocking-vs.-non-blocking-sends..md)

@@ -22,14 +22,13 @@ Scheduling questions:
 Two levels of schedulers:
 
 1. Device-level scheduler \(NVIDIA GigaThread engine\): Assigns \(large numbers of\) blocks to \(small numbers of\) SMs that signal that they have “excess capacity”
+   1. Once a block is picked up for execution by one SM, it does not leave the SM before all threads in that block finish executing the kernel. Only when a block is finished & retired can we place another block on that SM. Thus, more SMs means a more expensive card.
 2. SM-level scheduler \(more interesting\): Schedules the execution of the threads in a block onto the SM functional units
 
 ### SM-Level Scheduling
 
 ![Note that tensor cores are not present in older architectures](../../.gitbook/assets/screen-shot-2021-02-15-at-11.38.15-am.png)
 
-* Once a block is picked up for execution by one SM, the block does not leave that SM before all threads in that block finish executing the kernel
-* Once a block is finished & retired, only then can another block land for execution on that SM
 * Each block of threads are divided into 32-thread warps
   * 32: Selected by NVIDIA
   * Warp: A group of 32 thread of consecutive IDs, basic scheduling unit on the SM

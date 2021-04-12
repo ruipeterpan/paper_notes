@@ -2,7 +2,7 @@
 
 ## Lecture Summary
 
-This class is basically a recap of some "Intro to Machine Organization" class. The topics covered are instruction, assembly code, registers, CISC vs. RISC, CPU organization \(CU/ALU\), FDX cyle.
+This class is basically a recap of an "Intro to Machine Organization" class. The topics covered are instruction, assembly code, registers, CISC vs. RISC, CPU organization \(CU/ALU\), FDX cyle.
 
 [CS 61C @ Berkeley \(Su19\)](https://inst.eecs.berkeley.edu/~cs61c/su19/) is a great class with many more in-depth slides on these topics.
 
