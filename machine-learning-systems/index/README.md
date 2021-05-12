@@ -42,6 +42,7 @@
 | [Themis: Fair and Efficient GPU Cluster Scheduling](themis-fair-and-efficient-gpu-cluster-scheduling.md) | NSDI '20 |
 | [Salus: Fine-Grained GPU Sharing Primitives for Deep Learning Applications](salus-fine-grained-gpu-sharing-primitives-for-deep-learning-applications.md) | MLSys '20 |
 | Gavel: Heterogeneity-Aware Cluster Scheduling Policies for Deep Learning Workloads | OSDI '20 |
+| [Wavelet: Efficient DNN Training with Tick-Tock Scheduling](wavelet-efficient-dnn-training-with-tick-tock-scheduling.md) | MLSys '21 |
 
 ### Machine Learning
 
