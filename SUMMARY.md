@@ -23,6 +23,7 @@
   * [Analysis of Large-Scale Multi-Tenant GPU Clusters for DNN Training Workloads](machine-learning-systems/index/analysis-of-large-scale-multi-tenant-gpu-clusters-for-dnn-training-workloads.md)
   * [BytePS: A High Performance and Generic Framework for Distributed DNN Training](machine-learning-systems/index/byteps-a-high-performance-and-generic-framework-for-distributed-dnn-training.md)
   * [Gandiva: Introspective Cluster Scheduling for Deep Learning](machine-learning-systems/index/gandiva-introspective-cluster-scheduling-for-deep-learning.md)
+  * [Gavel: Heterogeneity-Aware Cluster Scheduling Policies for Deep Learning Workloads](machine-learning-systems/index/gavel-heterogeneity-aware-cluster-scheduling-policies-for-deep-learning-workloads.md)
   * [PyTorch Distributed: Experiences on Accelerating Data Parallel Training](machine-learning-systems/index/pytorch-distributed-experiences-on-accelerating-data-parallel-training.md)
   * [Salus: Fine-Grained GPU Sharing Primitives for Deep Learning Applications](machine-learning-systems/index/salus-fine-grained-gpu-sharing-primitives-for-deep-learning-applications.md)
   * [Scaling Distributed Machine Learning with the Parameter Server](machine-learning-systems/index/scaling-distributed-machine-learning-with-the-parameter-server.md)
@@ -62,7 +63,6 @@
 * [Drafts](machine-learning-systems/drafts/README.md)
   * [Lakehouse: A New Generation of Open Platforms that UnifyData Warehousing and Advanced Analytics](machine-learning-systems/drafts/lakehouse-a-new-generation-of-open-platforms-that-unifydata-warehousing-and-advanced-analytics.md)
   * [PipeDream: Generalized Pipeline Parallelism for DNN Training](machine-learning-systems/drafts/pipedream-generalized-pipeline-parallelism-for-dnn-training.md)
-  * [Gavel: Heterogeneity-Aware Cluster Scheduling Policies for Deep Learning Workloads](machine-learning-systems/drafts/gavel-heterogeneity-aware-cluster-scheduling-policies-for-deep-learning-workloads.md)
 
 ## Operating Systems
 

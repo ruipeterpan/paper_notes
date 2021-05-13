@@ -30,7 +30,7 @@
 | Spark: Cluster Computing with Working Sets | HotCloud '10 |
 | Lakehouse: A New Generation of Open Platforms that Unify Data Warehousing and Advanced Analytics | CIDR '21 |
 
-### Scheduling
+### Scheduling & Resource Allocation
 
 | Title | Venue |
 | :--- | :--- |
@@ -41,7 +41,7 @@
 | [Tiresias: A GPU Cluster Manager for Distributed Deep Learning](tiresias-a-gpu-cluster-manager-for-distributed-deep-learning.md) | NSDI '19 |
 | [Themis: Fair and Efficient GPU Cluster Scheduling](themis-fair-and-efficient-gpu-cluster-scheduling.md) | NSDI '20 |
 | [Salus: Fine-Grained GPU Sharing Primitives for Deep Learning Applications](salus-fine-grained-gpu-sharing-primitives-for-deep-learning-applications.md) | MLSys '20 |
-| Gavel: Heterogeneity-Aware Cluster Scheduling Policies for Deep Learning Workloads | OSDI '20 |
+| [Gavel: Heterogeneity-Aware Cluster Scheduling Policies for Deep Learning Workloads](gavel-heterogeneity-aware-cluster-scheduling-policies-for-deep-learning-workloads.md) | OSDI '20 |
 | [Wavelet: Efficient DNN Training with Tick-Tock Scheduling](wavelet-efficient-dnn-training-with-tick-tock-scheduling.md) | MLSys '21 |
 
 ### Machine Learning
@@ -88,19 +88,10 @@
 
 ## To Read
 
-### To move from local note to GitBook
-
 * [ ] MapReduce: Simplified Data Processing on Large Clusters
-* [x] Parameter Server: Scaling Distributed Machine Learning with the Parameter Server
-* [x] Analysis of Large-Scale Multi-Tenant GPU Clusters for DNN Training Workloads
-
-### To read
-
 * [ ] ByteScheduler: A Generic Communication Scheduler for Distributed DNN Training Acceleration
-* [x] Gandiva: Introspective Cluster Scheduling for Deep Learning
 * [ ] Horovod: Fast and Easy Distributed Deep Learning in TensorFlow
 * [ ] Optimus: An Efficient Dynamic Resource Scheduler for Deep Learning Clusters
-* [x] Tiresias: A GPU Cluster Manager for Distributed Deep Learning
 * [ ] TensorFlow: A system for large-scale machine learning
 * [ ] In-Datacenter Performance Analysis of a Tensor Processing Unit
 * [ ] PipeDream: Generalized Pipeline Parallelism for DNN Training
@@ -112,14 +103,15 @@
 * [ ] [Spark: Cluster Computing with Working Sets](https://www.usenix.org/legacy/event/hotcloud10/tech/full_papers/Zaharia.pdf)
 * [ ] L[arge Scale Distributed Deep Networks](https://proceedings.neurips.cc/paper/2012/file/6aca97005c68f1206823815f66102863-Paper.pdf)
 * [ ] Ray: A Distributed Framework for Emerging AI Applications
-* [x] [Salus: Fine-Grained GPU Sharing Primitives for Deep Learning Applications](http://web.eecs.umich.edu/~mosharaf/Readings/Salus.pdf)
 * [ ] [On the importance of initialization and momentum in deep learning \(ICML '13\)](http://www.cs.toronto.edu/~hinton/absps/momentum.pdf)
 * [ ] Serving DNNs like Clockwork: Performance Predictability from the Bottom Up
 * [ ] HiveD: Sharing a GPU Cluster for Deep Learning with Guarantees
 * [ ] antman: dynamic scaling on gpu clusters for deep learning
-* [ ] **PipeSwitch: Fast Pipelined Context Switching for Deep Learning Applications**
-* [x] **accordion**
-* [ ] **Gavel:** Heterogeneity-Aware Cluster Scheduling Policies for Deep Learning Workloads
-
-
+* [ ] PipeSwitch: Fast Pipelined Context Switching for Deep Learning Applications
+* [ ] Allox
+* [ ] Fluid
+* [ ] DRF
+* [ ] PipeDream
+* [ ] GPipe
+* [ ] Blink
 
