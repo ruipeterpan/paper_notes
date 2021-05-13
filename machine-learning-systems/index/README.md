@@ -56,7 +56,7 @@
 | Horovod: Fast and Easy Distributed Deep Learning in TensorFlow | arXiv '18 |
 | Deep Gradient Compression: Reducing the Communication Bandwidth for Distributed Training | ICLR '18 |
 | PyTorch: An Imperative Style, High-Performance Deep Learning Library | NeurIPS '19 |
-| PipeDream: Generalized Pipeline Parallelism for DNN Training | SOSP '19 |
+| [PipeDream: Generalized Pipeline Parallelism for DNN Training](pipedream-generalized-pipeline-parallelism-for-dnn-training.md) | SOSP '19 |
 | ByteScheduler: A Generic Communication Scheduler for Distributed DNN Training Acceleration | SOSP '19 |
 | [BytePS: A High Performance and Generic Framework for Distributed DNN Training](byteps-a-high-performance-and-generic-framework-for-distributed-dnn-training.md) | OSDI '20 |
 | [PyTorch Distributed: Experiences on Accelerating Data Parallel Training](pytorch-distributed-experiences-on-accelerating-data-parallel-training.md) | VLDB '20 |
@@ -111,7 +111,6 @@
 * [ ] Allox
 * [ ] Fluid
 * [ ] DRF
-* [ ] PipeDream
 * [ ] GPipe
 * [ ] Blink
 
