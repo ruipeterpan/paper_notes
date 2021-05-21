@@ -1,4 +1,4 @@
-# Lakehouse: A New Generation of Open Platforms that UnifyData Warehousing and Advanced Analytics
+# Lakehouse: A New Generation of Open Platforms that Unify Data Warehousing and Advanced Analytics
 
 ## One-line Summary
 

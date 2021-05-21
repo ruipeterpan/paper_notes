@@ -62,6 +62,7 @@
 | [BytePS: A High Performance and Generic Framework for Distributed DNN Training](byteps-a-high-performance-and-generic-framework-for-distributed-dnn-training.md) | OSDI '20 |
 | [PyTorch Distributed: Experiences on Accelerating Data Parallel Training](pytorch-distributed-experiences-on-accelerating-data-parallel-training.md) | VLDB '20 |
 | [Accordion: Adaptive Gradient Communication via Critical Learning Regime Identification](accordion-adaptive-gradient-communication-via-critical-learning-regime-identification.md) | MLSys '21 |
+| [CheckFreq: Frequent, Fine-Grained DNN Checkpointing](checkfreq-frequent-fine-grained-dnn-checkpointing.md) | FAST '21 |
 
 ### SQL Frameworks
 

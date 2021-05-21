@@ -22,6 +22,7 @@
   * [Accordion: Adaptive Gradient Communication via Critical Learning Regime Identification](machine-learning-systems/index/accordion-adaptive-gradient-communication-via-critical-learning-regime-identification.md)
   * [Analysis of Large-Scale Multi-Tenant GPU Clusters for DNN Training Workloads](machine-learning-systems/index/analysis-of-large-scale-multi-tenant-gpu-clusters-for-dnn-training-workloads.md)
   * [BytePS: A High Performance and Generic Framework for Distributed DNN Training](machine-learning-systems/index/byteps-a-high-performance-and-generic-framework-for-distributed-dnn-training.md)
+  * [CheckFreq: Frequent, Fine-Grained DNN Checkpointing](machine-learning-systems/index/checkfreq-frequent-fine-grained-dnn-checkpointing.md)
   * [Gandiva: Introspective Cluster Scheduling for Deep Learning](machine-learning-systems/index/gandiva-introspective-cluster-scheduling-for-deep-learning.md)
   * [Gavel: Heterogeneity-Aware Cluster Scheduling Policies for Deep Learning Workloads](machine-learning-systems/index/gavel-heterogeneity-aware-cluster-scheduling-policies-for-deep-learning-workloads.md)
   * [GPipe: Efficient Training of Giant Neural Networks using Pipeline Parallelism](machine-learning-systems/index/gpipe-efficient-training-of-giant-neural-networks-using-pipeline-parallelism.md)
@@ -63,7 +64,7 @@
   * [Lecture 28: MPI Parallel Programming: MPI Collectives. Overview of topics covered in the class.](machine-learning-systems/cs759-hpc-course-notes/lecture-28-mpi-parallel-programming-mpi-collectives.-overview-of-topics-covered-in-the-class..md)
 * [An Incomplete Guide to GPU Profiling](machine-learning-systems/an-incomplete-guide-to-gpu-profiling.md)
 * [Drafts](machine-learning-systems/drafts/README.md)
-  * [Lakehouse: A New Generation of Open Platforms that UnifyData Warehousing and Advanced Analytics](machine-learning-systems/drafts/lakehouse-a-new-generation-of-open-platforms-that-unifydata-warehousing-and-advanced-analytics.md)
+  * [Lakehouse: A New Generation of Open Platforms that Unify Data Warehousing and Advanced Analytics](machine-learning-systems/drafts/lakehouse-a-new-generation-of-open-platforms-that-unifydata-warehousing-and-advanced-analytics.md)
 
 ## Operating Systems
 

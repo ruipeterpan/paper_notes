@@ -37,6 +37,7 @@
 | [All File Systems Are Not Created Equal: On the Complexity of Crafting Crash-Consistent Applications](all-file-systems-are-not-created-equal-on-the-complexity-of-crafting-crash-consistent-applications.md) | OSDI '14 |
 | [The Unwritten Contract of Solid State Drives](the-unwritten-contract-of-solid-state-drives.md) | EuroSys '17 |
 | [From WiscKey to Bourbon: A Learned Index for Log-Structured Merge Trees](from-wisckey-to-bourbon-a-learned-index-for-log-structured-merge-trees.md) | OSDI '20 |
+| [CheckFreq: Frequent, Fine-Grained DNN Checkpointing](../../machine-learning-systems/index/checkfreq-frequent-fine-grained-dnn-checkpointing.md) | FAST '21 |
 
 ### Process Synchronization and Scalability \( 🥵 \)
 
