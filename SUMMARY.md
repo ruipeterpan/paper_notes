@@ -21,6 +21,7 @@
 * [Machine Learning Systems - Index](machine-learning-systems/index/README.md)
   * [Accordion: Adaptive Gradient Communication via Critical Learning Regime Identification](machine-learning-systems/index/accordion-adaptive-gradient-communication-via-critical-learning-regime-identification.md)
   * [Analysis of Large-Scale Multi-Tenant GPU Clusters for DNN Training Workloads](machine-learning-systems/index/analysis-of-large-scale-multi-tenant-gpu-clusters-for-dnn-training-workloads.md)
+  * [Analyzing and Mitigating Data Stalls in DNN Training](machine-learning-systems/index/analyzing-and-mitigating-data-stalls-in-dnn-training.md)
   * [BytePS: A High Performance and Generic Framework for Distributed DNN Training](machine-learning-systems/index/byteps-a-high-performance-and-generic-framework-for-distributed-dnn-training.md)
   * [CheckFreq: Frequent, Fine-Grained DNN Checkpointing](machine-learning-systems/index/checkfreq-frequent-fine-grained-dnn-checkpointing.md)
   * [Gandiva: Introspective Cluster Scheduling for Deep Learning](machine-learning-systems/index/gandiva-introspective-cluster-scheduling-for-deep-learning.md)

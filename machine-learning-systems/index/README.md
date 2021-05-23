@@ -46,6 +46,8 @@
 
 ### Machine Learning
 
+I really need a new category for some of the papers below
+
 | Title | Venue |
 | :--- | :--- |
 | Large Scale Distributed Deep Networks | NeurIPS '12 |
@@ -63,6 +65,7 @@
 | [PyTorch Distributed: Experiences on Accelerating Data Parallel Training](pytorch-distributed-experiences-on-accelerating-data-parallel-training.md) | VLDB '20 |
 | [Accordion: Adaptive Gradient Communication via Critical Learning Regime Identification](accordion-adaptive-gradient-communication-via-critical-learning-regime-identification.md) | MLSys '21 |
 | [CheckFreq: Frequent, Fine-Grained DNN Checkpointing](checkfreq-frequent-fine-grained-dnn-checkpointing.md) | FAST '21 |
+| [Analyzing and Mitigating Data Stalls in DNN Training](analyzing-and-mitigating-data-stalls-in-dnn-training.md) | VLDB '21 |
 
 ### SQL Frameworks
 
