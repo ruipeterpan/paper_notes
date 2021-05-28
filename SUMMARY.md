@@ -24,6 +24,7 @@
   * [Analyzing and Mitigating Data Stalls in DNN Training](machine-learning-systems/index/analyzing-and-mitigating-data-stalls-in-dnn-training.md)
   * [BytePS: A High Performance and Generic Framework for Distributed DNN Training](machine-learning-systems/index/byteps-a-high-performance-and-generic-framework-for-distributed-dnn-training.md)
   * [CheckFreq: Frequent, Fine-Grained DNN Checkpointing](machine-learning-systems/index/checkfreq-frequent-fine-grained-dnn-checkpointing.md)
+  * [From Cloud Computing to Sky Computing](machine-learning-systems/index/from-cloud-computing-to-sky-computing.md)
   * [Gandiva: Introspective Cluster Scheduling for Deep Learning](machine-learning-systems/index/gandiva-introspective-cluster-scheduling-for-deep-learning.md)
   * [Gavel: Heterogeneity-Aware Cluster Scheduling Policies for Deep Learning Workloads](machine-learning-systems/index/gavel-heterogeneity-aware-cluster-scheduling-policies-for-deep-learning-workloads.md)
   * [GPipe: Efficient Training of Giant Neural Networks using Pipeline Parallelism](machine-learning-systems/index/gpipe-efficient-training-of-giant-neural-networks-using-pipeline-parallelism.md)

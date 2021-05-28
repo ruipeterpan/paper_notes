@@ -29,6 +29,7 @@
 | The Hadoop Distributed File System | ??? '07 |
 | Spark: Cluster Computing with Working Sets | HotCloud '10 |
 | Lakehouse: A New Generation of Open Platforms that Unify Data Warehousing and Advanced Analytics | CIDR '21 |
+| [From Cloud Computing to Sky Computing](from-cloud-computing-to-sky-computing.md) | HotOS '21 |
 
 ### Scheduling & Resource Allocation
 
