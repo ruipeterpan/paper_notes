@@ -2,7 +2,7 @@
 
 * [Rui's Blog/Paper Reading Notes - Introduction](README.md)
 * [Vocabulary List](vocabulary-list.md)
-* [Template for Paper Reviews](template.md)
+* [Template for Paper Reading Notes](template.md)
 * [Random stuff](untitled.md)
 
 ## Blog
@@ -29,6 +29,7 @@
   * [Gavel: Heterogeneity-Aware Cluster Scheduling Policies for Deep Learning Workloads](machine-learning-systems/index/gavel-heterogeneity-aware-cluster-scheduling-policies-for-deep-learning-workloads.md)
   * [GPipe: Efficient Training of Giant Neural Networks using Pipeline Parallelism](machine-learning-systems/index/gpipe-efficient-training-of-giant-neural-networks-using-pipeline-parallelism.md)
   * [PipeDream: Generalized Pipeline Parallelism for DNN Training](machine-learning-systems/index/pipedream-generalized-pipeline-parallelism-for-dnn-training.md)
+  * [Pregel: A System for Large-Scale Graph Processing](machine-learning-systems/index/pregel-a-system-for-large-scale-graph-processing.md)
   * [PyTorch Distributed: Experiences on Accelerating Data Parallel Training](machine-learning-systems/index/pytorch-distributed-experiences-on-accelerating-data-parallel-training.md)
   * [Salus: Fine-Grained GPU Sharing Primitives for Deep Learning Applications](machine-learning-systems/index/salus-fine-grained-gpu-sharing-primitives-for-deep-learning-applications.md)
   * [Scaling Distributed Machine Learning with the Parameter Server](machine-learning-systems/index/scaling-distributed-machine-learning-with-the-parameter-server.md)
@@ -64,9 +65,9 @@
   * [Lecture 26: MPI Parallel Programming General Introduction. Point-to-Point Communication.](machine-learning-systems/cs759-hpc-course-notes/lecture-26-mpi-parallel-programming-general-introduction.-point-to-point-communication..md)
   * [Lecture 27: MPI Parallel Programming Point-to-Point communication: Blocking vs. Non-blocking sends.](machine-learning-systems/cs759-hpc-course-notes/lecture-27-mpi-parallel-programming-point-to-point-communication-blocking-vs.-non-blocking-sends..md)
   * [Lecture 28: MPI Parallel Programming: MPI Collectives. Overview of topics covered in the class.](machine-learning-systems/cs759-hpc-course-notes/lecture-28-mpi-parallel-programming-mpi-collectives.-overview-of-topics-covered-in-the-class..md)
-* [An Incomplete Guide to GPU Profiling](machine-learning-systems/an-incomplete-guide-to-gpu-profiling.md)
 * [Drafts](machine-learning-systems/drafts/README.md)
   * [Lakehouse: A New Generation of Open Platforms that Unify Data Warehousing and Advanced Analytics](machine-learning-systems/drafts/lakehouse-a-new-generation-of-open-platforms-that-unifydata-warehousing-and-advanced-analytics.md)
+  * [An Incomplete Guide to GPU Profiling](machine-learning-systems/drafts/an-incomplete-guide-to-gpu-profiling.md)
 
 ## Operating Systems
 

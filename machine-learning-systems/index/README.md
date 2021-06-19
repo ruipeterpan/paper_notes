@@ -84,6 +84,7 @@ I really need a new category for some of the papers below
 
 | Title | Venue |
 | :--- | :--- |
+| [Pregel: A System for Large-Scale Graph Processing](pregel-a-system-for-large-scale-graph-processing.md) | SIGMOD '10 |
 | PowerGraph: Distributed Graph-Parallel Computation on Neural Graphs | OSDI '12 |
 
 ### New Data, Hardware Models

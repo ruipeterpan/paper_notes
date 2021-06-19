@@ -1,4 +1,4 @@
-# Template for Paper Reviews
+# Template for Paper Reading Notes
 
 ## One-line Summary
 

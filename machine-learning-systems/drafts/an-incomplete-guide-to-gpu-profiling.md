@@ -24,7 +24,7 @@ The `nvidia-smi` utility is installed in the NVIDIA driver installation step.
 
 The NVIDIA System Management Interface \(`nvidia-smi`\) is a command line utility that provides easy management and monitoring of NVIDIA GPU devices.
 
-![nvidia-smi: sample usage](../.gitbook/assets/screen-shot-2021-03-17-at-1.14.50-am.png)
+![nvidia-smi: sample usage](../../.gitbook/assets/screen-shot-2021-03-17-at-1.14.50-am.png)
 
 Two pro tips regarding `nvidia-smi`:
 
