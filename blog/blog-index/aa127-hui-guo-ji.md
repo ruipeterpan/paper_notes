@@ -8,6 +8,7 @@ description: >-
 
 ## 前言
 
+* 路上拍了个[vlog](https://youtu.be/TfZENTQxdkA) :\)
 * 本文写于2021年6月28日。请参考北美票帝的微信公众号/微博和大使馆官网来获取最新的政策/要求。
 * 建议在出行前一个月找到飞友微信群互帮互助，我是在北美票帝的微博评论区里找到了拉我进群的好心陌生人。进群了之后参考了很多飞友总结的资料（最全面的是这篇[AA127情况汇总](https://docs.google.com/document/d/1-m6GvE3ZDos4Mtm27KZhwPAYH0CTZme-Jh3zi_Cygwk/edit)和[从零开始回国指南](https://mp.weixin.qq.com/s/8Z4nrqtVh0IdvMMaaokYwA)，其他的文章我也在文中附了链接），身边也有数不胜数的朋友（Haochen, Yuhan, Yushun等等）提供了帮助，在此道一声感谢！
 * AA127这班航班比较特殊，目前仅建议持F/J/M签证或有驻美大使馆认可的“紧急必要”原因的乘客乘坐，非学生签证的可以参考北美票帝的航班表选择其他路线；所有非中国公民，请事先与各个使领馆确认中国签证/居留许可的有效性和回国的“紧急必要”性。
