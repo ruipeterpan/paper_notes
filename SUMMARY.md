@@ -8,12 +8,13 @@
 ## Blog
 
 * [Blog - Index](blog/blog-index/README.md)
-  * [An Incomplete Guide to Travelling from the U.S. to China \(Jun 2021, AA 127\)](blog/blog-index/aa127-hui-guo-ji.md)
   * [Common Issues \(& Fixes\) when Playing with GPUs](blog/blog-index/common-issues-and-fixes-when-playing-with-gpus.md)
   * [How to Create Picture-in-Picture Effect / Video Overlay for a Presentation Video](blog/blog-index/how-to-create-picture-in-picture-effect-video-overlay-for-a-presentation-video.md)
-  * [How to do your part to protect the environment in Wisconsin](blog/blog-index/how-to-do-your-part-to-protect-the-environment-in-wisconsin.md)
+  * [How to Do Your Part to Protect the Environment in Wisconsin](blog/blog-index/how-to-do-your-part-to-protect-the-environment-in-wisconsin.md)
+  * [How to Get a Driver's License in Shanghai Using a Driver's License issued in the U.S.](blog/blog-index/how-to-get-a-drivers-license-in-shanghai-using-a-drivers-license-issued-in-the-u.s..md)
   * [How to Get a Driver's License in Wisconsin](blog/blog-index/how-to-get-a-drivers-license-in-wisconsin.md)
   * [How to Transfer Credits Back to UW-Madison](blog/blog-index/how-to-transfer-credits-back-to-uw-madison.md)
+  * [How to Travel from the U.S. to China onboard AA127 in June 2021](blog/blog-index/aa127-hui-guo-ji.md)
   * [How to Use Piazza](blog/blog-index/how-to-use-piazza.md)
   * [Some blog posts to do a second read on](blog/blog-index/some-blog-posts-to-do-a-second-read-on.md)
 
@@ -70,6 +71,7 @@
 * [Cloud Computing Course Notes](machine-learning-systems/cloud-computing-course-notes/README.md)
   * [1.1 Introduction to Clouds, MapReduce](machine-learning-systems/cloud-computing-course-notes/1.1-introduction-to-clouds-mapreduce.md)
   * [1.2 Gossip, Membership, and Grids](machine-learning-systems/cloud-computing-course-notes/1.2-gossip-membership-and-grids.md)
+  * [1.3 P2P Systems](machine-learning-systems/cloud-computing-course-notes/1.3-p2p-systems.md)
 * [Drafts](machine-learning-systems/drafts/README.md)
   * [Lakehouse: A New Generation of Open Platforms that Unify Data Warehousing and Advanced Analytics](machine-learning-systems/drafts/lakehouse-a-new-generation-of-open-platforms-that-unifydata-warehousing-and-advanced-analytics.md)
   * [An Incomplete Guide to GPU Profiling](machine-learning-systems/drafts/an-incomplete-guide-to-gpu-profiling.md)

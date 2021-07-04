@@ -4,7 +4,7 @@ description: >-
   guide in English!
 ---
 
-# An Incomplete Guide to Travelling from the U.S. to China \(Jun 2021, AA 127\)
+# How to Travel from the U.S. to China onboard AA127 in June 2021
 
 ## 前言
 

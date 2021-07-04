@@ -1,4 +1,4 @@
-# How to do your part to protect the environment in Wisconsin
+# How to Do Your Part to Protect the Environment in Wisconsin
 
 The following content is copied from the Canvas page of the course ENVIR ST 101: Forum on the Environment \(sp21\). This is a list of personal challenges everyone can do to help with environmental protection.
 
