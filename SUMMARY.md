@@ -72,6 +72,7 @@
   * [1.1 Introduction to Clouds, MapReduce](machine-learning-systems/cloud-computing-course-notes/1.1-introduction-to-clouds-mapreduce.md)
   * [1.2 Gossip, Membership, and Grids](machine-learning-systems/cloud-computing-course-notes/1.2-gossip-membership-and-grids.md)
   * [1.3 P2P Systems](machine-learning-systems/cloud-computing-course-notes/1.3-p2p-systems.md)
+  * [1.4 Key-Value Stores, Time, and Ordering](machine-learning-systems/cloud-computing-course-notes/1.4-key-value-stores-time-and-ordering.md)
 * [Drafts](machine-learning-systems/drafts/README.md)
   * [Lakehouse: A New Generation of Open Platforms that Unify Data Warehousing and Advanced Analytics](machine-learning-systems/drafts/lakehouse-a-new-generation-of-open-platforms-that-unifydata-warehousing-and-advanced-analytics.md)
   * [An Incomplete Guide to GPU Profiling](machine-learning-systems/drafts/an-incomplete-guide-to-gpu-profiling.md)
