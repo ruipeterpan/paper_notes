@@ -35,6 +35,7 @@
 
 | Title | Venue |
 | :--- | :--- |
+| Dominant Resource Fairness: Fair Allocation of Multiple Resource Types | NSDI '11 |
 | The Power of Choice in Data-aware Cluster Scheduling | OSDI '14 |
 | [Gandiva: Introspective Cluster Scheduling for Deep Learning](gandiva-introspective-cluster-scheduling-for-deep-learning.md) | OSDI '18 |
 | Optimus: An Efficient Dynamic Resource Scheduler for Deep Learning Clusters | EuroSys '18 |
@@ -43,7 +44,9 @@
 | [Themis: Fair and Efficient GPU Cluster Scheduling](themis-fair-and-efficient-gpu-cluster-scheduling.md) | NSDI '20 |
 | [Salus: Fine-Grained GPU Sharing Primitives for Deep Learning Applications](salus-fine-grained-gpu-sharing-primitives-for-deep-learning-applications.md) | MLSys '20 |
 | [Gavel: Heterogeneity-Aware Cluster Scheduling Policies for Deep Learning Workloads](gavel-heterogeneity-aware-cluster-scheduling-policies-for-deep-learning-workloads.md) | OSDI '20 |
+| AntMan: Dynamic Scaling on GPU Clusters for Deep Learning | OSDI '20 |
 | [Wavelet: Efficient DNN Training with Tick-Tock Scheduling](wavelet-efficient-dnn-training-with-tick-tock-scheduling.md) | MLSys '21 |
+| [Pollux: Co-adaptive Cluster Scheduling for Goodput-Optimized Deep Learning](pollux-co-adaptive-cluster-scheduling-for-goodput-optimized-deep-learning.md) | OSDI '21 |
 
 ### Machine Learning
 

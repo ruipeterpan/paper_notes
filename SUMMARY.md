@@ -32,6 +32,7 @@
   * [GPipe: Efficient Training of Giant Neural Networks using Pipeline Parallelism](machine-learning-systems/index/gpipe-efficient-training-of-giant-neural-networks-using-pipeline-parallelism.md)
   * [MapReduce: Simplified Data Processing on Large Clusters](machine-learning-systems/index/mapreduce-simplified-data-processing-on-large-clusters.md)
   * [PipeDream: Generalized Pipeline Parallelism for DNN Training](machine-learning-systems/index/pipedream-generalized-pipeline-parallelism-for-dnn-training.md)
+  * [Pollux: Co-adaptive Cluster Scheduling for Goodput-Optimized Deep Learning](machine-learning-systems/index/pollux-co-adaptive-cluster-scheduling-for-goodput-optimized-deep-learning.md)
   * [Pregel: A System for Large-Scale Graph Processing](machine-learning-systems/index/pregel-a-system-for-large-scale-graph-processing.md)
   * [PyTorch Distributed: Experiences on Accelerating Data Parallel Training](machine-learning-systems/index/pytorch-distributed-experiences-on-accelerating-data-parallel-training.md)
   * [Salus: Fine-Grained GPU Sharing Primitives for Deep Learning Applications](machine-learning-systems/index/salus-fine-grained-gpu-sharing-primitives-for-deep-learning-applications.md)

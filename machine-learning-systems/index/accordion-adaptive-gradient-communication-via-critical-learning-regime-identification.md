@@ -69,8 +69,9 @@ More evaluations are available in the paper appendix. This paper has the longest
 
 ## Links
 
-* [Paper PDF](https://arxiv.org/pdf/2010.16248.pdf)
-* Presentation video at MLSys '21
+* [Paper PDF](https://proceedings.mlsys.org/paper/2021/file/1d7f7abc18fcb43975065399b0d1e48e-Paper.pdf)
+* [Presentation video \(Poster\) at MLSys '21](https://slideslive.com/38952703/accordion-adaptive-gradient-communication-via-critical-learning-regime-identification?ref=account-folder-80869-folders)
+* [Presentation video \(Oral\) at MLSys '21](https://slideslive.com/38952732/oral-accordion-adaptive-gradient-communication-via-critical-learning-regime-identification?ref=account-folder-80870-folders)
 * Presentation slides at MLSys '21
-* xxx on GitHub
+* [Accordion on GitHub](https://github.com/uw-mad-dash/Accordion)
 

@@ -75,7 +75,7 @@ The execution stages are as follows:
 
 1. Many copies of the user program begin executing on a cluster of machines. One of the copies acts as the master to coordinate worker activities.
 2. The master determines the number of partitions and assigns partitions to machines. It is possible to have multiple partitions per worker for parallelism & load balancing. Each worker maintains the state of its partition, executes Compute\(\), and manages messages between workers.
-3. Each worker gets assigned a portion of the user's input by the master. If a worker loads a vertex that belongs to that worker's section of the graph, the n Aal Izz Well. Otherwise, the worker enqueues a message to the remote peer that owns the vertex.
+3. Each worker gets assigned a portion of the user's input by the master. If a worker loads a vertex that belongs to that worker's section of the graph, then "Aal Izz Well". Otherwise, the worker enqueues a message to the remote peer that owns the vertex.
 4. The master instructs each worker to do a superstep. Compute\(\) is called for each active vertex. Messages are sent asynchronously to overlap computation and communication. When a worker finishes, it reports to the master, telling it how many vertices will be active in the next superstep. This step iterates until all vertices are inactive.
 5. The computation halts and the master may instruct each worker to save its portion of the graph.
 
