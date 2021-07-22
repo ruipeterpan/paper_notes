@@ -2,7 +2,7 @@
 
 ## One-line Summary
 
-Pregel is a computational model/message passing abstraction that allows users to express many graph algorithms with ease. In Pregel, vertex programs run in sequences of super-steps. 
+Pregel is a computational model/message passing abstraction that allows users to express many graph algorithms with ease. In Pregel, vertex programs run in sequences of super-steps, and the programming model is essentially "thinking like a vertex". 
 
 ## Paper Structure Outline
 

@@ -26,7 +26,7 @@
 | [NFS: Sun's Network File System](../../operating-systems/index/nfs-suns-network-file-system.md) | USENIX '86 |
 | The Google File System | SOSP '03 |
 | [MapReduce: Simplified Data Processing on Large Clusters](mapreduce-simplified-data-processing-on-large-clusters.md) | OSDI '04 |
-| The Hadoop Distributed File System | ??? '07 |
+| The Hadoop Distributed File System | MSST '10 |
 | Spark: Cluster Computing with Working Sets | HotCloud '10 |
 | Lakehouse: A New Generation of Open Platforms that Unify Data Warehousing and Advanced Analytics | CIDR '21 |
 | [From Cloud Computing to Sky Computing](from-cloud-computing-to-sky-computing.md) | HotOS '21 |
@@ -88,7 +88,7 @@ I really need a new category for some of the papers below
 | Title | Venue |
 | :--- | :--- |
 | [Pregel: A System for Large-Scale Graph Processing](pregel-a-system-for-large-scale-graph-processing.md) | SIGMOD '10 |
-| PowerGraph: Distributed Graph-Parallel Computation on Neural Graphs | OSDI '12 |
+| [PowerGraph: Distributed Graph-Parallel Computation on Neural Graphs](powergraph-distributed-graph-parallel-computation-on-natural-graphs.md) | OSDI '12 |
 
 ### New Data, Hardware Models
 
