@@ -76,6 +76,7 @@
   * [1.3 P2P Systems](machine-learning-systems/cloud-computing-course-notes/1.3-p2p-systems.md)
   * [1.4 Key-Value Stores, Time, and Ordering](machine-learning-systems/cloud-computing-course-notes/1.4-key-value-stores-time-and-ordering.md)
   * [1.5 Classical Distributed Algorithms](machine-learning-systems/cloud-computing-course-notes/1.5-classical-distributed-algorithms.md)
+  * [4.1 Spark, Hortonworks, HDFS, CAP](machine-learning-systems/cloud-computing-course-notes/4.1-spark-hortonworks-hdfs-cap.md)
 * [Drafts](machine-learning-systems/drafts/README.md)
   * [Lakehouse: A New Generation of Open Platforms that Unify Data Warehousing and Advanced Analytics](machine-learning-systems/drafts/lakehouse-a-new-generation-of-open-platforms-that-unifydata-warehousing-and-advanced-analytics.md)
   * [An Incomplete Guide to GPU Profiling](machine-learning-systems/drafts/an-incomplete-guide-to-gpu-profiling.md)
