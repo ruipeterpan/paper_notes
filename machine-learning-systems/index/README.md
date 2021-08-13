@@ -89,6 +89,7 @@ I really need a new category for some of the papers below
 | :--- | :--- |
 | [Pregel: A System for Large-Scale Graph Processing](pregel-a-system-for-large-scale-graph-processing.md) | SIGMOD '10 |
 | [PowerGraph: Distributed Graph-Parallel Computation on Neural Graphs](powergraph-distributed-graph-parallel-computation-on-natural-graphs.md) | OSDI '12 |
+| [Nextdoor: Accelerating graph sampling for graph machine learning using GPUs](../drafts/accelerating-graph-sampling-for-graph-machine-learning-using-gpus.md) | EuroSys '21 |
 
 ### New Data, Hardware Models
 

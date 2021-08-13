@@ -78,6 +78,7 @@
   * [1.5 Classical Distributed Algorithms](machine-learning-systems/cloud-computing-course-notes/1.5-classical-distributed-algorithms.md)
   * [4.1 Spark, Hortonworks, HDFS, CAP](machine-learning-systems/cloud-computing-course-notes/4.1-spark-hortonworks-hdfs-cap.md)
 * [Drafts](machine-learning-systems/drafts/README.md)
+  * [Nextdoor: Accelerating graph sampling for graph machine learning using GPUs](machine-learning-systems/drafts/accelerating-graph-sampling-for-graph-machine-learning-using-gpus.md)
   * [Lakehouse: A New Generation of Open Platforms that Unify Data Warehousing and Advanced Analytics](machine-learning-systems/drafts/lakehouse-a-new-generation-of-open-platforms-that-unifydata-warehousing-and-advanced-analytics.md)
   * [An Incomplete Guide to GPU Profiling](machine-learning-systems/drafts/an-incomplete-guide-to-gpu-profiling.md)
 

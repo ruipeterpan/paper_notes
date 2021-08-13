@@ -72,9 +72,9 @@
 * Issues
   * Not all global memory accesses are equally efficient \(higher priority\)
   * Not all shared memory accesses are equally efficient
-* Two aspects of global memory access are relvant
+* Two aspects of global memory access are relevant
   * The layout/pattern of the access
-    * If threads that access global memory are neatly grouped, then we have a coalesced memroy access, and this is good
+    * If threads that access global memory are neatly grouped, then we have a coalesced memory access, and this is good
     * If the threads are scattered all over the place, it impacts the effective bandwidth
   * The alignment of the data we are fetching from global memory
     * If all threads in a warp access data inside only one memory block, it's great

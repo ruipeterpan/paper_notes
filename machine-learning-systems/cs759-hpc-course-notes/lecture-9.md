@@ -177,5 +177,3 @@ __global__ void multiply_ab(int* a, int* b, int* c, int size)
 
 > That's probably one of the instances, probably many instances, when you regret that you took 759, because this is not fun.    -- Prof. Dan Negrut
 
-
-
