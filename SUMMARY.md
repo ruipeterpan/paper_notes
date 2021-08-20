@@ -1,9 +1,7 @@
 # Table of contents
 
 * [Rui's Blog/Paper Reading Notes - Introduction](README.md)
-* [Vocabulary List](vocabulary-list.md)
 * [Template for Paper Reading Notes](template.md)
-* [Random stuff](untitled.md)
 
 ## Personal Blog <a id="blog"></a>
 
@@ -77,6 +75,7 @@
   * [1.4 Key-Value Stores, Time, and Ordering](machine-learning-systems/cloud-computing-course-notes/1.4-key-value-stores-time-and-ordering.md)
   * [1.5 Classical Distributed Algorithms](machine-learning-systems/cloud-computing-course-notes/1.5-classical-distributed-algorithms.md)
   * [4.1 Spark, Hortonworks, HDFS, CAP](machine-learning-systems/cloud-computing-course-notes/4.1-spark-hortonworks-hdfs-cap.md)
+  * [4.2 Large Scale Data Storage](machine-learning-systems/cloud-computing-course-notes/4.2-large-scale-data-storage.md)
 * [Drafts](machine-learning-systems/drafts/README.md)
   * [Lakehouse: A New Generation of Open Platforms that Unify Data Warehousing and Advanced Analytics](machine-learning-systems/drafts/lakehouse-a-new-generation-of-open-platforms-that-unifydata-warehousing-and-advanced-analytics.md)
   * [An Incomplete Guide to GPU Profiling](machine-learning-systems/drafts/an-incomplete-guide-to-gpu-profiling.md)
@@ -127,4 +126,5 @@
   * [HOGWILD!: A Lock-Free Approach to Parallelizing Stochastic Gradient Descent](misc-topics/drafts/hogwild-a-lock-free-approach-to-parallelizing-stochastic-gradient-descent.md)
   * [Wide Open Spaces: A statistical technique for measuring space creation in professional soccer](misc-topics/drafts/wide-open-spaces-a-statistical-technique-for-measuring-space-creation-in-professional-soccer.md)
   * [Decomposing the Immeasurable Sport: A deep learning expected possession value framework for soccer](misc-topics/drafts/decomposing-the-immeasurable-sport-a-deep-learning-expected-possession-value-framework-for-soccer.md)
+  * [Vocabulary List](misc-topics/drafts/vocabulary-list.md)
 
