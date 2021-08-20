@@ -5,9 +5,9 @@
 * [Template for Paper Reading Notes](template.md)
 * [Random stuff](untitled.md)
 
-## Blog
+## Personal Blog <a id="blog"></a>
 
-* [Blog - Index](blog/blog-index/README.md)
+* [Personal Blog - Index](blog/blog-index/README.md)
   * [Common Issues \(& Fixes\) when Playing with GPUs](blog/blog-index/common-issues-and-fixes-when-playing-with-gpus.md)
   * [How to Create Picture-in-Picture Effect / Video Overlay for a Presentation Video](blog/blog-index/how-to-create-picture-in-picture-effect-video-overlay-for-a-presentation-video.md)
   * [How to Do Your Part to Protect the Environment in Wisconsin](blog/blog-index/how-to-do-your-part-to-protect-the-environment-in-wisconsin.md)
@@ -15,12 +15,11 @@
   * [How to Get a Driver's License in Wisconsin](blog/blog-index/how-to-get-a-drivers-license-in-wisconsin.md)
   * [How to Transfer Credits Back to UW-Madison](blog/blog-index/how-to-transfer-credits-back-to-uw-madison.md)
   * [How to Travel from the U.S. to China onboard AA127 in June 2021](blog/blog-index/aa127-hui-guo-ji.md)
-  * [How to Use Piazza](blog/blog-index/how-to-use-piazza.md)
   * [Some blog posts to do a second read on](blog/blog-index/some-blog-posts-to-do-a-second-read-on.md)
 
 ## Machine Learning Systems
 
-* [Machine Learning Systems - Index](machine-learning-systems/index/README.md)
+* [Machine Learning Systems Papers - Index](machine-learning-systems/index/README.md)
   * [Accordion: Adaptive Gradient Communication via Critical Learning Regime Identification](machine-learning-systems/index/accordion-adaptive-gradient-communication-via-critical-learning-regime-identification.md)
   * [Analysis of Large-Scale Multi-Tenant GPU Clusters for DNN Training Workloads](machine-learning-systems/index/analysis-of-large-scale-multi-tenant-gpu-clusters-for-dnn-training-workloads.md)
   * [Analyzing and Mitigating Data Stalls in DNN Training](machine-learning-systems/index/analyzing-and-mitigating-data-stalls-in-dnn-training.md)
@@ -31,6 +30,7 @@
   * [Gavel: Heterogeneity-Aware Cluster Scheduling Policies for Deep Learning Workloads](machine-learning-systems/index/gavel-heterogeneity-aware-cluster-scheduling-policies-for-deep-learning-workloads.md)
   * [GPipe: Efficient Training of Giant Neural Networks using Pipeline Parallelism](machine-learning-systems/index/gpipe-efficient-training-of-giant-neural-networks-using-pipeline-parallelism.md)
   * [MapReduce: Simplified Data Processing on Large Clusters](machine-learning-systems/index/mapreduce-simplified-data-processing-on-large-clusters.md)
+  * [NextDoor: Accelerating graph sampling for graph machine learning using GPUs](machine-learning-systems/index/accelerating-graph-sampling-for-graph-machine-learning-using-gpus.md)
   * [PipeDream: Generalized Pipeline Parallelism for DNN Training](machine-learning-systems/index/pipedream-generalized-pipeline-parallelism-for-dnn-training.md)
   * [PowerGraph: Distributed Graph-Parallel Computation on Natural Graphs](machine-learning-systems/index/powergraph-distributed-graph-parallel-computation-on-natural-graphs.md)
   * [Pollux: Co-adaptive Cluster Scheduling for Goodput-Optimized Deep Learning](machine-learning-systems/index/pollux-co-adaptive-cluster-scheduling-for-goodput-optimized-deep-learning.md)
@@ -78,13 +78,12 @@
   * [1.5 Classical Distributed Algorithms](machine-learning-systems/cloud-computing-course-notes/1.5-classical-distributed-algorithms.md)
   * [4.1 Spark, Hortonworks, HDFS, CAP](machine-learning-systems/cloud-computing-course-notes/4.1-spark-hortonworks-hdfs-cap.md)
 * [Drafts](machine-learning-systems/drafts/README.md)
-  * [Nextdoor: Accelerating graph sampling for graph machine learning using GPUs](machine-learning-systems/drafts/accelerating-graph-sampling-for-graph-machine-learning-using-gpus.md)
   * [Lakehouse: A New Generation of Open Platforms that Unify Data Warehousing and Advanced Analytics](machine-learning-systems/drafts/lakehouse-a-new-generation-of-open-platforms-that-unifydata-warehousing-and-advanced-analytics.md)
   * [An Incomplete Guide to GPU Profiling](machine-learning-systems/drafts/an-incomplete-guide-to-gpu-profiling.md)
 
 ## Operating Systems
 
-* [Operating Systems - Index](operating-systems/index/README.md)
+* [Operating Systems Papers - Index](operating-systems/index/README.md)
   * [CS 736 @ UW-Madison Fall 2020 Reading List](operating-systems/index/cs-736-uw-madison-fall-2020-reading-list.md)
   * [All File Systems Are Not Created Equal: On the Complexity of Crafting Crash-Consistent Applications](operating-systems/index/all-file-systems-are-not-created-equal-on-the-complexity-of-crafting-crash-consistent-applications.md)
   * [ARC: A Self-Tuning, Low Overhead Replacement Cache](operating-systems/index/arc-a-self-tuning-low-overhead-replacement-cache.md)
@@ -117,9 +116,9 @@
 ## Misc Topics
 
 * [Misc Topics - Index](misc-topics/index.md)
-* [Machine Learning - Index](misc-topics/machine-learning-index/README.md)
+* [Machine Learning Papers - Index](misc-topics/machine-learning-index/README.md)
   * [Backpropagation Applied to Handwritten Zip Code Recognition](misc-topics/machine-learning-index/backpropagation-applied-to-handwritten-zip-code-recognition.md)
-* [Soccer Analytics - Index](misc-topics/soccer-analytics-index/README.md)
+* [Soccer Analytics Papers - Index](misc-topics/soccer-analytics-index/README.md)
   * [Merging Pose And Contextual Data To Estimate Orientation Of Soccer Players](misc-topics/soccer-analytics-index/merging-pose-and-contextual-data-to-estimate-orientation-of-soccer-players.md)
   * [Soccer analytics: Unravelling the complexity of “the beautiful game”](misc-topics/soccer-analytics-index/soccer-analytics-unravelling-the-complexity-of-the-beautiful-game.md)
   * [Using Player’s Body-Orientation to Model Pass Feasibility in Soccer](misc-topics/soccer-analytics-index/using-players-body-orientation-to-model-pass-feasibility-in-soccer.md)

@@ -1,4 +1,4 @@
-# Machine Learning Systems - Index
+# Machine Learning Systems Papers - Index
 
 ## Meta stuff
 
@@ -50,8 +50,6 @@
 
 ### Machine Learning
 
-I really need a new category for some of the papers below
-
 | Title | Venue |
 | :--- | :--- |
 | Large Scale Distributed Deep Networks | NeurIPS '12 |
@@ -89,7 +87,7 @@ I really need a new category for some of the papers below
 | :--- | :--- |
 | [Pregel: A System for Large-Scale Graph Processing](pregel-a-system-for-large-scale-graph-processing.md) | SIGMOD '10 |
 | [PowerGraph: Distributed Graph-Parallel Computation on Neural Graphs](powergraph-distributed-graph-parallel-computation-on-natural-graphs.md) | OSDI '12 |
-| [Nextdoor: Accelerating graph sampling for graph machine learning using GPUs](../drafts/accelerating-graph-sampling-for-graph-machine-learning-using-gpus.md) | EuroSys '21 |
+| [NextDoor: Accelerating graph sampling for graph machine learning using GPUs](accelerating-graph-sampling-for-graph-machine-learning-using-gpus.md) | EuroSys '21 |
 
 ### New Data, Hardware Models
 
@@ -104,7 +102,6 @@ I really need a new category for some of the papers below
 * [ ] Optimus: An Efficient Dynamic Resource Scheduler for Deep Learning Clusters
 * [ ] TensorFlow: A system for large-scale machine learning
 * [ ] In-Datacenter Performance Analysis of a Tensor Processing Unit
-* [ ] PipeDream: Generalized Pipeline Parallelism for DNN Training
 * [ ] CNTK: Microsoft’s Open-Source Deep-Learning Toolkit
 * [ ] Caffe: Convolutional Architecture for Fast Feature Embedding
 * [ ] PyTorch: An Imperative Style, High-Performance Deep Learning Library

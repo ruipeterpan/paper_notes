@@ -1,4 +1,4 @@
-# Blog - Index
+# Personal Blog - Index
 
 ## Articles
 
@@ -9,8 +9,4 @@
 {% page-ref page="how-to-get-a-drivers-license-in-wisconsin.md" %}
 
 {% page-ref page="how-to-transfer-credits-back-to-uw-madison.md" %}
-
-{% page-ref page="how-to-use-piazza.md" %}
-
-
 

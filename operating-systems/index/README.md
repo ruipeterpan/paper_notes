@@ -1,4 +1,4 @@
-# Operating Systems - Index
+# Operating Systems Papers - Index
 
 ## Meta stuff
 
@@ -74,8 +74,6 @@
 
 #### File and Storage Systems
 
-* [x] OptFS: Optimistic Crash Consistency
-* [x] The Unwritten Contract of Solid State Drives
 * [ ] Mnemosyne: Lightweight Persistent Memory
 * [ ] Level Hash: Write-Optimized and High-Performance Hashing Index Scheme for Persistent Memory
 

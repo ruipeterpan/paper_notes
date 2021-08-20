@@ -1,4 +1,4 @@
-# Machine Learning - Index
+# Machine Learning Papers - Index
 
 ## Table of Contents
 
