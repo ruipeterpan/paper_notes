@@ -152,4 +152,5 @@ Pollux co-adaptively optimizes DL job execution at both per-job level and cluste
 * [Presentation video at OSDI '21](https://www.usenix.org/conference/osdi21/presentation/qiao)
 * [Presentation slides at OSDI '21](https://www.usenix.org/system/files/osdi21_slides_qiao.pdf)
 * [Pollux on GitHub](https://github.com/petuum/adaptdl/tree/osdi21-artifact)
+* My [presentation video](https://youtu.be/lJ3_iM13A5k) on Pollux \(in Mandarin Chinese\) at the Systems & Networking Reading Group hosted by [Xiangfeng Zhu](https://xzhu27.me/)
 
