@@ -42,6 +42,7 @@
 | [Analysis of Large-Scale Multi-Tenant GPU Clusters for DNN Training Workloads](analysis-of-large-scale-multi-tenant-gpu-clusters-for-dnn-training-workloads.md) | ATC '19 |
 | [Tiresias: A GPU Cluster Manager for Distributed Deep Learning](tiresias-a-gpu-cluster-manager-for-distributed-deep-learning.md) | NSDI '19 |
 | [Themis: Fair and Efficient GPU Cluster Scheduling](themis-fair-and-efficient-gpu-cluster-scheduling.md) | NSDI '20 |
+| AlloX: Compute Allocation in Hybrid Clusters | EuroSys '20 |
 | [Salus: Fine-Grained GPU Sharing Primitives for Deep Learning Applications](salus-fine-grained-gpu-sharing-primitives-for-deep-learning-applications.md) | MLSys '20 |
 | [Gavel: Heterogeneity-Aware Cluster Scheduling Policies for Deep Learning Workloads](gavel-heterogeneity-aware-cluster-scheduling-policies-for-deep-learning-workloads.md) | OSDI '20 |
 | AntMan: Dynamic Scaling on GPU Clusters for Deep Learning | OSDI '20 |

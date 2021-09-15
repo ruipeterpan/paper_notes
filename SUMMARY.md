@@ -78,6 +78,7 @@
   * [4.1 Spark, Hortonworks, HDFS, CAP](machine-learning-systems/cloud-computing-course-notes/4.1-spark-hortonworks-hdfs-cap.md)
   * [4.2 Large Scale Data Storage](machine-learning-systems/cloud-computing-course-notes/4.2-large-scale-data-storage.md)
 * [Drafts](machine-learning-systems/drafts/README.md)
+  * [AlloX: Compute Allocation in Hybrid Clusters](machine-learning-systems/drafts/allox-compute-allocation-in-hybrid-clusters.md)
   * [Lakehouse: A New Generation of Open Platforms that Unify Data Warehousing and Advanced Analytics](machine-learning-systems/drafts/lakehouse-a-new-generation-of-open-platforms-that-unifydata-warehousing-and-advanced-analytics.md)
   * [An Incomplete Guide to GPU Profiling](machine-learning-systems/drafts/an-incomplete-guide-to-gpu-profiling.md)
 
