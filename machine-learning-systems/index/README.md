@@ -24,7 +24,7 @@
 | Title | Venue |
 | :--- | :--- |
 | [NFS: Sun's Network File System](../../operating-systems/index/nfs-suns-network-file-system.md) | USENIX '86 |
-| The Google File System | SOSP '03 |
+| [The Google File System](the-google-file-system.md) | SOSP '03 |
 | [MapReduce: Simplified Data Processing on Large Clusters](mapreduce-simplified-data-processing-on-large-clusters.md) | OSDI '04 |
 | The Hadoop Distributed File System | MSST '10 |
 | Spark: Cluster Computing with Working Sets | HotCloud '10 |
