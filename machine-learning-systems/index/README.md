@@ -27,7 +27,7 @@
 | [The Google File System](the-google-file-system.md) | SOSP '03 |
 | [MapReduce: Simplified Data Processing on Large Clusters](mapreduce-simplified-data-processing-on-large-clusters.md) | OSDI '04 |
 | The Hadoop Distributed File System | MSST '10 |
-| Spark: Cluster Computing with Working Sets | HotCloud '10 |
+| [Mesos: A Platform for Fine-Grained Resource Sharing in the Data Center](mesos-a-platform-for-fine-grained-resource-sharing-in-the-data-center.md) | NSDI '11 |
 | [Resilient Distributed Datasets: A Fault-Tolerant Abstraction for In-Memory Cluster Computing](resilient-distributed-datasets-a-fault-tolerant-abstraction-for-in-memory-cluster-computing.md) | NSDI '12 |
 | Lakehouse: A New Generation of Open Platforms that Unify Data Warehousing and Advanced Analytics | CIDR '21 |
 | [From Cloud Computing to Sky Computing](from-cloud-computing-to-sky-computing.md) | HotOS '21 |

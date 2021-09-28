@@ -28,6 +28,7 @@
   * [Gavel: Heterogeneity-Aware Cluster Scheduling Policies for Deep Learning Workloads](machine-learning-systems/index/gavel-heterogeneity-aware-cluster-scheduling-policies-for-deep-learning-workloads.md)
   * [GPipe: Efficient Training of Giant Neural Networks using Pipeline Parallelism](machine-learning-systems/index/gpipe-efficient-training-of-giant-neural-networks-using-pipeline-parallelism.md)
   * [MapReduce: Simplified Data Processing on Large Clusters](machine-learning-systems/index/mapreduce-simplified-data-processing-on-large-clusters.md)
+  * [Mesos: A Platform for Fine-Grained Resource Sharing in the Data Center](machine-learning-systems/index/mesos-a-platform-for-fine-grained-resource-sharing-in-the-data-center.md)
   * [NextDoor: Accelerating graph sampling for graph machine learning using GPUs](machine-learning-systems/index/accelerating-graph-sampling-for-graph-machine-learning-using-gpus.md)
   * [PipeDream: Generalized Pipeline Parallelism for DNN Training](machine-learning-systems/index/pipedream-generalized-pipeline-parallelism-for-dnn-training.md)
   * [PowerGraph: Distributed Graph-Parallel Computation on Natural Graphs](machine-learning-systems/index/powergraph-distributed-graph-parallel-computation-on-natural-graphs.md)
