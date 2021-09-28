@@ -34,6 +34,7 @@
   * [Pollux: Co-adaptive Cluster Scheduling for Goodput-Optimized Deep Learning](machine-learning-systems/index/pollux-co-adaptive-cluster-scheduling-for-goodput-optimized-deep-learning.md)
   * [Pregel: A System for Large-Scale Graph Processing](machine-learning-systems/index/pregel-a-system-for-large-scale-graph-processing.md)
   * [PyTorch Distributed: Experiences on Accelerating Data Parallel Training](machine-learning-systems/index/pytorch-distributed-experiences-on-accelerating-data-parallel-training.md)
+  * [Resilient Distributed Datasets: A Fault-Tolerant Abstraction for In-Memory Cluster Computing](machine-learning-systems/index/resilient-distributed-datasets-a-fault-tolerant-abstraction-for-in-memory-cluster-computing.md)
   * [Salus: Fine-Grained GPU Sharing Primitives for Deep Learning Applications](machine-learning-systems/index/salus-fine-grained-gpu-sharing-primitives-for-deep-learning-applications.md)
   * [Scaling Distributed Machine Learning with the Parameter Server](machine-learning-systems/index/scaling-distributed-machine-learning-with-the-parameter-server.md)
   * [The Google File System](machine-learning-systems/index/the-google-file-system.md)
