@@ -3,10 +3,10 @@
 * [Rui's Blog/Paper Reading Notes - Introduction](README.md)
 * [Template for Paper Reading Notes](template.md)
 
-## Personal Blog <a id="blog"></a>
+## Personal Blog <a href="blog" id="blog"></a>
 
 * [Personal Blog - Index](blog/blog-index/README.md)
-  * [Common Issues \(& Fixes\) when Playing with GPUs](blog/blog-index/common-issues-and-fixes-when-playing-with-gpus.md)
+  * [Common Issues (& Fixes) when Playing with GPUs](blog/blog-index/common-issues-and-fixes-when-playing-with-gpus.md)
   * [How to Create Picture-in-Picture Effect / Video Overlay for a Presentation Video](blog/blog-index/how-to-create-picture-in-picture-effect-video-overlay-for-a-presentation-video.md)
   * [How to Do Your Part to Protect the Environment in Wisconsin](blog/blog-index/how-to-do-your-part-to-protect-the-environment-in-wisconsin.md)
   * [How to Get a Driver's License in Shanghai Using a Driver's License issued in the U.S.](blog/blog-index/how-to-get-a-drivers-license-in-shanghai-using-a-drivers-license-issued-in-the-u.s..md)
@@ -56,8 +56,8 @@
   * [Lecture 11: Execution Divergence. Control Flow in CUDA. CUDA Shared Memory Issues.](machine-learning-systems/cs759-hpc-course-notes/lecture-11-execution-divergence.-control-flow-in-cuda.-global-memory-access-patterns-and.md)
   * [Lecture 12: Global Memory Access Patterns and Implications.](machine-learning-systems/cs759-hpc-course-notes/lecture-12-cuda-shared-memory-issues..md)
   * [Lecture 13: Atomic operations in CUDA. GPU ode optimization rules of thumb.](machine-learning-systems/cs759-hpc-course-notes/lecture-12-cuda-shared-memory-issues.-atomic-operations-in-cuda..md)
-  * [Lecture 14: CUDA Case Studies. \(1\) 1D Stencil Operation. \(2\) Vector Reduction in CUDA.](machine-learning-systems/cs759-hpc-course-notes/lecture-14-tiling-as-a-programing-pattern-in-cuda.-example-vector-reduction-in-cuda..md)
-  * [Lecture 15: CUDA Case Studies. \(3\) Parallel Prefix Scan on the GPU. Using Multiple Streams in CUDA.](machine-learning-systems/cs759-hpc-course-notes/lecture-15-cuda-optimization-issues.-resource-utilization-issues.-parallel-prefix-scan-on-the-gpu..md)
+  * [Lecture 14: CUDA Case Studies. (1) 1D Stencil Operation. (2) Vector Reduction in CUDA.](machine-learning-systems/cs759-hpc-course-notes/lecture-14-tiling-as-a-programing-pattern-in-cuda.-example-vector-reduction-in-cuda..md)
+  * [Lecture 15: CUDA Case Studies. (3) Parallel Prefix Scan on the GPU. Using Multiple Streams in CUDA.](machine-learning-systems/cs759-hpc-course-notes/lecture-15-cuda-optimization-issues.-resource-utilization-issues.-parallel-prefix-scan-on-the-gpu..md)
   * [Lecture 16: Streams, and overlapping data copy with execution.](machine-learning-systems/cs759-hpc-course-notes/lecture-16-streams-and-overlapping-data-copy-with-execution..md)
   * [Lecture 17: GPU Computing: Advanced Features.](machine-learning-systems/cs759-hpc-course-notes/lecture-17-gpu-computing-advanced-features.-unified-memory-usage..md)
   * [Lecture 18: GPU Computing with thrust and cub.](machine-learning-systems/cs759-hpc-course-notes/lecture-18-gpu-computing-with-thrust-and-cub..md)
@@ -80,6 +80,7 @@
   * [4.1 Spark, Hortonworks, HDFS, CAP](machine-learning-systems/cloud-computing-course-notes/4.1-spark-hortonworks-hdfs-cap.md)
   * [4.2 Large Scale Data Storage](machine-learning-systems/cloud-computing-course-notes/4.2-large-scale-data-storage.md)
 * [Drafts](machine-learning-systems/drafts/README.md)
+  * [Dominant Resource Fairness: Fair Allocation of Multiple Resource Types](machine-learning-systems/drafts/dominant-resource-fairness-fair-allocation-of-multiple-resource-types.md)
   * [AlloX: Compute Allocation in Hybrid Clusters](machine-learning-systems/drafts/allox-compute-allocation-in-hybrid-clusters.md)
   * [Lakehouse: A New Generation of Open Platforms that Unify Data Warehousing and Advanced Analytics](machine-learning-systems/drafts/lakehouse-a-new-generation-of-open-platforms-that-unifydata-warehousing-and-advanced-analytics.md)
   * [An Incomplete Guide to GPU Profiling](machine-learning-systems/drafts/an-incomplete-guide-to-gpu-profiling.md)
@@ -131,4 +132,3 @@
   * [Wide Open Spaces: A statistical technique for measuring space creation in professional soccer](misc-topics/drafts/wide-open-spaces-a-statistical-technique-for-measuring-space-creation-in-professional-soccer.md)
   * [Decomposing the Immeasurable Sport: A deep learning expected possession value framework for soccer](misc-topics/drafts/decomposing-the-immeasurable-sport-a-deep-learning-expected-possession-value-framework-for-soccer.md)
   * [Vocabulary List](misc-topics/drafts/vocabulary-list.md)
-

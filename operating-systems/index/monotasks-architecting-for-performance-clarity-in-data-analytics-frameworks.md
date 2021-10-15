@@ -40,11 +40,11 @@ In current data analytics frameworks, it is very difficult for users to reason a
 
 1. Tasks have non-uniform resource use
 2. Concurrent tasks on a machine may contend
-3. Resource use occurs outside the control of the analytics framework \(controlled by OS\)
+3. Resource use occurs outside the control of the analytics framework (controlled by OS)
 
 ## Design and Implementation
 
-Traditional fine-grained pipelining used in today's tasks \(multitasks\) are replaced with statistical multiplexing across monotasks that each use a single resource. The decomposing of multitasks into monotasks can be done internally by the framework w/o changing the existing API. To resolve the aforementioned issues, Monotasks has these design principles in mind:
+Traditional fine-grained pipelining used in today's tasks (multitasks) are replaced with statistical multiplexing across monotasks that each use a single resource. The decomposing of multitasks into monotasks can be done internally by the framework w/o changing the existing API. To resolve the aforementioned issues, Monotasks has these design principles in mind:
 
 1. Each monotasks uses one resource
 2. Monotasks execute in isolation
@@ -61,8 +61,8 @@ In this paper, the authors presented MonoSpark, which is essentially Apache Spar
 
 On each worker, monotasks are scheduled using two layers of schedulers.
 
-* **Top-level scheduler \(local DAG scheduler\)**: Manages the DAG of monotasks for each multitask. Tracks dependencies for monotasks and submit the monotask to the resource that it's waiting for when the dependencies are complete.
-* **Low-level scheduler \(dedicated, per-resource \(CPU, disk, network\) scheduler\)**: Written at the application level and not within the OS, meaning that the resource use is not perfectly controlled.
+* **Top-level scheduler (local DAG scheduler)**: Manages the DAG of monotasks for each multitask. Tracks dependencies for monotasks and submit the monotask to the resource that it's waiting for when the dependencies are complete.
+* **Low-level scheduler (dedicated, per-resource (CPU, disk, network) scheduler)**: Written at the application level and not within the OS, meaning that the resource use is not perfectly controlled.
 
 When more monotasks are waiting for a resource that can run concurrently, monotasks will be queued. The queues implement round-robin over monotasks in different phases of the multitask DAG.
 
@@ -96,14 +96,13 @@ Three benchmark workloads are used: Sort, Big Data Benchmark, and Machine Learni
 
 ![Predicting runtime on different hardware](../../.gitbook/assets/screen-shot-2020-12-25-at-12.32.56-pm.png)
 
-![Predicting with both hardware and software changes. 4x more machines -&amp;gt; 10x improvement predicted with at most 23% error](../../.gitbook/assets/screen-shot-2020-12-25-at-12.33.46-pm.png)
+![Predicting with both hardware and software changes. 4x more machines -> 10x improvement predicted with at most 23% error](../../.gitbook/assets/screen-shot-2020-12-25-at-12.33.46-pm.png)
 
 ![Monotasks schedulers automatically select ideal concurrency because they have better control](../../.gitbook/assets/screen-shot-2020-12-25-at-12.35.56-pm.png)
 
 ## Links
 
 * [Paper PDF](http://kayousterhout.org/publications/sosp17-final183.pdf)
-* [Presentation slides @ SOSP '17](http://kayousterhout.org/talks/2017_10_29_SOSP_Monotasks.pdf)
-* [Slides for CS34702 @ U Chicago](https://people.cs.uchicago.edu/~junchenj/34702/slides/34702-MonoTasks.pdf)
+* [Presentation slides @ SOSP '17](http://kayousterhout.org/talks/2017\_10\_29\_SOSP_Monotasks.pdf)
+* [Slides for CS34702 @ U Chicago](https://people.cs.uchicago.edu/\~junchenj/34702/slides/34702-MonoTasks.pdf)
 * [spark-monotasks on GitHub](https://github.com/NetSys/spark-monotasks)
-

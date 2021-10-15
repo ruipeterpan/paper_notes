@@ -48,14 +48,14 @@ The Data Domain File System also featured a layered file system architecture.
 ![](../../.gitbook/assets/screen-shot-2020-12-29-at-11.25.01-am.png)
 
 * Content Store: Manages data in files; Breaks data into segments; Does the fingerprinting
-* Segment Store: Maps segment descriptors \(fingerprints\) to data; Performs deduplication; Keeps track of references, updates segment index; Compresses segments and pushes to container layer
+* Segment Store: Maps segment descriptors (fingerprints) to data; Performs deduplication; Keeps track of references, updates segment index; Compresses segments and pushes to container layer
 * Container Manager: Provides container abstraction; Write fixed-sized containers entirely
 
-### Summary vector \(bloom filter\)
+### Summary vector (bloom filter)
 
 ![](../../.gitbook/assets/screen-shot-2020-12-29-at-11.57.34-am.png)
 
-This avoids going to disk and writing data if the data already exists. Bloom filters are used to check the fingerprint. It may produce false positives but no false negatives \(i.e. the summary vector will not tell you that an existing fingerprint doesn't exist\), so it's only a slight performance problem. 
+This avoids going to disk and writing data if the data already exists. Bloom filters are used to check the fingerprint. It may produce false positives but no false negatives (i.e. the summary vector will not tell you that an existing fingerprint doesn't exist), so it's only a slight performance problem. 
 
 ### Stream-informed layout
 
@@ -73,18 +73,18 @@ An extension of the idea that motivated stream-informed layout. We divide the ca
 
 1. Check if the fingerprint is in the segment cache. If yes, then we are done. Else, continue to step 2.
 2. Check the summary vector to see if the data is already written.
-   1. If not \(new data\), then append it to the current container \(for locality with the other data in the container\). Once the container is full, it is passed off to the container manager.
-   2. If yes \(old data\), it might be a false positive so we check if it really exists.
-      1. Check the index, if it's really in there \(duplicate\), insert it into the segment cache along with all the other fingerprints in the container.
-      2. Otherwise, go to step 2.1 \(append to the current container\).
+   1. If not (new data), then append it to the current container (for locality with the other data in the container). Once the container is full, it is passed off to the container manager.
+   2. If yes (old data), it might be a false positive so we check if it really exists.
+      1. Check the index, if it's really in there (duplicate), insert it into the segment cache along with all the other fingerprints in the container.
+      2. Otherwise, go to step 2.1 (append to the current container).
 
 ## Evaluation
 
-![~100-fold performance improvement using the combination of the two techniques](../../.gitbook/assets/screen-shot-2020-12-29-at-11.58.04-am.png)
+![\~100-fold performance improvement using the combination of the two techniques](../../.gitbook/assets/screen-shot-2020-12-29-at-11.58.04-am.png)
 
 ## New Vocabulary
 
-* [Bloom filter](https://www.youtube.com/watch?v=kfFacplFY4Y&ab_channel=SpanningTree): A space-efficient probabilistic data structure that is used to test whether an element is a member of a set.
+* [Bloom filter](https://www.youtube.com/watch?v=kfFacplFY4Y\&ab_channel=SpanningTree): A space-efficient probabilistic data structure that is used to test whether an element is a member of a set.
 
 ## Links
 
@@ -92,5 +92,6 @@ An extension of the idea that motivated stream-informed layout. We divide the ca
 * [Presentation Video at FAST '08](https://www.usenix.org/conference/fast-08/avoiding-disk-bottleneck-data-domain-deduplication-file-system)
 * [Presentation Audio at FAST '08](https://c59951.ssl.cf2.rackcdn.com/legacy_media/fast08/tech/full_papers/zhu/zhu.mp3)
 
-{% file src="../../.gitbook/assets/data-deduplication.pdf" caption="Prof. Andrea Arpaci-Dusseau\'s course notes on Data Deduplication" %}
-
+{% file src="../../.gitbook/assets/data-deduplication.pdf" %}
+Prof. Andrea Arpaci-Dusseau's course notes on Data Deduplication
+{% endfile %}
