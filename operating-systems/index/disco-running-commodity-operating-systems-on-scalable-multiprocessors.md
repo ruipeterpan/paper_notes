@@ -40,11 +40,11 @@ Disco uses virtual machines to run multiple commodity operating systems on large
 
 ## Background & Motivation
 
-The motivation is to enable existing commodity operating systems to handle Non-Uniform Memory Access (NUMA) architectures. Instead of modifying existing operating systems to run on scalable shared-memory multiprocessors, an additional layer (VM monitor) is inserted between the hardware and the OS.
+The motivation is to enable existing commodity operating systems to handle Non-Uniform Memory Access \(NUMA\) architectures. Instead of modifying existing operating systems to run on scalable shared-memory multiprocessors, an additional layer \(VM monitor\) is inserted between the hardware and the OS.
 
-![Course notes by Prof. Andrea. Left: SMP (symmetrical multiprocessor uniform memory access machine), right: cc-NUMA](../../.gitbook/assets/screen-shot-2021-01-03-at-7.41.45-pm.png)
+![Course notes by Prof. Andrea. Left: SMP \(symmetrical multiprocessor uniform memory access machine\), right: cc-NUMA](../../.gitbook/assets/screen-shot-2021-01-03-at-7.41.45-pm.png)
 
-Cache-coherent Non-Uniform Memory Architecture (cc-NUMA) makes hardware scalable, while SMP ensures the same performance to all memory from everywhere. Both ensure correctness, though.
+Cache-coherent Non-Uniform Memory Architecture \(cc-NUMA\) makes hardware scalable, while SMP ensures the same performance to all memory from everywhere. Both ensure correctness, though.
 
 ## Design and Implementation
 
@@ -55,13 +55,13 @@ The advantages of using virtual machines in the context of this work are:
 * The Disco layer understands the NUMA architecture
 * It's a portability layer
 * Monitors are smaller and easier to understand & trust than operating systems
-* Allows to run different OSes concurrently (almost unmodified)
+* Allows to run different OSes concurrently \(almost unmodified\)
 
 The drawbacks of using virtual machines are:
 
 * Overhead: cost of virtualizing
-  * Time: VMM (Disco) acts as an emulator. Most instructions can just run, but privileged instructions + TLB instructions must be trapped & emulated
-  * Space: Multiple copies (OS code & each OS's file cache) waste memory
+  * Time: VMM \(Disco\) acts as an emulator. Most instructions can just run, but privileged instructions + TLB instructions must be trapped & emulated
+  * Space: Multiple copies \(OS code & each OS's file cache\) waste memory
 * Resource management: Lack of information to make good policy decisions
   * Lost information about what is being used
     * CPU - idle thread
@@ -80,7 +80,7 @@ The drawbacks of using virtual machines are:
 
 ![Records copy-on-write to track shared data efficiently.](../../.gitbook/assets/screen-shot-2021-01-03-at-8.27.31-pm.png)
 
-![Send becomes additional mapping (emulate device); Copy becomes additional mapping](../../.gitbook/assets/screen-shot-2021-01-03-at-8.27.39-pm.png)
+![Send becomes additional mapping \(emulate device\); Copy becomes additional mapping](../../.gitbook/assets/screen-shot-2021-01-03-at-8.27.39-pm.png)
 
 ![Changes Disco made to IRIX to improve performance](../../.gitbook/assets/screen-shot-2021-01-03-at-8.29.50-pm.png)
 
@@ -88,15 +88,15 @@ The drawbacks of using virtual machines are:
 
 ![](../../.gitbook/assets/screen-shot-2021-01-03-at-8.36.57-pm.png)
 
-![Pmake & Database do a lot of syscalls, often traps into Disco, which then goes to kernel. The extra 16% overhead for those workloads is due to the extra work handling TLB misses. The kernel time being less is because Disco zeros the pages (does work instead of IRIX).](../../.gitbook/assets/screen-shot-2021-01-03-at-8.37.10-pm.png)
+![Pmake &amp; Database do a lot of syscalls, often traps into Disco, which then goes to kernel. The extra 16% overhead for those workloads is due to the extra work handling TLB misses. The kernel time being less is because Disco zeros the pages \(does work instead of IRIX\).](../../.gitbook/assets/screen-shot-2021-01-03-at-8.37.10-pm.png)
 
 ![Disco does a good job sharing buffer cache space across VMs and sharing IRIX text.](../../.gitbook/assets/screen-shot-2021-01-03-at-8.40.11-pm.png)
 
-![No migration + replication, just looking at how much more scalable is Disco than IRIX due to optimizations of not having locks in which IRIX does a bad job at. IRIX on 8-processor cc-NUMA machine. 2VM -> 8VM actually improves because Disco does not have bad lock](../../.gitbook/assets/screen-shot-2021-01-03-at-8.40.22-pm.png)
+![No migration + replication, just looking at how much more scalable is Disco than IRIX due to optimizations of not having locks in which IRIX does a bad job at. IRIX on 8-processor cc-NUMA machine. 2VM -&amp;gt; 8VM actually improves because Disco does not have bad lock](../../.gitbook/assets/screen-shot-2021-01-03-at-8.40.22-pm.png)
 
 ![Much less time accessing remote memory, more local memory.](../../.gitbook/assets/screen-shot-2021-01-03-at-8.49.23-pm.png)
 
-This paper started off VMWare (which was founded by authors of Disco in 1998 and successfully commercialized this work) and revived virtual machines for the next 20 years. Now VMs are commodities, and every cloud provider and virtually every enterprise uses VMs today.
+This paper started off VMWare \(which was founded by authors of Disco in 1998 and successfully commercialized this work\) and revived virtual machines for the next 20 years. Now VMs are commodities, and every cloud provider and virtually every enterprise uses VMs today.
 
 ## New Vocabulary
 
@@ -106,10 +106,9 @@ This paper started off VMWare (which was founded by authors of Disco in 1998 and
 ## Links
 
 * [Paper PDF](https://bob.cs.ucdavis.edu/assets/ecs251/bugnion97.pdf)
-* [Paper review notes from CS 443 @ Northwestern by Joseph Paris](https://users.cs.northwestern.edu/\~fabianb/classes/cs-443-s05/review-disco-jparis.pdf)
-* [Discussion panel from CS 736 @ UW-Madison](http://pages.cs.wisc.edu/\~swift/classes/cs736-fa12/blog/2012/09/disco_running_commodity_operat.html)
+* [Paper review notes from CS 443 @ Northwestern by Joseph Paris](https://users.cs.northwestern.edu/~fabianb/classes/cs-443-s05/review-disco-jparis.pdf)
+* [Discussion panel from CS 736 @ UW-Madison](http://pages.cs.wisc.edu/~swift/classes/cs736-fa12/blog/2012/09/disco_running_commodity_operat.html)
 * [Lecture slides from CS 262a @ Berkeley by Prof. Ion Stoica and Ali Ghodsi](https://ucbrise.github.io/cs262a-spring2018/notes/10-VMs-Disco-Xen.pdf)
 
-{% file src="../../.gitbook/assets/21-disco-instructor-notes-combined-with-questions.pdf" %}
-Prof. Andrea's notes on Disco
-{% endfile %}
+{% file src="../../.gitbook/assets/21-disco-instructor-notes-combined-with-questions.pdf" caption="Prof. Andrea\'s notes on Disco" %}
+

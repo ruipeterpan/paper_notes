@@ -46,15 +46,15 @@ The work is based on an existing LSM system, WiscKey, which is significantly fas
 
 ### Five learning guidelines
 
-1. Favor learning files at lower levels (which live longer)
-2. Wait before learning a file (very short-lived files in every level due to consecutive compactions to newly generated files)
-3. Do not neglect files at higher levels (serve more internal lookups)
-4. Be workload- and data-aware (#lookups vary a lot in different scenarios)
-5. Do not learn levels for write-heavy workloads (level changes quickly)
+1. Favor learning files at lower levels \(which live longer\)
+2. Wait before learning a file \(very short-lived files in every level due to consecutive compactions to newly generated files\)
+3. Do not neglect files at higher levels \(serve more internal lookups\)
+4. Be workload- and data-aware \(\#lookups vary a lot in different scenarios\)
+5. Do not learn levels for write-heavy workloads \(level changes quickly\)
 
 ### Beneficial regimes
 
-![Read-only experiments on WiscKey when data resides on memory and different storage devices. Works better with faster data access (InMemory > Optane > SATA SSD)](../../.gitbook/assets/screen-shot-2021-01-04-at-11.18.12-am.png)
+![Read-only experiments on WiscKey when data resides on memory and different storage devices. Works better with faster data access \(InMemory &amp;gt; Optane &amp;gt; SATA SSD\)](../../.gitbook/assets/screen-shot-2021-01-04-at-11.18.12-am.png)
 
 Learned indexes can only speed up indexing time.
 
@@ -62,19 +62,19 @@ Learned indexes can only speed up indexing time.
 
 ![](../../.gitbook/assets/screen-shot-2021-01-04-at-11.23.03-am.png)
 
-Bourbon uses piecewise linear regression (PLR) to model the data as it has low overheads during learning and lookups, and the space overhead is small as well. Bourbon can learn individual sstables files (file learning) or entire levels (level learning). Level learning can be beneficial for read-only workloads, while for mixed workloads, level learning performs worse than file learning.
+Bourbon uses piecewise linear regression \(PLR\) to model the data as it has low overheads during learning and lookups, and the space overhead is small as well. Bourbon can learn individual sstables files \(file learning\) or entire levels \(level learning\). Level learning can be beneficial for read-only workloads, while for mixed workloads, level learning performs worse than file learning.
 
-### Cost-benefit analyzer (CBA)
+### Cost-benefit analyzer \(CBA\)
 
-The motivation for an online Cost vs. Benefit Analyzer (CBA) is to filter out short-lived files as they are not worth learning. Doing so wastes resources and has little benefit. CBA uses stats of previous files at the same level.
+The motivation for an online Cost vs. Benefit Analyzer \(CBA\) is to filter out short-lived files as they are not worth learning. Doing so wastes resources and has little benefit. CBA uses stats of previous files at the same level.
 
-To filter out short-lived files, Bourbon waits for a time threshold, Twait, before learning a file. The max time to learn a file is \~40ms, thus Bourbon sets Twait to be 50ms. However, learning a long-lived file may not be beneficial (and vice versa). Intuitively, as long as the benefit of the model (B_model) outweighs the cost of building the model (C_model), learning a file is profitable.
+To filter out short-lived files, Bourbon waits for a time threshold, Twait, before learning a file. The max time to learn a file is ~40ms, thus Bourbon sets Twait to be 50ms. However, learning a long-lived file may not be beneficial \(and vice versa\). Intuitively, as long as the benefit of the model \(B\_model\) outweighs the cost of building the model \(C\_model\), learning a file is profitable.
 
-#### Estimating the cost (C_model)
+#### Estimating the cost \(C\_model\)
 
-If we assume learning happens in the background (using idle cores), then C_model is 0. Bourbon takes a conservative approach, though, and assumes that the learning threads will interfere and cause some slow down. As a result, we define Cmodel to be equal to T_build, the time to train the PLR model for a file. As T_build is linearly proportional to the number of data points in a file, we define T_build to be the product of (1) the number of data points in the file and (2) the avg time to train a data point (measured offline).
+If we assume learning happens in the background \(using idle cores\), then C\_model is 0. Bourbon takes a conservative approach, though, and assumes that the learning threads will interfere and cause some slow down. As a result, we define Cmodel to be equal to T\_build, the time to train the PLR model for a file. As T\_build is linearly proportional to the number of data points in a file, we define T\_build to be the product of \(1\) the number of data points in the file and \(2\) the avg time to train a data point \(measured offline\).
 
-#### Estimating the benefit (B_model)
+#### Estimating the benefit \(B\_model\)
 
 Bourbon defines the benefit of learning a file to be:
 
@@ -83,8 +83,8 @@ B_{model} = (T_b - T_m) * N
 $$
 
 {% hint style="info" %}
-* T_b: Average time for the lookup in baseline
-* T_m: Average time for the lookup in model paths
+* T\_b: Average time for the lookup in baseline
+* T\_m: Average time for the lookup in model paths
 * N: Number of lookups the file serves in its lifetime
 {% endhint %}
 
@@ -95,26 +95,26 @@ B_{model} = ((T_{n.b} - T_{n.m}) * N_n) + ((T_{p.b} - T_{p.m}) * N_p)
 $$
 
 {% hint style="info" %}
-* N_n & N_p: Number of negative and positive internal lookups, respectively
-* T\_(n.b) and T\_(p.b): Time in the baseline path for negative and positive internal lookups, respectively
-* T\_(n.m) and T\_(p.m): Model counterparts
+* N\_n & N\_p: Number of negative and positive internal lookups, respectively
+* T\_\(n.b\) and T\_\(p.b\): Time in the baseline path for negative and positive internal lookups, respectively
+* T\_\(n.m\) and T\_\(p.m\): Model counterparts
 {% endhint %}
 
-To estimate the number of lookups (N_n & N_p) and the time the lookups take (T\_{n.b} & T\_{p.b}), CBA keeps track of the statistics of files that (1) have lived their lifetimes and (2) are at the same level (as stats vary significantly across levels).
+To estimate the number of lookups \(N\_n & N\_p\) and the time the lookups take \(T\_{n.b} & T\_{p.b}\), CBA keeps track of the statistics of files that \(1\) have lived their lifetimes and \(2\) are at the same level \(as stats vary significantly across levels\).
 
-Estimation of the above quantities are done during T_wait:
+Estimation of the above quantities are done during T\_wait:
 
-* T\_(n.b) and T\_(p.b): DuringTwait, lookups are served in the baseline path. These times are used to estimate Tn.b & Tp.b.
-* T\_(n.m) and T\_(p.m): Estimated as the avg of those of all other files at the same level.
-* N_n & N_p: Same as above but normalized by a factor f (f = s / s’: s is the size of the file, while s’ is the avg size of files at this level). While estimating the above quantities, short-lived files are filtered out.
+* T\_\(n.b\) and T\_\(p.b\): DuringTwait, lookups are served in the baseline path. These times are used to estimate Tn.b & Tp.b.
+* T\_\(n.m\) and T\_\(p.m\): Estimated as the avg of those of all other files at the same level.
+* N\_n & N\_p: Same as above but normalized by a factor f \(f = s / s’: s is the size of the file, while s’ is the avg size of files at this level\). While estimating the above quantities, short-lived files are filtered out.
 
-If C_model < B_model, a file will be learned. If multiple files are chosen to be learned at the same time, they are put on a max priority queue so that files that would deliver the most benefit are prioritized.
+If C\_model &lt; B\_model, a file will be learned. If multiple files are chosen to be learned at the same time, they are put on a max priority queue so that files that would deliver the most benefit are prioritized.
 
 Possible directions for future improvements include:
 
-* Better estimations of N_n, N_p, T\_(n.m) & T\_(p.m)
-* Develop a model of T_build on-line or calculate C_build such that it is not simply T_build
-* Sort the work queue by some function other than B_model - C_model
+* Better estimations of N\_n, N\_p, T\_\(n.m\) & T\_\(p.m\)
+* Develop a model of T\_build on-line or calculate C\_build such that it is not simply T\_build
+* Sort the work queue by some function other than B\_model - C\_model
 
 ![Bourbon lookups](../../.gitbook/assets/screen-shot-2021-01-04-at-11.23.29-am.png)
 
@@ -130,7 +130,7 @@ Possible directions for future improvements include:
 
 ![](../../.gitbook/assets/screen-shot-2021-01-04-at-11.29.02-am.png)
 
-![YCSB & SOSD: Read-only gains holds for real benchmarks; Have less gain when write rate is higher; Accelerate reads without affecting writes](../../.gitbook/assets/screen-shot-2021-01-04-at-11.29.13-am.png)
+![YCSB &amp; SOSD: Read-only gains holds for real benchmarks; Have less gain when write rate is higher; Accelerate reads without affecting writes](../../.gitbook/assets/screen-shot-2021-01-04-at-11.29.13-am.png)
 
 ## New Vocabulary
 
@@ -138,11 +138,10 @@ Possible directions for future improvements include:
 
 ## Links
 
-* [Paper PDF](https://www.usenix.org/system/files/osdi20-dai\_0.pdf)
+* [Paper PDF](https://www.usenix.org/system/files/osdi20-dai_0.pdf)
 * [Presentation video at OSDI '20](https://www.youtube.com/watch?v=EUxEx5hwLXk)
-* [Presentation slides at OSDI '20](https://www.usenix.org/sites/default/files/conference/protected-files/osdi20\_slides_dai.pdf)
+* [Presentation slides at OSDI '20](https://www.usenix.org/sites/default/files/conference/protected-files/osdi20_slides_dai.pdf)
 * Thanks to Yifan Dai and Yien Xu for the paper review notes!
 
-{% file src="../../.gitbook/assets/contractssds.pptx" %}
-Prof. Andrea's course slides on the SSD paper and Bourbon
-{% endfile %}
+{% file src="../../.gitbook/assets/contractssds.pptx" caption="Prof. Andrea\'s course slides on the SSD paper and Bourbon" %}
+

@@ -16,7 +16,7 @@
 
 ![](../../.gitbook/assets/screen-shot-2021-02-22-at-11.17.35-am.png)
 
-As `threadIdx.x` changes faster than `threadIdx.y`, we should have `C[j][i] = A[j][i] + B[j][i]` instead of` C[i][j] = A[i][j] + B[i][j]`.
+As `threadIdx.x` changes faster than `threadIdx.y`, we should have `C[j][i] = A[j][i] + B[j][i]` instead of `C[i][j] = A[i][j] + B[i][j]`.
 
 ## Example: CUDA Global Memory Access
 
@@ -29,8 +29,8 @@ As `threadIdx.x` changes faster than `threadIdx.y`, we should have `C[j][i] = A[
 
 Two ways to store data in global memory:
 
-1. Array of structures (AoS)
-2. Structure of arrays (SoA)
+1. Array of structures \(AoS\)
+2. Structure of arrays \(SoA\)
 
 ## Atomic Operations
 
@@ -53,7 +53,7 @@ Two ways to store data in global memory:
   * threads/block
   * registers/thread
   * shMem/block
-* Occupancy != Performance (yet it's a pretty good proxy)
+* Occupancy != Performance \(yet it's a pretty good proxy\)
 
 ## CUDA Optimization: Rules of Thumb
 
@@ -62,7 +62,7 @@ Two ways to store data in global memory:
 1. To get the maximum benefit from CUDA, focus first on finding ways to parallelize sequential code. Expose fine-grain parallelism
 2. Minimize data transfer between the host and the device, even if it means running some kernels on the device that do not show performance gains when compared with running them on the host CPU
 3. Strive to have aligned and coalesced global memory accesses. Design your implementation such that global memory accesses are coalesced for that part of the red-hot parts of the code
-4. Minimize the use of global memory. Prefer shared memory access where possible (consider tiling as a design solution)
+4. Minimize the use of global memory. Prefer shared memory access where possible \(consider tiling as a design solution\)
 
 ### Medium Priority
 
@@ -74,6 +74,7 @@ Two ways to store data in global memory:
 
 ## Some More Compiler-Related Stuff
 
-![Compiling CUDA code with nvcc driver. PTX: Parallel Thread Execution, an ISA that exposes the GPU as a data-parallel computing device. It's like NVIDIA-specific Assembly.](../../.gitbook/assets/screen-shot-2021-02-22-at-12.10.57-pm.png)
+![Compiling CUDA code with nvcc driver. PTX: Parallel Thread Execution, an ISA that exposes the GPU as a data-parallel computing device. It&apos;s like NVIDIA-specific Assembly.](../../.gitbook/assets/screen-shot-2021-02-22-at-12.10.57-pm.png)
 
 ![](../../.gitbook/assets/screen-shot-2021-02-22-at-12.12.36-pm.png)
+
