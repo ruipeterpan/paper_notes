@@ -3,7 +3,7 @@
 * [Rui's Blog/Paper Reading Notes - Introduction](README.md)
 * [Template for Paper Reading Notes](template.md)
 
-## Personal Blog <a href="blog" id="blog"></a>
+## Personal Blog <a href="#blog" id="blog"></a>
 
 * [Personal Blog - Index](blog/blog-index/README.md)
   * [Common Issues (& Fixes) when Playing with GPUs](blog/blog-index/common-issues-and-fixes-when-playing-with-gpus.md)
@@ -14,6 +14,7 @@
   * [How to Transfer Credits Back to UW-Madison](blog/blog-index/how-to-transfer-credits-back-to-uw-madison.md)
   * [How to Travel from the U.S. to China onboard AA127 in June 2021](blog/blog-index/aa127-hui-guo-ji.md)
   * [Some blog posts to do a second read on](blog/blog-index/some-blog-posts-to-do-a-second-read-on.md)
+* [Applying to Ph.D. programs](blog/applying-to-ph.d.-programs.md)
 
 ## Machine Learning Systems
 
