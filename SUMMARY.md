@@ -43,7 +43,7 @@
   * [Themis: Fair and Efficient GPU Cluster Scheduling](machine-learning-systems/index/themis-fair-and-efficient-gpu-cluster-scheduling.md)
   * [Tiresias: A GPU Cluster Manager for Distributed Deep Learning](machine-learning-systems/index/tiresias-a-gpu-cluster-manager-for-distributed-deep-learning.md)
   * [Wavelet: Efficient DNN Training with Tick-Tock Scheduling](machine-learning-systems/index/wavelet-efficient-dnn-training-with-tick-tock-scheduling.md)
-* [Machine Learning Systems - Index (new)](machine-learning-systems/machine-learning-systems-index-new.md)
+* [Machine Learning Systems - Index](machine-learning-systems/machine-learning-systems-index.md)
 * [High Performance Computing Course Notes](machine-learning-systems/cs759-hpc-course-notes/README.md)
   * [Lecture 1: Course Overview](machine-learning-systems/cs759-hpc-course-notes/lecture-1-course-overview.md)
   * [Lecture 2: From Code to Instructions. The FDX Cycle. Instruction Level Parallelism.](machine-learning-systems/cs759-hpc-course-notes/lecture-2-from-code-to-instructions.-the-fdx-cycle.-instruction-level-parallelism..md)
