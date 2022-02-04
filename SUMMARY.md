@@ -28,6 +28,7 @@
   * [Gandiva: Introspective Cluster Scheduling for Deep Learning](machine-learning-systems/machine-learning-systems-index/gandiva-introspective-cluster-scheduling-for-deep-learning.md)
   * [Gavel: Heterogeneity-Aware Cluster Scheduling Policies for Deep Learning Workloads](machine-learning-systems/machine-learning-systems-index/gavel-heterogeneity-aware-cluster-scheduling-policies-for-deep-learning-workloads.md)
   * [GPipe: Efficient Training of Giant Neural Networks using Pipeline Parallelism](machine-learning-systems/machine-learning-systems-index/gpipe-efficient-training-of-giant-neural-networks-using-pipeline-parallelism.md)
+  * [Is Network the Bottleneck of Distributed Training?](machine-learning-systems/machine-learning-systems-index/is-network-the-bottleneck-of-distributed-training.md)
   * [PipeDream: Generalized Pipeline Parallelism for DNN Training](machine-learning-systems/machine-learning-systems-index/pipedream-generalized-pipeline-parallelism-for-dnn-training.md)
   * [Pollux: Co-adaptive Cluster Scheduling for Goodput-Optimized Deep Learning](machine-learning-systems/machine-learning-systems-index/pollux-co-adaptive-cluster-scheduling-for-goodput-optimized-deep-learning.md)
   * [PyTorch Distributed: Experiences on Accelerating Data Parallel Training](machine-learning-systems/machine-learning-systems-index/pytorch-distributed-experiences-on-accelerating-data-parallel-training.md)

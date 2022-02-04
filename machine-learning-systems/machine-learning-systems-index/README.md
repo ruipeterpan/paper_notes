@@ -10,17 +10,19 @@
 
 ### Machine Learning Training
 
-| Title                                                                                  | Venue       | Links                                                                                                       |
-| -------------------------------------------------------------------------------------- | ----------- | ----------------------------------------------------------------------------------------------------------- |
-| GPipe: Efficient Training of Giant Neural Networks using Pipeline Parallelism          | NeurIPS '19 | \[[notes](gpipe-efficient-training-of-giant-neural-networks-using-pipeline-parallelism.md)] \[pdf]          |
-| PipeDream: Generalized Pipeline Parallelism for DNN Training                           | SOSP '19    | \[[notes](pipedream-generalized-pipeline-parallelism-for-dnn-training.md)] \[pdf]                           |
-| ZeRO: memory optimizations toward training trillion parameter models                   | SC '20      | \[notes] \[pdf]                                                                                             |
-| ZeRO-infinity: breaking the GPU memory wall for extreme scale deep learning            | SC '21      | \[notes] \[pdf]                                                                                             |
-| ZeRO-Offload: Democratizing Billion-Scale Model Training                               | ATC '21     | \[notes] \[pdf]                                                                                             |
-| Accordion: Adaptive Gradient Communication via Critical Learning Regime Identification | MLSys '21   | \[[notes](accordion-adaptive-gradient-communication-via-critical-learning-regime-identification.md)] \[pdf] |
-| CheckFreq: Frequent, Fine-Grained DNN Checkpointing                                    | FAST '21    | \[[notes](checkfreq-frequent-fine-grained-dnn-checkpointing.md)] \[pdf]                                     |
-| Analyzing and Mitigating Data Stalls in DNN Training                                   | VLDB '21    | \[[notes](analyzing-and-mitigating-data-stalls-in-dnn-training.md)] \[pdf]                                  |
-|                                                                                        |             | \[notes] \[pdf]                                                                                             |
+| Title                                                                                  | Venue       | Links                                                                                                                         |
+| -------------------------------------------------------------------------------------- | ----------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| GPipe: Efficient Training of Giant Neural Networks using Pipeline Parallelism          | NeurIPS '19 | \[[notes](gpipe-efficient-training-of-giant-neural-networks-using-pipeline-parallelism.md)] \[pdf]                            |
+| PipeDream: Generalized Pipeline Parallelism for DNN Training                           | SOSP '19    | \[[notes](pipedream-generalized-pipeline-parallelism-for-dnn-training.md)] \[pdf]                                             |
+| Is Network the Bottleneck of Distributed Training?                                     | NetAI '20   | \[[notes](is-network-the-bottleneck-of-distributed-training.md)] \[[pdf](https://dl.acm.org/doi/pdf/10.1145/3405671.3405810)] |
+| ZeRO: memory optimizations toward training trillion parameter models                   | SC '20      | \[notes] \[pdf]                                                                                                               |
+| ZeRO-infinity: breaking the GPU memory wall for extreme scale deep learning            | SC '21      | \[notes] \[pdf]                                                                                                               |
+| ZeRO-Offload: Democratizing Billion-Scale Model Training                               | ATC '21     | \[notes] \[pdf]                                                                                                               |
+| Accordion: Adaptive Gradient Communication via Critical Learning Regime Identification | MLSys '21   | \[[notes](accordion-adaptive-gradient-communication-via-critical-learning-regime-identification.md)] \[pdf]                   |
+| CheckFreq: Frequent, Fine-Grained DNN Checkpointing                                    | FAST '21    | \[[notes](checkfreq-frequent-fine-grained-dnn-checkpointing.md)] \[pdf]                                                       |
+| Analyzing and Mitigating Data Stalls in DNN Training                                   | VLDB '21    | \[[notes](analyzing-and-mitigating-data-stalls-in-dnn-training.md)] \[pdf]                                                    |
+|                                                                                        |             | \[notes] \[pdf]                                                                                                               |
+|                                                                                        |             | \[notes] \[pdf]                                                                                                               |
 
 ### Machine Learning Serving
 
