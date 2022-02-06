@@ -23,6 +23,7 @@
   * [Analysis of Large-Scale Multi-Tenant GPU Clusters for DNN Training Workloads](machine-learning-systems/machine-learning-systems-index/analysis-of-large-scale-multi-tenant-gpu-clusters-for-dnn-training-workloads.md)
   * [Analyzing and Mitigating Data Stalls in DNN Training](machine-learning-systems/machine-learning-systems-index/analyzing-and-mitigating-data-stalls-in-dnn-training.md)
   * [BytePS: A High Performance and Generic Framework for Distributed DNN Training](machine-learning-systems/machine-learning-systems-index/byteps-a-high-performance-and-generic-framework-for-distributed-dnn-training.md)
+  * [ByteScheduler: A Generic Communication Scheduler for Distributed DNN Training Acceleration](machine-learning-systems/machine-learning-systems-index/bytescheduler-a-generic-communication-scheduler-for-distributed-dnn-training-acceleration.md)
   * [CheckFreq: Frequent, Fine-Grained DNN Checkpointing](machine-learning-systems/machine-learning-systems-index/checkfreq-frequent-fine-grained-dnn-checkpointing.md)
   * [Dominant Resource Fairness: Fair Allocation of Multiple Resource Types](machine-learning-systems/machine-learning-systems-index/dominant-resource-fairness-fair-allocation-of-multiple-resource-types.md)
   * [Gandiva: Introspective Cluster Scheduling for Deep Learning](machine-learning-systems/machine-learning-systems-index/gandiva-introspective-cluster-scheduling-for-deep-learning.md)
