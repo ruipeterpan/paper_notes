@@ -70,7 +70,4 @@ DRF is a generalization of max min fairness for multiple resources. Each user ha
 
 ## Links & References
 
-* Paper PDF
-* Presentation video at xxx
-* Presentation slides at xxx
-* xxx on GitHub
+* [Paper PDF](https://cs.stanford.edu/\~matei/papers/2011/nsdi\_drf.pdf)
