@@ -37,19 +37,19 @@
 
 ### Scheduling, Resource Allocation & Management
 
-| Title                                                                                      | Venue     | Links                                                                                                   |
-| ------------------------------------------------------------------------------------------ | --------- | ------------------------------------------------------------------------------------------------------- |
-| DRF: Fair Allocation of Multiple Resource Types                                            | NSDI '11  | \[[notes](dominant-resource-fairness-fair-allocation-of-multiple-resource-types.md)] \[pdf]             |
-| Gandiva: Introspective Cluster Scheduling for Deep Learning                                | OSDI '18  | \[[notes](gandiva-introspective-cluster-scheduling-for-deep-learning.md)] \[pdf]                        |
-| Analysis of Large-Scale Multi-Tenant GPU Clusters for DNN Training Workloads               | ATC '19   | \[[notes](analysis-of-large-scale-multi-tenant-gpu-clusters-for-dnn-training-workloads.md)] \[pdf]      |
-| Tiresias: A GPU Cluster Manager for Distributed Deep Learning                              | NSDI '19  | \[[notes](tiresias-a-gpu-cluster-manager-for-distributed-deep-learning.md)] \[pdf]                      |
-| ByteScheduler: A Generic Communication Scheduler for Distributed DNN Training Acceleration | SOSP '19  | \[notes] \[[pdf](https://i.cs.hku.hk/\~cwu/papers/yhpeng-sosp19.pdf)]                                   |
-| Themis: Fair and Efficient GPU Cluster Scheduling                                          | NSDI '20  | \[[notes](themis-fair-and-efficient-gpu-cluster-scheduling.md)] \[pdf]                                  |
-| Salus: Fine-Grained GPU Sharing Primitives for Deep Learning Applications                  | MLSys '20 | \[[notes](salus-fine-grained-gpu-sharing-primitives-for-deep-learning-applications.md)] \[pdf]          |
-| Gavel: Heterogeneity-Aware Cluster Scheduling Policies for Deep Learning Workloads         | OSDI '20  | \[[notes](gavel-heterogeneity-aware-cluster-scheduling-policies-for-deep-learning-workloads.md)] \[pdf] |
-| Wavelet: Efficient DNN Training with Tick-Tock Scheduling                                  | MLSys '21 | \[[notes](wavelet-efficient-dnn-training-with-tick-tock-scheduling.md)] \[pdf]                          |
-| Pollux: Co-adaptive Cluster Scheduling for Goodput-Optimized Deep Learning                 | OSDI '21  | \[[notes](pollux-co-adaptive-cluster-scheduling-for-goodput-optimized-deep-learning.md)] \[pdf]         |
-|                                                                                            |           | \[notes] \[pdf]                                                                                         |
+| Title                                                                                      | Venue     | Links                                                                                                                                                                 |
+| ------------------------------------------------------------------------------------------ | --------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| DRF: Fair Allocation of Multiple Resource Types                                            | NSDI '11  | \[[notes](dominant-resource-fairness-fair-allocation-of-multiple-resource-types.md)] \[pdf]                                                                           |
+| Gandiva: Introspective Cluster Scheduling for Deep Learning                                | OSDI '18  | \[[notes](gandiva-introspective-cluster-scheduling-for-deep-learning.md)] \[pdf]                                                                                      |
+| Analysis of Large-Scale Multi-Tenant GPU Clusters for DNN Training Workloads               | ATC '19   | \[[notes](analysis-of-large-scale-multi-tenant-gpu-clusters-for-dnn-training-workloads.md)] \[pdf]                                                                    |
+| Tiresias: A GPU Cluster Manager for Distributed Deep Learning                              | NSDI '19  | \[[notes](tiresias-a-gpu-cluster-manager-for-distributed-deep-learning.md)] \[pdf]                                                                                    |
+| ByteScheduler: A Generic Communication Scheduler for Distributed DNN Training Acceleration | SOSP '19  | \[[notes](bytescheduler-a-generic-communication-scheduler-for-distributed-dnn-training-acceleration.md)] \[[pdf](https://i.cs.hku.hk/\~cwu/papers/yhpeng-sosp19.pdf)] |
+| Themis: Fair and Efficient GPU Cluster Scheduling                                          | NSDI '20  | \[[notes](themis-fair-and-efficient-gpu-cluster-scheduling.md)] \[pdf]                                                                                                |
+| Salus: Fine-Grained GPU Sharing Primitives for Deep Learning Applications                  | MLSys '20 | \[[notes](salus-fine-grained-gpu-sharing-primitives-for-deep-learning-applications.md)] \[pdf]                                                                        |
+| Gavel: Heterogeneity-Aware Cluster Scheduling Policies for Deep Learning Workloads         | OSDI '20  | \[[notes](gavel-heterogeneity-aware-cluster-scheduling-policies-for-deep-learning-workloads.md)] \[pdf]                                                               |
+| Wavelet: Efficient DNN Training with Tick-Tock Scheduling                                  | MLSys '21 | \[[notes](wavelet-efficient-dnn-training-with-tick-tock-scheduling.md)] \[pdf]                                                                                        |
+| Pollux: Co-adaptive Cluster Scheduling for Goodput-Optimized Deep Learning                 | OSDI '21  | \[[notes](pollux-co-adaptive-cluster-scheduling-for-goodput-optimized-deep-learning.md)] \[pdf]                                                                       |
+|                                                                                            |           | \[notes] \[pdf]                                                                                                                                                       |
 
 
 
