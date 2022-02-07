@@ -33,6 +33,7 @@
   * [PipeDream: Generalized Pipeline Parallelism for DNN Training](machine-learning-systems/machine-learning-systems-index/pipedream-generalized-pipeline-parallelism-for-dnn-training.md)
   * [Pollux: Co-adaptive Cluster Scheduling for Goodput-Optimized Deep Learning](machine-learning-systems/machine-learning-systems-index/pollux-co-adaptive-cluster-scheduling-for-goodput-optimized-deep-learning.md)
   * [PyTorch Distributed: Experiences on Accelerating Data Parallel Training](machine-learning-systems/machine-learning-systems-index/pytorch-distributed-experiences-on-accelerating-data-parallel-training.md)
+  * [Reducto: On-Camera Filtering for Resource-Efficient Real-Time Video Analytics](machine-learning-systems/machine-learning-systems-index/reducto-on-camera-filtering-for-resource-efficient-real-time-video-analytics.md)
   * [Salus: Fine-Grained GPU Sharing Primitives for Deep Learning Applications](machine-learning-systems/machine-learning-systems-index/salus-fine-grained-gpu-sharing-primitives-for-deep-learning-applications.md)
   * [Scaling Distributed Machine Learning with the Parameter Server](machine-learning-systems/machine-learning-systems-index/scaling-distributed-machine-learning-with-the-parameter-server.md)
   * [Themis: Fair and Efficient GPU Cluster Scheduling](machine-learning-systems/machine-learning-systems-index/themis-fair-and-efficient-gpu-cluster-scheduling.md)

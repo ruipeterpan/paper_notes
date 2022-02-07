@@ -57,19 +57,19 @@
 
 
 
-| Title                                                                                        | Venue       | Links           |
-| -------------------------------------------------------------------------------------------- | ----------- | --------------- |
-| PCC Allegro: Re-architecting Congestion Control for Consistent High Performance              | NSDI '15    | \[notes] \[pdf] |
-| Pensieve: Neural Adaptive Video Streaming with Pensieve                                      | SIGCOMM '17 | \[notes] \[pdf] |
-| Chameleon: Scalable Adaptation of Video Analytics via Temporal and Cross-camera Correlations | SIGCOMM '18 | \[notes] \[pdf] |
-| PCC Vivace: Online-Learning Congestion Control                                               | NSDI '18    | \[notes] \[pdf] |
-| Reducto: On-Camera Filtering for Resource-Efficient Real-Time Video Analytics                | SIGCOMM '20 | \[notes] \[pdf] |
-| DDS: Server-Driven Video Streaming for Deep Learning Inference                               | SIGCOMM '20 | \[notes] \[pdf] |
-| PCC Proteus: Scavenger Transport And Beyond                                                  | SIGCOMM '20 | \[notes] \[pdf] |
-| Learning in situ: a randomized experiment in video streaming                                 | NSDI '20    | \[notes] \[pdf] |
-| Ekya: Continuous Learning of Video Analytics Models on Edge Compute Servers                  | NSDI '22    | \[notes] \[pdf] |
-| GEMEL: Model Merging for Memory-Efficient, Real-Time Video Analytics at the Edge             | arXiv '22   | \[notes] \[pdf] |
-|                                                                                              |             | \[notes] \[pdf] |
+| Title                                                                                        | Venue       | Links                                                                                                                                                                           |
+| -------------------------------------------------------------------------------------------- | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| PCC Allegro: Re-architecting Congestion Control for Consistent High Performance              | NSDI '15    | \[notes] \[pdf]                                                                                                                                                                 |
+| Pensieve: Neural Adaptive Video Streaming with Pensieve                                      | SIGCOMM '17 | \[notes] \[pdf]                                                                                                                                                                 |
+| Chameleon: Scalable Adaptation of Video Analytics via Temporal and Cross-camera Correlations | SIGCOMM '18 | \[notes] \[pdf]                                                                                                                                                                 |
+| PCC Vivace: Online-Learning Congestion Control                                               | NSDI '18    | \[notes] \[pdf]                                                                                                                                                                 |
+| Reducto: On-Camera Filtering for Resource-Efficient Real-Time Video Analytics                | SIGCOMM '20 | \[[notes](reducto-on-camera-filtering-for-resource-efficient-real-time-video-analytics.md)] \[[pdf](https://www.cs.princeton.edu/\~ravian/publications/reducto\_sigcomm20.pdf)] |
+| DDS: Server-Driven Video Streaming for Deep Learning Inference                               | SIGCOMM '20 | \[notes] \[pdf]                                                                                                                                                                 |
+| PCC Proteus: Scavenger Transport And Beyond                                                  | SIGCOMM '20 | \[notes] \[pdf]                                                                                                                                                                 |
+| Learning in situ: a randomized experiment in video streaming                                 | NSDI '20    | \[notes] \[pdf]                                                                                                                                                                 |
+| Ekya: Continuous Learning of Video Analytics Models on Edge Compute Servers                  | NSDI '22    | \[notes] \[pdf]                                                                                                                                                                 |
+| GEMEL: Model Merging for Memory-Efficient, Real-Time Video Analytics at the Edge             | arXiv '22   | \[notes] \[pdf]                                                                                                                                                                 |
+|                                                                                              |             | \[notes] \[pdf]                                                                                                                                                                 |
 
 
 

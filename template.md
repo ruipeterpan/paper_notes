@@ -1,19 +1,16 @@
 # Template for Paper Reading Notes
 
-## One-line Summary
+## Summary
 
 > If you understand this, you get the basic idea. But as with all complicated systems, the devil is in the details.  -- Remzi & Andrea, OSTEP
 
-## Paper Structure Outline
-
-1. 
 ## Background & Motivation
 
 
 
 
 
-## Design and Implementation
+## Design & Implementation
 
 
 
@@ -31,4 +28,3 @@
 * Presentation video at xxx
 * Presentation slides at xxx
 * xxx on GitHub
-
