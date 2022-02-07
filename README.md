@@ -4,7 +4,7 @@
 
 This GitBook mainly hosts [Rui Pan](https://ruipan.xyz)'s paper reading notes. I also keep a non-technical blog [here](blog/blog-index/).
 
-The majority of the papers here are in the field of [Machine Learning Systems](index/) and [Operating Systems](operating-systems/index/). There are some miscellaneous papers, though, that are under the index [Misc Topics](misc-topics/index.md).
+The majority of the papers here are in the field of [Machine Learning Systems](machine-learning-systems/index/) and [Operating Systems](operating-systems/index/). There are some miscellaneous papers, though, that are under the index [Misc Topics](misc-topics/index.md).
 
 If you spot a mistake or have any suggestions, you are more than welcome to drop me an email at rpan33@wisc.edu!
 
@@ -25,8 +25,8 @@ If you spot a mistake or have any suggestions, you are more than welcome to drop
 [blog-index](blog/blog-index/)
 {% endcontent-ref %}
 
-{% content-ref url="index/" %}
-[index](index/)
+{% content-ref url="machine-learning-systems/index/" %}
+[index](machine-learning-systems/index/)
 {% endcontent-ref %}
 
 {% content-ref url="operating-systems/index/" %}

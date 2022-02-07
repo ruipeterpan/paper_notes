@@ -15,7 +15,7 @@
     * [MLSys: The New Frontier of Machine Learning Systems](https://arxiv.org/pdf/1904.03257.pdf)
   * [Systems Benchmarking Crimes](https://www.cse.unsw.edu.au/\~gernot/benchmarking-crimes.html)
   * [CSE 559W @ U Washington Slides](http://dlsys.cs.washington.edu/schedule): Not a paper reading class, more of an end-to-end comprehensive introduction of foundations of DL Systems
-  * [CS 759 @ UW-Madison (HPC) Course Notes](../machine-learning-systems/cs759-hpc-course-notes/): A great overview of HPC, CUDA, OpenMP, MPI
+  * [CS 759 @ UW-Madison (HPC) Course Notes](../cs759-hpc-course-notes/): A great overview of HPC, CUDA, OpenMP, MPI
 
 ## Table of Contents
 
@@ -23,15 +23,16 @@
 
 ### Infrastructure & Paradigms
 
-| Title                                                                                        | Venue     | Links                                                                                                             |
-| -------------------------------------------------------------------------------------------- | --------- | ----------------------------------------------------------------------------------------------------------------- |
-| NFS: Sun's Network File System                                                               |           | \[[notes](../operating-systems/index/nfs-suns-network-file-system.md)] \[pdf]                                     |
-| The Google File System                                                                       | SOSP '03  | \[[notes](the-google-file-system.md)] \[pdf]                                                                      |
-| MapReduce: Simplified Data Processing on Large Clusters                                      | OSDI '04  | \[[notes](mapreduce-simplified-data-processing-on-large-clusters.md)] \[pdf]                                      |
-| Mesos: A Platform for Fine-Grained Resource Sharing in the Data Center                       | NSDI '11  | \[[notes](mesos-a-platform-for-fine-grained-resource-sharing-in-the-data-center.md)] \[pdf]                       |
-| Resilient Distributed Datasets: A Fault-Tolerant Abstraction for In-Memory Cluster Computing | NSDI '12  | \[[notes](resilient-distributed-datasets-a-fault-tolerant-abstraction-for-in-memory-cluster-computing.md)] \[pdf] |
-| From Cloud Computing to Sky Computing                                                        | HotOS '21 | \[[notes](from-cloud-computing-to-sky-computing.md)] \[pdf]                                                       |
-|                                                                                              |           | \[notes] \[pdf]                                                                                                   |
+| Title                                                                                        | Venue       | Links                                                                                                             |
+| -------------------------------------------------------------------------------------------- | ----------- | ----------------------------------------------------------------------------------------------------------------- |
+| NFS: Sun's Network File System                                                               |             | \[[notes](../../operating-systems/index/nfs-suns-network-file-system.md)] \[pdf]                                  |
+| The Google File System                                                                       | SOSP '03    | \[[notes](the-google-file-system.md)] \[pdf]                                                                      |
+| MapReduce: Simplified Data Processing on Large Clusters                                      | OSDI '04    | \[[notes](mapreduce-simplified-data-processing-on-large-clusters.md)] \[pdf]                                      |
+| Mesos: A Platform for Fine-Grained Resource Sharing in the Data Center                       | NSDI '11    | \[[notes](mesos-a-platform-for-fine-grained-resource-sharing-in-the-data-center.md)] \[pdf]                       |
+| Resilient Distributed Datasets: A Fault-Tolerant Abstraction for In-Memory Cluster Computing | NSDI '12    | \[[notes](resilient-distributed-datasets-a-fault-tolerant-abstraction-for-in-memory-cluster-computing.md)] \[pdf] |
+| Coflow: A Networking Abstraction for Cluster Applications                                    | Hotnets '12 | \[notes] \[[pdf](https://conferences.sigcomm.org/hotnets/2012/papers/hotnets12-final51.pdf)]                      |
+| From Cloud Computing to Sky Computing                                                        | HotOS '21   | \[[notes](from-cloud-computing-to-sky-computing.md)] \[pdf]                                                       |
+|                                                                                              |             | \[notes] \[pdf]                                                                                                   |
 
 
 
