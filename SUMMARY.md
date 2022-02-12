@@ -39,6 +39,7 @@
   * [Themis: Fair and Efficient GPU Cluster Scheduling](machine-learning-systems/machine-learning-systems-index/themis-fair-and-efficient-gpu-cluster-scheduling.md)
   * [Tiresias: A GPU Cluster Manager for Distributed Deep Learning](machine-learning-systems/machine-learning-systems-index/tiresias-a-gpu-cluster-manager-for-distributed-deep-learning.md)
   * [Wavelet: Efficient DNN Training with Tick-Tock Scheduling](machine-learning-systems/machine-learning-systems-index/wavelet-efficient-dnn-training-with-tick-tock-scheduling.md)
+  * [ZeRO: memory optimizations toward training trillion parameter models](machine-learning-systems/machine-learning-systems-index/zero-memory-optimizations-toward-training-trillion-parameter-models.md)
 * [Big Data Systems - Index](machine-learning-systems/index/README.md)
   * [From Cloud Computing to Sky Computing](machine-learning-systems/index/from-cloud-computing-to-sky-computing.md)
   * [MapReduce: Simplified Data Processing on Large Clusters](machine-learning-systems/index/mapreduce-simplified-data-processing-on-large-clusters.md)

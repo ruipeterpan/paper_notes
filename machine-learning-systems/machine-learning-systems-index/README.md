@@ -16,9 +16,9 @@
 | PipeDream: Generalized Pipeline Parallelism for DNN Training                             | SOSP '19    | \[[notes](pipedream-generalized-pipeline-parallelism-for-dnn-training.md)] \[[pdf](https://arxiv.org/pdf/1806.03377.pdf)]                                                                               |
 | BlueConnect: Decomposing All-Reduce for Deep Learning on Heterogeneous Network Hierarchy | MLSys '19   | \[notes] \[[pdf](https://mlsys.org/Conferences/2019/doc/2019/130.pdf)]                                                                                                                                  |
 | Is Network the Bottleneck of Distributed Training?                                       | NetAI '20   | \[[notes](is-network-the-bottleneck-of-distributed-training.md)] \[[pdf](https://dl.acm.org/doi/pdf/10.1145/3405671.3405810)]                                                                           |
-| ZeRO: memory optimizations toward training trillion parameter models                     | SC '20      | \[notes] \[pdf]                                                                                                                                                                                         |
-| ZeRO-infinity: breaking the GPU memory wall for extreme scale deep learning              | SC '21      | \[notes] \[pdf]                                                                                                                                                                                         |
-| ZeRO-Offload: Democratizing Billion-Scale Model Training                                 | ATC '21     | \[notes] \[pdf]                                                                                                                                                                                         |
+| ZeRO: memory optimizations toward training trillion parameter models                     | SC '20      | \[[notes](zero-memory-optimizations-toward-training-trillion-parameter-models.md)] \[[pdf](https://arxiv.org/pdf/1910.02054.pdf)]                                                                       |
+| ZeRO-infinity: breaking the GPU memory wall for extreme scale deep learning              | SC '21      | \[notes] \[[pdf](https://arxiv.org/pdf/2104.07857.pdf)]                                                                                                                                                 |
+| ZeRO-Offload: Democratizing Billion-Scale Model Training                                 | ATC '21     | \[notes] \[[pdf](http://pasalabs.org/papers/2021/ATC21\_zero-offload.pdf)]                                                                                                                              |
 | Accordion: Adaptive Gradient Communication via Critical Learning Regime Identification   | MLSys '21   | \[[notes](accordion-adaptive-gradient-communication-via-critical-learning-regime-identification.md)] \[[pdf](https://proceedings.mlsys.org/paper/2021/file/1d7f7abc18fcb43975065399b0d1e48e-Paper.pdf)] |
 | CheckFreq: Frequent, Fine-Grained DNN Checkpointing                                      | FAST '21    | \[[notes](checkfreq-frequent-fine-grained-dnn-checkpointing.md)] \[[pdf](https://www.usenix.org/system/files/fast21-mohan.pdf)]                                                                         |
 | Analyzing and Mitigating Data Stalls in DNN Training                                     | VLDB '21    | \[[notes](analyzing-and-mitigating-data-stalls-in-dnn-training.md)] \[[pdf](https://www.cs.utexas.edu/\~vijay/papers/vldb21-datastalls.pdf)]                                                            |
@@ -27,12 +27,12 @@
 
 ### Machine Learning Serving
 
-| Title                                                                      | Venue         | Links           |
-| -------------------------------------------------------------------------- | ------------- | --------------- |
-| Serving DNNs like Clockwork: Performance Predictability from the Bottom Up | OSDI '20      | \[notes] \[pdf] |
-| INFaaS: A Model-less Inference Serving System                              | ATC '21       | \[notes] \[pdf] |
-| Interference-Aware Scheduling for Inference Serving                        | EuroMLSys '21 | \[notes] \[pdf] |
-|                                                                            |               | \[notes] \[pdf] |
+| Title                                                                      | Venue         | Links                                                                      |
+| -------------------------------------------------------------------------- | ------------- | -------------------------------------------------------------------------- |
+| Serving DNNs like Clockwork: Performance Predictability from the Bottom Up | OSDI '20      | \[notes] \[[pdf](https://www.usenix.org/system/files/osdi20-gujarati.pdf)] |
+| INFaaS: A Model-less Inference Serving System                              | ATC '21       | \[notes] \[[pdf](https://www.usenix.org/system/files/atc21-romero.pdf)]    |
+| Interference-Aware Scheduling for Inference Serving                        | EuroMLSys '21 | \[notes] \[[pdf](https://dl.acm.org/doi/pdf/10.1145/3437984.3458837)]      |
+|                                                                            |               | \[notes] \[pdf]                                                            |
 
 
 
