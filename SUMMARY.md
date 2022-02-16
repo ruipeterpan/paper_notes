@@ -36,6 +36,7 @@
   * [Reducto: On-Camera Filtering for Resource-Efficient Real-Time Video Analytics](machine-learning-systems/machine-learning-systems-index/reducto-on-camera-filtering-for-resource-efficient-real-time-video-analytics.md)
   * [Salus: Fine-Grained GPU Sharing Primitives for Deep Learning Applications](machine-learning-systems/machine-learning-systems-index/salus-fine-grained-gpu-sharing-primitives-for-deep-learning-applications.md)
   * [Scaling Distributed Machine Learning with the Parameter Server](machine-learning-systems/machine-learning-systems-index/scaling-distributed-machine-learning-with-the-parameter-server.md)
+  * [SwitchML: Scaling Distributed Machine Learning with In-Network Aggregation](machine-learning-systems/machine-learning-systems-index/switchml-scaling-distributed-machine-learning-with-in-network-aggregation.md)
   * [Themis: Fair and Efficient GPU Cluster Scheduling](machine-learning-systems/machine-learning-systems-index/themis-fair-and-efficient-gpu-cluster-scheduling.md)
   * [Tiresias: A GPU Cluster Manager for Distributed Deep Learning](machine-learning-systems/machine-learning-systems-index/tiresias-a-gpu-cluster-manager-for-distributed-deep-learning.md)
   * [Wavelet: Efficient DNN Training with Tick-Tock Scheduling](machine-learning-systems/machine-learning-systems-index/wavelet-efficient-dnn-training-with-tick-tock-scheduling.md)
