@@ -104,7 +104,7 @@ Now that you know who you will be asking, it would be best to let them know abou
 * Ask early. You don't need to know your exact school list when you send your first email request, but you should at least give people a rough idea of the number of letters and when they will be due. Professors are busy, like really busy. Please ask for letters as early as possible so they can plan accordingly. Two months in advance is better than one, and one month is better than two weeks. Imagine being a professor who's going through the finals week and a couple of conference deadlines, and boom, five students show up to ask for a total of 100 letters that are due in one week. Just thinking about that makes me uncomfortable. Besides that, if you apply to say 30 (?!) programs, some professors may not be too happy about submitting all those letters and will only agree to submit 10 of them. In that case, you should of course ask for some other professors to fill in the gap, but anyway, you don't want to know about this a week before the application deadline.
 * Communicate clearly. It would suck if professors finish your letter but don't know where to submit them. My advice is: (1) It is preferable to send official requests through application portals in batches so those emails don't get lost in the professor's email inbox. (2) Create a table in Google Sheet to keep track of the programs you are applying to, the application deadlines, and the status of the requests. For example, knowing the date of when you sent a request will be helpful when a professor looks up that email in their inbox. Of course, share this google sheet with your letter writers. (3) Send email reminders to remind professors about an upcoming application deadline, preferably a week in advance if not more. Note that for most of the programs, the deadline for people to submit letters is some time after the application deadline, so don't panic if a professor only uploads the letters after the deadline.
 * Provide enough information. Once a professor agrees to write you a letter, attach a lot of files when you get back them, e.g. your cv, draft SoP, transcript, final project report. Some professors will also ask you to provide a list of relevant personal information, e.g. classes you have taken, major accomplishments, etc. Besides those, remind professors about how your opportunity with them helped you grow as a scholar.
-* Ask for strong letters. It goes without saying that strong letters from professors say a lot about who you are as an applicant -- they will make a difference in your application. When you ask for letters, explicitly ask for strong letters, so that professors who will otherwise write average letters can have the chance to let you about that.
+* Ask for strong letters. It goes without saying that strong letters from professors say a lot about who you are as an applicant -- they will make a difference in your application. When you ask for letters, explicitly ask for strong letters, so that professors who will otherwise write average letters can give you the chance to pivot.
 
 ### What's next?
 
@@ -115,7 +115,7 @@ And at last, you should write them a thank you letter. Send them a small gift (s
 * [How to get a great letter of recommendation](https://matt.might.net/articles/how-to-recommendation-letter/)
 * [Requesting a letter of recommendation](https://homes.cs.washington.edu/\~mernst/advice/request-recommendation.html)
 
-## Chapter 5: Writing up the statement of purpose (WIP)
+## Chapter 5: Writing up the statement of purpose
 
 ### How should you write a statement?
 
@@ -126,12 +126,14 @@ And at last, you should write them a thank you letter. Send them a small gift (s
 ### What should be in your statement?
 
 * Keep in mind that professors will use this to judge your writing skills. If you are good at writing, then it's a good time to show off. Otherwise, at least make sure there are no grammatical/spelling mistakes: that would look really bad. Consider using something like Grammarly to get rid of those mistakes and clarify your writing.
-* Most part of the statement should be spent on your past research.
-* It's a good idea to mention which professors you would like to work with. Try to aim for 1-3 professors in the statement, and briefly discuss why you are interested in working with them.
+* A significant portion of the statement should be on your past research. People usually spend one paragraph for each project, and the ranking is either by relevance or by date. IMO, if your projects connect well, by date is a more natural way since you get to tell the story behind your motivation to get a Ph.D., but don't worry if you rank them by relevance.
+* In each paragraph, describe the project (e.g., collaborators, short background & motivation, major technical contribution, your contributions & takeaways). Keep in mind that the people reading your statement might be working in a different subfield (I don't suppose the bioinformatics people will know anything about Cuckoo hashing), so don't just copy-paste the abstract of your past papers.
+* Depending on how much space you have left, IMO you should talk about your research interest using at least one sentence and at most one paragraph. If possible, IMO you should identify some rising research topics in the next few years and why they interest you. The POI might resonate with you if you come up with some good ones.
+* It's a good idea to mention which professors you would like to work with. Try to aim for 1-3 professors in the statement, and briefly discuss (in one sentence) why you are interested in working with them.
 
 ### References
 
-There are also a bunch of blog posts by people who know more about the application process than I do, so make sure to take a look at these articles, including but not limited to:
+There are also a bunch of blog posts by people who know more about writing up statements than I do, so make sure to take a look at these articles, including but not limited to:
 
 * [Inside Ph.D. admissions: What readers look for in a Statement of Purpose](https://nschneid.medium.com/inside-ph-d-admissions-what-readers-look-for-in-a-statement-of-purpose-3db4e6081f80)
 * [How to Write a Statement of Purpose for Grad School](https://swapneelm.github.io/how-to-write-a-statement-of-purpose-for-grad-school)
@@ -143,7 +145,17 @@ There are also a bunch of blog posts by people who know more about the applicati
 
 
 
-
+* write down things
+  * one-minute self introduction
+  * for each project:
+    * in one sentence
+    * one-minute introduction
+    * five-minute overview
+    * fifteen-minute overview
+  * go over a few of the professor's publications, their major contributions/nuggets
+* do mock interviews with friends/labmates
+  * I didn't so I totally screwed up my first interview, but it was a good practice and I got the chance to learn from my past mistakes
+* create a quiet environment for zoom interviews
 
 ## Chapter 7: Mental health boosters during the application season (WIP)
 
@@ -151,47 +163,47 @@ There are also a bunch of blog posts by people who know more about the applicati
 
 * healthy schedule
 * talk with supportive people, be supportive to each other
-
-
+* talk with professionals if things get too rough
+* workout: team sports, body building, take a random walk outside, etc.
+* daka, cuz u r graduating soon
 
 ## Chapter 8: Choosing a Ph.D. program (WIP)
 
 
 
-oh man, I should really be reading some articles on this&#x20;
+oh man, I should really be reading some more articles on this&#x20;
 
-
+* talk with a lot of people: parents, relatives who work in academia, significant others, friends, people from the internet, labmates, current advisor(s), labmates, POI, POI's students, current students in the program but not in your POI's lab, current students at other places
+* do your research
+* try to attend the visiting days in person if possible. the vibe is an important thing
 
 
 
 ## Appendix I: My application timeline
 
-* Mid August: First draft of the school list; First draft of SoP
-* Mid September - Early October: Confirmation of recommendation letter from 3 professors
-* Early October - Mid November: Send out cold emails to professors of interest. On average, it's two letters per week.
-* Early November: Finalized school list
-* Early December: Sent out all rec letter requests
-* Mid December: Finalized SoP; Sent out all applications to programs in the U.S.
-* Late December: Received first interview invitation. The interviews lasted all the way to mid February.
-* Late January: First unofficial offer
-* Mid February: First official offer -- the offers came in all the way to early March, although I withdrew/turned most of them down.
+Don't feel obliged to exactly copy my timeline -- this is just for your reference.
+
+* **Mid August**: First draft of the school list; First draft of SoP
+* **Mid September - Early October**: Confirmation of recommendation letter from 3 professors
+* **Early October - Mid November**: Send out cold emails to professors of interest. On average, it's two letters per week.
+* **Early November**: Finalized school list
+* **Early December**: Sent out all rec letter requests
+* **Mid December**: Finalized SoP; Sent out all applications to programs in the U.S.
+* **Late December**: Received first interview invitation. The interviews lasted all the way to mid February.
+* **Late January**: First unofficial offer
+* **Mid February**: First official offer -- the offers came in all the way to early March, although I withdrew/turned most of them down.
+* **Late March**: Committed to xxx!
 
 ## Appendix II: Meta-references
 
-[https://chrisliu298.io/posts/grad-school-application.html](https://chrisliu298.io/posts/grad-school-application.html)
+* [Chris Liu's list of resources for CS grad school application](https://chrisliu298.io/posts/grad-school-application.html)
+* [Matt Might's HOWTO: Apply for and get into grad school for science, engineering, math and computer science](https://matt.might.net/articles/how-to-apply-and-get-in-to-graduate-school-in-science-mathematics-engineering-or-computer-science/)
 
-[https://matt.might.net/articles/how-to-apply-and-get-in-to-graduate-school-in-science-mathematics-engineering-or-computer-science/](https://matt.might.net/articles/how-to-apply-and-get-in-to-graduate-school-in-science-mathematics-engineering-or-computer-science/)
+For those of you who read Mandarin Chinese:
 
-
-
-How I review application packages as a senior student volunteer in the application committee of a top-tier CS PhD program&#x20;
-
-https://www.1point3acres.com/bbs/thread-585435-1-1.html&#x20;
-
-xxx&#x20;
-
-https://www.1point3acres.com/bbs/thread-463109-1-1.html&#x20;
-
-xxx&#x20;
-
-https://www.1point3acres.com/bbs/thread-585851-1-1.html
+* [Top tier CS PhD招生官--我是如何审材料的](https://www.1point3acres.com/bbs/thread-585435-1-1.html) (How I review application packages as a senior student volunteer in the application committee of a top-tier CS Ph.D. program)
+* [从审材料的角度谈谈研究生申请](https://www.1point3acres.com/bbs/thread-463109-1-1.html) (Grad school application from an application review's point of view)
+* [也从审材料的角度讲讲如何准备cs phd申请！](https://www.1point3acres.com/bbs/thread-585851-1-1.html)(CS Ph.D. application from an application reviewer's point of view)
+* [CS PhD 2019 Fall 申请季总结 - James.Qiu的文章 - 知乎](https://zhuanlan.zhihu.com/p/60961921) (Review of my CS Ph.D. application in 2019 Fall by [Haoran Qiu](https://haoran-qiu.com))
+* [CS PhD 申请总结 (2021 Fall) - Romero的文章 - 知乎](https://zhuanlan.zhihu.com/p/362189295) (Review of my CS Ph.D. application in 2021 Fall by [Xiangfeng Zhu](https://xzhu27.me))
+* [2022 Fall你都申请了哪些学校的MA/MS/PhD？- ruipeterpan的回答 - 知乎](https://www.zhihu.com/question/379814619/answer/2325160660) (My personal review of my CS Ph.D. application in 2022 Fall)
