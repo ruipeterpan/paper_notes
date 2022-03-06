@@ -18,7 +18,7 @@ point to a lot of references
 
 
 
-## Chapter 2: Narrowing down the POI/programs
+## Chapter 2: Narrowing down the programs/professors of interest
 
 Most people agree with me that when applying to Ph.D. programs, the advisor is the most significant factor (even more so than the school/department itself). Thus, picking awesome professors/person of interest (POI) is arguably the most important part of the application process: pick good (in terms of research interest match and personality match) and you might be happy for life.
 
@@ -44,19 +44,40 @@ Most people agree with me that when applying to Ph.D. programs, the advisor is t
 * [finding CS Ph.D. programs to apply to](https://www.youtube.com/watch?v=hOSl3xPmHiQ)
 * [How to pick a grad school for a Ph.D. in Computer Science](https://vijayc.medium.com/how-to-pick-a-grad-school-for-a-phd-in-computer-science-a5ce7dceb246)
 
-## Chapter 3: Cold-emailing professors of interest (WIP)
+## Chapter 3: Getting in touch with the POI
 
-Now that you have narrowed down a list of 10\~30 professors who you want to work with, it is time to get in touch with them.
+Now that you have narrowed down a list of 10\~30 professors who you want to work with, it is time to get in touch with them. Some people don't bother to do this at all -- I do not recommend this, as I know professors who will only skim through your application package if you haven't reached out. Plus, getting in touch with them helps you figure out how many students they are taking this season, their ongoing/future interests, how enthusiastic they feel about your background, etc. So please, please reach out!
 
-https://research.berkeley.edu/how-cold-email-professor
+### Make a webpage first
 
-triple check your email before sending them out! e.g. check for attachments, spelling mistakes, etc.
+Before you start emailing people, I strongly recommend you make a personal webpage. A lot of professors have also talked about the importance of personal sites in academia. A good Ph.D. student/research should be visible in the community/on the Internet, and Linkedin/Facebook/department-generated webpages are simply not enough for that. Some good templates include [Jon Barron's website](https://jonbarron.info) and [academicpages.github.io](https://academicpages.github.io). Prof. Timothy Roscoe recommended including the following information on a personal webpage:
 
-make a personal webpage!!! this is really important.
+* A picture, preferably a recent one that actually looks like you. If you have a goofy picture that you really like, consider hiding it behind your main picture and make it show on hover.
+* A list of publications. No pressure if you haven't published, especially for undergraduates who do research in systems.
+* Some biographical information:
+  * How long have you been a student? And how long have you got left?
+  * Who do you work with? And what do you work on?
+  * Random (but non-embarrassing) details for color. Do not go out of your way and put your pornhub account on your webpage, people may not like it...
 
-mention why it's important to get in touch in advance, so that&#x20;
+### How and when should you reach out?
 
+The de facto way of getting in touch with professors is to cold email them. If you are lucky to have the opportunity to meet with professors during a conference or have already known the professor, that would be great! But most people send emails anyway unless they know a POI very well, so getting the email (and the first impression) right is very important. Here are a couple of tips.
 
+* Figure out the timing. My personal recommendation is to start as early as you feel comfortable once the fall semester starts and professors start to check their inboxes regularly so they will hopefully have enough time to get back to you. If you do this a few weeks after you submit the application, the POI might already have a batch of good candidates in mind (but still, better late than never). On a more fine-grained level, a good trick is to send a timed email scheduled for something like 8 AM, so that your email will be on the top of the inbox when professors check their inboxes.
+* Be concise but on-point. There is a reference down below that covers how to send out cold emails, but that's more for emailing professors for undergraduate research opportunities, so take it with a grain of salt. My suggestions are:
+  * You must mention who you are working with right now and your research interests.
+  * You must mention why you would like to work with the POI, and you should probably mention a bit of their existing work and why you like them. Better yet, go in-depth and ask a technical question/ask if xxx is an interesting idea for possible follow-up work.
+  * You must attach your CV. Better yet, attach a draft research statement (if it's not too bad) just in case the POI has some time to take a look.
+  * You should probably put a link to your webpage in your email signature. Better yet, include a link to your calendar.
+* Know the email etiquette (there's an article in the references that covers this). To that end, triple-check your email for missed attachments and spelling mistakes before sending it out! Better yet, have your roommate proofread it.
+* Within a school, reach out to professors one at a time, and only move on to the next professor if the previous one doesn't get back to you in a week or so. Do not reach out to five professors whose offices are right next to each other at the same time -- they talk.
+* Do not send three emails in a day to try to catch someone's eye. Professors are busy, but they will get back to you if they see a good fit. They might forget about things, and in that case, send a kind reminder after some time (say a week?) of not hearing back.
+* Use your institutional email account. Gmail/outlook addresses are fine but don't use your QQMail.
+
+### References
+
+* [How to Cold Email a Professor](https://research.berkeley.edu/how-cold-email-professor)
+* [How to Email a Professor](https://academicpositions.com/career-advice/how-to-email-a-professor)
 
 ## Chapter 4: Asking for recommendation letters and sending out requests
 
