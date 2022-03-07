@@ -14,7 +14,7 @@
   * [How to Transfer Credits Back to UW-Madison](blog/blog-index/how-to-transfer-credits-back-to-uw-madison.md)
   * [How to Travel from the U.S. to China onboard AA127 in June 2021](blog/blog-index/aa127-hui-guo-ji.md)
   * [Some blog posts to do a second read on](blog/blog-index/some-blog-posts-to-do-a-second-read-on.md)
-* [Applying to CS Ph.D. programs](blog/applying-to-cs-ph.d.-programs.md)
+* [Towards applying to CS Ph.D. programs](blog/towards-applying-to-cs-ph.d.-programs.md)
 
 ## Machine Learning Systems
 

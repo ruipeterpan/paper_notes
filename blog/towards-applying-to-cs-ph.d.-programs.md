@@ -1,10 +1,10 @@
-# Applying to CS Ph.D. programs
+# Towards applying to CS Ph.D. programs
 
 After going through tens, if not hundreds of blog posts on applying to Ph.D. programs, it would almost be inappropriate if I don't write down something and throw in my two cents about this exhausting but ultimately self-enriching and fascinating process.
 
-This series of blog posts will hopefully be a useful guide to the students who are planning to apply to Ph.D. programs. (I was trying to target those who are pondering the million-dollar question of whether to do a Ph.D., but I don't feel entitled to write about that yet...) I will try to give you a glimpse of what the application process looks like and offer some advice on how to best approach, embrace, and enjoy this unique journey. Hope this helps you! If so, please consider paying it forward (maybe start by giving a hand to junior undergraduates in your research group).
+This blog post will hopefully be a useful guide to the students who are planning to apply to Ph.D. programs. (I was trying to target those who are pondering the million-dollar question of whether to do a Ph.D., but I don't feel entitled to write about that yet...) I will try to give you a glimpse of what the application process looks like and offer some advice on how to best approach, embrace, and enjoy this unique journey. Hope this helps you! If so, please consider paying it forward (maybe start by giving a hand to junior undergraduates in your research group).
 
-Note that whatever I write down is biased as a result of my personal background and experience. For context, I grew up and went to high school in China, and then did my bachelor's in the United States, majoring in computer science and mathematics. During my undergraduate, I worked on systems (cluster resource management) for ML starting from the summer of my second year, and I fully committed to doing a Ph.D. in my third year. My research interests fall under the big topic of "Systems and Networking", and for my Ph.D. application, I applied to professors whose topics of interest range broadly across all system aspects of big data, e.g. mlsys, serverless, cloud computing, video analytics, networks, etc.
+Note that whatever I write down is biased as a result of my personal background and experience. For context, I grew up and went to high school in China, and then did my bachelor's in the United States, majoring in computer science and mathematics. During my undergraduate, I worked on systems (cluster resource management) for ML starting from the summer of my second year, and I fully committed to doing a Ph.D. in my third year. My research interests fall under the big topic of "Systems and Networking", and for my Ph.D. application, I applied to professors whose topics of interest range broadly across all system aspects of big data, e.g. sys for ml (e.g. video analytics), ml for sys (e.g. congestion control), cloud computing/data center resource management (e.g. serverless, scheduling training/inference), etc.
 
 ## Overview (WIP)
 
@@ -31,6 +31,7 @@ Most people agree with me that when applying to Ph.D. programs, the advisor is t
 * [CSRankings](https://csrankings.org) is also a great place to visit. You would want to first list the target conferences that you mostly read papers from (for me it was SOSP, OSDI, EuroSys, ATC, SoCC, NSDI, SIGCOMM). Then, go to CSRankings, select your target conferences, check out the professors from each school that has published in these venues, and go through them one by one. I personally spent a day at each school going over everyone. Unless you already have a specific topic that you would like to work on, IMO you should be open-minded in this part of your search and try to check out as many professors as possible. When I was going over csrankings.org, I had also marked professors who publish in venues like SIGMOD & VLDB, SIGMETRICS, HPC conferences, and ML conferences like ICML. Although I still ended up applying to system professors, it was fun to get to know what other folks in your field are working on.
 * Take the same list of venues that you like. Then, take a look at the program committee of the recent conferences, and go to their personal sites one by one. Doing so will produce a list that overlaps very much with the one you got from csrankings.org
 * Talk with other people, e.g. your lab mates, your current advisor, or Ph.D. students who were in your lab during their undergraduate. You will really get a lot from this! My personal story is that I didn't consider applying to the program I ended up committing to (?) until after a friend of mine strongly recommended that I shoot this POI an email. I ended up getting in touch with the POI and found that I liked him a lot. So yes, talk to people!
+* TODO: add something about the school list, e.g. proportion of lottery/safe schools
 
 ### How do you narrow the list down?
 
@@ -146,7 +147,7 @@ There are also a bunch of blog posts by people who know more about writing up st
 
 
 * write down things
-  * one-minute self introduction
+  * one-minute self-introduction
   * for each project:
     * in one sentence
     * one-minute introduction
@@ -157,15 +158,35 @@ There are also a bunch of blog posts by people who know more about writing up st
   * I didn't so I totally screwed up my first interview, but it was a good practice and I got the chance to learn from my past mistakes
 * create a quiet environment for zoom interviews
 
-## Chapter 7: Mental health boosters during the application season (WIP)
+### References
 
+* [TOP校CS Ph.D.面试经验教训总结](https://www.1point3acres.com/bbs/thread-628184-1-1.html) (Tips for interviewing at top-tier CS Ph.D. programs)
+* [关于我自己观察到的中国学生在PhD面试过程中的一点特点](https://www.1point3acres.com/bbs/thread-590002-1-1.html) (My observations on Chinese students' traits in Ph.D. interviews)
 
+## Chapter 7: Having good mental health during the application season
 
-* healthy schedule
-* talk with supportive people, be supportive to each other
-* talk with professionals if things get too rough
-* workout: team sports, body building, take a random walk outside, etc.
-* daka, cuz u r graduating soon
+My mental health was surprisingly good during my application season (probably because I only took three credits in the fall and spent most of my time polishing up a paper & applying to Ph.D. programs). Although I am no expert, here is some of my advice for staying positive during the six months. If things get too tough, please talk to professionals like therapists.&#x20;
+
+### Before sending out applications
+
+* Make plans and try to abide by them, so that you don't stay up and rush things. "Rushing is the path to the dark side. Rushing leads to staying up. Staying up leads to bad health. Bad health leads to suffering." - Master Yoda
+* Maintain a consistent, healthy sleeping schedule.
+* Talk with supportive people around you and be supportive to each other. You are not alone, and every applicant is fighting the same battle. Surround yourself with people who can help relieve your anxiety, not trigger them.
+* Workout. Participate in team sports, work on bodybuilding, take a random walk outside, etc.
+* If things go well, this will be your second last semester in undergraduate. Since most people go to a different school for Ph.D., it will also likely be your last fall/winter in your current city. On weekends, spend some quality time with your friends here to create some enjoyable memories for future reminiscing. If you are studying at UW-Madison, [here is an article](https://zhuanlan.zhihu.com/p/425849399) I wrote on the 20 must-dos before you graduate.
+
+### After sending out applications
+
+* After sending out applications, you will likely have huge chunks of free time since the semester is over and Christmas is coming up. Although the interviews will be coming shortly, IMO you should first take a week-long mental break. Congratulations on sending out all those applications!&#x20;
+* Once you get back from your mental break, you should get back to studying. You likely won't have a lot of things to work on, and your motivation might be low -- after all, your application is already out and there is not much you can do to make it a lot better. Instead of spending all the free time being anxious about the applications, try to divert your anxiety, say by developing a new hobby. Read a book or something, or learn to cook.
+* [1point3acres](https://www.1point3acres.com/bbs/). [zhihu.com](https://www.zhihu.com/question/379814619), and [The GradCafe](https://www.thegradcafe.com) have a lot of good information and stuff, but please consider restraining yourself from visiting these sites too often. Social media takes a toll on people.
+* Also, it might be worthwhile to turn off instant notifications for your email inbox and check it a few times a day at regular times.
+* Compare to yourself, not others. This is in general a great suggestion on how to live a happy life.
+* _Spider-Man: No Way Home_ was in theatres during my application season, and it had a great line: "If you expect disappointment, then you can never really get disappointed". Don't get too hyped up if a POI reached out to you or if you did well in an interview. Otherwise, you will feel really bummed when you get rejected.
+
+### References
+
+* [How to effectively deal with Imposter Syndrome and feelings of inadequacy](https://academia.stackexchange.com/questions/11765/how-to-effectively-deal-with-imposter-syndrome-and-feelings-of-inadequacy-ive)
 
 ## Chapter 8: Choosing a Ph.D. program (WIP)
 
@@ -177,7 +198,14 @@ oh man, I should really be reading some more articles on this&#x20;
 * do your research
 * try to attend the visiting days in person if possible. the vibe is an important thing
 
+### What do to on the visiting day
 
+### References
+
+* [How should I choose between multiple Ph.D. programs I was admitted to?](https://academia.stackexchange.com/questions/66926/ive-been-admitted-to-multiple-phd-programs-how-should-i-choose-between-them)
+* [The Definitive ‘what do I ask/look for’ in a PhD Advisor Guide](https://www.cs.columbia.edu/wp-content/uploads/2019/03/Get-Advisor.pdf)
+* [All About Graduate School Visits (for CS PhD programs)](https://koronkevi.ch/posts/grad-school-visits.html)
+* [地表最全奖学金攻略：我的二十二万刀经验分享](https://www.1point3acres.com/bbs/thread-763415-1-1.html) (Negotiating with Ph.D. programs for more fellowships: How I got a total of $220K from all offers)
 
 ## Appendix I: My application timeline
 
@@ -197,13 +225,13 @@ Don't feel obliged to exactly copy my timeline -- this is just for your referenc
 ## Appendix II: Meta-references
 
 * [Chris Liu's list of resources for CS grad school application](https://chrisliu298.io/posts/grad-school-application.html)
-* [Matt Might's HOWTO: Apply for and get into grad school for science, engineering, math and computer science](https://matt.might.net/articles/how-to-apply-and-get-in-to-graduate-school-in-science-mathematics-engineering-or-computer-science/)
+* [Matt Might's HOWTO: Apply for and get into grad school for science, engineering, math, and computer science](https://matt.might.net/articles/how-to-apply-and-get-in-to-graduate-school-in-science-mathematics-engineering-or-computer-science/)
 
 For those of you who read Mandarin Chinese:
 
 * [Top tier CS PhD招生官--我是如何审材料的](https://www.1point3acres.com/bbs/thread-585435-1-1.html) (How I review application packages as a senior student volunteer in the application committee of a top-tier CS Ph.D. program)
 * [从审材料的角度谈谈研究生申请](https://www.1point3acres.com/bbs/thread-463109-1-1.html) (Grad school application from an application review's point of view)
 * [也从审材料的角度讲讲如何准备cs phd申请！](https://www.1point3acres.com/bbs/thread-585851-1-1.html)(CS Ph.D. application from an application reviewer's point of view)
-* [CS PhD 2019 Fall 申请季总结 - James.Qiu的文章 - 知乎](https://zhuanlan.zhihu.com/p/60961921) (Review of my CS Ph.D. application in 2019 Fall by [Haoran Qiu](https://haoran-qiu.com))
-* [CS PhD 申请总结 (2021 Fall) - Romero的文章 - 知乎](https://zhuanlan.zhihu.com/p/362189295) (Review of my CS Ph.D. application in 2021 Fall by [Xiangfeng Zhu](https://xzhu27.me))
-* [2022 Fall你都申请了哪些学校的MA/MS/PhD？- ruipeterpan的回答 - 知乎](https://www.zhihu.com/question/379814619/answer/2325160660) (My personal review of my CS Ph.D. application in 2022 Fall)
+* [CS Ph.D. 2019 Fall 申请季总结 - James.Qiu的文章 - 知乎](https://zhuanlan.zhihu.com/p/60961921) (Review of my CS Ph.D. application in 2019 Fall by [Haoran Qiu](https://haoran-qiu.com))
+* [CS Ph.D. 申请总结 (2021 Fall) - Romero的文章 - 知乎](https://zhuanlan.zhihu.com/p/362189295) (Review of my CS Ph.D. application in 2021 Fall by [Xiangfeng Zhu](https://xzhu27.me))
+* [2022 Fall你都申请了哪些学校的MA/MS/Ph.D.？- ruipeterpan的回答 - 知乎](https://www.zhihu.com/question/379814619/answer/2325160660) (My personal review of my CS Ph.D. application in 2022 Fall)
