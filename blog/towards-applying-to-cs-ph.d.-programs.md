@@ -4,7 +4,7 @@ After going through tens, if not hundreds of blog posts on applying to Ph.D. pro
 
 This blog post will hopefully be a useful guide to the students who are planning to apply to Ph.D. programs. (I was trying to target those who are pondering the million-dollar question of whether to do a Ph.D., but I don't feel entitled to write about that yet...) I will try to give you a glimpse of what the application process looks like and offer some advice on how to best approach, embrace, and enjoy this unique journey. I hope this helps you! If so, please consider paying it forward (maybe start by giving a hand to junior undergraduates in your research group).
 
-Note that whatever I write down is biased because of my background and experience. For context, I grew up and went to high school in China, and then did my bachelor's in the United States, majoring in computer science and mathematics. During my undergraduate, I worked on systems (cluster resource management) for ML starting from the summer of my second year, and I fully committed to doing a Ph.D. in my third year. My research interests fall under the big topic of "Systems and Networking", and for my Ph.D. application, I applied to professors whose areas of interest range broadly across all system aspects of big data, e.g., sys for ml (training, inference, video analytics, etc.), ml for sys (congestion control, video streaming, etc.), cloud computing/data center resource management (e.g., serverless, scheduling training/inference), etc.
+Note that whatever I write down is biased because of my background and experience. For context, I grew up and went to high school in China, and then did my bachelor's in the United States, majoring in computer science and mathematics. During my undergraduate, I worked on systems (cluster resource management) for ML starting from the summer of my second year, and I fully committed to doing a Ph.D. in my third year. My research interests fall under the big topic of "Systems and Networking", and for my Ph.D. application, I applied to professors whose areas of interest range broadly across all system aspects of big data, e.g., sys for ml (training, inference, video analytics, etc.), ml for sys (congestion control, video streaming, etc.), cloud computing/data center resource management (e.g., serverless, scheduling training/inference), etc. Also, my honest opinions can be straight-up wrong, so take them with a grain of salt.
 
 ## Overview (WIP)
 
@@ -12,11 +12,15 @@ point to meta references; introduce what's in each chapter
 
 
 
-## Chapter 1: Why do a Ph.D. at all? (WIP)
+## Chapter 1: Why do a Ph.D. at all?
 
-point to a lot of references
+In my opinion, you should do a Ph.D. if you have already done some research, been through the ups and downs (or at least know a bit about what they are like), and you still absolutely love doing research. If your Asian parents are forcing you to do a Ph.D. or if you want to stay in academia because you didn't get an industry job, think twice.
 
+Again, I don't feel entitled to write more about this, so please take a look at all the references below.&#x20;
 
+### References
+
+* [读博，你真的想好了吗？- 张焕晨的文章 - 知乎](https://zhuanlan.zhihu.com/p/372884253) (Are you really sure about doing a Ph.D.? by Prof. [Huanchen Zhang](http://people.iiis.tsinghua.edu.cn/\~huanchen/))
 
 ## Chapter 2: Narrowing down the programs/professors of interest
 
@@ -49,7 +53,7 @@ Most people agree that when applying to Ph.D. programs, the advisor is the most 
 
 Now that you have narrowed down a list of 10\~30 professors you want to work with, it is time to get in touch with them. Some people don't bother to do this at all -- I do not recommend this, as I know professors who will only skim through your application package if you haven't reached out. Plus, getting in touch with them helps you figure out how many students they are taking this season, their ongoing/future interests, how enthusiastic they feel about your background, etc. So please, please reach out!
 
-### Make a webpage first
+### Make a webpage and a CV first
 
 Before you start emailing people, I strongly recommend making a personal webpage. Quite a few professors have also talked about the importance of personal sites in academia. A good Ph.D. student/research should be visible in the community/on the Internet, and Linkedin/Facebook/department-generated webpages are just not enough for that. Some good templates include [Jon Barron's website](https://jonbarron.info) and [academicpages.github.io](https://academicpages.github.io). Prof. Timothy Roscoe recommended including the following information on a personal webpage:
 
@@ -60,9 +64,7 @@ Before you start emailing people, I strongly recommend making a personal webpage
   * Who do you work with? And what do you work on?
   * Random (but non-embarrassing) details for color. Do not go out of your way and put your pornhub account on your webpage, people may not like it...
 
-### Make a good CV second
-
-* TODO: work on this
+TODO: add more toward the CV part
 
 ### How and when should you reach out?
 
@@ -72,9 +74,9 @@ The de facto way to get in touch with professors is to cold email them. If you a
 * Be concise but on-point. There is a reference below that covers how to send out cold emails, but take it with a grain of salt, as that's more for emailing professors for undergraduate research opportunities. My suggestions are:
   * You must mention who you are working with right now and your research interests.
   * You must mention why you would like to work with the POI, and you should probably mention a bit of their existing work and why you like them. Better yet, go in-depth and ask a technical question/ask if xxx is an interesting idea for possible follow-up work.
-  * You must attach your CV. Better yet, attach a draft research statement (if it's not too bad) just in case the POI has some time to take a look.
+  * You must attach your CV. I had attached a draft research statement just in case the POI has some time to take a look, but in retrospect, I don't think any of them had the time to read it (?).
   * You should probably put a link to your webpage in your email signature. Better yet, include a link to your calendar.
-* Know the email etiquette (there's an article in the references that covers this). To that end, triple-check your email for missed attachments and spelling mistakes before sending it out! Better yet, have your roommate proofread it.
+* Know the email etiquette (there are two articles in the references that cover this). To that end, triple-check your email for missed attachments and spelling mistakes before sending it out! Better yet, have your roommate proofread it.
 * Within a school, reach out to professors one at a time and only move on to the next professor if the previous one doesn't get back to you in a week or so. Please don't reach out to five professors whose offices are right next to each other at the same time -- they talk.
 * Please don't send three emails in a day to try to catch someone's eye. Professors are busy, but they will get back to you if they see a good fit. They might forget about things, and in that case, send a kind reminder after some time (say a week?) of not hearing back.
 * Use your institutional email account. Gmail/outlook addresses are fine but don't use your QQMail.
@@ -83,6 +85,7 @@ The de facto way to get in touch with professors is to cold email them. If you a
 
 * [How to Cold Email a Professor](https://research.berkeley.edu/how-cold-email-professor)
 * [How to Email a Professor](https://academicpositions.com/career-advice/how-to-email-a-professor)
+* [千万别犯写邮件的大忌](https://www.zhihu.com/question/68514971/answer/469896862) (The DON'TS when writing emails)
 
 ## Chapter 4: Asking for recommendation letters and sending out requests
 
@@ -124,7 +127,7 @@ And at last, you should write them a thank you letter. Send a small gift (someth
 
 ### How should you write a statement?
 
-* Before you start writing your statement, make sure to read through many other people's (good) SOP. Prof. Phillip Guo had shared a few statements that are really nice examples. Although he has taken down most of the content and has asked people not to distribute them, some of these statements are scattered across the Internet, and I'm sure you are good at Googling stuff. There are also some other good examples online that I will try to link to in the future.&#x20;
+* Before you start writing your statement, make sure to read through many other people's (good) SOP. Prof. Phillip Guo had shared a few statements that are really nice examples. Although he has taken down most of the content and has asked people not to distribute them, some of these statements are scattered across the Internet, and I'm sure you are good at Googling stuff. There are also some other good examples online that I will try to link to in the future. TODO
 * Start early to write up the first draft. I was applying to a pre-doctoral summer program so I was very lucky to have my first draft ready in the summer before the application season, but still, I didn't finalize my statement until a few days before Dec 15: it takes a lot of time to do the endless revisions. Another thing is that except for the research statement of purpose, different schools might ask for additional materials such as diversity statements, short answers to random questions, etc., so make sure to figure out those requirements way before the deadline.
 * Go through a lot of iterations. Just like writing up a paper, the first draft is guaranteed to be bad, and good papers go through O(10) rounds of revisions. To that end, try to get a lot of feedback by having as many people read your statement as possible: writing center, (former) lab mates, high school classmates who are majoring in computer science, roommates, etc. Five people can probably offer you 50 suggestions, and if you go by 20 of them, your sop will rise to a new level.
 
@@ -161,9 +164,10 @@ Congratulations on sending out all of your applications! Take a little break fir
 * Before an interview: Go over your statement and resume, since the professors will likely refer to them if they ask questions about you. If you included a topic that you are less familiar with in your future research interests, it doesn't hurt to delve a little bit deeper into that topic.
   * For every project listed on your resume, prepare the following:
     * One sentence that summarizes the project. This is like the title of your project but maybe with some more info for context.
-    * A 1-minute introduction that expands a little bit more, say on the background, motivation, technical contributions, and results.
-    * A five-minute and another 20-minute overview of the project. Totally write stuff down beforehand if you feel like it.&#x20;
+    * A 3-minute introduction that expands a little bit more, say on the background, motivation, technical contributions, and results.
+    * A 10-minute overview of the project that can be expanded into a 30-minute discussion. Totally write stuff down beforehand if you feel like it.&#x20;
     * Your contributions to the project. Undergraduates often get carried by Ph.D. students/postdocs in their research, so it's important to highlight what you did and what you got out of a project.
+  * Note that the interviews vary in duration, and you might have multiple projects to talk about (I only focused on the most significant one), so be flexible about the timing.
 * Before an interview: Read your POI's work. It's ok to prioritize POI who you are really interested in or who showed great interest in you. They won't ask you about the technical questions in their past research projects, but still, getting to know about what a POI used to work on shows your seriousness and enthusiasm. Different students spend various amounts of time on this phase of the preparation, but I think you should at least do the following. For each POI:
   * Do a quick pass through the title/abstract/collaborators/venues of all their past work.
   * Pick 2-4 of their projects to dive deeper into. I had focused on (1) their most highly-cited paper, (2) their most highly-cited first-author paper, (3) a highly-cited paper in the recent two years, and (4) a recent work that you are particularly interested in, either because you can relate to the project regarding motivations/techniques or because you are genuinely captivated. And by diving deeper into it, I meant going over all the figures, learning about the background/motivation/nuggets (high-level contributions and techniques), etc.
@@ -172,11 +176,12 @@ Congratulations on sending out all of your applications! Take a little break fir
 * Before an interview: Do mock interviews (or research presentation talks) with your friends/labmates. I didn't, so I totally screwed up my first interview, but it was a good practice and I got the chance to learn from my mistakes. In retrospect, I really should have done an actual mock interview with some labmates and had them ask all kinds of questions.
 * Before an interview: Make sure you have a quiet environment, a stable internet connection, and a good microphone. If you have noisy roommates or bad routers, you might want to reserve a quiet study room in a library in advance.
 * Before an interview: Dress properly. FYI, the chats are mostly casual unless the interviewer specifically mentioned a (multi-person) serious interview.
-* During an interview: Chill out. Be yourself.
+* During an interview: Chill out, and be yourself. IMO a significant purpose of interviews is so that you can get a sense of the vibe/chemistry between you and the POI (vice versa), so don't force things like saying you are interested in something that you are not.
 * After an interview: Send the POI a thank-you email. If you had a good chat, maybe it's time for some follow-ups. Anyway, you should let the professor know your thankfulness and reassure your enthusiasm for collaborating with them.
 
 ### References
 
+* [What is a typical interview (informal chat) for a PhD in computer science like?](https://www.quora.com/What-is-a-typical-interview-informal-chat-for-a-PhD-in-computer-science-like-What-do-the-professors-generally-ask-Do-I-need-to-have-concrete-research-ideas-of-my-own-Should-I-read-a-lot-of-research-papers-by-the-professor)
 * [TOP校CS Ph.D.面试经验教训总结](https://www.1point3acres.com/bbs/thread-628184-1-1.html) (Tips for interviewing at top-tier CS Ph.D. programs)
 * [关于我自己观察到的中国学生在PhD面试过程中的一点特点](https://www.1point3acres.com/bbs/thread-590002-1-1.html) (My observations on Chinese students' traits in Ph.D. interviews)
 * TODO: add more references that are in English
@@ -196,7 +201,7 @@ My mental health was surprisingly good during my application season (probably be
 ### After sending out applications
 
 * After sending out applications, you will likely have huge chunks of free time since the semester is over and Christmas is coming up. Although the interviews will be coming shortly, IMO you should first take a week-long mental break. Congratulations on sending out all those applications!&#x20;
-* Once you get back from your mental break, you should get back to studying. You likely won't have a lot of things to work on, and your motivation might be low -- after all, your application is already out and there is not much you can do to make it a lot better. Instead of spending all the free time being anxious about the applications, try to divert your anxiety, say by developing a new hobby. Read a book or something, or learn to cook.
+* Once you get back from your mental break, you should get back to studying. You likely won't have a lot of things to work on, and your motivation might be low -- after all, your application is already out, and there is not much you can do to make it a lot better. Instead of spending all the free time being anxious about the applications, try to divert your anxiety, say by developing a new hobby. Read a book or something, or learn to cook.
 * [1point3acres](https://www.1point3acres.com/bbs/). [zhihu.com](https://www.zhihu.com/question/379814619), and [The GradCafe](https://www.thegradcafe.com) have a lot of good information and stuff, but please consider restraining yourself from visiting these sites too often. Social media takes a toll on people.
 * Also, it might be worthwhile to turn off instant notifications for your email inbox and check it a few times a day at regular times.
 * Compare to yourself, not others. This is in general a great suggestion on how to live a happy life.
@@ -217,6 +222,8 @@ oh man, I should really be reading some more articles on this&#x20;
 * try to attend the visiting days in person if possible. the vibe is an important thing
 
 ### What do to on the visiting day
+
+TODO
 
 ### References
 
@@ -244,12 +251,15 @@ Don't feel obliged to exactly copy my timeline -- this is just for your referenc
 
 * [Chris Liu's list of resources for CS grad school application](https://chrisliu298.io/posts/grad-school-application.html)
 * [Matt Might's HOWTO: Apply for and get into grad school for science, engineering, math, and computer science](https://matt.might.net/articles/how-to-apply-and-get-in-to-graduate-school-in-science-mathematics-engineering-or-computer-science/)
+* [Advice on Research Communication Skills | Computer Science Department at Princeton University](https://www.cs.princeton.edu/grad/advice-on-research-communications-skills)
+* [Reflections on my CS PhD Application Process](https://www.bodunhu.com/blog/posts/reflections-on-my-cs-phd-application-process/) | [Bodun Hu](https://www.bodunhu.com)'s Blog
 
 For those of you who read Mandarin Chinese:
 
 * [Top tier CS PhD招生官--我是如何审材料的](https://www.1point3acres.com/bbs/thread-585435-1-1.html) (How I review application packages as a senior student volunteer in the application committee of a top-tier CS Ph.D. program)
 * [从审材料的角度谈谈研究生申请](https://www.1point3acres.com/bbs/thread-463109-1-1.html) (Grad school application from an application review's point of view)
 * [也从审材料的角度讲讲如何准备cs phd申请！](https://www.1point3acres.com/bbs/thread-585851-1-1.html)(CS Ph.D. application from an application reviewer's point of view)
+*
 * [CS Ph.D. 2019 Fall 申请季总结 - James.Qiu的文章 - 知乎](https://zhuanlan.zhihu.com/p/60961921) (Review of my CS Ph.D. application in 2019 Fall by [Haoran Qiu](https://haoran-qiu.com))
 * [CS Ph.D. 申请总结 (2021 Fall) - Romero的文章 - 知乎](https://zhuanlan.zhihu.com/p/362189295) (Review of my CS Ph.D. application in 2021 Fall by [Xiangfeng Zhu](https://xzhu27.me))
 * [2022 Fall你都申请了哪些学校的MA/MS/Ph.D.？- ruipeterpan的回答 - 知乎](https://www.zhihu.com/question/379814619/answer/2325160660) (My personal review of my CS Ph.D. application in 2022 Fall)
