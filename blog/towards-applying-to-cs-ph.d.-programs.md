@@ -4,7 +4,7 @@ After going through tens, if not hundreds of blog posts on applying to Ph.D. pro
 
 This blog post will hopefully be a useful guide to the students who are planning to apply to Ph.D. programs. (I was trying to target those who are pondering the million-dollar question of whether to do a Ph.D., but I don't feel entitled to write about that yet...) I will try to give you a glimpse of what the application process looks like and offer some advice on how to best approach, embrace, and enjoy this unique journey. I hope this helps you! If so, please consider paying it forward (maybe start by giving a hand to junior undergraduates in your research group).
 
-Note that whatever I write down is biased because of my background and experience. For context, I grew up and went to high school in China, and then did my bachelor's in the United States, majoring in computer science and mathematics. During my undergraduate, I worked on systems (cluster resource management) for ML starting from the summer of my second year, and I fully committed to doing a Ph.D. in my third year. My research interests fall under the big topic of "Systems and Networking", and for my Ph.D. application, I applied to professors whose areas of interest range broadly across all system aspects of big data, e.g. sys for ml (e.g., video analytics), ml for sys (e.g., congestion control), cloud computing/data center resource management (e.g., serverless, scheduling training/inference), etc.
+Note that whatever I write down is biased because of my background and experience. For context, I grew up and went to high school in China, and then did my bachelor's in the United States, majoring in computer science and mathematics. During my undergraduate, I worked on systems (cluster resource management) for ML starting from the summer of my second year, and I fully committed to doing a Ph.D. in my third year. My research interests fall under the big topic of "Systems and Networking", and for my Ph.D. application, I applied to professors whose areas of interest range broadly across all system aspects of big data, e.g., sys for ml (training, inference, video analytics, etc.), ml for sys (congestion control, video streaming, etc.), cloud computing/data center resource management (e.g., serverless, scheduling training/inference), etc.
 
 ## Overview (WIP)
 
@@ -59,6 +59,10 @@ Before you start emailing people, I strongly recommend making a personal webpage
   * How long have you been a student? And how long have you got left?
   * Who do you work with? And what do you work on?
   * Random (but non-embarrassing) details for color. Do not go out of your way and put your pornhub account on your webpage, people may not like it...
+
+### Make a good CV second
+
+* TODO: work on this
 
 ### How and when should you reach out?
 
@@ -142,26 +146,40 @@ There are also a bunch of blog posts by people who know more about writing up st
 * [Ph.D. Statement of Purpose](https://blog.nelsonliu.me/2020/11/11/phd-personal-statement/)
 * [Writing a Statement of Purpose](https://djunicode.github.io/2018/10/16/writing-a-statement-of-purpose.html)
 
-## Chapter 6: Preparing for interviews (WIP)
+## Chapter 6: Preparing for interviews
 
+Congratulations on sending out all of your applications! Take a little break first, both physically & mentally. Then, it's time to start preparing for interviews!
 
+### What's a typical interview like?
 
-* write down things
-  * one-minute self-introduction
-  * for each project:
-    * in one sentence
-    * one-minute introduction
-    * five-minute overview
-    * fifteen-minute overview
-  * go over a few of the professor's publications, their major contributions/nuggets
-* do mock interviews with friends/labmates
-  * I didn't so I totally screwed up my first interview, but it was a good practice and I got the chance to learn from my past mistakes
-* create a quiet environment for zoom interviews
+* Duration: A typical interview lasts an hour or so. The ones I had been in lasted as short as 20 minutes and as long as two hours.
+* Content: You usually start with some chit-chat, followed by a quick self-introduction. Then, the POI will likely ask you to talk about your research project(s), during which they will evaluate both your hard and soft skills. Afterward, you can ask the POI some questions, including the lab culture & dynamics, the graduate program, their research, etc.
+* Will there be coding/technical questions? (???) It depends, but most professors don't ask these kinds of questions. From what I've heard, there are professors who ask about things like page fault handling in operating systems or ask you something from LeetCode (those are extreme outliers though). But there will of course be technical questions for your past research projects!
+
+### What to do before, during, and after an interview
+
+* Before an interview: Go over your statement and resume, since the professors will likely refer to them if they ask questions about you. If you included a topic that you are less familiar with in your future research interests, it doesn't hurt to delve a little bit deeper into that topic.
+  * For every project listed on your resume, prepare the following:
+    * One sentence that summarizes the project. This is like the title of your project but maybe with some more info for context.
+    * A 1-minute introduction that expands a little bit more, say on the background, motivation, technical contributions, and results.
+    * A five-minute and another 20-minute overview of the project. Totally write stuff down beforehand if you feel like it.&#x20;
+    * Your contributions to the project. Undergraduates often get carried by Ph.D. students/postdocs in their research, so it's important to highlight what you did and what you got out of a project.
+* Before an interview: Read your POI's work. It's ok to prioritize POI who you are really interested in or who showed great interest in you. They won't ask you about the technical questions in their past research projects, but still, getting to know about what a POI used to work on shows your seriousness and enthusiasm. Different students spend various amounts of time on this phase of the preparation, but I think you should at least do the following. For each POI:
+  * Do a quick pass through the title/abstract/collaborators/venues of all their past work.
+  * Pick 2-4 of their projects to dive deeper into. I had focused on (1) their most highly-cited paper, (2) their most highly-cited first-author paper, (3) a highly-cited paper in the recent two years, and (4) a recent work that you are particularly interested in, either because you can relate to the project regarding motivations/techniques or because you are genuinely captivated. And by diving deeper into it, I meant going over all the figures, learning about the background/motivation/nuggets (high-level contributions and techniques), etc.
+  * If you like this POI very much, you can totally go over the technical details of some of their papers. Because why not? Reading papers are fun! If not, then you should probably think twice about your application.
+  * Take a quick skim at their Ph.D. thesis, especially the acknowledgments section to know more about them as a person.
+* Before an interview: Do mock interviews (or research presentation talks) with your friends/labmates. I didn't, so I totally screwed up my first interview, but it was a good practice and I got the chance to learn from my mistakes. In retrospect, I really should have done an actual mock interview with some labmates and had them ask all kinds of questions.
+* Before an interview: Make sure you have a quiet environment, a stable internet connection, and a good microphone. If you have noisy roommates or bad routers, you might want to reserve a quiet study room in a library in advance.
+* Before an interview: Dress properly. FYI, the chats are mostly casual unless the interviewer specifically mentioned a (multi-person) serious interview.
+* During an interview: Chill out. Be yourself.
+* After an interview: Send the POI a thank-you email. If you had a good chat, maybe it's time for some follow-ups. Anyway, you should let the professor know your thankfulness and reassure your enthusiasm for collaborating with them.
 
 ### References
 
 * [TOP校CS Ph.D.面试经验教训总结](https://www.1point3acres.com/bbs/thread-628184-1-1.html) (Tips for interviewing at top-tier CS Ph.D. programs)
 * [关于我自己观察到的中国学生在PhD面试过程中的一点特点](https://www.1point3acres.com/bbs/thread-590002-1-1.html) (My observations on Chinese students' traits in Ph.D. interviews)
+* TODO: add more references that are in English
 
 ## Chapter 7: Having good mental health during the application season
 
@@ -217,7 +235,7 @@ Don't feel obliged to exactly copy my timeline -- this is just for your referenc
 * **Early November**: Finalized school list
 * **Early December**: Sent out all rec letter requests
 * **Mid December**: Finalized SoP; Sent out all applications to programs in the U.S.
-* **Late December**: Received first interview invitation. The interviews lasted all the way to mid February.
+* **Late December - Mid February**: Interviews
 * **Late January**: First unofficial offer
 * **Mid February**: First official offer -- the offers came in all the way to early March, although I withdrew/turned most of them down.
 * **Late March**: Committed to xxx!
