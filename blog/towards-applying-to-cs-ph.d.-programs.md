@@ -1,8 +1,8 @@
 # Towards applying to CS Ph.D. programs
 
-### Introduction
+## Introduction
 
-After going through hundreds of blog posts on applying to Ph.D. programs, it would almost be inappropriate if I didn't write down something and throw in my two cents about this exhausting but ultimately self-enriching and fascinating process.
+After going through and learning from hundreds of blog posts on applying to Ph.D. programs, it would almost be inappropriate if I didn't write down something and throw in my two cents about this exhausting but ultimately self-enriching and fascinating process.
 
 This blog post will hopefully be a useful guide to the students who are planning to apply to Ph.D. programs. I will try to give you a glimpse of what the application process looks like and offer some advice on how to best approach, embrace, and enjoy this unique journey. I hope this helps you! If so, please consider paying it forward, maybe start by giving a hand to students in your research group who will be applying for Ph.D. programs.
 
@@ -50,7 +50,9 @@ This is a million-dollar question and I don't feel entitled to write more about 
 
 ### References
 
-* [Life after the PhD](http://people.csail.mit.edu/fredo/LifeAfterPhD.pdf)
+* [Life after the PhD](http://people.csail.mit.edu/fredo/LifeAfterPhD.pdf) by Prof. Frédo Durand
+* [The PhD Grind](https://archive.org/details/the-phd-grind-philip-guo) by Prof. Phillip Guo
+* [Reasons to Pursue a Ph.D.](https://jxyzabc.blogspot.com/2011/12/reasons-to-pursue-phd.html) and [CS Grad School Part 1: Deciding to Apply](https://jxyzabc.blogspot.com/2008/08/cs-grad-school-part-1-deciding-to-apply.html) by Jean Yang
 * TODO: Add more references
 * [读博，你真的想好了吗？- 张焕晨的文章 - 知乎](https://zhuanlan.zhihu.com/p/372884253) (Are you really sure about doing a Ph.D.? by Prof. [Huanchen Zhang](http://people.iiis.tsinghua.edu.cn/\~huanchen/))
 
@@ -64,7 +66,7 @@ Most people agree that when applying to Ph.D. programs, the advisor is the most 
 
 * Check out your advisor's former lab mates, recent collaborators, and direct connections in their network. These people are likely to share similar interests with your current advisor, plus they know your advisor personally, so these folks should be fun to work with, assuming you love what you are doing right now.
 * The math folks have a great thing called [The Mathematics Genealogy Project](https://www.mathgenealogy.org) where you can see this tree of academic relationships. You can also trace the tree of professors in cs, starting from very senior professors who work in your field of interest, and then go down the genealogy tree to look for those holding tenure-track positions. For me, I started with Ion Stoica. Fun fact: as many as six of my professors of interest have had direct connections with Ion!
-* [CSRankings](https://csrankings.org) is also a great place to visit. You would want to first list the target conferences that you mostly read papers from (for me it was SOSP, OSDI, EuroSys, ATC, SoCC, NSDI, SIGCOMM). Then, go to CSRankings, select your target conferences, check out the professors from each school who has published in these venues, and go through them one by one. I spent a day at each school going over everyone. Unless you already have a specific topic that you would like to work on, IMO you should be open-minded in this part of your search and try to check out as many professors as possible. When I was going over csrankings.org, I had also marked professors who publish in venues like SIGMOD & VLDB, SIGMETRICS, HPC conferences, and ML conferences like ICML. Although I still ended up applying to system professors, it was fun to get to know what other folks in your field are working on.
+* [CSRankings](https://csrankings.org) is also a great place to visit. You would want to first list the target conferences that you mostly read papers from (for me it was SOSP, OSDI, EuroSys, ATC, SoCC, NSDI, and SIGCOMM). Then, go to CSRankings, select your target conferences, check out the professors from each school who has published in these venues, and go through them one by one. I spent a day at each school going over everyone. Unless you already have a specific topic that you would like to work on, IMO you should be open-minded in this part of your search and try to check out as many professors as possible. When I was going over csrankings.org, I had also marked professors who publish in venues like SIGMOD & VLDB, SIGMETRICS, HPC conferences, and ML conferences like ICML. Although I still ended up applying to system professors, it was fun to get to know what other folks in your field are working on.
 * Take the same list of venues that you like. Then, take a look at the program committee of the recent conferences, and go to their personal sites one by one. Doing so will produce a list that overlaps very much with the one you got from csrankings.org
 * Talk with other people, e.g. your lab mates, your current advisor, or Ph.D. students who were in your lab during their undergraduate. You will genuinely get a lot from this! My personal story is that I didn't consider applying to the program I ended up committing to (?) until after a friend of mine strongly recommended that I shoot this POI an email. I ended up getting in touch with the POI and found that I liked him a lot. So yes, talk to people!
 * Although the POI is arguably the most crucial factor for a happy (and successful) Ph.D., the program itself has to be taken into consideration during your application. People usually apply to some schools at their level (match), some schools above their level (lottery), and some schools below their level (safety). To that end, look at students with a similar background as yours and refer to their school list and application results. You can also have your current advisor go over your school list and provide some feedback. It is also a good idea to modify your school list based on your feedback from cold-emailing the professors.
@@ -80,14 +82,16 @@ On the other hand, you should not work with people who are bad advisors. Advisor
 
 ### References
 
-* [finding CS Ph.D. programs to apply to](https://www.youtube.com/watch?v=hOSl3xPmHiQ)
-* [How to pick a grad school for a Ph.D. in Computer Science](https://vijayc.medium.com/how-to-pick-a-grad-school-for-a-phd-in-computer-science-a5ce7dceb246)
+* [finding CS Ph.D. programs to apply to](https://www.youtube.com/watch?v=hOSl3xPmHiQ) by Prof. Phillp Guo
+* [How to pick a grad school for a Ph.D. in Computer Science](https://vijayc.medium.com/how-to-pick-a-grad-school-for-a-phd-in-computer-science-a5ce7dceb246) by Prof. Vijay Chidambaram
 
 ## Chapter 3: Getting in touch with the POI
 
 Now that you have narrowed down a list of 10\~30 professors you want to work with, it is time to get in touch with them. Some people don't bother to do this at all -- I do not recommend this, as I know professors who will only skim through your application package if you haven't reached out. Plus, getting in touch with them helps you figure out how many students they are taking this season, their ongoing/future interests, how enthusiastic they feel about your background, etc. So please, please reach out!
 
 ### Make a CV and a webpage first
+
+> If you are not able to create a web page, you probably shouldn't be applying to CS graduate programs.  -- David Evans
 
 Before you start emailing people, I strongly recommend making a personal webpage. Quite a few professors have also talked about the importance of personal sites in academia. A good Ph.D. student/research should be visible in the community/on the Internet, and Linkedin/Facebook/department-generated webpages are just not enough for that. Some good templates include [Jon Barron's website](https://jonbarron.info) and [academicpages.github.io](https://academicpages.github.io). Prof. Timothy Roscoe recommended including the following information on a personal webpage:
 
@@ -123,6 +127,7 @@ The de facto way to get in touch with professors is to cold email them. If you a
 * [Software developer resume template in Latex](https://github.com/sb2nov/resume)
 * [How to Cold Email a Professor](https://research.berkeley.edu/how-cold-email-professor)
 * [How to Email a Professor](https://academicpositions.com/career-advice/how-to-email-a-professor)
+* [Advice (on Writing Emails) for Prospective Research Students](https://uvasrg.github.io/prospective/) by Prof. David Evans
 * [千万别犯写邮件的大忌](https://www.zhihu.com/question/68514971/answer/469896862) (The DON'TS when writing emails)
 
 ## Chapter 4: Asking for recommendation letters and sending out requests
@@ -158,8 +163,8 @@ And at last, you should write them a thank you letter. Send a small gift (someth
 
 ### References
 
-* [How to get a great letter of recommendation](https://matt.might.net/articles/how-to-recommendation-letter/)
-* [Requesting a letter of recommendation](https://homes.cs.washington.edu/\~mernst/advice/request-recommendation.html)
+* [How to get a great letter of recommendation](https://matt.might.net/articles/how-to-recommendation-letter/) by Prof. Matt Might
+* [Requesting a letter of recommendation](https://homes.cs.washington.edu/\~mernst/advice/request-recommendation.html) by Prof. Michael Ernst
 
 ## Chapter 5: Writing up the statement of purpose
 
@@ -185,11 +190,13 @@ It's a good idea to mention which professors you would like to work with. Try to
 
 There are also a bunch of blog posts by people who know more about writing up statements than I do, so make sure to take a look at these articles, including but not limited to:
 
-* [Inside Ph.D. admissions: What readers look for in a Statement of Purpose](https://nschneid.medium.com/inside-ph-d-admissions-what-readers-look-for-in-a-statement-of-purpose-3db4e6081f80)
-* [How to Write a Statement of Purpose for Grad School](https://swapneelm.github.io/how-to-write-a-statement-of-purpose-for-grad-school)
-* [Tips for Writing a Statement of Purpose](https://users.ece.cmu.edu/\~mabdelm/statement-of-purpose-tips.html)
-* [Ph.D. Statement of Purpose](https://blog.nelsonliu.me/2020/11/11/phd-personal-statement/)
-* [Writing a Statement of Purpose](https://djunicode.github.io/2018/10/16/writing-a-statement-of-purpose.html)
+* [Inside Ph.D. admissions: What readers look for in a Statement of Purpose](https://nschneid.medium.com/inside-ph-d-admissions-what-readers-look-for-in-a-statement-of-purpose-3db4e6081f80) by Prof. Nathan Schneider
+* [How to Write a Statement of Purpose for Grad School](https://swapneelm.github.io/how-to-write-a-statement-of-purpose-for-grad-school) by Swapneel Mehta
+* [Tips for Writing a Statement of Purpose](https://users.ece.cmu.edu/\~mabdelm/statement-of-purpose-tips.html) by mabdelm
+* [Ph.D. Statement of Purpose](https://blog.nelsonliu.me/2020/11/11/phd-personal-statement/) by Nelson Liu
+* [Writing a Statement of Purpose](https://djunicode.github.io/2018/10/16/writing-a-statement-of-purpose.html) | The Unicode Blog
+* [What to avoid and what to mention in your SOP, targeted especially at international students](https://twitter.com/vj\_chidambaram/status/933388419589459969) by Prof. Vijay Chidambaram
+* [Jean Yang's Statement of Purpose](https://github.com/jeanqasaur/academic-application-materials/blob/master/phd-application-2007/personal\_statement.pdf) from her blog [CS Grad School Part 4: Applications](https://jxyzabc.blogspot.com/2008/08/cs-grad-school-part-4-applications.html)
 
 ## Chapter 6: Preparing for interviews
 
@@ -242,7 +249,8 @@ My mental health was surprisingly good during my application season (probably be
 
 ### After sending out applications
 
-* After sending out applications, you will likely have huge chunks of free time since the semester is over and Christmas is coming up. Although the interviews will be coming shortly, IMO you should first **take a week-long mental break.** Congratulations on sending out all those applications!&#x20;
+After sending out applications, you will likely have huge chunks of free time since the semester is over and Christmas is coming up. Although the interviews will be coming shortly, IMO you should first **take a week-long mental/physical break.** Congratulations on submitting all those applications!&#x20;
+
 * Once you get back from your mental break, you should get back to studying. You likely won't have a lot of things to work on, and your motivation might be low -- after all, your application is already out, and there is not much you can do to make it a lot better. Instead of spending all the free time being anxious about the applications, **try to divert your anxiety**, say by developing a new hobby. Read a book or something, or learn to cook.
 * [1point3acres](https://www.1point3acres.com/bbs/). [zhihu.com](https://www.zhihu.com/question/379814619), and [The GradCafe](https://www.thegradcafe.com) have a lot of good information and stuff, but please consider restraining yourself from visiting these sites too often. Social media takes a toll on people.
 * Also, it might be worthwhile to **turn off instant notifications** for your email inbox and check it a few times a day at regular times.
@@ -251,7 +259,7 @@ My mental health was surprisingly good during my application season (probably be
 
 ### References
 
-* [How to effectively deal with Imposter Syndrome and feelings of inadequacy](https://academia.stackexchange.com/questions/11765/how-to-effectively-deal-with-imposter-syndrome-and-feelings-of-inadequacy-ive)
+* [How to effectively deal with Imposter Syndrome and feelings of inadequacy](https://academia.stackexchange.com/questions/11765/how-to-effectively-deal-with-imposter-syndrome-and-feelings-of-inadequacy-ive) | StackExchange Academia
 
 ## Chapter 8: Choosing a Ph.D. program (WIP)
 
@@ -274,21 +282,23 @@ TODO
 
 ### References
 
-* [How should I choose between multiple Ph.D. programs I was admitted to?](https://academia.stackexchange.com/questions/66926/ive-been-admitted-to-multiple-phd-programs-how-should-i-choose-between-them)
+* [How should I choose between multiple Ph.D. programs I was admitted to?](https://academia.stackexchange.com/questions/66926/ive-been-admitted-to-multiple-phd-programs-how-should-i-choose-between-them) | StackExchange Academia Community Wiki
 * [The Definitive ‘what do I ask/look for’ in a PhD Advisor Guide](https://www.cs.columbia.edu/wp-content/uploads/2019/03/Get-Advisor.pdf)
-* [All About Graduate School Visits (for CS PhD programs)](https://koronkevi.ch/posts/grad-school-visits.html)
+* [Some notes on picking grad schools/advisors](https://jxyzabc.blogspot.com/2009/02/some-notes-on-picking-grad.html) and [CS Grad School Part 5: School Visits](https://jxyzabc.blogspot.com/2008/08/cs-grad-school-part-5-school-visits.html) by Jean Yang
+* [All About Graduate School Visits (for CS PhD programs)](https://koronkevi.ch/posts/grad-school-visits.html) by Paulette Koronkevich
+* [How to pick a grad school for a PhD in Computer Science](https://vijayc.medium.com/how-to-pick-a-grad-school-for-a-phd-in-computer-science-a5ce7dceb246) by Prof. Vijay Chidambaram
 * [地表最全奖学金攻略：我的二十二万刀经验分享](https://www.1point3acres.com/bbs/thread-763415-1-1.html) (Negotiating with Ph.D. programs for more fellowships: How I got a total of $220K from all offers)
 
 ## Appendix I: My application timeline
 
 Don't feel obliged to exactly copy my timeline -- this is just for your reference.
 
-* **Mid August**: First draft of the school list; First draft of SoP
+* **Mid August**: First draft of the school list and the SOP
 * **Mid September - Early October**: Confirmation of recommendation letter from 3 professors
-* **Early October - Mid November**: Send out cold emails to professors of interest. On average, it's two letters per week.
+* **Early October - Mid November**: Send out cold emails to professors of interest. On average, I sent \~2.5 letters per week.
 * **Early November**: Finalized school list
 * **Early December**: Sent out all rec letter requests
-* **Mid December**: Finalized SoP; Sent out all applications to programs in the U.S.
+* **Mid December**: Finalized SoP; Sent out all applications!
 * **Late December - Mid February**: Interviews
 * **Late January**: First unofficial offer
 * **Mid February**: First official offer -- the offers came in all the way to early March, although I withdrew/turned most of them down.
@@ -301,6 +311,7 @@ Don't feel obliged to exactly copy my timeline -- this is just for your referenc
 * [Matt Might's HOWTO: Apply for and get into grad school for science, engineering, math, and computer science](https://matt.might.net/articles/how-to-apply-and-get-in-to-graduate-school-in-science-mathematics-engineering-or-computer-science/)
 * [Graduate Study Survival Guide](https://cs.uwaterloo.ca/\~thachisu/survival.pdf) by Prof. Toshiya Hachisuka
 * [Chris Liu's list of resources for CS grad school application](https://chrisliu298.io/posts/grad-school-application.html)
+* [USA Computer Science PhD Application Advice](https://www.youtube.com/watch?v=IprN9fPV2LI) by Prof. Shriram Krishnamurthi
 * [Advice on Research Communication Skills | Computer Science Department at Princeton University](https://www.cs.princeton.edu/grad/advice-on-research-communications-skills)
 * [Reflections on my CS PhD Application Process](https://www.bodunhu.com/blog/posts/reflections-on-my-cs-phd-application-process/) | [Bodun Hu](https://www.bodunhu.com)'s Blog
 
@@ -309,6 +320,7 @@ For those of you who read Mandarin Chinese:
 * [Top tier CS PhD招生官--我是如何审材料的](https://www.1point3acres.com/bbs/thread-585435-1-1.html) (How I review application packages as a senior student volunteer in the application committee of a top-tier CS Ph.D. program)
 * [从审材料的角度谈谈研究生申请](https://www.1point3acres.com/bbs/thread-463109-1-1.html) (Grad school application from an application review's point of view)
 * [也从审材料的角度讲讲如何准备cs phd申请！](https://www.1point3acres.com/bbs/thread-585851-1-1.html)(CS Ph.D. application from an application reviewer's point of view)
-* [CS Ph.D. 2019 Fall 申请季总结 - James.Qiu的文章 - 知乎](https://zhuanlan.zhihu.com/p/60961921) (Review of my CS Ph.D. application in 2019 Fall by [Haoran Qiu](https://haoran-qiu.com))
-* [CS Ph.D. 申请总结 (2021 Fall) - Romero的文章 - 知乎](https://zhuanlan.zhihu.com/p/362189295) (Review of my CS Ph.D. application in 2021 Fall by [Xiangfeng Zhu](https://xzhu27.me))
-* [2022 Fall你都申请了哪些学校的MA/MS/Ph.D.？- ruipeterpan的回答 - 知乎](https://www.zhihu.com/question/379814619/answer/2325160660) (My personal review of my CS Ph.D. application in 2022 Fall)
+* [CS Ph.D. 2019 Fall 申请季总结 - James.Qiu的文章 - 知乎](https://zhuanlan.zhihu.com/p/60961921) (Review of my CS Ph.D. application in Fall 2019 by [Haoran Qiu](https://haoran-qiu.com))
+* [我的PhD申请总结与经验分享](https://tylergu.com/summary.html) (Review of my CS Ph.D. application in Fall 2020 by [Jiawei Gu](https://tylergu.com/index.html))
+* [CS Ph.D. 申请总结 (2021 Fall) - Romero的文章 - 知乎](https://zhuanlan.zhihu.com/p/362189295) (Review of my CS Ph.D. application in Fall 2021 by [Xiangfeng Zhu](https://xzhu27.me))
+* [2022 Fall你都申请了哪些学校的MA/MS/Ph.D.？- ruipeterpan的回答 - 知乎](https://www.zhihu.com/question/379814619/answer/2325160660) (My personal review of my CS Ph.D. application in Fall 2022)
