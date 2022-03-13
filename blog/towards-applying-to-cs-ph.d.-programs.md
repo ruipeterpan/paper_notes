@@ -20,6 +20,8 @@ Again, I don't feel entitled to write more about this, so please take a look at 
 
 ### References
 
+* [Life after the PhD](http://people.csail.mit.edu/fredo/LifeAfterPhD.pdf)
+* TODO: Add more references
 * [读博，你真的想好了吗？- 张焕晨的文章 - 知乎](https://zhuanlan.zhihu.com/p/372884253) (Are you really sure about doing a Ph.D.? by Prof. [Huanchen Zhang](http://people.iiis.tsinghua.edu.cn/\~huanchen/))
 
 ## Chapter 2: Narrowing down the programs/professors of interest
@@ -35,7 +37,7 @@ Most people agree that when applying to Ph.D. programs, the advisor is the most 
 * [CSRankings](https://csrankings.org) is also a great place to visit. You would want to first list the target conferences that you mostly read papers from (for me it was SOSP, OSDI, EuroSys, ATC, SoCC, NSDI, SIGCOMM). Then, go to CSRankings, select your target conferences, check out the professors from each school who has published in these venues, and go through them one by one. I spent a day at each school going over everyone. Unless you already have a specific topic that you would like to work on, IMO you should be open-minded in this part of your search and try to check out as many professors as possible. When I was going over csrankings.org, I had also marked professors who publish in venues like SIGMOD & VLDB, SIGMETRICS, HPC conferences, and ML conferences like ICML. Although I still ended up applying to system professors, it was fun to get to know what other folks in your field are working on.
 * Take the same list of venues that you like. Then, take a look at the program committee of the recent conferences, and go to their personal sites one by one. Doing so will produce a list that overlaps very much with the one you got from csrankings.org
 * Talk with other people, e.g. your lab mates, your current advisor, or Ph.D. students who were in your lab during their undergraduate. You will genuinely get a lot from this! My personal story is that I didn't consider applying to the program I ended up committing to (?) until after a friend of mine strongly recommended that I shoot this POI an email. I ended up getting in touch with the POI and found that I liked him a lot. So yes, talk to people!
-* TODO: add something about the school list, e.g. proportion of lottery/safe schools
+* Although the POI is arguably the most crucial factor for a happy (and successful) Ph.D., the program itself has to be taken into consideration during your application. People usually apply to some schools at their level (match), some schools above their level (lottery), and some schools below their level (safety). To that end, look at students with a similar background as yours and refer to their school list and application results. You can also have your current advisor go over your school list and provide some feedback.
 
 ### How do you narrow the list down?
 
@@ -62,7 +64,7 @@ Before you start emailing people, I strongly recommend making a personal webpage
 * Some biographical information:
   * How long have you been a student? And how long have you got left?
   * Who do you work with? And what do you work on?
-  * Random (but non-embarrassing) details for color. Do not go out of your way and put your pornhub account on your webpage, people may not like it...
+  * Random (but non-embarrassing) details for color.
 
 TODO: add more toward the CV part
 
@@ -75,7 +77,7 @@ The de facto way to get in touch with professors is to cold email them. If you a
   * You must mention who you are working with right now and your research interests.
   * You must mention why you would like to work with the POI, and you should probably mention a bit of their existing work and why you like them. Better yet, go in-depth and ask a technical question/ask if xxx is an interesting idea for possible follow-up work.
   * You must attach your CV. I had attached a draft research statement just in case the POI has some time to take a look, but in retrospect, I don't think any of them had the time to read it (?).
-  * You should probably put a link to your webpage in your email signature. Better yet, include a link to your calendar.
+  * You should probably put a link to your webpage in your email signature. I had also included a link to my calendar for the easier scheduling of meetings.
 * Know the email etiquette (there are two articles in the references that cover this). To that end, triple-check your email for missed attachments and spelling mistakes before sending it out! Better yet, have your roommate proofread it.
 * Within a school, reach out to professors one at a time and only move on to the next professor if the previous one doesn't get back to you in a week or so. Please don't reach out to five professors whose offices are right next to each other at the same time -- they talk.
 * Please don't send three emails in a day to try to catch someone's eye. Professors are busy, but they will get back to you if they see a good fit. They might forget about things, and in that case, send a kind reminder after some time (say a week?) of not hearing back.
@@ -111,7 +113,7 @@ Now that you know who you will be asking, it would be best to let them know abou
 
 * Ask early. You don't need to know your exact school list when you send your first email request, but you should at least give people a rough idea of the number of letters and when they will be due. Professors are busy, like really busy. Please ask for letters as early as possible so they can plan accordingly. Two months in advance is better than one, and one month is better than two weeks. Imagine being a professor who's going through the finals week and a couple of conference deadlines, and boom, five students show up to ask for a total of 100 letters that are due in one week. Just thinking about that makes me uncomfortable. Besides that, if you apply to 30 (?!) programs, some professors may not be too happy about submitting all those letters and will only agree to submit 10 of them. In that case, you should, of course, ask for some other professors to fill in the gap, but anyway, you don't want to know about this a week before the application deadline.
 * Communicate clearly. It would suck if professors finish your letter but don't know where to submit them. My advice is: (1) It is preferable to send official requests through application portals in batches, so those emails don't get lost in the professor's email inbox. (2) Create a table in Google Sheet to keep track of the programs you are applying to, the application deadlines, and the status of the requests. For example, knowing the date of when you sent a request will be helpful when a professor looks up that email in their inbox. Of course, share this google sheet with your letter writers. (3) Send email reminders to remind professors about an upcoming application deadline, preferably a week in advance, if not more. Note that for most programs, the deadline for people to submit letters is some time after the application deadline, so don't panic if a professor uploads a bit late.
-* Provide enough information. Once a professor agrees to write you a letter, attach many files when you get back to them, e.g., your cv, draft SoP, transcript, final project report. Some professors will also ask you to provide a list of relevant personal information, e.g., classes you have taken, major accomplishments, etc. Besides those, remind professors about how your opportunity with them helped you grow as a scholar.
+* Provide enough information. Once a professor agrees to write you a letter, attach many files when you get back to them, e.g., your cv, draft SoP, transcript, final project report. Some professors will also ask you to provide a list of relevant personal information, e.g., professors you have taken classes with and the grades you got, major accomplishments, etc. Besides those, remind professors about how your opportunity with them helped you grow as a scholar.
 * Ask for strong letters. It goes without saying that strong letters from professors say a lot about who you are as an applicant -- they will make a difference in your application. When you ask for letters, explicitly ask for strong letters, so that professors who will otherwise write average letters can give you the chance to pivot.
 
 ### What's next?
@@ -249,8 +251,10 @@ Don't feel obliged to exactly copy my timeline -- this is just for your referenc
 
 ## Appendix II: Meta-references
 
-* [Chris Liu's list of resources for CS grad school application](https://chrisliu298.io/posts/grad-school-application.html)
+* [Applying to Ph.D. Programs in Computer Science](http://www.cs.cmu.edu/\~harchol/gradschooltalk.pdf) by Prof. Mor Harchol-Balter
 * [Matt Might's HOWTO: Apply for and get into grad school for science, engineering, math, and computer science](https://matt.might.net/articles/how-to-apply-and-get-in-to-graduate-school-in-science-mathematics-engineering-or-computer-science/)
+* [Graduate Study Survival Guide](https://cs.uwaterloo.ca/\~thachisu/survival.pdf) by Prof. Toshiya Hachisuka
+* [Chris Liu's list of resources for CS grad school application](https://chrisliu298.io/posts/grad-school-application.html)
 * [Advice on Research Communication Skills | Computer Science Department at Princeton University](https://www.cs.princeton.edu/grad/advice-on-research-communications-skills)
 * [Reflections on my CS PhD Application Process](https://www.bodunhu.com/blog/posts/reflections-on-my-cs-phd-application-process/) | [Bodun Hu](https://www.bodunhu.com)'s Blog
 
@@ -259,7 +263,6 @@ For those of you who read Mandarin Chinese:
 * [Top tier CS PhD招生官--我是如何审材料的](https://www.1point3acres.com/bbs/thread-585435-1-1.html) (How I review application packages as a senior student volunteer in the application committee of a top-tier CS Ph.D. program)
 * [从审材料的角度谈谈研究生申请](https://www.1point3acres.com/bbs/thread-463109-1-1.html) (Grad school application from an application review's point of view)
 * [也从审材料的角度讲讲如何准备cs phd申请！](https://www.1point3acres.com/bbs/thread-585851-1-1.html)(CS Ph.D. application from an application reviewer's point of view)
-*
 * [CS Ph.D. 2019 Fall 申请季总结 - James.Qiu的文章 - 知乎](https://zhuanlan.zhihu.com/p/60961921) (Review of my CS Ph.D. application in 2019 Fall by [Haoran Qiu](https://haoran-qiu.com))
 * [CS Ph.D. 申请总结 (2021 Fall) - Romero的文章 - 知乎](https://zhuanlan.zhihu.com/p/362189295) (Review of my CS Ph.D. application in 2021 Fall by [Xiangfeng Zhu](https://xzhu27.me))
 * [2022 Fall你都申请了哪些学校的MA/MS/Ph.D.？- ruipeterpan的回答 - 知乎](https://www.zhihu.com/question/379814619/answer/2325160660) (My personal review of my CS Ph.D. application in 2022 Fall)
