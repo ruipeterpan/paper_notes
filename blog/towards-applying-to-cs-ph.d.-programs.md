@@ -1,22 +1,51 @@
 # Towards applying to CS Ph.D. programs
 
-After going through tens, if not hundreds of blog posts on applying to Ph.D. programs, it would almost be inappropriate if I didn't write down something and throw in my two cents about this exhausting but ultimately self-enriching and fascinating process.
+### Introduction
 
-This blog post will hopefully be a useful guide to the students who are planning to apply to Ph.D. programs. (I was trying to target those who are pondering the million-dollar question of whether to do a Ph.D., but I don't feel entitled to write about that yet...) I will try to give you a glimpse of what the application process looks like and offer some advice on how to best approach, embrace, and enjoy this unique journey. I hope this helps you! If so, please consider paying it forward (maybe start by giving a hand to junior undergraduates in your research group).
+After going through hundreds of blog posts on applying to Ph.D. programs, it would almost be inappropriate if I didn't write down something and throw in my two cents about this exhausting but ultimately self-enriching and fascinating process.
 
-Note that whatever I write down is biased because of my background and experience. For context, I grew up and went to high school in China, and then did my bachelor's in the United States, majoring in computer science and mathematics. During my undergraduate, I worked on systems (cluster resource management) for ML starting from the summer of my second year, and I fully committed to doing a Ph.D. in my third year. My research interests fall under the big topic of "Systems and Networking", and for my Ph.D. application, I applied to professors whose areas of interest range broadly across all system aspects of big data, e.g., sys for ml (training, inference, video analytics, etc.), ml for sys (congestion control, video streaming, etc.), cloud computing/data center resource management (e.g., serverless, scheduling training/inference), etc. Also, my honest opinions can be straight-up wrong, so take them with a grain of salt.
+This blog post will hopefully be a useful guide to the students who are planning to apply to Ph.D. programs. I will try to give you a glimpse of what the application process looks like and offer some advice on how to best approach, embrace, and enjoy this unique journey. I hope this helps you! If so, please consider paying it forward, maybe start by giving a hand to students in your research group who will be applying for Ph.D. programs.
 
-## Overview (WIP)
+Note that whatever I write down is biased because of my background and experience. For context, I grew up and went to high school in China, and then did my bachelor's in the United States, majoring in computer science and mathematics. During my undergraduate, I worked on systems (scheduling/cluster resource management) for ML starting from the summer of my second year, and I fully committed to doing a Ph.D. in my third year. My research interests fall under the big topic of "Systems and Networking", and for my Ph.D. application, I applied to professors whose areas of interest range broadly across all system aspects of big data, e.g., sys for ml (training, inference, video analytics, etc.), ml for sys (congestion control, video streaming, etc.), cloud computing/data center resource management (e.g., serverless, scheduling training/inference), etc. Also, my honest opinions can be straight-up wrong, so take everything with a grain of salt.
 
-point to meta references; introduce what's in each chapter
+## Overview
 
+A CS Ph.D. application package should be the culmination of your previous academic career. It usually includes three recommendation letters, a curriculum vitae (CV), a list of publications (if any), a research statement of purpose (and possibly another personal/diversity statement), your college-level transcripts/GPA, standardized test scores, and a bunch of other personal information.
 
+While your technical ability is instrumental towards your Ph.D. application, doing the application right is also critical but is often neglected. This article aims to point you to some common practices for wrapping your application package nicely with the following chapters:
+
+* **Chapter 1: Why do a Ph.D. at all?**
+* **Chapter 2: Narrowing down the programs/professors of interest**
+  * §2.1: How do you put up the big list of POI?
+  * §2.2: How do you narrow the list down?
+* **Chapter 3: Getting in touch with the POI**
+  * §3.1: Make a CV and a webpage first
+  * §3.2: How and when should you reach out?
+* **Chapter 4: Asking for recommendation letters and sending out requests**
+  * §4.1: Who should you ask for letters?
+  * §4.2: How should you ask for letters?
+  * §4.3: What's next?
+* **Chapter 5: Writing up the statement of purpose**
+  * §5.1: How should you write a statement?
+  * §5.2: What should be in your statement?
+* **Chapter 6: Preparing for interviews**
+  * §6.1: What's a typical interview like?
+  * §6.2: What to do before, during, and after an interview
+* **Chapter 7: Towards good mental health during the application season**
+  * §7.1: Before sending out applications
+  * §7.2: After sending out applications
+* **Chapter 8: Choosing a Ph.D. program**
+  * §8.1: What do to on the visiting day
+* **Appendix I: My application timeline**
+* **Appendix II: Meta-references**
+
+Each chapter includes some of my personal opinions followed by a list of references. Moreover, my application timeline and some meta-level references are provided in the appendix.
 
 ## Chapter 1: Why do a Ph.D. at all?
 
 In my opinion, you should do a Ph.D. if you have already done some research, been through the ups and downs (or at least know a bit about what they are like), and you still absolutely love doing research. If your Asian parents are forcing you to do a Ph.D. or if you want to stay in academia because you didn't get an industry job, think twice.
 
-Again, I don't feel entitled to write more about this, so please take a look at all the references below.&#x20;
+This is a million-dollar question and I don't feel entitled to write more about this, so please take a look at all the references below.&#x20;
 
 ### References
 
@@ -37,7 +66,7 @@ Most people agree that when applying to Ph.D. programs, the advisor is the most 
 * [CSRankings](https://csrankings.org) is also a great place to visit. You would want to first list the target conferences that you mostly read papers from (for me it was SOSP, OSDI, EuroSys, ATC, SoCC, NSDI, SIGCOMM). Then, go to CSRankings, select your target conferences, check out the professors from each school who has published in these venues, and go through them one by one. I spent a day at each school going over everyone. Unless you already have a specific topic that you would like to work on, IMO you should be open-minded in this part of your search and try to check out as many professors as possible. When I was going over csrankings.org, I had also marked professors who publish in venues like SIGMOD & VLDB, SIGMETRICS, HPC conferences, and ML conferences like ICML. Although I still ended up applying to system professors, it was fun to get to know what other folks in your field are working on.
 * Take the same list of venues that you like. Then, take a look at the program committee of the recent conferences, and go to their personal sites one by one. Doing so will produce a list that overlaps very much with the one you got from csrankings.org
 * Talk with other people, e.g. your lab mates, your current advisor, or Ph.D. students who were in your lab during their undergraduate. You will genuinely get a lot from this! My personal story is that I didn't consider applying to the program I ended up committing to (?) until after a friend of mine strongly recommended that I shoot this POI an email. I ended up getting in touch with the POI and found that I liked him a lot. So yes, talk to people!
-* Although the POI is arguably the most crucial factor for a happy (and successful) Ph.D., the program itself has to be taken into consideration during your application. People usually apply to some schools at their level (match), some schools above their level (lottery), and some schools below their level (safety). To that end, look at students with a similar background as yours and refer to their school list and application results. You can also have your current advisor go over your school list and provide some feedback.
+* Although the POI is arguably the most crucial factor for a happy (and successful) Ph.D., the program itself has to be taken into consideration during your application. People usually apply to some schools at their level (match), some schools above their level (lottery), and some schools below their level (safety). To that end, look at students with a similar background as yours and refer to their school list and application results. You can also have your current advisor go over your school list and provide some feedback. It is also a good idea to modify your school list based on your feedback from cold-mailing the professors.
 
 ### How do you narrow the list down?
 
@@ -55,7 +84,7 @@ Most people agree that when applying to Ph.D. programs, the advisor is the most 
 
 Now that you have narrowed down a list of 10\~30 professors you want to work with, it is time to get in touch with them. Some people don't bother to do this at all -- I do not recommend this, as I know professors who will only skim through your application package if you haven't reached out. Plus, getting in touch with them helps you figure out how many students they are taking this season, their ongoing/future interests, how enthusiastic they feel about your background, etc. So please, please reach out!
 
-### Make a webpage and a CV first
+### Make a CV and a webpage first
 
 Before you start emailing people, I strongly recommend making a personal webpage. Quite a few professors have also talked about the importance of personal sites in academia. A good Ph.D. student/research should be visible in the community/on the Internet, and Linkedin/Facebook/department-generated webpages are just not enough for that. Some good templates include [Jon Barron's website](https://jonbarron.info) and [academicpages.github.io](https://academicpages.github.io). Prof. Timothy Roscoe recommended including the following information on a personal webpage:
 
@@ -66,7 +95,7 @@ Before you start emailing people, I strongly recommend making a personal webpage
   * Who do you work with? And what do you work on?
   * Random (but non-embarrassing) details for color.
 
-TODO: add more toward the CV part
+Although a personal website makes you easily accessible on the internet, you should also spend some time putting up a high-quality CV. Looking at other people's CVs and trying to emulate their formats/highlights most certainly helps. Your POI is not the only person who will look at your CV, especially if the Ph.D. admission committee has a huge influence on the admission decision: other professors and senior graduate students (who might be focusing on different research topics) will also go over your CV, and their feedback may sometimes help you go through the first round of the admission process. When you cold-email the professors, attach your CV.
 
 ### How and when should you reach out?
 
@@ -85,6 +114,10 @@ The de facto way to get in touch with professors is to cold email them. If you a
 
 ### References
 
+* [How to write an Academic CV for a PhD Application](https://www.discoverphds.com/advice/applying/cv-for-phd-application)
+* [Resumes & Cover Letters for PhD Students](https://ocs.fas.harvard.edu/files/ocs/files/phd\_resume\_cover\_letters.pdf)
+* [Curriculum Vitae Tips and Samples](https://grad.illinois.edu/sites/default/files/pdfs/cvsamples.pdf)
+* [Software developer resume template in Latex](https://github.com/sb2nov/resume)
 * [How to Cold Email a Professor](https://research.berkeley.edu/how-cold-email-professor)
 * [How to Email a Professor](https://academicpositions.com/career-advice/how-to-email-a-professor)
 * [千万别犯写邮件的大忌](https://www.zhihu.com/question/68514971/answer/469896862) (The DON'TS when writing emails)
@@ -188,7 +221,7 @@ Congratulations on sending out all of your applications! Take a little break fir
 * [关于我自己观察到的中国学生在PhD面试过程中的一点特点](https://www.1point3acres.com/bbs/thread-590002-1-1.html) (My observations on Chinese students' traits in Ph.D. interviews)
 * TODO: add more references that are in English
 
-## Chapter 7: Having good mental health during the application season
+## Chapter 7: Towards good mental health during the application season
 
 My mental health was surprisingly good during my application season (probably because I only took three credits in the fall and spent most of my time polishing up a paper & applying to Ph.D. programs). Although I am no expert, here is some advice for staying positive during the six months. If things get too tough, please talk to the professionals.&#x20;
 
@@ -222,6 +255,11 @@ oh man, I should really be reading some more articles on this&#x20;
 * talk with a lot of people: parents, relatives who work in academia, significant others, friends, people from the internet, labmates, current advisor(s), labmates, POI, POI's students, current students in the program but not in your POI's lab, current students at other places
 * do your research
 * try to attend the visiting days in person if possible. the vibe is an important thing
+* \\
+
+### Understanding your offer
+
+TODO: funding/stipend (fellowship/RA-ship/TA-ship/no guaranteed funding)
 
 ### What do to on the visiting day
 
@@ -251,6 +289,7 @@ Don't feel obliged to exactly copy my timeline -- this is just for your referenc
 
 ## Appendix II: Meta-references
 
+* [Grad School Resources](https://martiansideofthemoon.github.io/2018/05/29/grad-resources.html) by Kalpesh Krishna
 * [Applying to Ph.D. Programs in Computer Science](http://www.cs.cmu.edu/\~harchol/gradschooltalk.pdf) by Prof. Mor Harchol-Balter
 * [Matt Might's HOWTO: Apply for and get into grad school for science, engineering, math, and computer science](https://matt.might.net/articles/how-to-apply-and-get-in-to-graduate-school-in-science-mathematics-engineering-or-computer-science/)
 * [Graduate Study Survival Guide](https://cs.uwaterloo.ca/\~thachisu/survival.pdf) by Prof. Toshiya Hachisuka
