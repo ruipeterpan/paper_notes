@@ -68,7 +68,7 @@ Most people agree that when applying to Ph.D. programs, the advisor is the most 
 * The math folks have a great thing called [The Mathematics Genealogy Project](https://www.mathgenealogy.org) where you can see this tree of academic relationships. You can also trace the tree of professors in cs, starting from very senior professors who work in your field of interest, and then go down the genealogy tree to look for those holding tenure-track positions. For me, I started with Ion Stoica. Fun fact: as many as six of my professors of interest have had direct connections with Ion!
 * [CSRankings](https://csrankings.org) is also a great place to visit. You would want to first list the target conferences that you mostly read papers from (for me it was SOSP, OSDI, EuroSys, ATC, SoCC, NSDI, and SIGCOMM). Then, go to CSRankings, select your target conferences, check out the professors from each school who has published in these venues, and go through them one by one. I spent a day at each school going over everyone. Unless you already have a specific topic that you would like to work on, IMO you should be open-minded in this part of your search and try to check out as many professors as possible. When I was going over csrankings.org, I had also marked professors who publish in venues like SIGMOD & VLDB, SIGMETRICS, HPC conferences, and ML conferences like ICML. Although I still ended up applying to system professors, it was fun to get to know what other folks in your field are working on.
 * Take the same list of venues that you like. Then, take a look at the program committee of the recent conferences, and go to their personal sites one by one. Doing so will produce a list that overlaps very much with the one you got from csrankings.org
-* Talk with other people, e.g. your lab mates, your current advisor, or Ph.D. students who were in your lab during their undergraduate. You will genuinely get a lot from this! My personal story is that I didn't consider applying to the program I ended up committing to (?) until after a friend of mine strongly recommended that I shoot this POI an email. I ended up getting in touch with the POI and found that I liked him a lot. So yes, talk to people!
+* Talk with other people, e.g. your lab mates, your current advisor, or Ph.D. students who were in your lab during their undergraduate. You will genuinely get a lot from this! My personal story is that I didn't consider applying to the program I ended up committing to until after a friend of mine strongly recommended that I shoot this POI an email. I ended up getting in touch with the POI and found that I liked him a lot and that he was hiring. So yeah: talk to people!
 * Although the POI is arguably the most crucial factor for a happy (and successful) Ph.D., the program itself has to be taken into consideration during your application. People usually apply to some schools at their level (match), some schools above their level (lottery), and some schools below their level (safety). To that end, look at students with a similar background as yours and refer to their school list and application results. You can also have your current advisor go over your school list and provide some feedback. It is also a good idea to modify your school list based on your feedback from cold-emailing the professors.
 
 ### How do you narrow the list down?
@@ -77,7 +77,7 @@ On the one hand, you should work with people whose research interests truly exci
 
 On the other hand, you should not work with people who are bad advisors. Advisors who ghosts/abuses students are a big no-no! I used two approaches to filter out these professors:
 
-* Check out their RateMyProfessors reviews. I get that teaching isn't for everyone and some professors put more emphasis on doing research, which is fine by me -- but ultimately, I honestly don't want to be working with someone who is a 1.2, because I think if a professor fails to create a supportive learning environment for their students, then it's unlikely for them to do so for their advisees. IMO a score that starts with a 1 is somewhat of a red flag.
+* Check out their RateMyProfessors reviews. I get that teaching isn't for everyone and some professors put more emphasis on doing research, which is fine by me -- but ultimately, I honestly don't want to be working with someone who is a 1.2, because I think if a professor fails to create a supportive learning environment for their students, then it's unlikely for them to do so for their advisees. IMO a series of reviews that start with a 1 is somewhat of a red flag.
 * Talk with their current students or search for their posts online. More practically, talk with people who might have heard about some bad news -- they tend to travel very fast. There has to be something wrong if many Ph.D. students quit a lab halfway through.
 
 ### References
@@ -264,22 +264,29 @@ After sending out applications, you will likely have huge chunks of free time si
 
 ## Chapter 8: Choosing a Ph.D. program (WIP)
 
+You now have multiple offers in hand! Very nice.&#x20;
 
+By the time you sent out the applications, you should have a rough idea of your preferences for all the programs. But, it's not a good idea to rush your decision. Grad schools usually request you to make a decision by Apr 15, and you should spend at least some time to make up your mind. After all, this is one of the biggest decisions in your life. That being said, if you are set to commit to a program, withdraw/decline your other offers as soon as possible so the other POI can extend the offer to the other students on the waitlist.
 
-oh man, I should really be reading some more articles on this&#x20;
+The first thing you would want to do is to do your own research. My personal priorities are: personality/advising style match with the POI >> research interest match with the POI > department ranking in your area of studies > department overall rankings > location/weather > amount of financial support & overall quality of life > overall ranking of the university. There are also other factors to consider depending on your future plan. For example, if you are looking to go into the industry after graduating Ph.D., you might want to go to a program where doing summer internships is easy and encouraged.
 
-* talk with a lot of people: parents, relatives who work in academia, significant others, friends, people from the internet, labmates, current advisor(s), labmates, POI, POI's students, current students in the program but not in your POI's lab, current students at other places
-* do your research
-* try to attend the visiting days in person if possible. the vibe is an important thing
-*
+Then, talk with a lot of people regarding your offers and decisions: parents, relatives who work in academia, significant others, friends, people on the internet, labmates, current advisor(s), labmates, POI, POI's students, current students in the program but not in your POI's lab, current students at other places. You should look for a diverse set of opinions on the pros and cons of each program. Keep in mind that there is no one best choice, and you will need to make tradeoffs.
 
 ### Understanding your offer
 
-TODO: funding/stipend (fellowship/RA-ship/TA-ship/no guaranteed funding)
+From my knowledge, using financial support as a criterion, all offers can be classified into the following:
+
+* Guaranteed financial support: The funding is guaranteed throughout the first five years through a combination of fellowship, research, teaching, or external awards.
+  * Fellowship/external awards: Fellowships usually require faculty nominations during the admissions process. To get external awards like the NSF Graduate Research Fellowships Program, you will need to go through an application process. Note that most external awards I know of require you to be a U.S. citizen, national, or permanent resident.
+  * Research/teaching assistantships: For RAs, you work with a professor on research and get paid (!!!). For TAs, you TA a class, and the time commitment varies between a few hours and 20 hours per week depending on the program/course/instructor. The monthly stipend falls somewhere between $2500 and $4000.
+* No guaranteed financial support: Finding graduate assistantships to support your studies is possible, but you will need to rely on yourself to find them and there is no guarantee. In theory, if no professors are willing to take you as an RA and you weren't matched to a class that needs a TA, you will need to pay out of your pocket for the tuition and insurance fees. Yikes
 
 ### What do to on the visiting day
 
-TODO
+* **Chat with as many current students/POI as possible.** The POI could very much be your future (co-)advisor/collaborator, and you will also likely share an office with the current students who work in similar research areas, so it's good to know ahead of time who they are and what they are working on. You should also use this opportunity to see if the students are happy.
+* **Connect with the other prospective students.** It's an excellent opportunity to build your network and meet new people even before the program starts.
+* **Walk around.** I didn't attend my visiting days in person, but if I had, I would have spent a lot of free time walking around both the campus and the adjacent city. You will be spending the next few years in a bubble (?) around the campus, so a vibe match is crucial.
+* Enjoy the free food (and the free trip)! You totally earned it.
 
 ### References
 
@@ -303,7 +310,7 @@ Don't feel obliged to exactly copy my timeline -- this is just for your referenc
 * **Late December - Mid February**: Interviews
 * **Late January**: First unofficial offer
 * **Mid February**: First official offer -- the offers came in all the way to early March, although I withdrew/turned most of them down.
-* **Late March**: Committed to xxx!
+* **Late March**: Committed to Princeton!
 
 ## Appendix II: Meta-references
 
@@ -321,7 +328,7 @@ Don't feel obliged to exactly copy my timeline -- this is just for your referenc
 For those of you who read Mandarin Chinese:
 
 * [Top tier CS PhD招生官--我是如何审材料的](https://www.1point3acres.com/bbs/thread-585435-1-1.html) (How I review application packages as a senior student volunteer in the application committee of a top-tier CS Ph.D. program)
-* [从审材料的角度谈谈研究生申请](https://www.1point3acres.com/bbs/thread-463109-1-1.html) (Grad school application from an application review's point of view)
+* [从审材料的角度谈谈研究生申请](https://www.1point3acres.com/bbs/thread-463109-1-1.html) (Grad school application from an application reviewer's point of view)
 * [也从审材料的角度讲讲如何准备cs phd申请！](https://www.1point3acres.com/bbs/thread-585851-1-1.html)(CS Ph.D. application from an application reviewer's point of view)
 * [CS Ph.D. 2019 Fall 申请季总结 - James.Qiu的文章 - 知乎](https://zhuanlan.zhihu.com/p/60961921) (Review of my CS Ph.D. application in Fall 2019 by [Haoran Qiu](https://haoran-qiu.com))
 * [我的PhD申请总结与经验分享](https://tylergu.com/summary.html) (Review of my CS Ph.D. application in Fall 2020 by [Jiawei Gu](https://tylergu.com/index.html))
