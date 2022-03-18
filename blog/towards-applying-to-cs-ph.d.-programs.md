@@ -2,7 +2,7 @@
 
 ## Introduction
 
-After going through and learning from hundreds of blog posts on applying to Ph.D. programs, it would almost be inappropriate if I didn't write down something and throw in my two cents about this exhausting but ultimately self-enriching and fascinating process.
+After going through and learning from tens, if not hundreds of blog posts on applying to Ph.D. programs, it would almost be inappropriate if I didn't write down something and throw in my two cents about this exhausting but ultimately self-enriching and fascinating process.
 
 This blog post will hopefully be a useful guide to the students who are planning to apply to Ph.D. programs. I will try to give you a glimpse of what the application process looks like and offer some advice on how to best approach, embrace, and enjoy this unique journey. I hope this helps you! If so, please consider paying it forward, maybe start by giving a hand to students in your research group who will be applying for Ph.D. programs.
 
@@ -170,7 +170,7 @@ And at last, you should write them a thank you letter. Send a small gift (someth
 
 ### How should you write a statement?
 
-* Before you start writing your statement, make sure to read through many other people's (good) SOP. Prof. Phillip Guo had shared a few statements that are really nice examples. Although he has taken down most of the content and has asked people not to distribute them, some of these statements are scattered across the Internet, and I'm sure you are good at Googling stuff. There are also some other good examples online that I will try to link to in the future. TODO
+* Before you start writing your statement, make sure to **read through many other people's (good) SOP.** Prof. Phillip Guo had shared a few statements that are really nice examples. Although he has taken down most of the content and has asked people not to distribute them, some of these statements are scattered across the Internet, and I'm sure you are good at Googling stuff. There are also some other good examples online that I will try to link to in the future. TODO
 * **Start early to write up the first draft.** I was applying to a pre-doctoral summer program so I was very lucky to have my first draft ready in the summer before the application season, but still, I didn't finalize my statement until a few days before Dec 15: it takes a lot of time to do the endless revisions. Another thing is that except for the research statement of purpose, different schools might ask for additional materials such as diversity statements, short answers to random questions, etc., so make sure to figure out those requirements way before the deadline.
 * **Go through a lot of iterations.** Just like writing up a paper, the first draft is guaranteed to be bad, and good papers go through O(10) rounds of revisions. To that end, try to get a lot of feedback by having as many people read your statement as possible: writing center, (former) lab mates, high school classmates who are majoring in computer science, roommates, etc. Five people can probably offer you 50 suggestions, and if you go by 20 of them, your sop will rise to a new level.
 
@@ -231,6 +231,7 @@ Congratulations on sending out all of your applications! Take a little break fir
 ### References
 
 * [What is a typical interview (informal chat) for a PhD in computer science like?](https://www.quora.com/What-is-a-typical-interview-informal-chat-for-a-PhD-in-computer-science-like-What-do-the-professors-generally-ask-Do-I-need-to-have-concrete-research-ideas-of-my-own-Should-I-read-a-lot-of-research-papers-by-the-professor)
+* [How To Prep For A Grad School Interview](https://jakec007.github.io/2021-04-02-cs-grad-school-interview/) by Jake Chanenson
 * [TOP校CS Ph.D.面试经验教训总结](https://www.1point3acres.com/bbs/thread-628184-1-1.html) (Tips for interviewing at top-tier CS Ph.D. programs)
 * [关于我自己观察到的中国学生在PhD面试过程中的一点特点](https://www.1point3acres.com/bbs/thread-590002-1-1.html) (My observations on Chinese students' traits in Ph.D. interviews)
 * TODO: add more references that are in English
@@ -314,6 +315,8 @@ Don't feel obliged to exactly copy my timeline -- this is just for your referenc
 * [USA Computer Science PhD Application Advice](https://www.youtube.com/watch?v=IprN9fPV2LI) by Prof. Shriram Krishnamurthi
 * [Advice on Research Communication Skills | Computer Science Department at Princeton University](https://www.cs.princeton.edu/grad/advice-on-research-communications-skills)
 * [Reflections on my CS PhD Application Process](https://www.bodunhu.com/blog/posts/reflections-on-my-cs-phd-application-process/) | [Bodun Hu](https://www.bodunhu.com)'s Blog
+* [CS Professors - Drafty](https://drafty.cs.brown.edu/csprofessors): Database of CS professors
+* [computer science open rankings](https://drafty.cs.brown.edu/csopenrankings/): Choose and combine existing rankings to generate your preferred meta ranking for computer science programs in the United States and Canada, also by Drafty
 
 For those of you who read Mandarin Chinese:
 
