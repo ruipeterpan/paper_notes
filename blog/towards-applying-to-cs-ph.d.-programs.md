@@ -6,13 +6,13 @@ After going through and learning from tens, if not hundreds of blog posts on app
 
 This blog post will hopefully be a useful guide to the students who are planning to apply to Ph.D. programs. I will try to give you a glimpse of what the application process looks like and offer some advice on how to best approach, embrace, and enjoy this unique journey. I hope this helps you! If so, please consider paying it forward, maybe start by giving a hand to students in your research group who will be applying for Ph.D. programs.
 
-Note that whatever I write down is biased because of my background and experience. For context, I grew up and went to high school in China, and then did my bachelor's in the United States, majoring in computer science and mathematics. During my undergraduate, I worked on systems (scheduling/cluster resource management) for ML starting from the summer of my second year, and I fully committed to doing a Ph.D. in my third year. My research interests fall under the big topic of "Systems and Networking", and for my Ph.D. application, I applied to professors whose areas of interest range broadly across all system aspects of big data, e.g., sys for ml (training, inference, video analytics, etc.), ml for sys (congestion control, video streaming, etc.), cloud computing/data center resource management (e.g., serverless, scheduling training/inference), etc. Also, my honest opinions can be straight-up wrong, so take everything with a grain of salt.
+Note that whatever I write down is biased because of my background and experience. For context, I grew up and went to high school in China, and then did my bachelor's in the United States, majoring in computer science and mathematics. During my undergraduate, I worked on systems (scheduling/cluster resource management) for ML starting from the summer of my second year, and I fully committed to doing a Ph.D. in my third year. My research interests fall under the big topic of "systems and networking", and for my Ph.D. application, I applied to professors whose areas of interest range broadly across all system aspects of big data, including systems for ML (training, inference, video analytics, etc.), ML for systems (congestion control, video streaming, etc.), cloud computing/data center resource management (e.g., serverless, scheduling training/inference workloads), etc. Also, my honest opinions can be straight-up wrong, so take everything with a grain of salt.
 
 ## Overview
 
 A CS Ph.D. application package should be the culmination of your previous academic career. It usually includes three recommendation letters, a curriculum vitae (CV), a list of publications (if any), a research statement of purpose (and possibly another personal/diversity statement), your college-level transcripts/GPA, standardized test scores, and a bunch of other personal information.
 
-While your technical ability is instrumental towards your Ph.D. application, doing the application right is also critical but is often neglected. This article aims to point you to some common practices for wrapping your application package nicely with the following chapters:
+While your technical ability is instrumental towards your Ph.D. application, doing the application right is also critical but is often neglected. This blog post aims to point you to some common practices for wrapping your application package nicely with the following chapters:
 
 * **Chapter 1: Why do a Ph.D. at all?**
 * **Chapter 2: Narrowing down the programs/professors of interest**
@@ -44,9 +44,9 @@ Each chapter includes some of my personal opinions followed by a list of referen
 
 ## Chapter 1: Why do a Ph.D. at all?
 
-In my opinion, you should do a Ph.D. if you have already done some research, been through the ups and downs (or at least know a bit about what they are like), and you still absolutely love doing research. If your Asian parents are forcing you to do a Ph.D. or if you want to stay in academia because you didn't get an industry job, think twice.
+In my opinion, you should do a Ph.D. if you have already done some research, been through the ups and downs (or at least know a bit about what they are like), and still, you absolutely love doing research. If you are applying for a Ph.D. because your Asian parents are forcing you to do one or if you want to stay in academia because you didn't get an industry job, think twice: it's a huge commitment.
 
-This is a million-dollar question and I don't feel entitled to write more about this, so please take a look at all the references below.&#x20;
+This is a million-dollar question and I don't feel entitled to write more about this right now, so please take a look at all the references below.&#x20;
 
 ### References
 
@@ -60,16 +60,17 @@ This is a million-dollar question and I don't feel entitled to write more about 
 
 Most people agree that when applying to Ph.D. programs, the advisor is the most significant factor (even more so than the school/department itself). Thus, picking awesome professors/person of interest (POI) is arguably the most crucial part of the application process: pick good (in terms of research interest match and personality match), and you might be happy for life.
 
-95% of the students I know apply for 5-20 programs, and they typically target 1-3 POI for each program. In my case, I checked out \~50 professors in my field of interest and ended up boiling the list down to \~30 professors that I especially like from \~15 schools. This chapter will try to answer two questions: (1) how do you put up the big list of professors that you are generally interested in working with, and (2) how to narrow the list down to those who you are particularly interested in working with?
+95% of the students I know apply for 5-15 programs and they typically target 1-3 POI for each program. In my case, I checked out \~50 professors in my field of interest and ended up boiling the list down to \~30 professors that I especially liked from \~15 schools. This chapter will try to answer two questions: (1) how do you put up the big list of professors that you are generally interested in working with, and (2) how to narrow the list down to those who you are particularly interested in working with?
 
 ### How do you put up the big list of POI?
 
 * Check out your advisor's former lab mates, recent collaborators, and direct connections in their network. These people are likely to share similar interests with your current advisor, plus they know your advisor personally, so these folks should be fun to work with, assuming you love what you are doing right now.
 * The math folks have a great thing called [The Mathematics Genealogy Project](https://www.mathgenealogy.org) where you can see this tree of academic relationships. You can also trace the tree of professors in cs, starting from very senior professors who work in your field of interest, and then go down the genealogy tree to look for those holding tenure-track positions. For me, I started with Ion Stoica. Fun fact: as many as six of my professors of interest have had direct connections with Ion!
-* [CSRankings](https://csrankings.org) is also a great place to visit. You would want to first list the target conferences that you mostly read papers from (for me it was SOSP, OSDI, EuroSys, ATC, SoCC, NSDI, and SIGCOMM). Then, go to CSRankings, select your target conferences, check out the professors from each school who has published in these venues, and go through them one by one. I spent a day at each school going over everyone. Unless you already have a specific topic that you would like to work on, IMO you should be open-minded in this part of your search and try to check out as many professors as possible. When I was going over csrankings.org, I had also marked professors who publish in venues like SIGMOD & VLDB, SIGMETRICS, HPC conferences, and ML conferences like ICML. Although I still ended up applying to system professors, it was fun to get to know what other folks in your field are working on.
-* Take the same list of venues that you like. Then, take a look at the program committee of the recent conferences, and go to their personal sites one by one. Doing so will produce a list that overlaps very much with the one you got from csrankings.org
+* [CSRankings](https://csrankings.org) is also a great place to visit. You would want to first list the target conferences that you mostly read papers from (for me, it was SOSP, OSDI, EuroSys, ATC, SoCC, NSDI, and SIGCOMM). Then, go to CSRankings, select your target conferences, check out the professors from each school who has published in these venues, and go through them one by one. Unless you already have a specific topic that you would like to work on, IMO you should be open-minded in this part of your search and try to check out as many professors as possible. When I was going over csrankings.org, I had also marked professors who publish in venues like SIGMOD & VLDB, SIGMETRICS, HPC conferences, and ML conferences like ICML. Although I still ended up applying to system professors, it was fun to get to know what folks are working on outside of your main areas of interest.
+* Take the same list of venues that you like. Then, take a look at the program committee of the recent conferences, and go to their personal sites one by one. Doing so will produce a list that overlaps very much with the one you got from csrankings.org, but csrankings.org may not have the most up-to-date information.
 * Talk with other people, e.g. your lab mates, your current advisor, or Ph.D. students who were in your lab during their undergraduate. You will genuinely get a lot from this! My personal story is that I didn't consider applying to the program I ended up committing to until after a friend of mine strongly recommended that I shoot this POI an email. I ended up getting in touch with the POI and found that I liked him a lot and that he was hiring. So yeah: talk to people!
-* Although the POI is arguably the most crucial factor for a happy (and successful) Ph.D., the program itself has to be taken into consideration during your application. People usually apply to some schools at their level (match), some schools above their level (lottery), and some schools below their level (safety). To that end, look at students with a similar background as yours and refer to their school list and application results. You can also have your current advisor go over your school list and provide some feedback. It is also a good idea to modify your school list based on your feedback from cold-emailing the professors.
+* Follow a bunch of professors on Twitter. This generally helps with catching up with the latest news in academia. For example, professors post hiring ads and tweet about their opinions on various things ([example](https://twitter.com/scottniekum/status/1503112889284313088)), and incoming professors tweet about their employment (this information is usually not listed on any official website).
+* Although the POI is arguably the most crucial factor for a happy (and successful) Ph.D., the program itself has to be taken into consideration during your application. People usually apply to some schools at their level (match), some schools above their level (lottery), and some schools below their level (safety). To that end, look at students with a similar background as yours and refer to their school list and application results. You can also have your current advisor go over your school/POI list and provide some feedback. It is also a good idea to modify your school list based on your feedback from cold-emailing the professors.
 
 ### How do you narrow the list down?
 
@@ -80,9 +81,11 @@ On the other hand, you should not work with people who are bad advisors. Advisor
 * Check out their RateMyProfessors reviews. I get that teaching isn't for everyone and some professors put more emphasis on doing research, which is fine by me -- but ultimately, I honestly don't want to be working with someone who is a 1.2, because I think if a professor fails to create a supportive learning environment for their students, then it's unlikely for them to do so for their advisees. IMO a series of reviews that start with a 1 is somewhat of a red flag.
 * Talk with their current students or search for their posts online. More practically, talk with people who might have heard about some bad news -- they tend to travel very fast. There has to be something wrong if many Ph.D. students quit a lab halfway through.
 
+And also, you should be careful about applying to a program that only has one professor you are interested in working with, because a lot of things can happen in five years, e.g., your advisor doesn't get tenure and goes to the industry or gets poached by a school you hate. In that case, you will most likely switch to a different advisor in the department. Be prepared for contingencies.
+
 ### References
 
-* [finding CS Ph.D. programs to apply to](https://www.youtube.com/watch?v=hOSl3xPmHiQ) by Prof. Phillp Guo
+* [finding CS Ph.D. programs to apply to](https://www.youtube.com/watch?v=hOSl3xPmHiQ) by Prof. Phillip Guo
 * [How to pick a grad school for a Ph.D. in Computer Science](https://vijayc.medium.com/how-to-pick-a-grad-school-for-a-phd-in-computer-science-a5ce7dceb246) by Prof. Vijay Chidambaram
 
 ## Chapter 3: Getting in touch with the POI
@@ -225,7 +228,7 @@ Congratulations on sending out all of your applications! Take a little break fir
 * **Before an interview: Do mock interviews** (or research presentation talks) with your friends/labmates. I didn't, so I totally screwed up my first interview, but it was a good practice and I got the chance to learn from my mistakes. In retrospect, I really should have done an actual mock interview with some labmates and had them ask all kinds of questions.
 * Before an interview: Make sure you have a quiet environment, a stable internet connection, and a good microphone. If you have noisy roommates or bad routers, you might want to reserve a quiet study room in a library in advance.
 * Before an interview: Dress properly. FYI, the chats are mostly casual unless the interviewer specifically mentioned a (multi-person) serious interview.
-* **During an interview: Chill out, and be yourself.** IMO a significant purpose of interviews is so that you can get a sense of the vibe/chemistry between you and the POI (vice versa), so don't force things like saying you are interested in something that you are not.
+* **During an interview: Chill out, and be yourself.** IMO a significant purpose of interviews is so that you can get a sense of the vibe/chemistry between you and the POI, so don't force things like saying you are interested in something that you are not.
 * **After an interview: Send the POI a thank-you email.** If you had a good chat, maybe it's time for some follow-ups. Anyway, you should let the professor know your thankfulness and reassure your enthusiasm for collaborating with them.
 
 ### References
@@ -252,7 +255,7 @@ My mental health was surprisingly good during my application season (probably be
 
 After sending out applications, you will likely have huge chunks of free time since the semester is over and Christmas is coming up. Although the interviews will be coming shortly, IMO you should first **take a week-long mental/physical break.** Congratulations on submitting all those applications!&#x20;
 
-* Once you get back from your mental break, you should get back to studying. You likely won't have a lot of things to work on, and your motivation might be low -- after all, your application is already out, and there is not much you can do to make it a lot better. Instead of spending all the free time being anxious about the applications, **try to divert your anxiety**, say by developing a new hobby. Read a book or something, or learn to cook.
+* Once you get back from your mental break, you should get back to studying. You likely won't have a lot of things to work on, and your motivation might be low -- after all, your application is already out, and there is not much you can do to make it drastically better. Instead of spending all the free time being anxious about the applications, **try to divert your anxiety**, say by developing a new hobby. Read a book or something, or learn to cook.
 * [1point3acres](https://www.1point3acres.com/bbs/). [zhihu.com](https://www.zhihu.com/question/379814619), and [The GradCafe](https://www.thegradcafe.com) have a lot of good information and stuff, but please consider restraining yourself from visiting these sites too often. Social media takes a toll on people.
 * Also, it might be worthwhile to **turn off instant notifications** for your email inbox and check it a few times a day at regular times.
 * **Compare to yourself, not others. This is in general a great suggestion on how to live a happy life.**
@@ -266,7 +269,7 @@ After sending out applications, you will likely have huge chunks of free time si
 
 You now have multiple offers in hand! Very nice.&#x20;
 
-By the time you sent out the applications, you should have a rough idea of your preferences for all the programs. But, it's not a good idea to rush your decision. Grad schools usually request you to make a decision by Apr 15, and you should spend at least some time to make up your mind. After all, this is one of the biggest decisions in your life. That being said, if you are set to commit to a program, withdraw/decline your other offers as soon as possible so the other POI can extend the offer to the other students on the waitlist.
+By the time you sent out the applications, you should have a rough idea of your preferences for all the programs. But, it's not a good idea to rush your decision. Grad schools usually request you to make a decision by Apr 15, and you should spend at least some time to make up your mind. After all, this is one of the biggest decisions in your life. That being said, if you are set to commit to a program, withdraw/decline your other offers as soon as possible so the other POI can extend the offer to other students on the waitlist.
 
 The first thing you would want to do is to do your own research. My personal priorities are: personality/advising style match with the POI >> research interest match with the POI > department ranking in your area of studies > department overall rankings > location/weather > amount of financial support & overall quality of life > overall ranking of the university. There are also other factors to consider depending on your future plan. For example, if you are looking to go into the industry after graduating Ph.D., you might want to go to a program where doing summer internships is easy and encouraged.
 
@@ -285,12 +288,13 @@ From my knowledge, using financial support as a criterion, all offers can be cla
 
 * **Chat with as many current students/POI as possible.** The POI could very much be your future (co-)advisor/collaborator, and you will also likely share an office with the current students who work in similar research areas, so it's good to know ahead of time who they are and what they are working on. You should also use this opportunity to see if the students are happy.
 * **Connect with the other prospective students.** It's an excellent opportunity to build your network and meet new people even before the program starts.
-* **Walk around.** I didn't attend my visiting days in person, but if I had, I would have spent a lot of free time walking around both the campus and the adjacent city. You will be spending the next few years in a bubble (?) around the campus, so a vibe match is crucial.
-* Enjoy the free food (and the free trip)! You totally earned it.
+* **Walk around.** I didn't attend my visiting days in person, but if I had, I would have spent a lot of free time walking around both the campus and the adjacent city. You will be spending the next few years in (somewhat of) a bubble around the campus, so a vibe match is crucial.
+* Enjoy the free food and the free trip! You totally earned it.
 
 ### References
 
 * [How should I choose between multiple Ph.D. programs I was admitted to?](https://academia.stackexchange.com/questions/66926/ive-been-admitted-to-multiple-phd-programs-how-should-i-choose-between-them) | StackExchange Academia Community Wiki
+* [How to Choose Your Grad School](https://timdettmers.com/2022/03/13/how-to-choose-your-grad-school/) by Tim Dettmers
 * [The Definitive ‘what do I ask/look for’ in a PhD Advisor Guide](https://www.cs.columbia.edu/wp-content/uploads/2019/03/Get-Advisor.pdf)
 * [Some notes on picking grad schools/advisors](https://jxyzabc.blogspot.com/2009/02/some-notes-on-picking-grad.html) and [CS Grad School Part 5: School Visits](https://jxyzabc.blogspot.com/2008/08/cs-grad-school-part-5-school-visits.html) by Jean Yang
 * [All About Graduate School Visits (for CS PhD programs)](https://koronkevi.ch/posts/grad-school-visits.html) by Paulette Koronkevich
