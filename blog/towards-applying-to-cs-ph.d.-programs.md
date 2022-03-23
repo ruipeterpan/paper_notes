@@ -90,7 +90,7 @@ And also, you should be careful about applying to a program that only has one pr
 
 ## Chapter 3: Getting in touch with the POI
 
-Now that you have narrowed down a list of 10\~30 professors you want to work with, it is time to get in touch with them. Some people don't bother to do this at all -- I do not recommend this, as I know professors who will only skim through your application package if you haven't reached out. Plus, getting in touch with them helps you figure out how many students they are taking this season, their ongoing/future interests, how enthusiastic they feel about your background, etc. So please, please reach out!
+Now that you have narrowed down a list of 10\~30 professors you want to work with, it is time to get in touch with them. Some people don't bother to do this at all -- I do not recommend this, as I know professors who will only skim through your application package if you haven't reached out. Plus, getting in touch with them helps you figure out how many students they are taking this season, their ongoing/future interests, how enthusiastic they feel about your background, etc.
 
 ### Make a CV and a webpage first
 
@@ -105,7 +105,7 @@ Before you start emailing people, I strongly recommend making a personal webpage
   * Who do you work with? And what do you work on?
   * Random (but non-embarrassing) details for color.
 
-Although a personal website makes you easily accessible on the internet, you should also spend some time putting up a high-quality CV. Looking at other people's CVs and trying to emulate their formats/highlights most certainly helps. Your POI is not the only person who will look at your CV, especially if the Ph.D. admission committee has a huge influence on the admission decision: other professors and senior graduate students (who might be focusing on different research topics) will also go over your CV, and their feedback may sometimes help you go through the first round of the admission process. When you cold-email the professors, attach your CV.
+Although a personal website makes you easily accessible on the internet, you should also spend some time putting up a high-quality CV. Looking at other people's CVs and trying to emulate their formats/highlights most certainly helps. Your POI is not the only person who will look at your CV, especially if the Ph.D. admission committee has a huge influence on the admission decision: other professors and senior graduate students (who might be focusing on different research topics) will also go over your CV, and it needs to impress them enough during the first round of the admission process for a professor to even see your package (?). When you cold-email the professors, attach your CV.
 
 ### How and when should you reach out?
 
@@ -171,9 +171,11 @@ And at last, you should write them a thank you letter. Send a small gift (someth
 
 ## Chapter 5: Writing up the statement of purpose
 
+The statement of purpose (SOP) is arguably less important than some other things in your application package, but still, it is one of your first files that get looked at. First impressions are critical: IMO, an exceptional SOP will not make your application stand out as much as one would do in undergraduate admissions, but a bad SOP might ruin your application.
+
 ### How should you write a statement?
 
-* Before you start writing your statement, make sure to **read through many other people's (good) SOP.** Prof. Phillip Guo had shared a few statements that are really nice examples. Although he has taken down most of the content and has asked people not to distribute them, some of these statements are scattered across the Internet, and I'm sure you are good at Googling stuff. There are also some other good examples online that I will try to link to in the future. TODO
+* Before you start writing your statement, make sure to **read through many other people's (good) SOP.** Prof. Phillip Guo had shared a few statements that are really nice examples. Although he has taken down most of the content and has asked people not to distribute them, some of these statements are scattered across the Internet, and I'm sure you are good at Googling stuff. There are also some other good examples online.
 * **Start early to write up the first draft.** I was applying to a pre-doctoral summer program so I was very lucky to have my first draft ready in the summer before the application season, but still, I didn't finalize my statement until a few days before Dec 15: it takes a lot of time to do the endless revisions. Another thing is that except for the research statement of purpose, different schools might ask for additional materials such as diversity statements, short answers to random questions, etc., so make sure to figure out those requirements way before the deadline.
 * **Go through a lot of iterations.** Just like writing up a paper, the first draft is guaranteed to be bad, and good papers go through O(10) rounds of revisions. To that end, try to get a lot of feedback by having as many people read your statement as possible: writing center, (former) lab mates, high school classmates who are majoring in computer science, roommates, etc. Five people can probably offer you 50 suggestions, and if you go by 20 of them, your sop will rise to a new level.
 
@@ -185,9 +187,9 @@ A significant portion of the statement should be on your past research. People u
 
 In each paragraph, describe the project (e.g., collaborators, short background & motivation, major technical contribution, your contributions & takeaways). Keep in mind that the people reading your statement might be working in a different subfield (I don't suppose the bioinformatics people will know anything about Cuckoo hashing), so don't just copy-paste the abstract of your past papers.
 
-Depending on how much space you have left, IMO you should talk about your research interest using at least one sentence and at most one paragraph. If possible, IMO you should identify some rising research topics in the next few years and why they interest you. The POI might resonate with you if you come up with some good ones.
+Depending on how much space you have left, IMO you should talk about your research interest using at least one sentence and at most one paragraph. If possible, IMO you should identify some rising research topics in the next few years and describe why they pique your interests: the POI might resonate with you if you come up with some good ones.
 
-It's a good idea to mention which professors you would like to work with. Try to aim for 1-3 professors in the statement, and briefly discuss (in one sentence) why you are interested in working with them.
+It's a good idea to mention which professors you would like to work with. Try to aim for 1-3 professors in the statement, and briefly discuss why you are interested in working with them.
 
 ### References
 
@@ -209,7 +211,7 @@ Congratulations on sending out all of your applications! Take a little break fir
 
 * **Duration:** A typical interview lasts an hour or so. The ones I had been in lasted as short as 20 minutes and as long as two hours.
 * **Content:** You usually start with some chit-chat, followed by a quick self-introduction. Then, the POI will likely ask you to talk about your research project(s), during which they will evaluate both your hard and soft skills. Afterward, you can ask the POI some questions, including the lab culture & dynamics, the graduate program, their research, etc.
-* **Will there be coding/technical questions?** (???) It depends, but most professors don't ask these kinds of questions. From what I've heard, there are professors who ask about things like page fault handling in operating systems or ask you something from LeetCode (those are extreme outliers though). But there will of course be technical questions for your past research projects!
+* **Will there be coding/technical questions?** (???) It depends, but most professors don't ask these kinds of questions. From what I've heard, there are professors who ask about things like page fault handling in operating systems or how web indexing works (those are extreme outliers though). But there will of course be technical questions for your past research projects!
 
 ### What to do before, during, and after an interview
 
