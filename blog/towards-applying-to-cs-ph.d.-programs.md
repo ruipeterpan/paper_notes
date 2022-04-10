@@ -331,10 +331,10 @@ Don't feel obliged to exactly copy my timeline -- this is just for your referenc
 * [CS Professors - Drafty](https://drafty.cs.brown.edu/csprofessors): Database of CS professors
 * [computer science open rankings](https://drafty.cs.brown.edu/csopenrankings/): Choose and combine existing rankings to generate your preferred meta ranking for computer science programs in the United States and Canada, also by Drafty
 
-For those of you who read Mandarin Chinese:
+For those of you who read Mandarin Chinese or don't bother to use Google Translate:
 
-* [Top tier CS PhD招生官--我是如何审材料的](https://www.1point3acres.com/bbs/thread-585435-1-1.html) (How I review application packages as a senior student volunteer in the application committee of a top-tier CS Ph.D. program)
-* [从审材料的角度谈谈研究生申请](https://www.1point3acres.com/bbs/thread-463109-1-1.html) (Grad school application from an application reviewer's point of view)
+* [Top tier CS PhD招生官--我是如何审材料的](https://www.1point3acres.com/bbs/thread-585435-1-1.html) (How I review application packages as a student volunteer in the application committee of a top-tier CS Ph.D. program)
+* [从审材料的角度谈谈研究生申请](https://www.1point3acres.com/bbs/thread-463109-1-1.html) (CS grad school application from an application reviewer's point of view)
 * [也从审材料的角度讲讲如何准备cs phd申请！](https://www.1point3acres.com/bbs/thread-585851-1-1.html)(CS Ph.D. application from an application reviewer's point of view)
 * [CS Ph.D. 2019 Fall 申请季总结 - James.Qiu的文章 - 知乎](https://zhuanlan.zhihu.com/p/60961921) (Review of my CS Ph.D. application in Fall 2019 by [Haoran Qiu](https://haoran-qiu.com))
 * [我的PhD申请总结与经验分享](https://tylergu.com/summary.html) (Review of my CS Ph.D. application in Fall 2020 by [Jiawei Gu](https://tylergu.com/index.html))
