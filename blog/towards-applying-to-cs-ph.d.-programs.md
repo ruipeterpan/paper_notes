@@ -326,6 +326,7 @@ Don't feel obliged to exactly copy my timeline -- this is just for your referenc
 * [Graduate Study Survival Guide](https://cs.uwaterloo.ca/\~thachisu/survival.pdf) by Prof. Toshiya Hachisuka
 * [Chris Liu's list of resources for CS grad school application](https://chrisliu298.io/posts/grad-school-application.html)
 * [USA Computer Science PhD Application Advice](https://www.youtube.com/watch?v=IprN9fPV2LI) by Prof. Shriram Krishnamurthi
+* [My CS Ph.D.: Whether, why, and how to get a Ph.D. in CS](https://mycsphd.org) by UCSD CSE
 * [Advice on Research Communication Skills | Computer Science Department at Princeton University](https://www.cs.princeton.edu/grad/advice-on-research-communications-skills)
 * [Reflections on my CS PhD Application Process](https://www.bodunhu.com/blog/posts/reflections-on-my-cs-phd-application-process/) | [Bodun Hu](https://www.bodunhu.com)'s Blog
 * [CS Professors - Drafty](https://drafty.cs.brown.edu/csprofessors): Database of CS professors
