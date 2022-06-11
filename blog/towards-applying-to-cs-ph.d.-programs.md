@@ -2,7 +2,7 @@
 
 ## Introduction
 
-After going through and learning from tens, if not hundreds of blog posts on applying to Ph.D. programs, it would almost be inappropriate if I didn't write down something and throw in my two cents about this exhausting but ultimately self-enriching and fascinating process.
+After going through and learning from tens, if not hundreds, of blog posts on applying to Ph.D. programs, it would almost be inappropriate if I didn't write down something and throw in my two cents about this exhausting but ultimately self-enriching and fascinating process.
 
 This blog post will hopefully be a useful guide to the students who are planning to apply to Ph.D. programs. I will try to give you a glimpse of what the application process looks like and offer some advice on how to best approach, embrace, and enjoy this unique journey. I hope this helps you! If so, please consider paying it forward, maybe start by giving a hand to students in your research group who will be applying for Ph.D. programs.
 
@@ -249,9 +249,9 @@ My mental health was surprisingly good during my application season (probably be
 
 * **Make plans to abide by** so that you don't stay up and rush things. "Rushing is the path to the dark side. Rushing leads to staying up. Staying up leads to bad health. Bad health leads to suffering." - Master Yoda
 * **Maintain a consistent, healthy sleeping schedule.**
-* **Talk with supportive people** around you and be supportive to each other. You are not alone, and every applicant is fighting the same battle. Surround yourself with people who can help relieve your anxiety, not trigger them.
+* **Talk with supportive people** around you and be supportive of each other. You are not alone, and every applicant is fighting the same battle. Surround yourself with people who can help relieve your anxiety, not trigger them.
 * **Workout.** Participate in team sports, work on bodybuilding, take a random walk outside, etc.
-* If things go well, this will be your second last semester in undergraduate. Since most people go to a different school for Ph.D., it will also likely be your last fall/winter in your current city. On weekends, spend some quality time with your friends here to create some enjoyable memories for future reminiscing. If you are studying at UW-Madison, [here is an article](https://zhuanlan.zhihu.com/p/425849399) I wrote on the 20 must-dos before you graduate.
+* If things go well, this will be your second last semester as an undergraduate. Since most people go to a different school for Ph.D., it will also likely be your last fall/winter in your current city. On weekends, spend some quality time with your friends here to create some enjoyable memories for future reminiscing. If you are studying at UW-Madison, [here is an article](https://zhuanlan.zhihu.com/p/425849399) I wrote on the 20 must-dos before you graduate.
 
 ### After sending out applications
 
@@ -275,7 +275,7 @@ By the time you sent out the applications, you should have a rough idea of your 
 
 The first thing you would want to do is to do your own research. My personal priorities are: personality/advising style match with the POI >> research interest match with the POI > department ranking in your area of studies > department overall rankings > location/weather > amount of financial support & overall quality of life > overall ranking of the university. There are also other factors to consider depending on your future plan. For example, if you are looking to go into the industry after graduating Ph.D., you might want to go to a program where doing summer internships is easy and encouraged.
 
-Then, talk with a lot of people regarding your offers and decisions: parents, relatives who work in academia, significant others, friends, people on the internet, labmates, current advisor(s), labmates, POI, POI's students, current students in the program but not in your POI's lab, current students at other places. You should look for a diverse set of opinions on the pros and cons of each program. Keep in mind that there is no one best choice, and you will need to make tradeoffs.
+Then, talk with a lot of people regarding your offers and decisions: parents, relatives who work in academia, significant others, friends, people on the internet, labmates, current advisor(s), labmates, POI, POI's students, current students in the program but not in your POI's lab, and current students at other places. You should look for a diverse set of opinions on the pros and cons of each program. Keep in mind that there is no one best choice, and you will need to make tradeoffs.
 
 ### Understanding your offer
 
@@ -305,7 +305,7 @@ From my knowledge, using financial support as a criterion, all offers can be cla
 
 ## Appendix I: My application timeline
 
-Don't feel obliged to exactly copy my timeline -- this is just for your reference.
+Don't feel obliged to copy my timeline exactly -- this is just for your reference.
 
 * **Mid August**: First draft of the school list and the SOP
 * **Mid September - Early October**: Confirmation of recommendation letter from 3 professors
