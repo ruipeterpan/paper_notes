@@ -202,6 +202,9 @@ There are also a bunch of blog posts by people who know more about writing up st
 * [Writing a Statement of Purpose](https://djunicode.github.io/2018/10/16/writing-a-statement-of-purpose.html) | The Unicode Blog
 * [What to avoid and what to mention in your SOP, targeted especially at international students](https://twitter.com/vj\_chidambaram/status/933388419589459969) by Prof. Vijay Chidambaram
 * [Jean Yang's Statement of Purpose](https://github.com/jeanqasaur/academic-application-materials/blob/master/phd-application-2007/personal\_statement.pdf) from her blog [CS Grad School Part 4: Applications](https://jxyzabc.blogspot.com/2008/08/cs-grad-school-part-4-applications.html)
+* [\[Graduate School\] Personal Statements](http://cwfletcher.net/Pages/SoP.php) by Prof. Christopher Fletcher
+* [What’s a Good Statement of Purpose?](https://ed.stanford.edu/sites/default/files/statement-of-purpose\_u.d\_2013.pdf) by Eamonn Callan
+* [How to Write a Bad Statement for a Computer Science Ph.D. Admissions Application](https://www.cs.cmu.edu/\~pavlo/blog/2015/10/how-to-write-a-bad-statement-for-a-computer-science-phd-admissions-application.html) by Prof. Andy Pavlo
 
 ## Chapter 6: Preparing for interviews
 
@@ -323,12 +326,14 @@ Don't feel obliged to copy my timeline exactly -- this is just for your referenc
 * [Grad School Resources](https://martiansideofthemoon.github.io/2018/05/29/grad-resources.html) by Kalpesh Krishna
 * [Applying to Ph.D. Programs in Computer Science](http://www.cs.cmu.edu/\~harchol/gradschooltalk.pdf) by Prof. Mor Harchol-Balter
 * [Matt Might's HOWTO: Apply for and get into grad school for science, engineering, math, and computer science](https://matt.might.net/articles/how-to-apply-and-get-in-to-graduate-school-in-science-mathematics-engineering-or-computer-science/)
+* [Reflecting on CS Graduate Admissions](https://da-data.blogspot.com/2015/03/reflecting-on-cs-graduate-admissions.html) by Prof. David Anderson
 * [Graduate Study Survival Guide](https://cs.uwaterloo.ca/\~thachisu/survival.pdf) by Prof. Toshiya Hachisuka
 * [Chris Liu's list of resources for CS grad school application](https://chrisliu298.io/posts/grad-school-application.html)
 * [USA Computer Science PhD Application Advice](https://www.youtube.com/watch?v=IprN9fPV2LI) by Prof. Shriram Krishnamurthi
 * [My CS Ph.D.: Whether, why, and how to get a Ph.D. in CS](https://mycsphd.org/) by UCSD CSE
 * [Advice on Research Communication Skills | Computer Science Department at Princeton University](https://www.cs.princeton.edu/grad/advice-on-research-communications-skills)
 * [Reflections on my CS PhD Application Process](https://www.bodunhu.com/blog/posts/reflections-on-my-cs-phd-application-process/) | [Bodun Hu](https://www.bodunhu.com/)'s Blog
+* [Machine Learning PhD Applications — Everything You Need to Know](https://timdettmers.com/2018/11/26/phd-applications/) by Tim Dettmers
 * [CS Professors - Drafty](https://drafty.cs.brown.edu/csprofessors): Database of CS professors
 * [computer science open rankings](https://drafty.cs.brown.edu/csopenrankings/): Choose and combine existing rankings to generate your preferred meta ranking for computer science programs in the United States and Canada, also by Drafty
 
@@ -339,6 +344,8 @@ For those of you who read Mandarin Chinese or don't bother to use Google Transla
 * [也从审材料的角度讲讲如何准备cs phd申请！](https://www.1point3acres.com/bbs/thread-585851-1-1.html)(CS Ph.D. application from an application reviewer's point of view)
 * [对于未来的CS PhD申请者来说，暑假应该做实习还是去实验室更好呢？ - Bihan Wen的回答 - 知乎](https://www.zhihu.com/question/308026281/answer/566961945) (Some insights on what professors look for from Ph.D. applicants by [Bihan Wen](https://personal.ntu.edu.sg/bihan.wen/))
 * [CS Ph.D. 2019 Fall 申请季总结 - James.Qiu的文章 - 知乎](https://zhuanlan.zhihu.com/p/60961921) (Review of my CS Ph.D. application in Fall 2019 by [Haoran Qiu](https://haoran-qiu.com/))
+* [2019 Fall 你都申请了哪些学校的 MS/PhD，录取结果如何？ - 拎-yin的回答 - 知乎](https://www.zhihu.com/question/290670460/answer/586795783) (Review of my CS Ph.D. application in Fall 2019 by [Yin Lin](https://niceirene.github.io/))
 * [我的PhD申请总结与经验分享](https://tylergu.com/summary.html) (Review of my CS Ph.D. application in Fall 2020 by [Jiawei Gu](https://tylergu.com/index.html))
 * [CS Ph.D. 申请总结 (2021 Fall) - Romero的文章 - 知乎](https://zhuanlan.zhihu.com/p/362189295) (Review of my CS Ph.D. application in Fall 2021 by [Xiangfeng Zhu](https://xzhu27.me/))
 * [2022 Fall你都申请了哪些学校的MA/MS/Ph.D.？- ruipeterpan的回答 - 知乎](https://www.zhihu.com/question/379814619/answer/2325160660) (My personal review of my CS Ph.D. application in Fall 2022)
+* [美国CS PhD 申请经验总结 - Calpico的回答 - 知乎](https://zhuanlan.zhihu.com/p/533187747) (Takeaways from my CS Ph.D. application in Fall 2022 by [Yinwei Dai](http://yinwei-dai.com/))
