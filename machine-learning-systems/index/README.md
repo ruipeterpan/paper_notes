@@ -7,7 +7,7 @@
   * [CS 744 @ UW-Madison: Big Data Systems](http://pages.cs.wisc.edu/\~shivaram/cs744-fa20/)
   * [CS 6787 @ Cornell: Advanced Machine Learning Systems](https://www.cs.cornell.edu/courses/cs6787/2020fa/), with a focus on the ML side
   * [Awesome-System-for-Machine-Learning](https://github.com/HuaizhengZhang/Awesome-System-for-Machine-Learning): An open-sourced reading list
-  * [The MLSys conference](https://mlsys.org)
+  * [The MLSys conference](https://mlsys.org/)
   * [SOSP AI Systems workshop](http://learningsys.org/sosp19/acceptedpapers.html)
 * Some other stuff
   * Meta papers
@@ -18,8 +18,6 @@
   * [CS 759 @ UW-Madison (HPC) Course Notes](../cs759-hpc-course-notes/): A great overview of HPC, CUDA, OpenMP, MPI
 
 ## Table of Contents
-
-
 
 ### Infrastructure & Paradigms
 
@@ -34,17 +32,14 @@
 | From Cloud Computing to Sky Computing                                                        | HotOS '21   | \[[notes](from-cloud-computing-to-sky-computing.md)] \[pdf]                                                       |
 |                                                                                              |             | \[notes] \[pdf]                                                                                                   |
 
-
-
 ### Cloud/Serverless Computing
 
 | Title                                                                 | Venue     | Links           |
 | --------------------------------------------------------------------- | --------- | --------------- |
 | Cloud Programming Simplified: A Berkeley View on Serverless Computing | arXiv '19 | \[notes] \[pdf] |
 | Centralized Core-granular Scheduling for Serverless Functions         | SoCC '19  | \[notes] \[pdf] |
-|                                                                       |           |                 |
-
-
+| Towards Demystifying Serverless Machine Learning Training             |           |                 |
+| Serverless computing on heterogeneous computers                       |           |                 |
 
 ### Graphs
 
