@@ -15,6 +15,7 @@
   * \[SC '21] Efficient Large-Scale Language Model Training on GPU Clusters Using Megatron-LM
   * \[ICML '21] Memory-Efficient Pipeline-Parallel DNN Training
   * \[ATC '21] ZeRO-Offload: Democratizing Billion-Scale Model Training
+  * \[OSDI '22] Alpa: Automating Inter- and Intra-Operator Parallelism for Distributed Deep Learning
 
 
 
@@ -58,6 +59,8 @@
 * \[EuroMLSys '21] Interference-Aware Scheduling for Inference Serving
 * \[arXiv '21] Serving DNN Models with Multi-Instance GPUs: A Case of the Reconfigurable Machine Scheduling Problem
 * \[ICML '21] Boosting the Throughput and Accelerator Utilization of Specialized CNN Inference Beyond Increasing Batch Size
+* \[OSDI '22] Achieving μs-scale Preemption for Concurrent GPU-accelerated DNN Inferences
+* \[OSDI '22] Orca: A Distributed Serving System for Transformer-Based Generative Models
 
 
 
@@ -65,10 +68,9 @@
 
 * \[ATC '17] Poseidon: An Efficient Communication Architecture for Distributed Deep Learning on GPU Clusters
 * \[MLSys '19] BlueConnect: Decomposing All-Reduce for Deep Learning on Heterogeneous Network Hierarchy
-* Communication scheduling
-  * \[MLSys '19] TicTac: Accelerating Distributed Deep Learning with Communication Scheduling
-  * \[MLSys '19] P3: Priority-Based Parameter Propagation for Distributed DNN Training
-  * [\[SOSP '19\] ByteScheduler: A Generic Communication Scheduler for Distributed DNN Training Acceleration](bytescheduler-a-generic-communication-scheduler-for-distributed-dnn-training-acceleration.md)
+* \[MLSys '19] TicTac: Accelerating Distributed Deep Learning with Communication Scheduling
+* \[MLSys '19] P3: Priority-Based Parameter Propagation for Distributed DNN Training
+* [\[SOSP '19\] ByteScheduler: A Generic Communication Scheduler for Distributed DNN Training Acceleration](bytescheduler-a-generic-communication-scheduler-for-distributed-dnn-training-acceleration.md)
 * [\[NetAI '20\] Is Network the Bottleneck of Distributed Training?](is-network-the-bottleneck-of-distributed-training.md)
 * \[MLSys '20] Blink: Fast and Generic Collectives for Distributed ML
 * \[SoCC '20] Network-accelerated Distributed Machine Learning for Multi-Tenant Settings
@@ -117,4 +119,5 @@
 * [\[FAST '21\] CheckFreq: Frequent, Fine-Grained DNN Checkpointing](checkfreq-frequent-fine-grained-dnn-checkpointing.md)
 * [\[VLDB '21\] Analyzing and Mitigating Data Stalls in DNN Training](analyzing-and-mitigating-data-stalls-in-dnn-training.md)
 * \[MLSys '21] Fluid: Resource-aware Hyperparameter Tuning Engine
+* \[NSDI '22] Check-N-Run: a Checkpointing System for Training Deep Learning Recommendation Models
 
