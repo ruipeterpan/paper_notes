@@ -27,9 +27,8 @@ Every on-pitch location is assigned to the closest player in the classical Voron
 
 ![](../../.gitbook/assets/screen-shot-2021-01-06-at-11.15.57-am.png)
 
-Here we can observe that the defender positioning changes drastically as a function of the ball's location. A feed-forward neural network with one hidden layer is used in [this work](../drafts/wide-open-spaces-a-statistical-technique-for-measuring-space-creation-in-professional-soccer.md) to get a model-based estimate for defensive team control as a function of ball location.
+Here we can observe that the defender positioning changes drastically as a function of the ball's location. A feed-forward neural network with one hidden layer is used in [this work](broken-reference) to get a model-based estimate for defensive team control as a function of ball location.
 
 ## Links
 
 * [Paper PDF](https://rss.onlinelibrary.wiley.com/doi/epdf/10.1111/j.1740-9713.2018.01146.x)
-

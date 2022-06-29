@@ -21,21 +21,21 @@ In this work, a model that estimates the feasibility of passes in soccer games u
 
 ## The Model
 
-The proposed model combines three different types of feasibility measures, defined on the grounding assumption that, among all potential receivers, the passer will move the ball to the \(a\) best oriented, \(b\) less defended and \(c\) closest available player.
+The proposed model combines three different types of feasibility measures, defined on the grounding assumption that, among all potential receivers, the passer will move the ball to the (a) best oriented, (b) less defended and (c) closest available player.
 
-Let Hi denote the prior or hypothesis that player P is going to pass the ball to receiver Ri. The main idea is to define a feasibility measure which is grounded on three elements: \(a\) the body orientation of every player together with \(b\) the pressure of the defenders Dk, both on P and Ri, and \(c\) the relative position of Ri with respect to P. Then, the most feasible ball pass Hˆ is computationally selected as the one maximizing:
+Let Hi denote the prior or hypothesis that player P is going to pass the ball to receiver Ri. The main idea is to define a feasibility measure which is grounded on three elements: (a) the body orientation of every player together with (b) the pressure of the defenders Dk, both on P and Ri, and (c) the relative position of Ri with respect to P. Then, the most feasible ball pass Hˆ is computationally selected as the one maximizing:
 
 $$
 \hat{H} = arg\max_{i} F(i)
 $$
 
-where F\(i\) is the feasibility of the event pass in Hi, which can be defined as
+where F(i) is the feasibility of the event pass in Hi, which can be defined as
 
 $$
 F(i) = F_o(i)F_d(i)F_p(i)
 $$
 
-where Fo\(i\), Fd\(i\), and Fp\(i\) stand for the orientation, defenders, and proximity scores, respectively.
+where Fo(i), Fd(i), and Fp(i) stand for the orientation, defenders, and proximity scores, respectively.
 
 ### Orientation
 
@@ -45,7 +45,7 @@ where Fo\(i\), Fd\(i\), and Fp\(i\) stand for the orientation, defenders, and pr
 
 ### Defenders Position
 
-The model takes into account two feasibility scores: \(a\) the feasibility of passing in the direction of β\(P, Ri\) and \(b\) the feasibility of receiving the ball from P. Here, β\(P, Ri\) denotes the angle in the 2D template field between the passer P and the receiver Ri.
+The model takes into account two feasibility scores: (a) the feasibility of passing in the direction of β(P, Ri) and (b) the feasibility of receiving the ball from P. Here, β(P, Ri) denotes the angle in the 2D template field between the passer P and the receiver Ri.
 
 ![](../../.gitbook/assets/screen-shot-2021-01-06-at-10.41.44-am.png)
 
@@ -67,9 +67,9 @@ Several experiments are conducted to verify that the proper orientation of socce
 
 ![](../../.gitbook/assets/screen-shot-2021-01-06-at-10.48.13-am.png)
 
-### Combination with [EPV](../drafts/decomposing-the-immeasurable-sport-a-deep-learning-expected-possession-value-framework-for-soccer.md)
+### Combination with [EPV](broken-reference)
 
-![The combination of the original model and the EPV model output enhances potentially good receivers in particular regions \(b,c-bottom\).](../../.gitbook/assets/screen-shot-2021-01-06-at-10.49.03-am.png)
+![The combination of the original model and the EPV model output enhances potentially good receivers in particular regions (b,c-bottom).](../../.gitbook/assets/screen-shot-2021-01-06-at-10.49.03-am.png)
 
 ![](../../.gitbook/assets/screen-shot-2021-01-06-at-10.53.46-am.png)
 
@@ -79,5 +79,4 @@ Several experiments are conducted to verify that the proper orientation of socce
 
 ## Links
 
-* [Paper PDF](https://openaccess.thecvf.com/content_CVPRW_2020/papers/w53/Arbues-Sanguesa_Using_Players_Body-Orientation_to_Model_Pass_Feasibility_in_Soccer_CVPRW_2020_paper.pdf)
-
+* [Paper PDF](https://openaccess.thecvf.com/content\_CVPRW\_2020/papers/w53/Arbues-Sanguesa\_Using\_Players\_Body-Orientation\_to\_Model\_Pass\_Feasibility\_in\_Soccer\_CVPRW\_2020\_paper.pdf)

@@ -12,7 +12,7 @@ Note that whatever I write down is biased because of my background and experienc
 
 A CS Ph.D. application package should be the culmination of your previous academic career. It usually includes three recommendation letters, a curriculum vitae (CV), a list of publications (if any), a research statement of purpose (and possibly another personal/diversity statement), your college-level transcripts/GPA, standardized test scores, and a bunch of other personal information.
 
-While your technical ability is instrumental towards your Ph.D. application, doing the application right is also critical but is often neglected. This blog post aims to point you to some common practices for wrapping your application package nicely with the following chapters:
+While your technical ability is instrumental to your Ph.D. application, doing the application right is also critical but is often neglected. This blog post aims to point you to some common practices for wrapping your application package nicely with the following chapters:
 
 * **Chapter 1: Why do a Ph.D. at all?**
 * **Chapter 2: Narrowing down the programs/professors of interest**
@@ -36,7 +36,7 @@ While your technical ability is instrumental towards your Ph.D. application, doi
   * §7.2: After sending out applications
 * **Chapter 8: Choosing a Ph.D. program (WIP)**
   * §8.1: Understanding your offer
-  * §8.2: What do to on the visiting day
+  * §8.2: What to do on the visiting day
 * **Appendix I: My application timeline**
 * **Appendix II: Meta-references**
 
@@ -44,7 +44,7 @@ Each chapter includes some of my personal opinions followed by a list of referen
 
 ## Chapter 1: Why do a Ph.D. at all?
 
-In my opinion, you should do a Ph.D. if you have already done some research, been through the ups and downs (or at least know a bit about what they are like), and still, you absolutely love doing research. If you are applying for a Ph.D. because your Asian parents are forcing you to do one or if you want to stay in academia because you didn't get an industry job, think twice: it's a huge commitment.
+In my opinion, you should do a Ph.D. if you have already done some research, been through the ups and downs (or at least know a bit about what they are like), and still absolutely love doing research. If you are applying for a Ph.D. because your Asian parents are forcing you to do one or if you want to stay in academia because you didn't get an industry job, think twice: it's a huge commitment.
 
 This is a million-dollar question and I don't feel entitled to write more about this right now, so please take a look at all the references below.&#x20;
 
@@ -141,7 +141,7 @@ First of all, IMO it is necessary to understand what the other side looks like a
 
 * How long have you known the applicant?
 * What group are you using for comparison?
-* Admission recommendation to program is {strongly recommended, recommended, recommended with reservation, etc.}
+* Admission recommendation to the program is {strongly recommended, recommended, recommended with reservation, etc.}
 
 ### Who should you ask for letters?
 
@@ -155,14 +155,14 @@ Moving on. Before sending out requests for letters, you have to figure out who y
 
 Now that you know who you will be asking, it would be best to let them know about it. Here are some tips for doing that.
 
-* **Ask early.** You don't need to know your exact school list when you send your first email request, but you should at least give people a rough idea of the number of letters and when they will be due. Professors are busy, like really busy. Please ask for letters as early as possible so they can plan accordingly. Two months in advance is better than one, and one month is better than two weeks. Imagine being a professor who's going through the finals week and a couple of conference deadlines, and boom, five students show up to ask for a total of 100 letters that are due in one week. Just thinking about that makes me uncomfortable. Besides that, if you apply to 30 (?!) programs, some professors may not be too happy about submitting all those letters and will only agree to submit 10 of them. In that case, you should, of course, ask for some other professors to fill in the gap, but anyway, you don't want to know about this a week before the application deadline.
+* **Ask early.** You don't need to know your exact school list when you send your first email request, but you should at least give people a rough idea of the number of letters and when they will be due. Professors are busy, like really busy. Please ask for letters as early as possible so they can plan accordingly. Two months in advance is better than one, and one month is better than two weeks. Imagine being a professor who's going through finals week and a couple of conference deadlines, and boom, five students show up to ask for a total of 100 letters that are due in one week. Just thinking about that makes me uncomfortable. Besides that, if you apply to 30 (?!) programs, some professors may not be too happy about submitting all those letters and will only agree to submit 10 of them. In that case, you should, of course, ask for some other professors to fill in the gap, but anyway, you don't want to know about this a week before the application deadline.
 * **Communicate clearly.** It would suck if professors finish your letter but don't know where to submit them. My advice is: (1) It is preferable to send official requests through application portals in batches, so those emails don't get lost in the professor's email inbox. (2) Create a table in Google Sheet to keep track of the programs you are applying to, the application deadlines, and the status of the requests. For example, knowing the date of when you sent a request will be helpful when a professor looks up that email in their inbox. Of course, share this google sheet with your letter writers. (3) Send email reminders to remind professors about an upcoming application deadline, preferably a week in advance, if not more. Note that for most programs, the deadline for people to submit letters is some time after the application deadline, so don't panic if a professor uploads a bit late.
-* **Provide enough information.** Once a professor agrees to write you a letter, attach many files when you get back to them, e.g., your cv, draft SoP, transcript, final project report. Some professors will also ask you to provide a list of relevant personal information, e.g., professors you have taken classes with and the grades you got, major accomplishments, etc. Besides those, remind professors about how your opportunity with them helped you grow as a scholar.
+* **Provide enough information.** Once a professor agrees to write you a letter, attach many files when you get back to them, e.g., your cv, draft SoP, transcript, and final project report. Some professors will also ask you to provide a list of relevant personal information, e.g., professors you have taken classes with and the grades you got, major accomplishments, etc. Besides those, remind professors about how your opportunity with them helped you grow as a scholar.
 * **Ask for strong letters.** It goes without saying that strong letters from professors say a lot about who you are as an applicant -- they will make a difference in your application. When you ask for letters, explicitly ask for strong letters, so that professors who will otherwise write average letters can give you the chance to pivot.
 
 ### What's next?
 
-And at last, you should write them a thank you letter. Send a small gift (something under $20 should be fine depending on the department policy, e.g., a box of chocolate provided that they are not allergic to chocolate :P). When you commit to a program a few months later, also remember to send another email to let your writers know about the good news -- they will like it very much!
+And last, you should write them a thank you letter. Send a small gift (something under $20 should be fine depending on the department policy, e.g., a box of chocolate provided that they are not allergic to chocolate :P). When you commit to a program a few months later, also remember to send another email to let your writers know about the good news -- they will like it very much!
 
 ### References
 
@@ -260,7 +260,7 @@ My mental health was surprisingly good during my application season (probably be
 
 After sending out applications, you will likely have huge chunks of free time since the semester is over and Christmas is coming up. Although the interviews will be coming shortly, IMO you should first **take a week-long mental/physical break.** Congratulations on submitting all those applications!&#x20;
 
-* Once you get back from your mental break, you should get back to studying. You likely won't have a lot of things to work on, and your motivation might be low -- after all, your application is already out, and there is not much you can do to make it drastically better. Instead of spending all the free time being anxious about the applications, **try to divert your anxiety**, say by developing a new hobby. Read a book or something, or learn to cook.
+* Once you get back from your mental break, you should get back to studying. You likely won't have a lot of things to work on, and your motivation might be low -- after all, your application is already out, and there is not much you can do to make it drastically better. Instead of spending all your free time being anxious about the applications, **try to divert your anxiety**, say by developing a new hobby. Read a book or something, or learn to cook.
 * [1point3acres](https://www.1point3acres.com/bbs/). [zhihu.com](https://www.zhihu.com/question/379814619), and [The GradCafe](https://www.thegradcafe.com/) have a lot of good information and stuff, but please consider restraining yourself from visiting these sites too often. Social media takes a toll on people.
 * Also, it might be worthwhile to **turn off instant notifications** for your email inbox and check it a few times a day at regular times.
 * **Compare to yourself, not others. This is in general a great suggestion on how to live a happy life.**
@@ -274,7 +274,7 @@ After sending out applications, you will likely have huge chunks of free time si
 
 You now have multiple offers in hand! Very nice.&#x20;
 
-By the time you sent out the applications, you should have a rough idea of your preferences for all the programs. But, it's not a good idea to rush your decision. Grad schools usually request you to make a decision by Apr 15, and you should spend at least some time to make up your mind. After all, this is one of the biggest decisions in your life. That being said, if you are set to commit to a program, withdraw/decline your other offers as soon as possible so the other POI can extend the offer to other students on the waitlist.
+By the time you sent out the applications, you should have a rough idea of your preferences for all the programs. But, it's not a good idea to rush your decision. Grad schools usually request you to make a decision by Apr 15, and you should spend at least some time making up your mind. After all, this is one of the biggest decisions in your life. That being said, if you are set to commit to a program, withdraw/decline your other offers as soon as possible so the other POI can extend the offer to other students on the waitlist.
 
 The first thing you would want to do is to do your own research. My personal priorities are: personality/advising style match with the POI >> research interest match with the POI > department ranking in your area of studies > department overall rankings > location/weather > amount of financial support & overall quality of life > overall ranking of the university. There are also other factors to consider depending on your future plan. For example, if you are looking to go into the industry after graduating Ph.D., you might want to go to a program where doing summer internships is easy and encouraged.
 
@@ -305,21 +305,22 @@ From my knowledge, using financial support as a criterion, all offers can be cla
 * [All About Graduate School Visits (for CS PhD programs)](https://koronkevi.ch/posts/grad-school-visits.html) by Paulette Koronkevich
 * [How to pick a grad school for a PhD in Computer Science](https://vijayc.medium.com/how-to-pick-a-grad-school-for-a-phd-in-computer-science-a5ce7dceb246) by Prof. Vijay Chidambaram
 * [地表最全奖学金攻略：我的二十二万刀经验分享](https://www.1point3acres.com/bbs/thread-763415-1-1.html) (Negotiating with Ph.D. programs for more fellowships: How I got a total of $220K from all offers)
+* [如何选择博士导师](https://iphyer.github.io/blog/2017/09/10/choosingpi/) (How to choose a Ph.D. advisor)
 
 ## Appendix I: My application timeline
 
 Don't feel obliged to copy my timeline exactly -- this is just for your reference.
 
-* **Mid August**: First draft of the school list and the SOP
-* **Mid September - Early October**: Confirmation of recommendation letter from 3 professors
-* **Early October - Mid November**: Send out cold emails to professors of interest. On average, I sent \~2.5 letters per week.
-* **Early November**: Finalized school list
-* **Early December**: Sent out all rec letter requests
-* **Mid December**: Finalized SoP; Sent out all applications!
-* **Late December - Mid February**: Interviews
-* **Late January**: First unofficial offer
-* **Mid February**: First official offer -- the offers came in all the way to early March, although I withdrew/turned most of them down.
-* **Late March**: Committed to Princeton!
+* **Mid-August**: First draft of the school list and the SOP
+* **Mid-September - Early-October**: Confirmation of recommendation letter from 3 professors
+* **Early-October - Mid-November**: Send out cold emails to professors of interest. On average, I sent \~2.5 letters per week.
+* **Early-November**: Finalized school list
+* **Early-December**: Sent out all rec letter requests
+* **Mid-December**: Finalized SoP; Sent out all applications!
+* **Late-December - Mid-February**: Interviews
+* **Late-January**: First unofficial offer
+* **Mid-February**: First official offer -- the offers came in all the way to early March, although I withdrew/turned most of them down.
+* **Late-March**: Committed to Princeton!
 
 ## Appendix II: Meta-references
 
@@ -343,6 +344,7 @@ For those of you who read Mandarin Chinese or don't bother to use Google Transla
 * [从审材料的角度谈谈研究生申请](https://www.1point3acres.com/bbs/thread-463109-1-1.html) (CS grad school application from an application reviewer's point of view)
 * [也从审材料的角度讲讲如何准备cs phd申请！](https://www.1point3acres.com/bbs/thread-585851-1-1.html)(CS Ph.D. application from an application reviewer's point of view)
 * [对于未来的CS PhD申请者来说，暑假应该做实习还是去实验室更好呢？ - Bihan Wen的回答 - 知乎](https://www.zhihu.com/question/308026281/answer/566961945) (Some insights on what professors look for from Ph.D. applicants by [Bihan Wen](https://personal.ntu.edu.sg/bihan.wen/))
+* [关于PhD的思考](https://iphyer.github.io/blog/2017/06/21/phd/) (Some thoughs on doing a Ph.D.)
 * [CS Ph.D. 2019 Fall 申请季总结 - James.Qiu的文章 - 知乎](https://zhuanlan.zhihu.com/p/60961921) (Review of my CS Ph.D. application in Fall 2019 by [Haoran Qiu](https://haoran-qiu.com/))
 * [2019 Fall 你都申请了哪些学校的 MS/PhD，录取结果如何？ - 拎-yin的回答 - 知乎](https://www.zhihu.com/question/290670460/answer/586795783) (Review of my CS Ph.D. application in Fall 2019 by [Yin Lin](https://niceirene.github.io/))
 * [我的PhD申请总结与经验分享](https://tylergu.com/summary.html) (Review of my CS Ph.D. application in Fall 2020 by [Jiawei Gu](https://tylergu.com/index.html))

@@ -63,21 +63,29 @@
 
 ### Optimizing Networks/Communications for ML
 
+* \[ATC '17] Poseidon: An Efficient Communication Architecture for Distributed Deep Learning on GPU Clusters
+* \[MLSys '19] BlueConnect: Decomposing All-Reduce for Deep Learning on Heterogeneous Network Hierarchy
 * Communication scheduling
   * \[MLSys '19] TicTac: Accelerating Distributed Deep Learning with Communication Scheduling
   * \[MLSys '19] P3: Priority-Based Parameter Propagation for Distributed DNN Training
-  * \[SOSP '19] ByteScheduler: A Generic Communication Scheduler for Distributed DNN Training Acceleration
-* \[MLSys '19] BlueConnect: Decomposing All-Reduce for Deep Learning on Heterogeneous Network Hierarchy
+  * [\[SOSP '19\] ByteScheduler: A Generic Communication Scheduler for Distributed DNN Training Acceleration](bytescheduler-a-generic-communication-scheduler-for-distributed-dnn-training-acceleration.md)
 * [\[NetAI '20\] Is Network the Bottleneck of Distributed Training?](is-network-the-bottleneck-of-distributed-training.md)
 * \[MLSys '20] Blink: Fast and Generic Collectives for Distributed ML
+* \[SoCC '20] Network-accelerated Distributed Machine Learning for Multi-Tenant Settings
 * [\[NSDI '21\] SwitchML: Scaling Distributed Machine Learning with In-Network Aggregation](switchml-scaling-distributed-machine-learning-with-in-network-aggregation.md)
 * \[NSDI '21] ATP: In-network Aggregation for Multi-tenant Learning
+* \[arXiv '21] Synthesizing Collective Communication Algorithms for Heterogeneous Networks with TACCL
+* \[arXiv '21] Cloud Collectives: Towards Cloud-aware Collectives for ML Workloads with Rank Reordering
+* \[NSDI '22] Accelerating Collective Communication in Data Parallel Training across Deep Learning Frameworks
 
 
 
 ### ML for Systems, Video Analytics & Streaming
 
+* [Kuntai Du's overview on video analytics](https://kuntai.notion.site/Video-analytics-literature-review-90947b73637f427da7d8adc82e764c77)
+* [CS34702 @ UChi: Machine Learning for Networking and Systems](https://people.cs.uchicago.edu/\~junchenj/34702-fall21/)
 * \[SIGCOMM '17] Pensieve: Neural Adaptive Video Streaming with Pensieve
+* \[HotNets '17] Congestion-Control Throwdown
 * [\[SIGCOMM '18\] Chameleon: Scalable Adaptation of Video Analytics via Temporal and Cross-camera Correlations](chameleon-scalable-adaptation-of-video-analytics-via-temporal-and-cross-camera-correlations.md)
 * \[NSDI '18] PCC Vivace: Online-Learning Congestion Control
 * [\[SIGCOMM '20\] Reducto: On-Camera Filtering for Resource-Efficient Real-Time Video Analytics](reducto-on-camera-filtering-for-resource-efficient-real-time-video-analytics.md)
@@ -85,22 +93,27 @@
 * \[NSDI '20] Learning in situ: a randomized experiment in video streaming
 * \[NSDI '22] Ekya: Continuous Learning of Video Analytics Models on Edge Compute Servers
 * \[arXiv '22] GEMEL: Model Merging for Memory-Efficient, Real-Time Video Analytics at the Edge
+* \[HotMobile '22] Understanding the Potential of Server-Driven Edge Video Analytics
 
 
 
-### Learning/System Relaxations: Compression, Pruning, Quantization, and more
+### Learning/System Tricks/Relaxations: Compression, Pruning, Quantization, and many more
 
+* \[NIPS '13] More Effective Distributed ML via a Stale Synchronous Parallel Parameter Server
 * \[ICLR '16] Deep compression: Compressing deep neural network with pruning, trained quantization and huffman coding
+* \[NIPS '17] Can Decentralized Algorithms Outperform Centralized Algorithms? A Case Study for Decentralized Parallel Stochastic Gradient Descent
 * \[ICLR '18] Mixed precision training
 * \[ICLR '19] The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks
 * \[MLSys '21] Accordion: Adaptive Gradient Communication via Critical Learning Regime Identification
 * \[MLSys '21] Pufferfish: Communication-efficient Models At No Extra Cost
+* \[PVLDB '21] BAGUA: Scaling up Distributed Learning with System Relaxations
 * \[MLSys '22] On the utility of gradient compression in distributed training systems
 
 
 
-### Misc
+### Misc: Storage, Hyperparameter Tuning, etc.
 
+* \[MLSys '19] Bandana: Using Non-Volatile Memory for Storing Deep Learning Models
 * [\[FAST '21\] CheckFreq: Frequent, Fine-Grained DNN Checkpointing](checkfreq-frequent-fine-grained-dnn-checkpointing.md)
 * [\[VLDB '21\] Analyzing and Mitigating Data Stalls in DNN Training](analyzing-and-mitigating-data-stalls-in-dnn-training.md)
 * \[MLSys '21] Fluid: Resource-aware Hyperparameter Tuning Engine

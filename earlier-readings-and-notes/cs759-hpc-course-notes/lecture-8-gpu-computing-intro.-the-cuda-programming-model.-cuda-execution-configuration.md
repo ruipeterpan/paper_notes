@@ -21,9 +21,9 @@
 
 ![](../../.gitbook/assets/screen-shot-2021-02-10-at-1.57.23-pm.png)
 
-## Amdahl's Law \(Law of Diminishing Returns\)
+## Amdahl's Law (Law of Diminishing Returns)
 
-The overall speedup relies on the worst-performing sections the most \(see more explanations [here](../../operating-systems/index/raid-a-case-for-redundant-arrays-of-inexpensive-disks.md#background-and-motivation)\).
+The overall speedup relies on the worst-performing sections the most (see more explanations [here](../index/raid-a-case-for-redundant-arrays-of-inexpensive-disks.md#background-and-motivation)).
 
 ## GPU Computing with CUDA
 
@@ -38,8 +38,6 @@ The overall speedup relies on the worst-performing sections the most \(see more 
 ![Ampere](../../.gitbook/assets/screen-shot-2021-02-10-at-2.10.27-pm.png)
 
 ![](../../.gitbook/assets/screen-shot-2021-02-10-at-2.11.08-pm.png)
-
-
 
 
 

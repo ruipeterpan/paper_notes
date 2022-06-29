@@ -1,5 +1,70 @@
 # Big Data Systems - Index
 
+## Table of Contents
+
+### Infrastructure & Paradigms
+
+* [NFS: Sun's Network File System](../../earlier-readings-and-notes/index/nfs-suns-network-file-system.md)
+* [\[SOSP '03\] The Google File System](the-google-file-system.md)
+* [\[OSDI '04\] MapReduce: Simplified Data Processing on Large Clusters](mapreduce-simplified-data-processing-on-large-clusters.md)
+* [\[NSDI '11\] Mesos: A Platform for Fine-Grained Resource Sharing in the Data Center](mesos-a-platform-for-fine-grained-resource-sharing-in-the-data-center.md)
+* [\[NSDI '12\] Resilient Distributed Datasets: A Fault-Tolerant Abstraction for In-Memory Cluster Computing](resilient-distributed-datasets-a-fault-tolerant-abstraction-for-in-memory-cluster-computing.md)
+* [\[HotOS '21\] From Cloud Computing to Sky Computing](from-cloud-computing-to-sky-computing.md)
+
+### Scheduling & Resource Allocation
+
+* \[NSDI '11] Mesos: A Platform for Fine-Grained Resource Sharing in the Data Center
+* \[SoCC '13] Apache Hadoop YARN: Yet Another Resource Negotiator
+* \[SoCC '14] Wrangler: Predictable and Faster Jobs using Fewer Resources
+* \[SIGCOMM '14] Multi-Resource Packing for Cluster Schedulers
+* \[ASPLOS '14] Quasar: Resource-Efficient and QoS-Aware Cluster Management
+* \[SIGCOMM '15] Network-Aware Scheduling for Data-Parallel Jobs: Plan When You Can
+* \[OSDI '16] Altruistic Scheduling in Multi-Resource Clusters
+* \[OSDI '16] Packing and Dependency-aware Scheduling for Data-Parallel Clusters
+* \[NSDI '16] HUG: Multi-Resource Fairness for Correlated and Elastic Demands
+* \[EuroSys '16] TetriSched: global rescheduling with adaptive plan-ahead in dynamic heterogeneous clusters
+* \[SoCC '17] Selecting the best vm across multiple public clouds: A data-driven performance modeling approach
+
+### Cloud/Serverless Computing
+
+* \[arXiv '19] Cloud Programming Simplified: A Berkeley View on Serverless Computing
+* \[SoCC '19] Centralized Core-granular Scheduling for Serverless Functions
+* \[SoCC '19] Cirrus: a Serverless Framework for End-to-end ML Workflows
+* \[SIGMOD '20] Le Taureau: Deconstructing the Serverless Landscape & A Look Forward
+* \[SIGMOD '21] Towards Demystifying Serverless Machine Learning Training
+* \[NSDI '21] Caerus: Nimble Task Scheduling for Serverless Analytics
+* \[ASPLOS '22] Serverless computing on heterogeneous computers
+
+### Network Flow Scheduling
+
+* \[SIGCOMM '11] Managing Data Transfers in Computer Clusters with Orchestra
+* \[HotNets '12] Coflow: A Networking Abstraction for Cluster Applications
+* \[SIGCOMM '14] Efficient coflow scheduling with Varys
+* \[SIGCOMM '14] Barrat: Decentralized task-aware scheduling for data center networks
+* \[SIGCOMM '15] Aalo: Efficient coflow scheduling without prior knowledge
+* \[SIGCOMM '16] CODA: Toward Automatically Identifying and Scheduling COflows in the DArk
+* \[SIGCOMM '18] Sincronia: Near-Optimal Network Design for Coflows
+* \[SPAA '19] Near Optimal Coflow Scheduling in Networks
+
+### Graphs
+
+* [\[SIGMOD '10\] Pregel: A System for Large-Scale Graph Processing](pregel-a-system-for-large-scale-graph-processing.md)
+* [\[OSDI '12\] PowerGraph: Distributed Graph-Parallel Computation on Neural Graphs](powergraph-distributed-graph-parallel-computation-on-natural-graphs.md)
+* [\[EuroSys '21\] NextDoor: Accelerating graph sampling for graph machine learning using GPUs](accelerating-graph-sampling-for-graph-machine-learning-using-gpus.md)
+* \[OSDI '21] Marius: Learning Massive Graph Embeddings on a Single Machine
+
+### New Data, Hardware Models
+
+* \[ISCA '17] In-Datacenter Performance Analysis of a Tensor Processing Unit
+
+### Databases
+
+* \[SIGMOD '12] Towards a Unified Architecture for in-RDBMS Analytics
+* \[arXiv '13] Bayesian Optimization in a Billion Dimensions via Random Embeddings
+* \[SIGMOD '17] Automatic Database Management System Tuning Through Large-scale Machine Learning
+* \[HotStorage '20] Too Many Knobs to Tune? Towards Faster Database Tuning by Pre-selecting Important Knobs
+* \[arXiv '21] Facilitating Database Tuning with Hyper-Parameter Optimization: A Comprehensive Experimental Evaluation
+
 ## Meta stuff
 
 * Reading lists
@@ -15,50 +80,4 @@
     * [MLSys: The New Frontier of Machine Learning Systems](https://arxiv.org/pdf/1904.03257.pdf)
   * [Systems Benchmarking Crimes](https://www.cse.unsw.edu.au/\~gernot/benchmarking-crimes.html)
   * [CSE 559W @ U Washington Slides](http://dlsys.cs.washington.edu/schedule): Not a paper reading class, more of an end-to-end comprehensive introduction of foundations of DL Systems
-  * [CS 759 @ UW-Madison (HPC) Course Notes](../cs759-hpc-course-notes/): A great overview of HPC, CUDA, OpenMP, MPI
-
-## Table of Contents
-
-### Infrastructure & Paradigms
-
-| Title                                                                                        | Venue       | Links                                                                                                             |
-| -------------------------------------------------------------------------------------------- | ----------- | ----------------------------------------------------------------------------------------------------------------- |
-| NFS: Sun's Network File System                                                               |             | \[[notes](../../operating-systems/index/nfs-suns-network-file-system.md)] \[pdf]                                  |
-| The Google File System                                                                       | SOSP '03    | \[[notes](the-google-file-system.md)] \[pdf]                                                                      |
-| MapReduce: Simplified Data Processing on Large Clusters                                      | OSDI '04    | \[[notes](mapreduce-simplified-data-processing-on-large-clusters.md)] \[pdf]                                      |
-| Mesos: A Platform for Fine-Grained Resource Sharing in the Data Center                       | NSDI '11    | \[[notes](mesos-a-platform-for-fine-grained-resource-sharing-in-the-data-center.md)] \[pdf]                       |
-| Resilient Distributed Datasets: A Fault-Tolerant Abstraction for In-Memory Cluster Computing | NSDI '12    | \[[notes](resilient-distributed-datasets-a-fault-tolerant-abstraction-for-in-memory-cluster-computing.md)] \[pdf] |
-| Coflow: A Networking Abstraction for Cluster Applications                                    | Hotnets '12 | \[notes] \[[pdf](https://conferences.sigcomm.org/hotnets/2012/papers/hotnets12-final51.pdf)]                      |
-| From Cloud Computing to Sky Computing                                                        | HotOS '21   | \[[notes](from-cloud-computing-to-sky-computing.md)] \[pdf]                                                       |
-|                                                                                              |             | \[notes] \[pdf]                                                                                                   |
-
-### Cloud/Serverless Computing
-
-| Title                                                                 | Venue     | Links           |
-| --------------------------------------------------------------------- | --------- | --------------- |
-| Cloud Programming Simplified: A Berkeley View on Serverless Computing | arXiv '19 | \[notes] \[pdf] |
-| Centralized Core-granular Scheduling for Serverless Functions         | SoCC '19  | \[notes] \[pdf] |
-| Towards Demystifying Serverless Machine Learning Training             |           |                 |
-| Serverless computing on heterogeneous computers                       |           |                 |
-
-### Graphs
-
-| Title                                                                       | Venue       | Links                                                                                     |
-| --------------------------------------------------------------------------- | ----------- | ----------------------------------------------------------------------------------------- |
-| Pregel: A System for Large-Scale Graph Processing                           | SIGMOD '10  | \[[notes](pregel-a-system-for-large-scale-graph-processing.md)] \[pdf]                    |
-| PowerGraph: Distributed Graph-Parallel Computation on Neural Graphs         | OSDI '12    | \[[notes](powergraph-distributed-graph-parallel-computation-on-natural-graphs.md)] \[pdf] |
-| NextDoor: Accelerating graph sampling for graph machine learning using GPUs | EuroSys '21 | \[[notes](accelerating-graph-sampling-for-graph-machine-learning-using-gpus.md)] \[pdf]   |
-|                                                                             |             | \[notes] \[pdf]                                                                           |
-
-### New Data, Hardware Models
-
-tpu
-
-### Databases
-
-dbms tuning: ottertune, bo, rembo, etc
-
-concurrency control
-
-
-
+  * [CS 759 @ UW-Madison (HPC) Course Notes](../../earlier-readings-and-notes/cs759-hpc-course-notes/): A great overview of HPC, CUDA, OpenMP, MPI

@@ -7,7 +7,7 @@
   * [CS 262a @ Berkeley: Advanced Topics in Computer Systems](https://ucbrise.github.io/cs262a-fall2020/)
   * [OSTEP (Operating Systems: Three Easy Pieces)](http://pages.cs.wisc.edu/\~remzi/OSTEP/) is written by the brilliant Remzi & Andrea and each chapter is followed by a lovely reading list about the topic covered in the chapter.
   * Some reading notes by individuals:
-    * [Zeyuan Hu's paper reading notes](https://zhu45.org), with a focus on database systems
+    * [Zeyuan Hu's paper reading notes](https://zhu45.org/), with a focus on database systems
     * [An open-source reading notes in CN](https://github.com/dyweb/papers-notebook), with a focus on virtualization and distributed systems
 
 ![Source: http://pages.cs.wisc.edu/\~remzi/OSTEP/](../../.gitbook/assets/v2-522ded6304485cdac723f25d03c012dd\_1200x500.jpg)
@@ -31,7 +31,7 @@
 | [ARC: A Self-Tuning, Low Overhead Replacement Cache](arc-a-self-tuning-low-overhead-replacement-cache.md)                                                                                                    | FAST '03                                 |
 | [RDP: Row-Diagonal Parity for Double Disk Failure Correction](rdp-row-diagonal-parity-for-double-disk-failure-correction.md)                                                                                 | FAST '04                                 |
 | [Data Domain: Avoiding the Disk Bottleneck in the Data Domain Deduplication File System](data-domain-avoiding-the-disk-bottleneck-in-the-data-domain-deduplication-file-system.md)                           | FAST '08                                 |
-| [Mnemosyne: Lightweight Persistent Memory](../drafts/mnemosyne-lightweight-persistent-memory.md)                                                                                                             | ASPLOS '11                               |
+| [Mnemosyne: Lightweight Persistent Memory](broken-reference)                                                                                                                                                 | ASPLOS '11                               |
 | [A File is Not a File: Understanding the I/O Behavior of Apple Desktop Applications](a-file-is-not-a-file-understanding-the-i-o-behavior-of-apple-desktop-applications.md)                                   | SOSP '11                                 |
 | [OptFS: Optimistic Crash Consistency](optfs-optimistic-crash-consistency.md)                                                                                                                                 | SOSP '13                                 |
 | [All File Systems Are Not Created Equal: On the Complexity of Crafting Crash-Consistent Applications](all-file-systems-are-not-created-equal-on-the-complexity-of-crafting-crash-consistent-applications.md) | OSDI '14                                 |
