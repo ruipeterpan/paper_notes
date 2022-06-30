@@ -4,7 +4,7 @@
 
 This GitBook mainly hosts [Rui Pan](https://ruipan.xyz)'s paper reading notes. I also keep a non-technical blog [here](blog/blog-index/).
 
-The majority of the papers here are about [Machine Learning Systems](broken-reference).
+Most of the papers here are about [Machine Learning Systems](broken-reference).
 
 If you spot a mistake or have any suggestions, you are more than welcome to drop me an email at ruipan@princeton.edu!
 

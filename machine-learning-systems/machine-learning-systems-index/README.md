@@ -56,7 +56,7 @@
 * \[SoCC '20] InferLine: Latency-Aware Provisioning and Scaling for Prediction Serving Pipelines
 * \[OSDI '20] Serving DNNs like Clockwork: Performance Predictability from the Bottom Up
 * \[ATC '21] INFaaS: Automated Model-less Inference Serving
-* \[EuroMLSys '21] Interference-Aware Scheduling for Inference Serving
+* [\[EuroMLSys '21\] Interference-Aware Scheduling for Inference Serving](interference-aware-scheduling-for-inference-serving.md)
 * \[arXiv '21] Serving DNN Models with Multi-Instance GPUs: A Case of the Reconfigurable Machine Scheduling Problem
 * \[ICML '21] Boosting the Throughput and Accelerator Utilization of Specialized CNN Inference Beyond Increasing Batch Size
 * \[OSDI '22] Achieving μs-scale Preemption for Concurrent GPU-accelerated DNN Inferences
@@ -74,11 +74,14 @@
 * [\[NetAI '20\] Is Network the Bottleneck of Distributed Training?](is-network-the-bottleneck-of-distributed-training.md)
 * \[MLSys '20] Blink: Fast and Generic Collectives for Distributed ML
 * \[SoCC '20] Network-accelerated Distributed Machine Learning for Multi-Tenant Settings
+* \[SIGCOMM '21] SiP-ML: High-Bandwidth Optical Network Interconnects for Machine Learning Training
 * [\[NSDI '21\] SwitchML: Scaling Distributed Machine Learning with In-Network Aggregation](switchml-scaling-distributed-machine-learning-with-in-network-aggregation.md)
 * \[NSDI '21] ATP: In-network Aggregation for Multi-tenant Learning
+* \[MLSys '21] In-network Aggregation for Shared Machine Learning Clusters
 * \[arXiv '21] Synthesizing Collective Communication Algorithms for Heterogeneous Networks with TACCL
 * \[arXiv '21] Cloud Collectives: Towards Cloud-aware Collectives for ML Workloads with Rank Reordering
 * \[NSDI '22] Accelerating Collective Communication in Data Parallel Training across Deep Learning Frameworks
+* \[arXiv '22] TOPOOPT: Optimizing the Network Topology for Distributed DNN Training
 
 
 
