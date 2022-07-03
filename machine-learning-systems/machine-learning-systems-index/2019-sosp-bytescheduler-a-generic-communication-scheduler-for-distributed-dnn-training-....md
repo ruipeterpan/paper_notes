@@ -1,4 +1,8 @@
-# ByteScheduler: A Generic Communication Scheduler for Distributed DNN Training Acceleration
+---
+description: ...Acceleration
+---
+
+# \[2019 SOSP] ByteScheduler: A Generic Communication Scheduler for Distributed DNN Training ...
 
 ## Summary
 

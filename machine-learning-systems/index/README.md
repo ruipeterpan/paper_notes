@@ -2,11 +2,12 @@
 
 ## Table of Contents
 
-### Infrastructure & Paradigms
+### Infrastructure, Frameworks, and Paradigms
 
 * [NFS: Sun's Network File System](../../earlier-readings-and-notes/index/nfs-suns-network-file-system.md)
 * [\[SOSP '03\] The Google File System](the-google-file-system.md)
 * [\[OSDI '04\] MapReduce: Simplified Data Processing on Large Clusters](mapreduce-simplified-data-processing-on-large-clusters.md)
+* \[SOSP '09] FAWN: A Fast Array of Wimpy Nodes
 * [\[NSDI '11\] Mesos: A Platform for Fine-Grained Resource Sharing in the Data Center](mesos-a-platform-for-fine-grained-resource-sharing-in-the-data-center.md)
 * [\[NSDI '12\] Resilient Distributed Datasets: A Fault-Tolerant Abstraction for In-Memory Cluster Computing](resilient-distributed-datasets-a-fault-tolerant-abstraction-for-in-memory-cluster-computing.md)
 * [\[HotOS '21\] From Cloud Computing to Sky Computing](from-cloud-computing-to-sky-computing.md)
@@ -52,6 +53,13 @@
 * [\[OSDI '12\] PowerGraph: Distributed Graph-Parallel Computation on Neural Graphs](powergraph-distributed-graph-parallel-computation-on-natural-graphs.md)
 * [\[EuroSys '21\] NextDoor: Accelerating graph sampling for graph machine learning using GPUs](accelerating-graph-sampling-for-graph-machine-learning-using-gpus.md)
 * \[OSDI '21] Marius: Learning Massive Graph Embeddings on a Single Machine
+
+### Caching
+
+* \[SoCC '11] Small Cache, Big Effect: Provable Load Balancing for Randomly Partitioned Cluster Services
+* \[NSDI '16] Be Fast, Cheap and in Control with SwitchKV
+* \[SOSP '17] NetCache: Balancing Key-Value Stores with Fast In-Network Caching
+* [\[FAST '19\] DistCache: Provable Load Balancing for Large-Scale Storage Systems with Distributed Caching](2019-fast-distcache-provable-load-balancing-for-large-scale-storage-systems-with-distributed....md)
 
 ### New Data, Hardware Models
 

@@ -1,4 +1,8 @@
-# Chameleon: Scalable Adaptation of Video Analytics via Temporal and Cross-camera Correlations
+---
+description: ...Correlations
+---
+
+# \[2018 SIGCOMM] Chameleon: Scalable Adaptation of Video Analytics via Temporal and Cross-camera ...
 
 ## Summary
 
@@ -8,7 +12,7 @@ Chameleon is a video analytics system that optimizes the tradeoff between resour
 
 Video analytics pipelines consist of several video processing modules (e.g., count vehicles: decoder -> resize & sample frames -> object detection), each of which has a few configuration knobs (e.g., frame resolution, frame sampling rate, the model used for object detection) that collectively determine both the resource consumption and accuracy of the video analytics application. Our target objective is thus to strike the best tradeoff between resources and accuracy.
 
-The thing is, the best configuration for a video analytics pipeline may vary over time. For example, when there is congestion going on and cars are moving slowly, a lower frame sampling rate saves a huge amount of resources without hurting the accuracy much. This kind of optimization technique is a constant theme in system research, IMO -- for example, see the bit on pixel-level frame differencing in [Reducto](reducto-on-camera-filtering-for-resource-efficient-real-time-video-analytics.md#background-and-motivation). Anyway, the challenge comes down to how we can continuously adapt to different configurations.
+The thing is, the best configuration for a video analytics pipeline may vary over time. For example, when there is congestion going on and cars are moving slowly, a lower frame sampling rate saves a huge amount of resources without hurting the accuracy much. This kind of optimization technique is a constant theme in system research, IMO -- for example, see the bit on pixel-level frame differencing in [Reducto](2020-sigcomm-reducto-on-camera-filtering-for-resource-efficient-real-time-video-analytics/#background-and-motivation). Anyway, the challenge comes down to how we can continuously adapt to different configurations.
 
 ## Design & Implementation
 
