@@ -48,6 +48,7 @@
 * [\[NIPS '18\] Dynamic Space-Time Scheduling for GPU Inference](2018-nips-dynamic-space-time-scheduling-for-gpu-inference.md)
 * \[SOSP '19] Parity Models: Erasure-Coded Resilience for Prediction Serving Systems
 * \[SOSP '19] Nexus: A GPU Cluster Engine for Accelerating DNN-Based Video Analysis
+* \[arXiv '19] No DNN left behind: Improving inference in the cloud with Multi-Tenancy
 * \[SoCC '20] GSLICE: controlled spatial sharing of GPUs for a scalable inference platform
 * \[SoCC '20] InferLine: Latency-Aware Provisioning and Scaling for Prediction Serving Pipelines
 * \[OSDI '20] Serving DNNs like Clockwork: Performance Predictability from the Bottom Up
@@ -57,6 +58,7 @@
 * \[ICML '21] Boosting the Throughput and Accelerator Utilization of Specialized CNN Inference Beyond Increasing Batch Size
 * \[OSDI '22] Achieving μs-scale Preemption for Concurrent GPU-accelerated DNN Inferences
 * \[OSDI '22] Orca: A Distributed Serving System for Transformer-Based Generative Models
+* \[SIGMOD '22] Serverless Data Science - Are We There Yet? A Case Study of Model Serving
 
 ### Optimizing Networks/Communications for ML
 
@@ -99,15 +101,20 @@
 * \[NIPS '17] Can Decentralized Algorithms Outperform Centralized Algorithms? A Case Study for Decentralized Parallel Stochastic Gradient Descent
 * \[ICLR '18] Mixed precision training
 * \[ICLR '19] The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks
-* \[MLSys '21] Accordion: Adaptive Gradient Communication via Critical Learning Regime Identification
+* [\[MLSys '21\] Accordion: Adaptive Gradient Communication via Critical Learning Regime Identification](accordion-adaptive-gradient-communication-via-critical-learning-regime-identification.md)
 * \[MLSys '21] Pufferfish: Communication-efficient Models At No Extra Cost
 * \[PVLDB '21] BAGUA: Scaling up Distributed Learning with System Relaxations
 * \[MLSys '22] On the utility of gradient compression in distributed training systems
 
-### Misc: Storage, Hyperparameter Tuning, etc.
+### Misc: Storage, Hyperparameter Tuning, FL, etc.
 
+* \[NIPS '16 workshop] Federated Learning: Strategies for Improving Communication Efficiency
 * \[MLSys '19] Bandana: Using Non-Volatile Memory for Storing Deep Learning Models
+* \[MLSys '20] A System for Massively Parallel Hyperparameter Tuning
+* \[EuroSys '21] RubberBand: Cloud-based Hyperparameter Tuning
 * [\[FAST '21\] CheckFreq: Frequent, Fine-Grained DNN Checkpointing](checkfreq-frequent-fine-grained-dnn-checkpointing.md)
 * [\[VLDB '21\] Analyzing and Mitigating Data Stalls in DNN Training](analyzing-and-mitigating-data-stalls-in-dnn-training.md)
 * \[MLSys '21] Fluid: Resource-aware Hyperparameter Tuning Engine
+* \[OSDI '21] Oort: Efficient Federated Learning via Guided Participant Selection
 * \[NSDI '22] Check-N-Run: a Checkpointing System for Training Deep Learning Recommendation Models
+* \[ICML '22] FedScale: Benchmarking Model and System Performance of Federated Learning at Scale

@@ -15,6 +15,7 @@
 ### Scheduling & Resource Allocation
 
 * \[NSDI '11] Mesos: A Platform for Fine-Grained Resource Sharing in the Data Center
+* \[EuroSys '13] Omega: flexible, scalable schedulers for large compute clusters
 * \[SoCC '13] Apache Hadoop YARN: Yet Another Resource Negotiator
 * \[SoCC '14] Wrangler: Predictable and Faster Jobs using Fewer Resources
 * \[SIGCOMM '14] Multi-Resource Packing for Cluster Schedulers
@@ -25,6 +26,7 @@
 * \[NSDI '16] HUG: Multi-Resource Fairness for Correlated and Elastic Demands
 * \[EuroSys '16] TetriSched: global rescheduling with adaptive plan-ahead in dynamic heterogeneous clusters
 * \[SoCC '17] Selecting the best vm across multiple public clouds: A data-driven performance modeling approach
+* \[ATC '18] On the diversity of cluster workloads and its impact on research results
 
 ### Cloud/Serverless Computing
 
@@ -53,6 +55,13 @@
 * [\[OSDI '12\] PowerGraph: Distributed Graph-Parallel Computation on Neural Graphs](powergraph-distributed-graph-parallel-computation-on-natural-graphs.md)
 * [\[EuroSys '21\] NextDoor: Accelerating graph sampling for graph machine learning using GPUs](accelerating-graph-sampling-for-graph-machine-learning-using-gpus.md)
 * \[OSDI '21] Marius: Learning Massive Graph Embeddings on a Single Machine
+
+### Tracing
+
+* \[SOSP '15] Pivot tracing: dynamic causal monitoring for distributed systems
+* \[HotNets '21] Snicket: Query-Driven Distributed Tracing
+* \[HotCarbon '22] The Odd One Out: Energy is not like Other Metrics
+* \[NSDI '23] The Benefit of Hindsight: Tracing Edge-Cases in Distributed Systems
 
 ### Caching
 
