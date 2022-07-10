@@ -30,11 +30,16 @@
 
 ### Cloud/Serverless Computing
 
+* \[SoCC '17] Occupy the Cloud: Distributed Computing for the 99%
 * \[arXiv '19] Cloud Programming Simplified: A Berkeley View on Serverless Computing
 * \[SoCC '19] Centralized Core-granular Scheduling for Serverless Functions
 * \[SoCC '19] Cirrus: a Serverless Framework for End-to-end ML Workflows
+* \[NSDI '19] Shuffling, Fast and Slow: Scalable Analytics on Serverless Infrastructure
 * \[SIGMOD '20] Le Taureau: Deconstructing the Serverless Landscape & A Look Forward
+* \[SoCC '20] Serverless linear algebra
 * \[SIGMOD '21] Towards Demystifying Serverless Machine Learning Training
+* \[OSDI '21] Dorylus: Affordable, Scalable, and Accurate GNN Training with Distributed CPU Servers and Serverless Threads
+* \[SoCC '21] Atoll: A Scalable Low-Latency Serverless Platform
 * \[NSDI '21] Caerus: Nimble Task Scheduling for Serverless Analytics
 * \[ASPLOS '22] Serverless computing on heterogeneous computers
 
@@ -53,8 +58,10 @@
 
 * [\[SIGMOD '10\] Pregel: A System for Large-Scale Graph Processing](pregel-a-system-for-large-scale-graph-processing.md)
 * [\[OSDI '12\] PowerGraph: Distributed Graph-Parallel Computation on Neural Graphs](powergraph-distributed-graph-parallel-computation-on-natural-graphs.md)
+* \[OSDI '14] GraphX: Graph Processing in a Distributed Dataflow Framework
 * [\[EuroSys '21\] NextDoor: Accelerating graph sampling for graph machine learning using GPUs](accelerating-graph-sampling-for-graph-machine-learning-using-gpus.md)
 * \[OSDI '21] Marius: Learning Massive Graph Embeddings on a Single Machine
+* \[arXiv '22] Marius++: Large-Scale Training of Graph Neural Networks on a Single Machine
 
 ### Tracing
 

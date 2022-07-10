@@ -40,13 +40,14 @@
 * \[OSDI '22] Synergy: Looking Beyond GPUs for DNN Scheduling on Multi-Tenant Clusters
 * \[SIGCOMM '22] Multi-Resource Interleaving for Deep Learning Training
 * \[arXiv '22] Deep Learning Workload Scheduling in GPU Datacenters: Taxonomy, Challenges and Vision
+* \[NSDI '23] Shockwave: Proactive, Fair, and Efficient Cluster Scheduling for Dynamic Adaptation in Machine Learning
 
 ### Serving/Inference
 
 * \[NSDI '17] Clipper: A Low-Latency Online Prediction Serving System
 * \[arXiv '18] Deep Learning Inference in Facebook Data Centers: Characterization, Performance Optimizations and Hardware Implications
 * [\[NIPS '18\] Dynamic Space-Time Scheduling for GPU Inference](2018-nips-dynamic-space-time-scheduling-for-gpu-inference.md)
-* \[SOSP '19] Parity Models: Erasure-Coded Resilience for Prediction Serving Systems
+* [\[SOSP '19\] Parity Models: Erasure-Coded Resilience for Prediction Serving Systems](2019-sosp-parity-models-erasure-coded-resilience-for-prediction-serving-systems.md)
 * \[SOSP '19] Nexus: A GPU Cluster Engine for Accelerating DNN-Based Video Analysis
 * \[arXiv '19] No DNN left behind: Improving inference in the cloud with Multi-Tenancy
 * \[SoCC '20] GSLICE: controlled spatial sharing of GPUs for a scalable inference platform
@@ -55,6 +56,7 @@
 * \[ATC '21] INFaaS: Automated Model-less Inference Serving
 * [\[EuroMLSys '21\] Interference-Aware Scheduling for Inference Serving](2021-euromlsys-interference-aware-scheduling-for-inference-serving.md)
 * \[arXiv '21] Serving DNN Models with Multi-Instance GPUs: A Case of the Reconfigurable Machine Scheduling Problem
+* \[arXiv '21] Gati: Accelerating Deep Learning Inference via Learned Caches
 * \[ICML '21] Boosting the Throughput and Accelerator Utilization of Specialized CNN Inference Beyond Increasing Batch Size
 * \[OSDI '22] Achieving μs-scale Preemption for Concurrent GPU-accelerated DNN Inferences
 * \[OSDI '22] Orca: A Distributed Serving System for Transformer-Based Generative Models
@@ -94,7 +96,7 @@
 * \[arXiv '22] GEMEL: Model Merging for Memory-Efficient, Real-Time Video Analytics at the Edge
 * \[HotMobile '22] Understanding the Potential of Server-Driven Edge Video Analytics
 
-### Learning/System Tricks/Relaxations: Compression, Pruning, Quantization, and many more
+### Learning/System Tricks/Relaxations: Compression, Pruning, Quantization, Freezing, and many more
 
 * \[NIPS '13] More Effective Distributed ML via a Stale Synchronous Parallel Parameter Server
 * \[ICLR '16] Deep compression: Compressing deep neural network with pruning, trained quantization and huffman coding
@@ -103,8 +105,11 @@
 * \[ICLR '19] The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks
 * [\[MLSys '21\] Accordion: Adaptive Gradient Communication via Critical Learning Regime Identification](accordion-adaptive-gradient-communication-via-critical-learning-regime-identification.md)
 * \[MLSys '21] Pufferfish: Communication-efficient Models At No Extra Cost
+* \[arXiv '21] AutoFreeze: Automatically Freezing Model Blocks to Accelerate Fine-tuning
 * \[PVLDB '21] BAGUA: Scaling up Distributed Learning with System Relaxations
 * \[MLSys '22] On the utility of gradient compression in distributed training systems
+* \[arXiv '22] BagPipe: Accelerating Deep Recommendation Model Training
+* \[arXiv '22] Efficient DNN Training with Knowledge-Guided Layer Freezing
 
 ### Misc: Storage, Hyperparameter Tuning, FL, etc.
 
