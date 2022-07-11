@@ -1,4 +1,4 @@
-# ZeRO: memory optimizations toward training trillion parameter models
+# \[2019 SC] ZeRO: memory optimizations toward training trillion parameter models
 
 ## Summary
 
@@ -46,6 +46,14 @@ A lot of follow-up works of ZeRO focuses on ZeRO-DP, so I'll come back to read t
 ## Evaluation
 
 ![](<../../.gitbook/assets/Screen Shot 2022-02-12 at 4.10.27 PM.png>)
+
+## ZeRO-Infinity and ZeRO-Offload
+
+ZeRO-Infinity and ZeRO-Offload are follow-up systems that offload data and compute to CPUs and NVMe.
+
+![](<../../.gitbook/assets/Screen Shot 2022-07-11 at 2.31.37 PM.png>)
+
+![](<../../.gitbook/assets/Screen Shot 2022-07-11 at 2.32.03 PM.png>)
 
 ## Links & References
 

@@ -45,6 +45,10 @@ A single interface, `Core.enqueue(CommTask)`, is exposed to the plugins. Once a 
 
 ![](<../../.gitbook/assets/Screen Shot 2022-02-06 at 4.09.14 PM.png>)
 
+## Comparisons with P3 and TicTac
+
+P3 and TicTac, both in MLSys '19, employ similar ideas and techniques (transmission prioritization via tensor partitioning & reordering). However, both systems target specific training setups (e.g., P3 targets MXNet PS + TCP), while ByteScheduler devotes a significant chunk of engineering efforts on the system design so that it not only outperforms prior systems but also works well with different training configurations.
+
 ## Evaluation
 
 ![](<../../.gitbook/assets/Screen Shot 2022-02-06 at 4.10.57 PM.png>)

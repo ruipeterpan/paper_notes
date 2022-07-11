@@ -46,10 +46,10 @@
 ### Network Flow Scheduling
 
 * \[SIGCOMM '11] Managing Data Transfers in Computer Clusters with Orchestra
-* \[HotNets '12] Coflow: A Networking Abstraction for Cluster Applications
-* \[SIGCOMM '14] Efficient coflow scheduling with Varys
+* [\[HotNets '12\] Coflow: A Networking Abstraction for Cluster Applications](big-data-systems-papers-short-notes.md#2012-hotnets-coflow-a-networking-abstraction-for-cluster-applications)
+* [\[SIGCOMM '14\] Efficient coflow scheduling with Varys](big-data-systems-papers-short-notes.md#2014-sigcomm-efficient-coflow-scheduling-with-varys)
 * \[SIGCOMM '14] Barrat: Decentralized task-aware scheduling for data center networks
-* \[SIGCOMM '15] Aalo: Efficient coflow scheduling without prior knowledge
+* [\[SIGCOMM '15\] Aalo: Efficient coflow scheduling without prior knowledge](big-data-systems-papers-short-notes.md#2015-sigcomm-aalo-efficient-coflow-scheduling-without-prior-knowledge)
 * \[SIGCOMM '16] CODA: Toward Automatically Identifying and Scheduling COflows in the DArk
 * \[SIGCOMM '18] Sincronia: Near-Optimal Network Design for Coflows
 * \[SPAA '19] Near Optimal Coflow Scheduling in Networks
@@ -67,7 +67,6 @@
 
 * \[SOSP '15] Pivot tracing: dynamic causal monitoring for distributed systems
 * \[HotNets '21] Snicket: Query-Driven Distributed Tracing
-* \[HotCarbon '22] The Odd One Out: Energy is not like Other Metrics
 * \[NSDI '23] The Benefit of Hindsight: Tracing Edge-Cases in Distributed Systems
 
 ### Caching
@@ -88,6 +87,7 @@
 * \[SIGMOD '17] Automatic Database Management System Tuning Through Large-scale Machine Learning
 * \[HotStorage '20] Too Many Knobs to Tune? Towards Faster Database Tuning by Pre-selecting Important Knobs
 * \[arXiv '21] Facilitating Database Tuning with Hyper-Parameter Optimization: A Comprehensive Experimental Evaluation
+* \[VLDB '22] LlamaTune: Sample-Efficient DBMS Configuration Tuning
 
 ## Meta stuff
 

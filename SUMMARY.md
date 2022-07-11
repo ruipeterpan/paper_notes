@@ -15,6 +15,7 @@
 ## Machine Learning Systems
 
 * [Machine Learning Systems - Index](machine-learning-systems/machine-learning-systems-index/README.md)
+  * [MLSys Papers - Short Notes](machine-learning-systems/machine-learning-systems-index/mlsys-papers-short-notes.md)
   * [\[2011 NSDI\] Dominant Resource Fairness: Fair Allocation of Multiple Resource Types](machine-learning-systems/machine-learning-systems-index/dominant-resource-fairness-fair-allocation-of-multiple-resource-types.md)
   * [\[2014 OSDI\] Scaling Distributed Machine Learning with the Parameter Server](machine-learning-systems/machine-learning-systems-index/scaling-distributed-machine-learning-with-the-parameter-server.md)
   * [\[2018 OSDI\] Gandiva: Introspective Cluster Scheduling for Deep Learning](machine-learning-systems/machine-learning-systems-index/gandiva-introspective-cluster-scheduling-for-deep-learning.md)
@@ -43,6 +44,7 @@
   * [\[2021 MLSys\] Wavelet: Efficient DNN Training with Tick-Tock Scheduling](machine-learning-systems/machine-learning-systems-index/wavelet-efficient-dnn-training-with-tick-tock-scheduling.md)
   * [\[2021 NSDI\] SwitchML: Scaling Distributed Machine Learning with In-Network Aggregation](machine-learning-systems/machine-learning-systems-index/2021-nsdi-switchml-scaling-distributed-machine-learning-with-in-network-aggregation.md)
 * [Big Data Systems - Index](machine-learning-systems/index/README.md)
+  * [Big Data Systems Papers - Short Notes](machine-learning-systems/index/big-data-systems-papers-short-notes.md)
   * [\[2003 SOSP\] The Google File System](machine-learning-systems/index/the-google-file-system.md)
   * [\[2004 OSDI\] MapReduce: Simplified Data Processing on Large Clusters](machine-learning-systems/index/mapreduce-simplified-data-processing-on-large-clusters.md)
   * [\[2010 SIGMOD\] Pregel: A System for Large-Scale Graph Processing](machine-learning-systems/index/pregel-a-system-for-large-scale-graph-processing.md)
