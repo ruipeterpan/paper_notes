@@ -50,3 +50,17 @@ Chimera is yet another pipeline parallelism paradigm. Compared with the other ST
 
 ![](<../../.gitbook/assets/Screen Shot 2022-07-11 at 2.23.27 PM.png>)
 
+## \[2022 OSDI] Looking Beyond GPUs for DNN Scheduling on Multi-Tenant Clusters
+
+Nowadays, DNN workload schedulers in shared GPU clusters consider GPU as the dominant resource and only allocate other types of resources (e.g., CPU and memory) proportional to the number of GPUs. However, different jobs have various sensitivity to these other types of resources, which leads to sub-optimal allocation results by current schedulers. &#x20;
+
+![](<../../.gitbook/assets/Screen Shot 2022-07-13 at 3.02.58 PM.png>)
+
+Synergy is an idea that applies to all existing scheduling policies: It uses profiling to infer a workload's sensitivity to different resources and performs multi-resource workload-aware resource allocation. The key nugget is to co-locate two jobs on the same server, one of which is CPU-sensitive and the other is not, so that while the CPU-insensitive job does not hurt from the reduced resource allocation, the CPU-sensitive job can gain a higher throughput, benefiting the cluster-wide aggregate throughput and metrics like avg JCT, makespan, fairness, etc.
+
+![](<../../.gitbook/assets/Screen Shot 2022-07-13 at 2.53.41 PM.png>)
+
+The main technical contributions of this paper is two-fold:&#x20;
+
+* Profiling the workloads: Naivly profiling all possible resource configurations can be expensive due to the large combination space. Synergy introduces an optimistic profiling technique that exploits the predictability in the relationship between job throughput and memory allocation. As for the CPU allocation, Synergy empirically profiles the job for varying, discrete CPU allocations at full memory allocation. The profiling time is tens of minutes, which is reasonable considering most DNN jobs are long-running.
+* Encorporating resource-sensitivity-awareness into existing scheduling algorithms.

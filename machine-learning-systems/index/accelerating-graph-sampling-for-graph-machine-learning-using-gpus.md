@@ -1,18 +1,18 @@
-# NextDoor: Accelerating graph sampling for graph machine learning using GPUs
+# \[2021 EuroSys] NextDoor: Accelerating graph sampling for graph machine learning using GPUs
 
 ## One-line Summary
 
-In Graph Neural Network \(GNN\) training, existing approaches use CPUs to sample the graph before using GPUs to train the GNN, but sampling is a major overhead \(up to 62% of training time\). Nextdoor uses GPUs to accelerate graph sampling by up to 4x, and its main contributions are:
+In Graph Neural Network (GNN) training, existing approaches use CPUs to sample the graph before using GPUs to train the GNN, but sampling is a major overhead (up to 62% of training time). Nextdoor uses GPUs to accelerate graph sampling by up to 4x, and its main contributions are:
 
 1. Simple abstractions & API to express diverse graph sampling algorithms
 2. A new "transit parallel" approach to increase the parallelism of graph sampling
-3. Optimizations \(load balancing & caching\) to improve GPU utilization
+3. Optimizations (load balancing & caching) to improve GPU utilization
 
 ![Nextdoor structure](../../.gitbook/assets/screen-shot-2021-08-20-at-8.23.09-pm.png)
 
-Takeaways from our group meeting after discussion this paper include:
+Takeaways from Shivaram's group meeting after discussing this paper include:
 
-* In evaluations, except the relative numbers, post absolute values as well
+* In evaluations, except from the relative numbers, post absolute values as well
 * Parallelization works very well on GPUs, more CPU-based tasks may be identified and transformed into GPU-based tasks with high levels of parallelization
 * Nextdoor introduces this abstraction/API that "bounds" graph sampling algorithms so that they can be properly parallelized
 
@@ -51,9 +51,9 @@ Takeaways from our group meeting after discussion this paper include:
 
 ### Background 1: How GNN training works
 
-* GNNs maps vertices of \(input\) graphs to an embedding in an N-dimensional space so that the similarity of embeddings between nodes indicate their similarity in the network
-  * The embeddings are then used for many downstream tasks \(e.g., product recommendation, clustering\)
-* There are two types of GNNs, and this work focuses on the first one \(they're more common\):
+* GNNs maps vertices of (input) graphs to an embedding in an N-dimensional space so that the similarity of embeddings between nodes indicate their similarity in the network
+  * The embeddings are then used for many downstream tasks (e.g., product recommendation, clustering)
+* There are two types of GNNs, and this work focuses on the first one (they're more common):
   * Sampling-based GNNs samples the input graph and train using these samples
   * Whole-Graph-based GNNs train on the whole input graph directly
 * Workflow of Sampling-based GNNs: First, a graph sampling algorithm is used to sample the input graph, and the samples are then used for data parallel training
@@ -63,7 +63,7 @@ Takeaways from our group meeting after discussion this paper include:
 
 ### Background 2: How to best utilize GPUs
 
-* Level of parallelism should be high \(in GPU computing, \# threads == \# samples\)
+* Level of parallelism should be high (in GPU computing, # threads == # samples)
 * Accesses to the global memory should be coalesced and aligned
 * Shared memory and registers for each SM can be used as software-managed cache
 * Avoid warp divergence
@@ -84,7 +84,7 @@ Currently, graph sampling is done on CPUs because of the ease of implementation.
 
 * Input to Nextdoor
   * A graph
-  * An initial set of samples, each with &gt;=1 root vertices
+  * An initial set of samples, each with >=1 root vertices
   * User-defined functions to describe the algorithm
 * Output of Nextdoor: An expanded set of examples
 * Nextdoor abstractions:
@@ -104,7 +104,7 @@ Currently, graph sampling is done on CPUs because of the ease of implementation.
 
 ### Transit parallel to increase parallelism
 
-* Status quo: One thread for each sample -&gt; poor parallelism. How can we increase the parallelism?
+* Status quo: One thread for each sample -> poor parallelism. How can we increase the parallelism?
 * Sample parallel: In each thread, one neighbor of a transit vertex is sampled, and samples are assigned to consecutive threads
   * The parallelism is better
   * However, sample parallel suffers from irregularity: The access to the global memory is random, and shared memory/registers cannot be used as caches
@@ -120,7 +120,7 @@ Currently, graph sampling is done on CPUs because of the ease of implementation.
 
 ![Transit parallel](../../.gitbook/assets/screen-shot-2021-08-20-at-8.15.34-pm.png)
 
-### Optimization techniques for GPUs \(load balancing, caching\)
+### Optimization techniques for GPUs (load balancing, caching)
 
 Nextdoor uses different {types of kernels, caching strategies, neighbor access strategy, transit scheduling strategy} to process transit vertices based on the number of neighbors to sample for the transit vertex, which helps to best utilize the memory/compute resources
 
@@ -137,7 +137,7 @@ The original paper also included some microbenchmarks of speedups of SP, TP, and
 ## Links & References
 
 * [Paper PDF](https://marcoserafini.github.io/projects/nextdoor/nextdoor.pdf)
-* Presentation video at EuroSys '21 \([Long](https://www.youtube.com/watch?v=GsffY0j6tVE&list=PLzDuHU-z7gNjuSbEYCFXZtWAl3nAdNF2f&index=19) & [Short](https://www.youtube.com/watch?v=lwB7KcMIpkQ&list=PLzDuHU-z7gNghxOWGcdLK_xWtqHjxaYTm&index=19)\)
+* Presentation video at EuroSys '21 ([Long](https://www.youtube.com/watch?v=GsffY0j6tVE\&list=PLzDuHU-z7gNjuSbEYCFXZtWAl3nAdNF2f\&index=19) & [Short](https://www.youtube.com/watch?v=lwB7KcMIpkQ\&list=PLzDuHU-z7gNghxOWGcdLK\_xWtqHjxaYTm\&index=19))
 * [Presentation slides at EuroSys '21](https://2021.eurosys.org/docs/presentations/6-Jangda%20-%20Abhinav%20Jangda.pdf)
 * Graph sampling algorithms referenced in Nextdoor
   * [DeepWalk](https://arxiv.org/pdf/1403.6652.pdf)
@@ -146,4 +146,3 @@ The original paper also included some microbenchmarks of speedups of SP, TP, and
   * [FastGCN](https://arxiv.org/pdf/1801.10247.pdf)
   * [ClusterGCN](https://arxiv.org/pdf/1905.07953.pdf)
   * [LADIES](https://arxiv.org/pdf/1911.07323.pdf)
-

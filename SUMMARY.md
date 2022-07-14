@@ -10,6 +10,7 @@
   * [How to Get a Driver's License in Wisconsin](blog/blog-index/how-to-get-a-drivers-license-in-wisconsin.md)
   * [How to Travel from the U.S. to China onboard AA127 in June 2021](blog/blog-index/aa127-hui-guo-ji.md)
   * [How to Transfer Credits Back to UW-Madison](blog/blog-index/how-to-transfer-credits-back-to-uw-madison.md)
+  * [Resources on Learning Academic Writing (for Computer Science)](blog/blog-index/resources-on-learning-academic-writing-for-computer-science.md)
 * [Towards applying to CS Ph.D. programs](blog/towards-applying-to-cs-ph.d.-programs.md)
 
 ## Machine Learning Systems

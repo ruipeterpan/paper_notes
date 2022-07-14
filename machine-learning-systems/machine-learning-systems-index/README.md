@@ -1,3 +1,8 @@
+---
+cover: ../../.gitbook/assets/ImageForArticle_487_16476156253715992.webp
+coverY: 48.74919820397691
+---
+
 # Machine Learning Systems - Index
 
 ### Distributed Training & Parallelism Paradigms
@@ -6,6 +11,7 @@
 * \[SoCC '18] Parameter Hub: a Rack-Scale Parameter Server for Distributed Deep Neural Network Training
 * [\[OSDI '20\] BytePS: A High Performance and Generic Framework for Distributed DNN Training](byteps-a-high-performance-and-generic-framework-for-distributed-dnn-training.md)
 * [\[VLDB '20\] PyTorch Distributed: Experiences on Accelerating Data Parallel Training](pytorch-distributed-experiences-on-accelerating-data-parallel-training.md)
+* \[NSDI '23] Bamboo: Making Preemptible Instances Resilient for Affordable Training of Large DNNs
 * Parallelism Paradigms ([Overview by Hugging Face](https://huggingface.co/docs/transformers/v4.16.2/en/parallelism))
   * [\[NIPS '19\] GPipe: Efficient Training of Giant Neural Networks using Pipeline Parallelism](gpipe-efficient-training-of-giant-neural-networks-using-pipeline-parallelism.md)
   * [\[SOSP '19\] PipeDream: Generalized Pipeline Parallelism for DNN Training](pipedream-generalized-pipeline-parallelism-for-dnn-training.md)
@@ -41,7 +47,7 @@
 * [\[OSDI '21\] Pollux: Co-adaptive Cluster Scheduling for Goodput-Optimized Deep Learning](pollux-co-adaptive-cluster-scheduling-for-goodput-optimized-deep-learning.md)
 * \[NSDI '21] AFS/CoDDL: Elastic Resource Sharing for Distributed Deep Learning
 * \[NSDI '22] MLaaS in the Wild: Workload Analysis and Scheduling in Large-Scale Heterogeneous GPU Clusters
-* \[OSDI '22] Synergy: Looking Beyond GPUs for DNN Scheduling on Multi-Tenant Clusters
+* [\[OSDI '22\] Synergy: Looking Beyond GPUs for DNN Scheduling on Multi-Tenant Clusters](mlsys-papers-short-notes.md#2022-osdi-looking-beyond-gpus-for-dnn-scheduling-on-multi-tenant-clusters)
 * \[SIGCOMM '22] Multi-Resource Interleaving for Deep Learning Training
 * \[arXiv '22] Deep Learning Workload Scheduling in GPU Datacenters: Taxonomy, Challenges and Vision
 * \[NSDI '23] Shockwave: Proactive, Fair, and Efficient Cluster Scheduling for Dynamic Adaptation in Machine Learning
@@ -83,7 +89,7 @@
 * [\[arXiv '21\] Synthesizing Collective Communication Algorithms for Heterogeneous Networks with TACCL](mlsys-papers-short-notes.md#2021-arxiv-synthesizing-collective-communication-algorithms-for-heterogeneous-networks-with-taccl)
 * \[arXiv '21] Cloud Collectives: Towards Cloud-aware Collectives for ML Workloads with Rank Reordering
 * \[NSDI '22] Accelerating Collective Communication in Data Parallel Training across Deep Learning Frameworks
-* \[arXiv '22] TOPOOPT: Optimizing the Network Topology for Distributed DNN Training
+* \[NSDI '23] TOPOOPT: Optimizing the Network Topology for Distributed DNN Training
 
 ### ML for Systems, Video Analytics & Streaming
 
@@ -99,6 +105,7 @@
 * \[NSDI '22] Ekya: Continuous Learning of Video Analytics Models on Edge Compute Servers
 * \[arXiv '22] GEMEL: Model Merging for Memory-Efficient, Real-Time Video Analytics at the Edge
 * \[HotMobile '22] Understanding the Potential of Server-Driven Edge Video Analytics
+* \[NSDI '23] GEMEL: Model Merging for Memory-Efficient, Real-Time Video Analytics at the Edge
 
 ### Tricks and Relaxations in Learning and Systems: Compression, Pruning, Quantization, Freezing, and many more
 

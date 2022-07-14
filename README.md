@@ -10,8 +10,8 @@ If you spot a mistake or have any suggestions, you are more than welcome to drop
 
 ## Topics
 
-{% content-ref url="blog/blog-index/" %}
-[blog-index](blog/blog-index/)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 {% content-ref url="broken-reference" %}
@@ -25,4 +25,3 @@ If you spot a mistake or have any suggestions, you are more than welcome to drop
 {% content-ref url="earlier-readings-and-notes/index/" %}
 [index](earlier-readings-and-notes/index/)
 {% endcontent-ref %}
-
