@@ -12,7 +12,7 @@ coverY: 48.74919820397691
 * [\[OSDI '20\] BytePS: A High Performance and Generic Framework for Distributed DNN Training](byteps-a-high-performance-and-generic-framework-for-distributed-dnn-training.md)
 * [\[VLDB '20\] PyTorch Distributed: Experiences on Accelerating Data Parallel Training](pytorch-distributed-experiences-on-accelerating-data-parallel-training.md)
 * \[NSDI '23] Bamboo: Making Preemptible Instances Resilient for Affordable Training of Large DNNs
-* Parallelism Paradigms ([Overview by Hugging Face](https://huggingface.co/docs/transformers/v4.16.2/en/parallelism))
+* Parallelism Paradigms & Strategies ([Overview by Hugging Face](https://huggingface.co/docs/transformers/v4.16.2/en/parallelism))
   * [\[NIPS '19\] GPipe: Efficient Training of Giant Neural Networks using Pipeline Parallelism](gpipe-efficient-training-of-giant-neural-networks-using-pipeline-parallelism.md)
   * [\[SOSP '19\] PipeDream: Generalized Pipeline Parallelism for DNN Training](pipedream-generalized-pipeline-parallelism-for-dnn-training.md)
   * [\[arXiv '19\] Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism](mlsys-papers-short-notes.md#2019-arxiv-megatron-lm-training-multi-billion-parameter-language-models-using-model-parallelism)
@@ -38,13 +38,14 @@ coverY: 48.74919820397691
 * [\[NSDI '20\] Themis: Fair and Efficient GPU Cluster Scheduling](themis-fair-and-efficient-gpu-cluster-scheduling.md)
 * [\[MLSys '20\] Salus: Fine-Grained GPU Sharing Primitives for Deep Learning Applications](2020-sigcomm-reducto-on-camera-filtering-for-resource-efficient-real-time-video-analytics/salus-fine-grained-gpu-sharing-primitives-for-deep-learning-applications.md)
 * [\[OSDI '20\] Gavel: Heterogeneity-Aware Cluster Scheduling Policies for Deep Learning Workloads](gavel-heterogeneity-aware-cluster-scheduling-policies-for-deep-learning-workloads.md)
-* \[OSDI '20] AntMan: Dynamic Scaling on GPU Clusters for Deep Learning
+* [\[OSDI '20\] AntMan: Dynamic Scaling on GPU Clusters for Deep Learning](2020-osdi-antman-dynamic-scaling-on-gpu-clusters-for-deep-learning.md)
 * \[OSDI '20] HiveD: Sharing a GPU Cluster for Deep Learning with Guarantees
 * \[OSDI '20] PipeSwitch: Fast Pipelined Context Switching for Deep Learning Applications
 * \[EuroSys '20] Gandiva-Fair: Balancing efficiency and fairness in heterogeneous GPU clusters for deep learning
 * \[EuroSys '20] AlloX: Compute Allocation in Hybrid Clusters
 * [\[MLSys '21\] Wavelet: Efficient DNN Training with Tick-Tock Scheduling](wavelet-efficient-dnn-training-with-tick-tock-scheduling.md)
 * [\[OSDI '21\] Pollux: Co-adaptive Cluster Scheduling for Goodput-Optimized Deep Learning](pollux-co-adaptive-cluster-scheduling-for-goodput-optimized-deep-learning.md)
+* \[ATC '21] Zico: Efficient GPU Memory Sharing for Concurrent DNN Training
 * \[NSDI '21] AFS/CoDDL: Elastic Resource Sharing for Distributed Deep Learning
 * \[NSDI '22] MLaaS in the Wild: Workload Analysis and Scheduling in Large-Scale Heterogeneous GPU Clusters
 * [\[OSDI '22\] Synergy: Looking Beyond GPUs for DNN Scheduling on Multi-Tenant Clusters](mlsys-papers-short-notes.md#2022-osdi-looking-beyond-gpus-for-dnn-scheduling-on-multi-tenant-clusters)
@@ -55,11 +56,13 @@ coverY: 48.74919820397691
 ### Serving/Inference
 
 * \[NSDI '17] Clipper: A Low-Latency Online Prediction Serving System
+* \[NIPS '17 MLSys workshop] TensorFlow-Serving: Flexible, High-Performance ML Serving
 * \[arXiv '18] Deep Learning Inference in Facebook Data Centers: Characterization, Performance Optimizations and Hardware Implications
 * [\[NIPS '18\] Dynamic Space-Time Scheduling for GPU Inference](2018-nips-dynamic-space-time-scheduling-for-gpu-inference.md)
 * [\[SOSP '19\] Parity Models: Erasure-Coded Resilience for Prediction Serving Systems](2019-sosp-parity-models-erasure-coded-resilience-for-prediction-serving-systems.md)
 * \[SOSP '19] Nexus: A GPU Cluster Engine for Accelerating DNN-Based Video Analysis
 * \[arXiv '19] No DNN left behind: Improving inference in the cloud with Multi-Tenancy
+* \[ATC '19] MArk: Exploiting Cloud Services for Cost-Effective, SLO-Aware Machine Learning Inference Serving
 * \[SoCC '20] GSLICE: controlled spatial sharing of GPUs for a scalable inference platform
 * \[SoCC '20] InferLine: Latency-Aware Provisioning and Scaling for Prediction Serving Pipelines
 * \[OSDI '20] Serving DNNs like Clockwork: Performance Predictability from the Bottom Up
@@ -82,14 +85,17 @@ coverY: 48.74919820397691
 * [\[NetAI '20\] Is Network the Bottleneck of Distributed Training?](2020-netai-is-network-the-bottleneck-of-distributed-training.md)
 * [\[MLSys '20\] Blink: Fast and Generic Collectives for Distributed ML](mlsys-papers-short-notes.md#2020-mlsys-blink-fast-and-generic-collectives-for-distributed-ml)
 * \[SoCC '20] Network-accelerated Distributed Machine Learning for Multi-Tenant Settings
-* \[SIGCOMM '21] SiP-ML: High-Bandwidth Optical Network Interconnects for Machine Learning Training
 * [\[NSDI '21\] SwitchML: Scaling Distributed Machine Learning with In-Network Aggregation](2021-nsdi-switchml-scaling-distributed-machine-learning-with-in-network-aggregation.md)
 * \[NSDI '21] ATP: In-network Aggregation for Multi-tenant Learning
 * \[MLSys '21] In-network Aggregation for Shared Machine Learning Clusters
 * [\[arXiv '21\] Synthesizing Collective Communication Algorithms for Heterogeneous Networks with TACCL](mlsys-papers-short-notes.md#2021-arxiv-synthesizing-collective-communication-algorithms-for-heterogeneous-networks-with-taccl)
 * \[arXiv '21] Cloud Collectives: Towards Cloud-aware Collectives for ML Workloads with Rank Reordering
 * \[NSDI '22] Accelerating Collective Communication in Data Parallel Training across Deep Learning Frameworks
-* \[NSDI '23] TOPOOPT: Optimizing the Network Topology for Distributed DNN Training
+* Optical Networks for ML
+  * \[SIGCOMM '21] SiP-ML: High-Bandwidth Optical Network Interconnects for Machine Learning Training
+  * \[SIGCOMM '21 OptSys workshop] IOI: In-network Optical Inference
+  * \[OFC '22] Emerging Optical Interconnects for AI Systems
+  * \[NSDI '23] TOPOOPT: Optimizing the Network Topology for Distributed DNN Training
 
 ### ML for Systems, Video Analytics & Streaming
 
@@ -103,7 +109,6 @@ coverY: 48.74919820397691
 * \[SIGCOMM '20] DDS: Server-Driven Video Streaming for Deep Learning Inference
 * \[NSDI '20] Learning in situ: a randomized experiment in video streaming
 * \[NSDI '22] Ekya: Continuous Learning of Video Analytics Models on Edge Compute Servers
-* \[arXiv '22] GEMEL: Model Merging for Memory-Efficient, Real-Time Video Analytics at the Edge
 * \[HotMobile '22] Understanding the Potential of Server-Driven Edge Video Analytics
 * \[NSDI '23] GEMEL: Model Merging for Memory-Efficient, Real-Time Video Analytics at the Edge
 
@@ -136,3 +141,4 @@ coverY: 48.74919820397691
 * \[OSDI '21] Oort: Efficient Federated Learning via Guided Participant Selection
 * \[NSDI '22] Check-N-Run: a Checkpointing System for Training Deep Learning Recommendation Models
 * \[ICML '22] FedScale: Benchmarking Model and System Performance of Federated Learning at Scale
+* \[HotCarbon '22] Treehouse: A Case For Carbon-Aware Datacenter Software

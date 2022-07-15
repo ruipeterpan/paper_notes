@@ -37,6 +37,7 @@
 * \[NSDI '19] Shuffling, Fast and Slow: Scalable Analytics on Serverless Infrastructure
 * \[SIGMOD '20] Le Taureau: Deconstructing the Serverless Landscape & A Look Forward
 * \[SoCC '20] Serverless linear algebra
+* \[ATC '20] Serverless in the Wild: Characterizing and Optimizing the Serverless Workload at a Large Cloud Provider
 * \[SIGMOD '21] Towards Demystifying Serverless Machine Learning Training
 * \[OSDI '21] Dorylus: Affordable, Scalable, and Accurate GNN Training with Distributed CPU Servers and Serverless Threads
 * \[SoCC '21] Atoll: A Scalable Low-Latency Serverless Platform
