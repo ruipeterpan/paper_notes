@@ -18,10 +18,10 @@
 * \[EuroSys '13] Omega: flexible, scalable schedulers for large compute clusters
 * \[SoCC '13] Apache Hadoop YARN: Yet Another Resource Negotiator
 * \[SoCC '14] Wrangler: Predictable and Faster Jobs using Fewer Resources
-* \[SIGCOMM '14] Multi-Resource Packing for Cluster Schedulers
+* \[SIGCOMM '14] Tetris: Multi-Resource Packing for Cluster Schedulers ([pdf](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/tetris\_sigcomm14.pdf))
 * \[ASPLOS '14] Quasar: Resource-Efficient and QoS-Aware Cluster Management
 * \[SIGCOMM '15] Network-Aware Scheduling for Data-Parallel Jobs: Plan When You Can
-* \[OSDI '16] Altruistic Scheduling in Multi-Resource Clusters
+* \[OSDI '16] CARBYNE: Altruistic Scheduling in Multi-Resource Clusters ([pdf](https://www.usenix.org/system/files/conference/osdi16/osdi16-grandl-altruistic.pdf))
 * \[OSDI '16] Packing and Dependency-aware Scheduling for Data-Parallel Clusters
 * \[NSDI '16] HUG: Multi-Resource Fairness for Correlated and Elastic Demands
 * \[EuroSys '16] TetriSched: global rescheduling with adaptive plan-ahead in dynamic heterogeneous clusters
@@ -60,6 +60,7 @@
 * [\[SIGMOD '10\] Pregel: A System for Large-Scale Graph Processing](pregel-a-system-for-large-scale-graph-processing.md)
 * [\[OSDI '12\] PowerGraph: Distributed Graph-Parallel Computation on Neural Graphs](powergraph-distributed-graph-parallel-computation-on-natural-graphs.md)
 * \[OSDI '14] GraphX: Graph Processing in a Distributed Dataflow Framework
+* \[ATC '17] Garaph: Efficient GPU-accelerated Graph Processing on a Single Machine with Balanced Replication
 * [\[EuroSys '21\] NextDoor: Accelerating graph sampling for graph machine learning using GPUs](accelerating-graph-sampling-for-graph-machine-learning-using-gpus.md)
 * \[OSDI '21] Marius: Learning Massive Graph Embeddings on a Single Machine
 * \[arXiv '22] Marius++: Large-Scale Training of Graph Neural Networks on a Single Machine

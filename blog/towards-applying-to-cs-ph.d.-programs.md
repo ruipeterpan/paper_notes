@@ -168,6 +168,7 @@ And last, you should write them a thank you letter. Send a small gift (something
 
 * [How to get a great letter of recommendation](https://matt.might.net/articles/how-to-recommendation-letter/) by Prof. Matt Might
 * [Requesting a letter of recommendation](https://homes.cs.washington.edu/\~mernst/advice/request-recommendation.html) by Prof. Michael Ernst
+* [How to write a letter of recommendation](https://homes.cs.washington.edu/\~mernst/advice/write-recommendation.html) by Prof. Michael Ernst
 
 ## Chapter 5: Writing up the statement of purpose
 
@@ -351,3 +352,4 @@ For those of you who read Mandarin Chinese or don't bother to use Google Transla
 * [CS Ph.D. 申请总结 (2021 Fall) - Romero的文章 - 知乎](https://zhuanlan.zhihu.com/p/362189295) (Review of my CS Ph.D. application in Fall 2021 by [Xiangfeng Zhu](https://xzhu27.me/))
 * [2022 Fall你都申请了哪些学校的MA/MS/Ph.D.？- ruipeterpan的回答 - 知乎](https://www.zhihu.com/question/379814619/answer/2325160660) (My personal review of my CS Ph.D. application in Fall 2022)
 * [美国CS PhD 申请经验总结 - Calpico的回答 - 知乎](https://zhuanlan.zhihu.com/p/533187747) (Takeaways from my CS Ph.D. application in Fall 2022 by [Yinwei Dai](http://yinwei-dai.com/))
+* [申请季回望](https://zhiqiang.site/2022/07/01/retro.html) (Retrospect of my Ph.D. application season by [Zhiqiang Xie](https://zhiqiang.site/))

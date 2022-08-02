@@ -38,7 +38,7 @@ Compared to vanilla CNNs, FoldedCNNs have improvements on the throughput and the
 
 TACCL encodes a profiled topology and input size into a synthesis problem to generate optimized communication algorithms.
 
-NCCL uses the topology of GPU connections and NIC placement along with buffer size to decide between two main types of communication algorithms — Ring and Tree, but it is agnostic to the exact performance profile of the links, and thus is often multiple times slower than TACCL’s custom collectives
+NCCL uses the topology of GPU connections and NIC placement along with buffer size to decide between two main types of communication algorithms — Ring and Tree, but it is agnostic to the exact performance profile of the links, and thus is often multiple times slower than TACCL’s custom collectives.
 
 ![](<../../.gitbook/assets/Screen Shot 2022-07-11 at 1.49.42 PM.png>)
 
