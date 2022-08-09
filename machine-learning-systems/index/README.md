@@ -10,6 +10,7 @@
 * \[SOSP '09] FAWN: A Fast Array of Wimpy Nodes
 * [\[NSDI '11\] Mesos: A Platform for Fine-Grained Resource Sharing in the Data Center](mesos-a-platform-for-fine-grained-resource-sharing-in-the-data-center.md)
 * [\[NSDI '12\] Resilient Distributed Datasets: A Fault-Tolerant Abstraction for In-Memory Cluster Computing](resilient-distributed-datasets-a-fault-tolerant-abstraction-for-in-memory-cluster-computing.md)
+* \[HotOS '15] Scalability! But at what COST? ([pdf](https://www.usenix.org/system/files/conference/hotos15/hotos15-paper-mcsherry.pdf))
 * [\[HotOS '21\] From Cloud Computing to Sky Computing](from-cloud-computing-to-sky-computing.md)
 
 ### Scheduling & Resource Allocation
@@ -18,6 +19,7 @@
 * \[EuroSys '13] Omega: flexible, scalable schedulers for large compute clusters
 * \[SoCC '13] Apache Hadoop YARN: Yet Another Resource Negotiator
 * \[SoCC '14] Wrangler: Predictable and Faster Jobs using Fewer Resources
+* \[OSDI '14] Apollo: Scalable and Coordinated Scheduling for Cloud-Scale Computing ([pdf](https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-boutin\_0.pdf))
 * \[SIGCOMM '14] Tetris: Multi-Resource Packing for Cluster Schedulers ([pdf](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/tetris\_sigcomm14.pdf))
 * \[ASPLOS '14] Quasar: Resource-Efficient and QoS-Aware Cluster Management
 * \[SIGCOMM '15] Network-Aware Scheduling for Data-Parallel Jobs: Plan When You Can
@@ -43,6 +45,7 @@
 * \[SoCC '21] Atoll: A Scalable Low-Latency Serverless Platform
 * \[NSDI '21] Caerus: Nimble Task Scheduling for Serverless Analytics
 * \[ASPLOS '22] Serverless computing on heterogeneous computers
+* \[arXiv '22] Groundhog: Efficient Request Isolation in FaaS ([pdf](https://arxiv.org/pdf/2205.11458.pdf))
 
 ### Network Flow Scheduling
 
@@ -52,24 +55,36 @@
 * \[SIGCOMM '14] Barrat: Decentralized task-aware scheduling for data center networks
 * [\[SIGCOMM '15\] Aalo: Efficient coflow scheduling without prior knowledge](big-data-systems-papers-short-notes.md#2015-sigcomm-aalo-efficient-coflow-scheduling-without-prior-knowledge)
 * \[SIGCOMM '16] CODA: Toward Automatically Identifying and Scheduling COflows in the DArk
+* \[SIGCOMM '16] Scheduling Mix-flows in Commodity Datacenters with Karuna ([pdf](https://people.csail.mit.edu/alizadeh/papers/karuna-sigcomm16.pdf))
 * \[SIGCOMM '18] Sincronia: Near-Optimal Network Design for Coflows
 * \[SPAA '19] Near Optimal Coflow Scheduling in Networks
 
 ### Graphs
 
+* [MIT's 6.886 Graph Analytics reading list](https://people.csail.mit.edu/jshun/6886-s18/) by [Prof. Julian Shun](https://people.csail.mit.edu/jshun/)
 * [\[SIGMOD '10\] Pregel: A System for Large-Scale Graph Processing](pregel-a-system-for-large-scale-graph-processing.md)
 * [\[OSDI '12\] PowerGraph: Distributed Graph-Parallel Computation on Neural Graphs](powergraph-distributed-graph-parallel-computation-on-natural-graphs.md)
+* \[PPoPP '13] Ligra: A Lightweight Graph Processing Framework for Shared Memory ([pdf](https://people.csail.mit.edu/jshun/ligra.pdf))
 * \[OSDI '14] GraphX: Graph Processing in a Distributed Dataflow Framework
 * \[ATC '17] Garaph: Efficient GPU-accelerated Graph Processing on a Single Machine with Balanced Replication
+* \[EuroSys '17] MOSAIC: Processing a Trillion-Edge Graph on a Single Machine ([pdf](https://dl.acm.org/doi/pdf/10.1145/3064176.3064191))
+* \[VLDB '18] A Distributed Multi-GPU System for Fast Graph Processing ([pdf](https://dl.acm.org/doi/pdf/10.14778/3157794.3157799))
+* \[SoCC '20] PaGraph: Scaling GNN Training on Large Graphs via Computation-aware Caching ([pdf](https://dl.acm.org/doi/pdf/10.1145/3419111.3421281))
 * [\[EuroSys '21\] NextDoor: Accelerating graph sampling for graph machine learning using GPUs](accelerating-graph-sampling-for-graph-machine-learning-using-gpus.md)
 * \[OSDI '21] Marius: Learning Massive Graph Embeddings on a Single Machine
 * \[arXiv '22] Marius++: Large-Scale Training of Graph Neural Networks on a Single Machine
+* \[MLSys '22] Graphiler: Optimizing Graph Neural Networks with Message Passing Data Flow Graph
 
-### Tracing
+### Distributed Tracing
 
-* \[SOSP '15] Pivot tracing: dynamic causal monitoring for distributed systems
-* \[HotNets '21] Snicket: Query-Driven Distributed Tracing
-* \[NSDI '23] The Benefit of Hindsight: Tracing Edge-Cases in Distributed Systems
+* \[Textbook] Distributed Tracing in Practice
+* \[SOSP '15] Pivot tracing: dynamic causal monitoring for distributed systems ([pdf](https://dl.acm.org/doi/pdf/10.1145/2815400.2815415))
+* \[SoCC '16] Principled Workflow-Centric Tracing of Distributed Systems ([pdf](https://dl.acm.org/doi/pdf/10.1145/2987550.2987568))
+* \[SOSP '17] Canopy: An End-to-End Performance Tracing And Analysis System ([pdf](https://dl.acm.org/doi/pdf/10.1145/3132747.3132749))
+* \[SoCC '18] Weighted Sampling of Execution Traces: Capturing More Needles and Less Hay ([pdf](https://dl.acm.org/doi/pdf/10.1145/3267809.3267841))
+* \[SoCC '19] Sifter: Scalable Sampling for Distributed Traces, without Feature Engineering ([pdf](https://dl.acm.org/doi/pdf/10.1145/3357223.3362736))
+* \[HotNets '21] Snicket: Query-Driven Distributed Tracing ([pdf](https://www.cs.princeton.edu/\~ravian/publications/snicket\_hotnets21.pdf))
+* \[NSDI '23] The Benefit of Hindsight: Tracing Edge-Cases in Distributed Systems ([pdf](https://arxiv.org/pdf/2202.05769.pdf))
 
 ### Caching
 
@@ -89,6 +104,7 @@
 * \[SIGMOD '17] Automatic Database Management System Tuning Through Large-scale Machine Learning
 * \[HotStorage '20] Too Many Knobs to Tune? Towards Faster Database Tuning by Pre-selecting Important Knobs
 * \[arXiv '21] Facilitating Database Tuning with Hyper-Parameter Optimization: A Comprehensive Experimental Evaluation
+* \[VLDB '21] An Inquiry into Machine Learning-based Automatic Configuration Tuning Services on Real-World Database Management Systems ([pdf](https://db.cs.cmu.edu/papers/2021/p1241-aken.pdf))
 * \[VLDB '22] LlamaTune: Sample-Efficient DBMS Configuration Tuning
 
 ## Meta stuff

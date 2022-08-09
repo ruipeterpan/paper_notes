@@ -60,7 +60,7 @@ Synergy is an idea that applies to all existing scheduling policies: It uses pro
 
 ![](<../../.gitbook/assets/Screen Shot 2022-07-13 at 2.53.41 PM.png>)
 
-The main technical contributions of this paper is two-fold:&#x20;
+The main technical contributions of this paper are two-fold:&#x20;
 
-* Profiling the workloads: Naivly profiling all possible resource configurations can be expensive due to the large combination space. Synergy introduces an optimistic profiling technique that exploits the predictability in the relationship between job throughput and memory allocation. As for the CPU allocation, Synergy empirically profiles the job for varying, discrete CPU allocations at full memory allocation. The profiling time is tens of minutes, which is reasonable considering most DNN jobs are long-running.
+* Profiling the workloads: Naively profiling all possible resource configurations can be expensive due to the large combination space. Synergy introduces an optimistic profiling technique that exploits the predictability in the relationship between job throughput and memory allocation. As for the CPU allocation, Synergy empirically profiles the job for varying, discrete CPU allocations at full memory allocation. The profiling time is tens of minutes, which is reasonable considering most DNN jobs are long-running.
 * Encorporating resource-sensitivity-awareness into existing scheduling algorithms.

@@ -55,6 +55,7 @@ This is a million-dollar question and I don't feel entitled to write more about 
 * [Reasons to Pursue a Ph.D.](https://jxyzabc.blogspot.com/2011/12/reasons-to-pursue-phd.html) and [CS Grad School Part 1: Deciding to Apply](https://jxyzabc.blogspot.com/2008/08/cs-grad-school-part-1-deciding-to-apply.html) by Jean Yang
 * TODO: Add more references
 * [读博，你真的想好了吗？- 张焕晨的文章 - 知乎](https://zhuanlan.zhihu.com/p/372884253) (Are you really sure about doing a Ph.D.? by Prof. [Huanchen Zhang](http://people.iiis.tsinghua.edu.cn/\~huanchen/))
+* [读博前的思考](https://zhuanlan.zhihu.com/p/548781775) by Xiuyu Li (Some thoughts before doing a Ph.D.)
 
 ## Chapter 2: Narrowing down the programs/professors of interest
 

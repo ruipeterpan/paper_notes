@@ -7,26 +7,29 @@ coverY: 48.74919820397691
 
 ### Distributed Training & Parallelism Paradigms
 
-* [\[OSDI '14\] Scaling Distributed Machine Learning with the Parameter Server](scaling-distributed-machine-learning-with-the-parameter-server.md)
-* \[SoCC '18] Parameter Hub: a Rack-Scale Parameter Server for Distributed Deep Neural Network Training
-* [\[OSDI '20\] BytePS: A High Performance and Generic Framework for Distributed DNN Training](byteps-a-high-performance-and-generic-framework-for-distributed-dnn-training.md)
-* [\[VLDB '20\] PyTorch Distributed: Experiences on Accelerating Data Parallel Training](pytorch-distributed-experiences-on-accelerating-data-parallel-training.md)
-* \[NSDI '23] Bamboo: Making Preemptible Instances Resilient for Affordable Training of Large DNNs
+* [\[OSDI '14\] Scaling Distributed Machine Learning with the Parameter Server](scaling-distributed-machine-learning-with-the-parameter-server.md) ([pdf](https://web.eecs.umich.edu/\~mosharaf/Readings/Parameter-Server.pdf))
+* \[SoCC '18] Parameter Hub: a Rack-Scale Parameter Server for Distributed Deep Neural Network Training ([pdf](https://dl.acm.org/doi/pdf/10.1145/3267809.3267840))
+* [\[OSDI '20\] BytePS: A High Performance and Generic Framework for Distributed DNN Training](byteps-a-high-performance-and-generic-framework-for-distributed-dnn-training.md) ([pdf](https://www.usenix.org/system/files/osdi20-jiang.pdf))
+* [\[VLDB '20\] PyTorch Distributed: Experiences on Accelerating Data Parallel Training](pytorch-distributed-experiences-on-accelerating-data-parallel-training.md) ([pdf](https://dl.acm.org/doi/pdf/10.14778/3415478.3415530))
+* \[MLSys '20] Resource Elasticity in Distributed Deep Learning ([pdf](https://proceedings.mlsys.org/paper/2020/file/006f52e9102a8d3be2fe5614f42ba989-Paper.pdf))
+* \[NSDI '23] Bamboo: Making Preemptible Instances Resilient for Affordable Training of Large DNNs ([pdf](https://arxiv.org/pdf/2204.12013.pdf))
 * Parallelism Paradigms & Strategies ([Overview by Hugging Face](https://huggingface.co/docs/transformers/v4.16.2/en/parallelism))
-  * [\[NIPS '19\] GPipe: Efficient Training of Giant Neural Networks using Pipeline Parallelism](gpipe-efficient-training-of-giant-neural-networks-using-pipeline-parallelism.md)
-  * [\[SOSP '19\] PipeDream: Generalized Pipeline Parallelism for DNN Training](pipedream-generalized-pipeline-parallelism-for-dnn-training.md)
-  * [\[arXiv '19\] Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism](mlsys-papers-short-notes.md#2019-arxiv-megatron-lm-training-multi-billion-parameter-language-models-using-model-parallelism)
-  * \[MLSys '19] Beyond Data and Model Parallelism for Deep Neural Networks
-  * [\[SC '20\] ZeRO: memory optimizations toward training trillion parameter models](2019-sc-zero-memory-optimizations-toward-training-trillion-parameter-models.md)
-  * \[ATC '20] HetPipe: Enabling Large DNN Training on (Whimpy) Heterogeneous GPU Clusters through Integration of Pipelined Model Parallelism and Data Parallelism
-  * [\[SC '21\] ZeRO-infinity: breaking the GPU memory wall for extreme scale deep learning](2019-sc-zero-memory-optimizations-toward-training-trillion-parameter-models.md#zero-infinity-and-zero-offload)
-  * \[SC '21] Efficient Large-Scale Language Model Training on GPU Clusters Using Megatron-LM
-  * [\[SC '21\] Chimera: Efficiently Training Large-Scale Neural Networks with Bidirectional Pipelines](mlsys-papers-short-notes.md#2021-sc-chimera-efficiently-training-large-scale-neural-networks-with-bidirectional-pipelines)
-  * \[ICML '21] Memory-Efficient Pipeline-Parallel DNN Training
-  * [\[ATC '21\] ZeRO-Offload: Democratizing Billion-Scale Model Training](2019-sc-zero-memory-optimizations-toward-training-trillion-parameter-models.md#zero-infinity-and-zero-offload)
-  * \[PPoPP '21] DAPPLE: A Pipelined Data Parallel Approach for Training Large Models&#x20;
-  * \[OSDI '22] Alpa: Automating Inter- and Intra-Operator Parallelism for Distributed Deep Learning
-  * \[arXiv '22] Using DeepSpeed and Megatron to Train Megatron-Turing NLG 530B, A Large-Scale Generative Language Model
+  * [\[NIPS '19\] GPipe: Efficient Training of Giant Neural Networks using Pipeline Parallelism](gpipe-efficient-training-of-giant-neural-networks-using-pipeline-parallelism.md) ([pdf](https://papers.nips.cc/paper/2019/file/093f65e080a295f8076b1c5722a46aa2-Paper.pdf))
+  * [\[SOSP '19\] PipeDream: Generalized Pipeline Parallelism for DNN Training](pipedream-generalized-pipeline-parallelism-for-dnn-training.md) ([pdf](https://www.microsoft.com/en-us/research/uploads/prod/2019/08/fiddle\_pipedream\_sosp19.pdf))
+  * [\[arXiv '19\] Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism](mlsys-papers-short-notes.md#2019-arxiv-megatron-lm-training-multi-billion-parameter-language-models-using-model-parallelism) ([pdf](https://arxiv.org/pdf/1909.08053.pdf))
+  * \[MLSys '19] FlexFlow: Beyond Data and Model Parallelism for Deep Neural Networks ([pdf](https://proceedings.mlsys.org/paper/2019/file/c74d97b01eae257e44aa9d5bade97baf-Paper.pdf))
+  * [\[SC '20\] ZeRO: memory optimizations toward training trillion parameter models](2019-sc-zero-memory-optimizations-toward-training-trillion-parameter-models.md) ([pdf](https://arxiv.org/pdf/1910.02054.pdf))
+  * \[ATC '20] HetPipe: Enabling Large DNN Training on (Whimpy) Heterogeneous GPU Clusters through Integration of Pipelined Model Parallelism and Data Parallelism ([pdf](https://www.usenix.org/system/files/atc20-park.pdf))
+  * [\[SC '21\] ZeRO-infinity: breaking the GPU memory wall for extreme scale deep learning](2019-sc-zero-memory-optimizations-toward-training-trillion-parameter-models.md#zero-infinity-and-zero-offload) ([pdf](https://dl.acm.org/doi/pdf/10.1145/3458817.3476205))
+  * \[SC '21] Efficient Large-Scale Language Model Training on GPU Clusters Using Megatron-LM ([pdf](https://dl.acm.org/doi/pdf/10.1145/3458817.3476209))
+  * [\[SC '21\] Chimera: Efficiently Training Large-Scale Neural Networks with Bidirectional Pipelines](mlsys-papers-short-notes.md#2021-sc-chimera-efficiently-training-large-scale-neural-networks-with-bidirectional-pipelines) ([pdf](https://dl.acm.org/doi/pdf/10.1145/3458817.3476145))
+  * \[ICML '21] Memory-Efficient Pipeline-Parallel DNN Training ([pdf](http://proceedings.mlr.press/v139/narayanan21a/narayanan21a.pdf))
+  * [\[ATC '21\] ZeRO-Offload: Democratizing Billion-Scale Model Training](2019-sc-zero-memory-optimizations-toward-training-trillion-parameter-models.md#zero-infinity-and-zero-offload) ([pdf](https://www.usenix.org/system/files/atc21-ren-jie.pdf))
+  * \[PPoPP '21] DAPPLE: A Pipelined Data Parallel Approach for Training Large Models ([pdf](https://dl.acm.org/doi/pdf/10.1145/3437801.3441593))
+  * \[OSDI '22] Alpa: Automating Inter- and Intra-Operator Parallelism for Distributed Deep Learning ([pdf](https://www.usenix.org/system/files/osdi22-zheng-lianmin.pdf))
+  * \[OSDI '22] Unity: Accelerating DNN Training Through Joint Optimization of Algebraic Transformations and Parallelization ([pdf](https://www.usenix.org/system/files/osdi22-unger.pdf))
+  * \[EuroSys '22] Varuna: Scalable, Low-cost Training of Massive Deep Learning Models ([pdf](https://dl.acm.org/doi/pdf/10.1145/3492321.3519584))
+  * \[arXiv '22] Using DeepSpeed and Megatron to Train Megatron-Turing NLG 530B, A Large-Scale Generative Language Model ([pdf](https://arxiv.org/pdf/2201.11990.pdf))
 
 ### Workload Scheduling, Cluster Resource Management
 
@@ -45,6 +48,7 @@ coverY: 48.74919820397691
 * [\[MLSys '21\] Wavelet: Efficient DNN Training with Tick-Tock Scheduling](wavelet-efficient-dnn-training-with-tick-tock-scheduling.md) ([pdf](https://proceedings.mlsys.org/paper/2021/file/c81e728d9d4c2f636f067f89cc14862c-Paper.pdf))
 * [\[OSDI '21\] Pollux: Co-adaptive Cluster Scheduling for Goodput-Optimized Deep Learning](pollux-co-adaptive-cluster-scheduling-for-goodput-optimized-deep-learning.md) ([pdf](https://www.usenix.org/system/files/osdi21-qiao.pdf))
 * \[ATC '21] Zico: Efficient GPU Memory Sharing for Concurrent DNN Training ([pdf](https://www.usenix.org/system/files/atc21-lim.pdf))
+* \[SoCC '21] Chronus: A Novel Deadline-aware Scheduler for Deep Learning Training Jobs ([pdf](https://dl.acm.org/doi/pdf/10.1145/3472883.3486978))
 * \[NSDI '21] AFS/CoDDL: Elastic Resource Sharing for Distributed Deep Learning ([pdf](https://www.usenix.org/system/files/nsdi21-hwang.pdf))
 * \[NSDI '22] MLaaS in the Wild: Workload Analysis and Scheduling in Large-Scale Heterogeneous GPU Clusters ([pdf](https://www.usenix.org/system/files/nsdi22-paper-weng.pdf))
 * [\[OSDI '22\] Synergy: Looking Beyond GPUs for DNN Scheduling on Multi-Tenant Clusters](mlsys-papers-short-notes.md#2022-osdi-looking-beyond-gpus-for-dnn-scheduling-on-multi-tenant-clusters) ([pdf](https://www.usenix.org/system/files/osdi22-mohan.pdf))
@@ -67,37 +71,40 @@ coverY: 48.74919820397691
 * \[OSDI '20] Serving DNNs like Clockwork: Performance Predictability from the Bottom Up ([pdf](https://www.usenix.org/system/files/osdi20-gujarati.pdf))
 * \[OSDI '20] PipeSwitch: Fast Pipelined Context Switching for Deep Learning Applications ([pdf](https://www.usenix.org/system/files/osdi20-bai.pdf))
 * \[ATC '21] INFaaS: Automated Model-less Inference Serving ([pdf](https://www.usenix.org/system/files/atc21-romero.pdf))
-* [\[EuroMLSys '21\] Interference-Aware Scheduling for Inference Serving](2021-euromlsys-interference-aware-scheduling-for-inference-serving.md)
-* \[arXiv '21] Serving DNN Models with Multi-Instance GPUs: A Case of the Reconfigurable Machine Scheduling Problem
-* \[arXiv '21] Gati: Accelerating Deep Learning Inference via Learned Caches
-* [\[ICML '21\] Boosting the Throughput and Accelerator Utilization of Specialized CNN Inference Beyond Increasing Batch Size](mlsys-papers-short-notes.md#2021-icml-boosting-the-throughput-and-accelerator-utilization-of-specialized-cnn-inference-beyond-in)
-* \[ICML '22] DeepSpeed-MoE: Advancing Mixture-of-Experts Inference and Training to Power Next-Generation AI Scale
-* \[OSDI '22] Achieving μs-scale Preemption for Concurrent GPU-accelerated DNN Inferences
-* \[OSDI '22] Orca: A Distributed Serving System for Transformer-Based Generative Models
-* \[SIGMOD '22] Serverless Data Science - Are We There Yet? A Case Study of Model Serving
+* [\[EuroMLSys '21\] Interference-Aware Scheduling for Inference Serving](2021-euromlsys-interference-aware-scheduling-for-inference-serving.md) ([pdf](https://dl.acm.org/doi/pdf/10.1145/3437984.3458837))
+* \[arXiv '21] Serving DNN Models with Multi-Instance GPUs: A Case of the Reconfigurable Machine Scheduling Problem ([pdf](https://arxiv.org/pdf/2109.11067.pdf))
+* \[arXiv '21] Gati: Accelerating Deep Learning Inference via Learned Caches ([pdf](https://arxiv.org/pdf/2101.07344.pdf))
+* [\[ICML '21\] Boosting the Throughput and Accelerator Utilization of Specialized CNN Inference Beyond Increasing Batch Size](mlsys-papers-short-notes.md#2021-icml-boosting-the-throughput-and-accelerator-utilization-of-specialized-cnn-inference-beyond-in) ([pdf](http://proceedings.mlr.press/v139/kosaian21a/kosaian21a.pdf))
+* \[ICML '22] DeepSpeed-MoE: Advancing Mixture-of-Experts Inference and Training to Power Next-Generation AI Scale ([pdf](https://proceedings.mlr.press/v162/rajbhandari22a/rajbhandari22a.pdf))
+* \[OSDI '22] Achieving μs-scale Preemption for Concurrent GPU-accelerated DNN Inferences ([pdf](https://www.usenix.org/system/files/osdi22-han.pdf))
+* \[OSDI '22] Orca: A Distributed Serving System for Transformer-Based Generative Models ([pdf](https://www.usenix.org/system/files/osdi22-yu.pdf))
+* \[SIGMOD '22] Serverless Data Science - Are We There Yet? A Case Study of Model Serving ([pdf](https://dl.acm.org/doi/pdf/10.1145/3514221.3517905))
 
 ### Optimizing Networks/Communications for ML
 
-* \[ATC '17] Poseidon: An Efficient Communication Architecture for Distributed Deep Learning on GPU Clusters
-* [\[MLSys '19\] BlueConnect: Decomposing All-Reduce for Deep Learning on Heterogeneous Network Hierarchy](mlsys-papers-short-notes.md#2019-mlsys-blueconnect-decomposing-all-reduce-for-deep-learning-on-heterogeneous-network-hierarchy)
-* [\[MLSys '19\] TicTac: Accelerating Distributed Deep Learning with Communication Scheduling](2019-sosp-bytescheduler-a-generic-communication-scheduler-for-distributed-dnn-training-....md#comparisons-with-p3-and-tictac)
-* [\[MLSys '19\] P3: Priority-Based Parameter Propagation for Distributed DNN Training](2019-sosp-bytescheduler-a-generic-communication-scheduler-for-distributed-dnn-training-....md#comparisons-with-p3-and-tictac)
-* [\[SOSP '19\] ByteScheduler: A Generic Communication Scheduler for Distributed DNN Training Acceleration](2019-sosp-bytescheduler-a-generic-communication-scheduler-for-distributed-dnn-training-....md)
-* [\[NetAI '20\] Is Network the Bottleneck of Distributed Training?](2020-netai-is-network-the-bottleneck-of-distributed-training.md)
-* [\[MLSys '20\] Blink: Fast and Generic Collectives for Distributed ML](mlsys-papers-short-notes.md#2020-mlsys-blink-fast-and-generic-collectives-for-distributed-ml)
-* \[SoCC '20] Network-accelerated Distributed Machine Learning for Multi-Tenant Settings
-* [\[NSDI '21\] SwitchML: Scaling Distributed Machine Learning with In-Network Aggregation](2021-nsdi-switchml-scaling-distributed-machine-learning-with-in-network-aggregation.md)
-* \[NSDI '21] ATP: In-network Aggregation for Multi-tenant Learning
+* \[ATC '17] Poseidon: An Efficient Communication Architecture for Distributed Deep Learning on GPU Clusters ([pdf](https://www.usenix.org/system/files/conference/atc17/atc17-zhang.pdf))
+* [\[MLSys '19\] BlueConnect: Decomposing All-Reduce for Deep Learning on Heterogeneous Network Hierarchy](mlsys-papers-short-notes.md#2019-mlsys-blueconnect-decomposing-all-reduce-for-deep-learning-on-heterogeneous-network-hierarchy) ([pdf](https://mlsys.org/Conferences/2019/doc/2019/130.pdf))
+* [\[MLSys '19\] TicTac: Accelerating Distributed Deep Learning with Communication Scheduling](2019-sosp-bytescheduler-a-generic-communication-scheduler-for-distributed-dnn-training-....md#comparisons-with-p3-and-tictac) ([pdf](https://mlsys.org/Conferences/2019/doc/2019/199.pdf))
+* [\[MLSys '19\] P3: Priority-Based Parameter Propagation for Distributed DNN Training](2019-sosp-bytescheduler-a-generic-communication-scheduler-for-distributed-dnn-training-....md#comparisons-with-p3-and-tictac) ([pdf](https://proceedings.mlsys.org/paper/2019/file/d09bf41544a3365a46c9077ebb5e35c3-Supplemental.pdf))
+* [\[SOSP '19\] ByteScheduler: A Generic Communication Scheduler for Distributed DNN Training Acceleration](2019-sosp-bytescheduler-a-generic-communication-scheduler-for-distributed-dnn-training-....md) ([pdf](https://dl.acm.org/doi/pdf/10.1145/3341301.3359642))
+* [\[NetAI '20\] Is Network the Bottleneck of Distributed Training?](2020-netai-is-network-the-bottleneck-of-distributed-training.md) ([pdf](https://dl.acm.org/doi/pdf/10.1145/3405671.3405810))
+* [\[MLSys '20\] Blink: Fast and Generic Collectives for Distributed ML](mlsys-papers-short-notes.md#2020-mlsys-blink-fast-and-generic-collectives-for-distributed-ml) ([pdf](https://proceedings.mlsys.org/paper/2020/file/43ec517d68b6edd3015b3edc9a11367b-Paper.pdf))
+* \[MLSys '20] PLink: Discovering and Exploiting Datacenter Network Locality for Efficient Cloud-based Distributed Training ([pdf](https://proceedings.mlsys.org/paper/2020/file/182be0c5cdcd5072bb1864cdee4d3d6e-Paper.pdf))
+* \[SoCC '20] Network-accelerated Distributed Machine Learning for Multi-Tenant Settings ([pdf](https://dl.acm.org/doi/pdf/10.1145/3419111.3421296))
+* [\[NSDI '21\] SwitchML: Scaling Distributed Machine Learning with In-Network Aggregation](2021-nsdi-switchml-scaling-distributed-machine-learning-with-in-network-aggregation.md) ([pdf](https://www.usenix.org/system/files/nsdi21-sapio.pdf))
+* \[NSDI '21] ATP: In-network Aggregation for Multi-tenant Learning ([pdf](https://www.usenix.org/system/files/nsdi21-lao.pdf))
+* \[SIGCOMM '21] Efficient Sparse Collective Communication and its application to Accelerate Distributed Deep Learning ([pdf](https://dl.acm.org/doi/pdf/10.1145/3452296.3472904))
 * \[MLSys '21] In-network Aggregation for Shared Machine Learning Clusters
-* [\[arXiv '21\] Synthesizing Collective Communication Algorithms for Heterogeneous Networks with TACCL](mlsys-papers-short-notes.md#2021-arxiv-synthesizing-collective-communication-algorithms-for-heterogeneous-networks-with-taccl)
-* \[arXiv '21] Cloud Collectives: Towards Cloud-aware Collectives for ML Workloads with Rank Reordering
-* \[PPoPP '21] Synthesizing Optimal Collective Algorithms
-* \[NSDI '22] Accelerating Collective Communication in Data Parallel Training across Deep Learning Frameworks
+* [\[arXiv '21\] Synthesizing Collective Communication Algorithms for Heterogeneous Networks with TACCL](mlsys-papers-short-notes.md#2021-arxiv-synthesizing-collective-communication-algorithms-for-heterogeneous-networks-with-taccl) ([pdf](http://arxiv-export-lb.library.cornell.edu/abs/2111.04867v2))
+* \[arXiv '21] Cloud Collectives: Towards Cloud-aware Collectives for ML Workloads with Rank Reordering ([pdf](https://arxiv.org/pdf/2105.14088.pdf))
+* \[PPoPP '21] Synthesizing Optimal Collective Algorithms ([pdf](https://dl.acm.org/doi/pdf/10.1145/3437801.3441620))
+* \[NSDI '22] Accelerating Collective Communication in Data Parallel Training across Deep Learning Frameworks ([pdf](https://www.usenix.org/system/files/nsdi22-paper-romero.pdf))
+* \[NSDI '23] Better Together: Jointly Optimizing ML Collective Scheduling and Execution Planning using SYNDICATE
 * Optical Networks for ML
-  * \[SIGCOMM '21] SiP-ML: High-Bandwidth Optical Network Interconnects for Machine Learning Training
-  * \[SIGCOMM '21 OptSys workshop] IOI: In-network Optical Inference
-  * \[OFC '22] Emerging Optical Interconnects for AI Systems
-  * \[NSDI '23] TOPOOPT: Optimizing the Network Topology for Distributed DNN Training
+  * \[SIGCOMM '21] SiP-ML: High-Bandwidth Optical Network Interconnects for Machine Learning Training ([pdf](https://people.csail.mit.edu/ghobadi/papers/sipml\_sigcomm\_2021.pdf))
+  * \[SIGCOMM '21 OptSys workshop] IOI: In-network Optical Inference ([pdf](https://people.csail.mit.edu/zhizhenzhong/papers/2021\_OptSys\_IOI.pdf))
+  * \[OFC '22] Emerging Optical Interconnects for AI Systems ([pdf](https://people.csail.mit.edu/ghobadi/papers/optics\_for\_ai\_ofc\_2022.pdf))
+  * \[NSDI '23] TOPOOPT: Optimizing the Network Topology for Distributed DNN Training ([pdf](https://arxiv.org/pdf/2202.00433.pdf))
 
 ### ML for Systems, Video Analytics & Streaming
 
@@ -110,6 +117,7 @@ coverY: 48.74919820397691
 * [\[SIGCOMM '20\] Reducto: On-Camera Filtering for Resource-Efficient Real-Time Video Analytics](2020-sigcomm-reducto-on-camera-filtering-for-resource-efficient-real-time-video-analytics/)
 * \[SIGCOMM '20] DDS: Server-Driven Video Streaming for Deep Learning Inference
 * \[NSDI '20] Learning in situ: a randomized experiment in video streaming
+* \[OSDI '21] Polyjuice: High-Performance Transactions via Learned Concurrency Control ([pdf](https://www.usenix.org/system/files/osdi21-wang-jiachen.pdf))
 * \[NSDI '22] Ekya: Continuous Learning of Video Analytics Models on Edge Compute Servers
 * \[HotMobile '22] Understanding the Potential of Server-Driven Edge Video Analytics
 * \[NSDI '23] GEMEL: Model Merging for Memory-Efficient, Real-Time Video Analytics at the Edge
@@ -130,22 +138,29 @@ coverY: 48.74919820397691
   * \[NIPS '18] ATOMO: Communication-efficient Learning via Atomic Sparsification ([pdf](https://proceedings.neurips.cc/paper/2018/file/33b3214d792caf311e1f00fd22b392c5-Paper.pdf))
   * [\[MLSys '21\] Accordion: Adaptive Gradient Communication via Critical Learning Regime Identification](accordion-adaptive-gradient-communication-via-critical-learning-regime-identification.md) ([pdf](https://proceedings.mlsys.org/paper/2021/file/1d7f7abc18fcb43975065399b0d1e48e-Paper.pdf))
   * \[MLSys '21] Pufferfish: Communication-efficient Models At No Extra Cost ([pdf](https://arxiv.org/pdf/2103.03936.pdf))
+  * \[SOSP '21] Gradient Compression Supercharged High-Performance Data Parallel DNN Training ([pdf](https://dl.acm.org/doi/pdf/10.1145/3477132.3483553))
   * \[MLSys '22] On the utility of gradient compression in distributed training systems ([pdf](https://proceedings.mlsys.org/paper/2022/file/cedebb6e872f539bef8c3f919874e9d7-Paper.pdf))
   * \[arXiv '22] Cuttlefish: Factorized Model Training without All the Tuning
 
-### Misc: Storage, Hyperparameter Tuning, FL, etc.
+### Misc: Storage, Hyperparameter Tuning, Federated Learning, DL Compiler, etc.
 
 * \[NIPS '16 workshop] Federated Learning: Strategies for Improving Communication Efficiency
 * \[ICML '18 workshop] Tune: A research platform for distributed model selection and training
+* \[OSDI '18] TVM: An Automated End-to-End Optimizing Compiler for Deep Learning
 * \[MLSys '19] Bandana: Using Non-Volatile Memory for Storing Deep Learning Models
 * \[MLSys '19] Towards Federated Learning at Scale: System Design
+* \[SOSP '19] TASO: Optimizing Deep Learning Computation with Automatic Generation of Graph Substitutions
 * \[MLSys '20] A System for Massively Parallel Hyperparameter Tuning
 * \[ICLR '20] Federated Learning with Matched Averaging
+* \[OSDI '20] Ansor: Generating {High-Performance} Tensor Programs for Deep Learning
+* \[OSDI '20] Rammer: Enabling Holistic Deep Learning Compiler Optimizations with rTasks
 * \[EuroSys '21] RubberBand: Cloud-based Hyperparameter Tuning
 * [\[FAST '21\] CheckFreq: Frequent, Fine-Grained DNN Checkpointing](checkfreq-frequent-fine-grained-dnn-checkpointing.md)
 * [\[VLDB '21\] Analyzing and Mitigating Data Stalls in DNN Training](analyzing-and-mitigating-data-stalls-in-dnn-training.md)
 * \[MLSys '21] Fluid: Resource-aware Hyperparameter Tuning Engine
-* \[OSDI '21] Oort: Efficient Federated Learning via Guided Participant Selection
+* \[OSDI '21] Oort: Efficient Federated Learning via Guided Participant Selection ([pdf](https://www.usenix.org/system/files/osdi21-lai.pdf))
+* \[OSDI '21] PET: Optimizing Tensor Programs with Partially Equivalent Transformations and Automated Corrections
+* \[SoCC '21] Elastic Hyperparameter Tuning on the Cloud ([pdf](https://dl.acm.org/doi/pdf/10.1145/3472883.3486989))
 * \[NSDI '22] Check-N-Run: a Checkpointing System for Training Deep Learning Recommendation Models
 * \[ICML '22] FedScale: Benchmarking Model and System Performance of Federated Learning at Scale
 * \[HotCarbon '22] Treehouse: A Case For Carbon-Aware Datacenter Software
