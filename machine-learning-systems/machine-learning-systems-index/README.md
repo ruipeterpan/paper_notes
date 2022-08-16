@@ -55,6 +55,7 @@ coverY: 48.74919820397691
 * \[SIGCOMM '22] Multi-Resource Interleaving for Deep Learning Training
 * \[arXiv '22] Deep Learning Workload Scheduling in GPU Datacenters: Taxonomy, Challenges and Vision ([pdf](https://arxiv.org/pdf/2205.11913.pdf))
 * \[NSDI '23] Shockwave: Proactive, Fair, and Efficient Cluster Scheduling for Dynamic Adaptation in Machine Learning
+* \[NSDI '23] ModelKeeper: Accelerating DNN Training via Automated Training Warmup
 
 ### Serving/Inference
 
@@ -78,6 +79,7 @@ coverY: 48.74919820397691
 * \[ICML '22] DeepSpeed-MoE: Advancing Mixture-of-Experts Inference and Training to Power Next-Generation AI Scale ([pdf](https://proceedings.mlr.press/v162/rajbhandari22a/rajbhandari22a.pdf))
 * \[OSDI '22] Achieving μs-scale Preemption for Concurrent GPU-accelerated DNN Inferences ([pdf](https://www.usenix.org/system/files/osdi22-han.pdf))
 * \[OSDI '22] Orca: A Distributed Serving System for Transformer-Based Generative Models ([pdf](https://www.usenix.org/system/files/osdi22-yu.pdf))
+* \[ATC '22] Serving Heterogeneous Machine Learning Models on Multi-GPU Servers with Spatio-Temporal Sharing ([pdf](https://www.usenix.org/system/files/atc22-choi-seungbeom.pdf))
 * \[SIGMOD '22] Serverless Data Science - Are We There Yet? A Case Study of Model Serving ([pdf](https://dl.acm.org/doi/pdf/10.1145/3514221.3517905))
 
 ### Optimizing Networks/Communications for ML
@@ -114,12 +116,15 @@ coverY: 48.74919820397691
 * \[HotNets '17] Congestion-Control Throwdown
 * [\[SIGCOMM '18\] Chameleon: Scalable Adaptation of Video Analytics via Temporal and Cross-camera Correlations](2018-sigcomm-chameleon-scalable-adaptation-of-video-analytics-via-temporal-and-cross-camera-....md)
 * \[NSDI '18] PCC Vivace: Online-Learning Congestion Control
+* \[NSDI '18] Salsify: Low-Latency Network Video through Tighter Integration between a Video Codec and a Transport Protocol
 * [\[SIGCOMM '20\] Reducto: On-Camera Filtering for Resource-Efficient Real-Time Video Analytics](2020-sigcomm-reducto-on-camera-filtering-for-resource-efficient-real-time-video-analytics/)
 * \[SIGCOMM '20] DDS: Server-Driven Video Streaming for Deep Learning Inference
+* \[MobiCom '20] OnRL: Improving Mobile Video Telephony via Online Reinforcement Learning
 * \[NSDI '20] Learning in situ: a randomized experiment in video streaming
 * \[OSDI '21] Polyjuice: High-Performance Transactions via Learned Concurrency Control ([pdf](https://www.usenix.org/system/files/osdi21-wang-jiachen.pdf))
 * \[NSDI '22] Ekya: Continuous Learning of Video Analytics Models on Edge Compute Servers
 * \[HotMobile '22] Understanding the Potential of Server-Driven Edge Video Analytics
+* \[SIGCOMM '22] Genet: automatic curriculum generation for learning adaptation in networking
 * \[NSDI '23] GEMEL: Model Merging for Memory-Efficient, Real-Time Video Analytics at the Edge
 
 ### Tricks and Relaxations in Learning and Systems: Compression, Pruning, Freezing, and many more
@@ -141,8 +146,9 @@ coverY: 48.74919820397691
   * \[SOSP '21] Gradient Compression Supercharged High-Performance Data Parallel DNN Training ([pdf](https://dl.acm.org/doi/pdf/10.1145/3477132.3483553))
   * \[MLSys '22] On the utility of gradient compression in distributed training systems ([pdf](https://proceedings.mlsys.org/paper/2022/file/cedebb6e872f539bef8c3f919874e9d7-Paper.pdf))
   * \[arXiv '22] Cuttlefish: Factorized Model Training without All the Tuning
+  * \[arXiv '22] ByteComp: Revisiting Gradient Compression in Distributed Training ([pdf](https://arxiv.org/pdf/2205.14465.pdf))
 
-### Misc: Storage, Hyperparameter Tuning, Federated Learning, DL Compiler, etc.
+### Misc: Storage, Hyperparameter Tuning, Federated Learning, DL Compilers, Green Datacenters
 
 * \[NIPS '16 workshop] Federated Learning: Strategies for Improving Communication Efficiency
 * \[ICML '18 workshop] Tune: A research platform for distributed model selection and training
@@ -152,7 +158,7 @@ coverY: 48.74919820397691
 * \[SOSP '19] TASO: Optimizing Deep Learning Computation with Automatic Generation of Graph Substitutions
 * \[MLSys '20] A System for Massively Parallel Hyperparameter Tuning
 * \[ICLR '20] Federated Learning with Matched Averaging
-* \[OSDI '20] Ansor: Generating {High-Performance} Tensor Programs for Deep Learning
+* \[OSDI '20] Ansor: Generating High-Performance Tensor Programs for Deep Learning
 * \[OSDI '20] Rammer: Enabling Holistic Deep Learning Compiler Optimizations with rTasks
 * \[EuroSys '21] RubberBand: Cloud-based Hyperparameter Tuning
 * [\[FAST '21\] CheckFreq: Frequent, Fine-Grained DNN Checkpointing](checkfreq-frequent-fine-grained-dnn-checkpointing.md)
@@ -164,3 +170,4 @@ coverY: 48.74919820397691
 * \[NSDI '22] Check-N-Run: a Checkpointing System for Training Deep Learning Recommendation Models
 * \[ICML '22] FedScale: Benchmarking Model and System Performance of Federated Learning at Scale
 * \[HotCarbon '22] Treehouse: A Case For Carbon-Aware Datacenter Software
+* \[NSDI '23] Zeus: Understanding and Optimizing GPU Energy Consumption of DNN Training
