@@ -52,7 +52,7 @@ coverY: 48.74919820397691
 * \[NSDI '21] AFS/CoDDL: Elastic Resource Sharing for Distributed Deep Learning ([pdf](https://www.usenix.org/system/files/nsdi21-hwang.pdf))
 * \[NSDI '22] MLaaS in the Wild: Workload Analysis and Scheduling in Large-Scale Heterogeneous GPU Clusters ([pdf](https://www.usenix.org/system/files/nsdi22-paper-weng.pdf))
 * [\[OSDI '22\] Synergy: Looking Beyond GPUs for DNN Scheduling on Multi-Tenant Clusters](mlsys-papers-short-notes.md#2022-osdi-looking-beyond-gpus-for-dnn-scheduling-on-multi-tenant-clusters) ([pdf](https://www.usenix.org/system/files/osdi22-mohan.pdf))
-* \[SIGCOMM '22] Multi-Resource Interleaving for Deep Learning Training
+* \[SIGCOMM '22] Multi-Resource Interleaving for Deep Learning Training ([pdf](https://dl.acm.org/doi/pdf/10.1145/3544216.3544224))
 * \[arXiv '22] Deep Learning Workload Scheduling in GPU Datacenters: Taxonomy, Challenges and Vision ([pdf](https://arxiv.org/pdf/2205.11913.pdf))
 * \[NSDI '23] Shockwave: Proactive, Fair, and Efficient Cluster Scheduling for Dynamic Adaptation in Machine Learning
 * \[NSDI '23] ModelKeeper: Accelerating DNN Training via Automated Training Warmup
@@ -117,6 +117,7 @@ coverY: 48.74919820397691
 * [\[SIGCOMM '18\] Chameleon: Scalable Adaptation of Video Analytics via Temporal and Cross-camera Correlations](2018-sigcomm-chameleon-scalable-adaptation-of-video-analytics-via-temporal-and-cross-camera-....md)
 * \[NSDI '18] PCC Vivace: Online-Learning Congestion Control
 * \[NSDI '18] Salsify: Low-Latency Network Video through Tighter Integration between a Video Codec and a Transport Protocol
+* \[HotEdge '19] Edge-based Transcoding for Adaptive Live Video Streaming ([pdf](http://web.cs.ucla.edu/\~dogga/publications/hotedge19.pdf))
 * [\[SIGCOMM '20\] Reducto: On-Camera Filtering for Resource-Efficient Real-Time Video Analytics](2020-sigcomm-reducto-on-camera-filtering-for-resource-efficient-real-time-video-analytics/)
 * \[SIGCOMM '20] DDS: Server-Driven Video Streaming for Deep Learning Inference
 * \[MobiCom '20] OnRL: Improving Mobile Video Telephony via Online Reinforcement Learning
