@@ -97,7 +97,7 @@ coverY: 48.74919820397691
 * \[NSDI '21] ATP: In-network Aggregation for Multi-tenant Learning ([pdf](https://www.usenix.org/system/files/nsdi21-lao.pdf))
 * \[SIGCOMM '21] Efficient Sparse Collective Communication and its application to Accelerate Distributed Deep Learning ([pdf](https://dl.acm.org/doi/pdf/10.1145/3452296.3472904))
 * \[MLSys '21] In-network Aggregation for Shared Machine Learning Clusters
-* [\[arXiv '21\] Synthesizing Collective Communication Algorithms for Heterogeneous Networks with TACCL](mlsys-papers-short-notes.md#2021-arxiv-synthesizing-collective-communication-algorithms-for-heterogeneous-networks-with-taccl) ([pdf](http://arxiv-export-lb.library.cornell.edu/abs/2111.04867v2))
+* [\[NSDI '23\] Synthesizing Collective Communication Algorithms for Heterogeneous Networks with TACCL](mlsys-papers-short-notes.md#2021-arxiv-synthesizing-collective-communication-algorithms-for-heterogeneous-networks-with-taccl) ([pdf](http://arxiv-export-lb.library.cornell.edu/abs/2111.04867v2))
 * \[arXiv '21] Cloud Collectives: Towards Cloud-aware Collectives for ML Workloads with Rank Reordering ([pdf](https://arxiv.org/pdf/2105.14088.pdf))
 * \[PPoPP '21] Synthesizing Optimal Collective Algorithms ([pdf](https://dl.acm.org/doi/pdf/10.1145/3437801.3441620))
 * \[NSDI '22] Accelerating Collective Communication in Data Parallel Training across Deep Learning Frameworks ([pdf](https://www.usenix.org/system/files/nsdi22-paper-romero.pdf))
