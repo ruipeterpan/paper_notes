@@ -30,6 +30,9 @@ coverY: 48.74919820397691
   * \[OSDI '22] Unity: Accelerating DNN Training Through Joint Optimization of Algebraic Transformations and Parallelization ([pdf](https://www.usenix.org/system/files/osdi22-unger.pdf))
   * \[EuroSys '22] Varuna: Scalable, Low-cost Training of Massive Deep Learning Models ([pdf](https://dl.acm.org/doi/pdf/10.1145/3492321.3519584))
   * \[arXiv '22] Using DeepSpeed and Megatron to Train Megatron-Turing NLG 530B, A Large-Scale Generative Language Model ([pdf](https://arxiv.org/pdf/2201.11990.pdf))
+  * \[PPoPP '22] BaGuaLu: Targeting Brain Scale Pretrained Models with over 37 Million Cores ([pdf](https://keg.cs.tsinghua.edu.cn/jietang/publications/PPOPP22-Ma%20et%20al.-BaGuaLu%20Targeting%20Brain%20Scale%20Pretrained%20Models%20w.pdf))
+  * \[NeurIPS '22] AMP:Automatically Finding Model Parallel Strategies with Heterogeneity Awareness ([pdf](https://arxiv.org/pdf/2210.07297.pdf))
+  * \[VLDB '23] MiCS: Near-linear Scaling for Training Gigantic Model on Public Cloud ([pdf](https://arxiv.org/pdf/2205.00119.pdf))
 
 ### Workload Scheduling, Cluster Resource Management
 

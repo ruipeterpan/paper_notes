@@ -122,14 +122,8 @@
   * [The Linux Scheduler: a Decade of Wasted Cores](earlier-readings-and-notes/index/the-linux-scheduler-a-decade-of-wasted-cores.md)
   * [The Unwritten Contract of Solid State Drives](earlier-readings-and-notes/index/the-unwritten-contract-of-solid-state-drives.md)
   * [Venti: A New Approach to Archival Storage](earlier-readings-and-notes/index/venti-a-new-approach-to-archival-storage.md)
-* [Soccer Analytics Papers - Index](earlier-readings-and-notes/soccer-analytics-index/README.md)
-  * [Merging Pose And Contextual Data To Estimate Orientation Of Soccer Players](earlier-readings-and-notes/soccer-analytics-index/merging-pose-and-contextual-data-to-estimate-orientation-of-soccer-players.md)
-  * [Soccer analytics: Unravelling the complexity of “the beautiful game”](earlier-readings-and-notes/soccer-analytics-index/soccer-analytics-unravelling-the-complexity-of-the-beautiful-game.md)
-  * [Using Player’s Body-Orientation to Model Pass Feasibility in Soccer](earlier-readings-and-notes/soccer-analytics-index/using-players-body-orientation-to-model-pass-feasibility-in-soccer.md)
 * [Earlier Notes](earlier-readings-and-notes/earlier-notes/README.md)
   * [How to read a paper](earlier-readings-and-notes/earlier-notes/how-to-read-a-paper.md)
-  * [An Incomplete Guide to GPU Profiling](earlier-readings-and-notes/earlier-notes/an-incomplete-guide-to-gpu-profiling.md)
-  * [Common Issues (& Fixes) when Playing with GPUs](earlier-readings-and-notes/earlier-notes/common-issues-and-fixes-when-playing-with-gpus.md)
 
 ## FIXME
 
