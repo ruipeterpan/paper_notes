@@ -1,4 +1,4 @@
-# PyTorch Distributed: Experiences on Accelerating Data Parallel Training
+# \[2020 VLDB] PyTorch Distributed: Experiences on Accelerating Data Parallel Training
 
 ## One-line Summary
 
@@ -44,7 +44,7 @@ There are three steps in training a DNN model:
 2. Backward pass: Computes gradients
 3. Optimizer step: Updates parameters
 
-To train large models on large datasets, data parallelism is applied so that multiple workers work together to do the training. Each worker holds a replica of a model, trains the model \(forward & backward pass\) using a partition of the dataset, and averages the gradients/parameters among the workers.
+To train large models on large datasets, data parallelism is applied so that multiple workers work together to do the training. Each worker holds a replica of a model, trains the model (forward & backward pass) using a partition of the dataset, and averages the gradients/parameters among the workers.
 
 ## System Design
 
@@ -57,7 +57,7 @@ There are two design goals when designing the API:
 
 ### Gradient Reduction
 
-1. **Naive solution**: DDP controls all training processes to \(1\) start from the same model state and \(2\) consume the same gradients in every iteration. \(2\) can be implemented by inserting a gradient synchronization phase after the local backward pass, or by adding a hook to trigger computation after every backward pass. There are two performance concerns:
+1. **Naive solution**: DDP controls all training processes to (1) start from the same model state and (2) consume the same gradients in every iteration. (2) can be implemented by inserting a gradient synchronization phase after the local backward pass, or by adding a hook to trigger computation after every backward pass. There are two performance concerns:
    1. Collective communication performs poorly on small tensors
    2. By separating the gradient computation and synchronization, we lose the chance to overlap the two phases
 2. **Gradient bucketing**: We can observe that collective communications are more effective on large tensors than on smaller tensors. As a result, we can use gradient reduction to bucket multiple gradients into one allreduce operation. However, DDP should not compact all gradients in one single allreduce, otherwise the communication cannot overlap with computation.
@@ -66,9 +66,9 @@ There are two design goals when designing the API:
 
 The paper covered some level of technical details for each of the above four subsections.
 
-![Two cases of failures during gradient synchronization due to overlapping](../../.gitbook/assets/screen-shot-2020-12-18-at-9.44.12-pm.png)
+![Two cases of failures during gradient synchronization due to overlapping](<../../.gitbook/assets/Screen Shot 2020-12-18 at 9.44.12 PM.png>)
 
-![Overall architecture](../../.gitbook/assets/screen-shot-2020-12-18-at-10.07.47-pm.png)
+![Overall architecture](<../../.gitbook/assets/Screen Shot 2020-12-18 at 10.07.47 PM.png>)
 
 ### Collective Communication
 
@@ -88,17 +88,17 @@ DDP is built on top of communication libraries like NCCL, Gloo, and MPI. The API
 
 ## Evaluation
 
-![The effectiveness of overlapping computation with communication](../../.gitbook/assets/screen-shot-2020-12-19-at-6.09.59-pm.png)
+![The effectiveness of overlapping computation with communication](<../../.gitbook/assets/Screen Shot 2020-12-19 at 6.09.59 PM.png>)
 
-![Bucket size vs. latency](../../.gitbook/assets/screen-shot-2020-12-19-at-10.51.29-pm.png)
+![Bucket size vs. latency](<../../.gitbook/assets/Screen Shot 2020-12-19 at 10.51.29 PM.png>)
 
-![Latency vs. number of GPUs](../../.gitbook/assets/screen-shot-2020-12-19-at-10.54.14-pm.png)
+![Latency vs. number of GPUs](<../../.gitbook/assets/Screen Shot 2020-12-19 at 10.54.14 PM.png>)
 
-![Latency vs. doing gradient reduction every n iterations \(n = 1, 2, 4, 8\)](../../.gitbook/assets/screen-shot-2020-12-19-at-10.55.45-pm.png)
+![Latency vs. doing gradient reduction every n iterations (n = 1, 2, 4, 8)](<../../.gitbook/assets/Screen Shot 2020-12-19 at 10.55.45 PM.png>)
 
-![Besides the per iteration latency, it&#x2019;s also crucial to measure the convergence speed to ver- ify if the acceleration might be erased by convergence slow- down.](../../.gitbook/assets/screen-shot-2020-12-19-at-11.10.08-pm.png)
+![Besides the per iteration latency, it’s also crucial to measure the convergence speed to ver- ify if the acceleration might be erased by convergence slow- down.](<../../.gitbook/assets/Screen Shot 2020-12-19 at 11.10.08 PM.png>)
 
-![Using multiple process groups to bypass the intrinsic concurrency limitations in process group backend implementations.](../../.gitbook/assets/screen-shot-2020-12-19-at-11.12.35-pm.png)
+![Using multiple process groups to bypass the intrinsic concurrency limitations in process group backend implementations.](<../../.gitbook/assets/Screen Shot 2020-12-19 at 11.12.35 PM.png>)
 
 ## Discussion
 
@@ -122,6 +122,5 @@ Some future directions for optimizations:
 ## Links
 
 * [Paper PDF](https://arxiv.org/pdf/2006.15704.pdf)
-* [CS 744 Slides & Notes](http://pages.cs.wisc.edu/~shivaram/cs744-fa20-slides/cs744-pytorch-notes.pdf)
+* [CS 744 Slides & Notes](http://pages.cs.wisc.edu/\~shivaram/cs744-fa20-slides/cs744-pytorch-notes.pdf)
 * [Debugging and Visualization in PyTorch using Hooks](https://blog.paperspace.com/pytorch-hooks-gradient-clipping-debugging/)
-

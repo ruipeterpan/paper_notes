@@ -45,7 +45,7 @@ The Data Domain File System also featured a layered file system architecture.
 
 ### Layered file system
 
-![](../../.gitbook/assets/screen-shot-2020-12-29-at-11.25.01-am.png)
+![](<../../.gitbook/assets/Screen Shot 2020-12-29 at 11.25.01 AM.png>)
 
 * Content Store: Manages data in files; Breaks data into segments; Does the fingerprinting
 * Segment Store: Maps segment descriptors (fingerprints) to data; Performs deduplication; Keeps track of references, updates segment index; Compresses segments and pushes to container layer
@@ -53,19 +53,19 @@ The Data Domain File System also featured a layered file system architecture.
 
 ### Summary vector (bloom filter)
 
-![](../../.gitbook/assets/screen-shot-2020-12-29-at-11.57.34-am.png)
+![](<../../.gitbook/assets/Screen Shot 2020-12-29 at 11.57.34 AM.png>)
 
 This avoids going to disk and writing data if the data already exists. Bloom filters are used to check the fingerprint. It may produce false positives but no false negatives (i.e. the summary vector will not tell you that an existing fingerprint doesn't exist), so it's only a slight performance problem.&#x20;
 
 ### Stream-informed layout
 
-![CS 736 course notes by Prof. Andrea Arpaci-Dusseau](../../.gitbook/assets/screen-shot-2020-12-29-at-11.46.50-am.png)
+![CS 736 course notes by Prof. Andrea Arpaci-Dusseau](<../../.gitbook/assets/Screen Shot 2020-12-29 at 11.46.50 AM.png>)
 
 The motivation is that fingerprints are random, distributed, but the same group of fingerprints is likely to occur at the same time in the future. The idea is to dedicate containers to holding segments & fingerprints in the logical order. This improves locality and fewer number of I/Os by the container manager.
 
 ### Locality-preserved caching
 
-![CS 736 course notes by Prof. Andrea Arpaci-Dusseau](../../.gitbook/assets/screen-shot-2020-12-29-at-11.45.44-am.png)
+![CS 736 course notes by Prof. Andrea Arpaci-Dusseau](<../../.gitbook/assets/Screen Shot 2020-12-29 at 11.45.44 AM.png>)
 
 An extension of the idea that motivated stream-informed layout. We divide the cache into container-sized units and cache on the granularity of containers. If we need one of the items in the container, we will likely need all of them as well.
 
@@ -80,7 +80,7 @@ An extension of the idea that motivated stream-informed layout. We divide the ca
 
 ## Evaluation
 
-![\~100-fold performance improvement using the combination of the two techniques](../../.gitbook/assets/screen-shot-2020-12-29-at-11.58.04-am.png)
+![\~100-fold performance improvement using the combination of the two techniques](<../../.gitbook/assets/Screen Shot 2020-12-29 at 11.58.04 AM.png>)
 
 ## New Vocabulary
 
@@ -92,6 +92,6 @@ An extension of the idea that motivated stream-informed layout. We divide the ca
 * [Presentation Video at FAST '08](https://www.usenix.org/conference/fast-08/avoiding-disk-bottleneck-data-domain-deduplication-file-system)
 * [Presentation Audio at FAST '08](https://c59951.ssl.cf2.rackcdn.com/legacy\_media/fast08/tech/full\_papers/zhu/zhu.mp3)
 
-{% file src="../../.gitbook/assets/data-deduplication.pdf" %}
+{% file src="../../.gitbook/assets/Data deduplication.pdf" %}
 Prof. Andrea Arpaci-Dusseau's course notes on Data Deduplication
 {% endfile %}

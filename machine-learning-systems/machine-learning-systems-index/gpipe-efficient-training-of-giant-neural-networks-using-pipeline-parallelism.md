@@ -1,4 +1,4 @@
-# GPipe: Efficient Training of Giant Neural Networks using Pipeline Parallelism
+# \[2019 NIPS] GPipe: Efficient Training of Giant Neural Networks using Pipeline Parallelism
 
 ## One-line Summary
 
@@ -20,9 +20,9 @@ GPipe presents pipeline parallelism on top of model parallelism for better hardw
 
 ## Background & Motivation
 
-Generally, the larger \(\# parameters\) a model is, the higher accuracy it yields. However, we are hitting the bottleneck on the memory of a single accelerator. 
+Generally, the larger (# parameters) a model is, the higher accuracy it yields. However, we are hitting the bottleneck on the memory of a single accelerator.&#x20;
 
-![](../../.gitbook/assets/screen-shot-2021-05-15-at-4.39.20-pm.png)
+![](<../../.gitbook/assets/Screen Shot 2021-05-15 at 4.39.20 PM.png>)
 
 Traditional approaches to resolve this include:
 
@@ -36,25 +36,25 @@ Traditional approaches to resolve this include:
 
 ## Design and Implementation
 
-Vanilla model parallelism is not time efficient because of the serialized dependencies, and it also leads to system underutilization \(bubbles between compute blocks\).
+Vanilla model parallelism is not time efficient because of the serialized dependencies, and it also leads to system underutilization (bubbles between compute blocks).
 
 GPipe uses pipeline parallelism to integrate data and model parallelism by dividing a minibatch into smaller microbatches so that accelerators can operate in parallel on different microbatches.
 
-![](../../.gitbook/assets/screen-shot-2021-05-15-at-4.40.08-pm.png)
+![](<../../.gitbook/assets/Screen Shot 2021-05-15 at 4.40.08 PM.png>)
 
-The user is required to define \(1\) the number of model partitions, \(2\) the number of micro-batches, and \(3\) the sequence/definition of the layers that define the model. 
+The user is required to define (1) the number of model partitions, (2) the number of micro-batches, and (3) the sequence/definition of the layers that define the model.&#x20;
 
-GPipe uses re-materialization to reduce the activation memory requirements. During the forward pass, only the output activations at the partition boundaries are stored. During the backward pass, the composite forward function is recomputed at each accelerator. The authors found that the bubble overhead \(idle time on every accelerator\) is negligible when M, the number of micro-steps, is bigger than 4 \* K, the number of accelerators, as the recomputations during the backward pass can be scheduled w/o waiting for the gradients from earlier layers.
+GPipe uses re-materialization to reduce the activation memory requirements. During the forward pass, only the output activations at the partition boundaries are stored. During the backward pass, the composite forward function is recomputed at each accelerator. The authors found that the bubble overhead (idle time on every accelerator) is negligible when M, the number of micro-steps, is bigger than 4 \* K, the number of accelerators, as the recomputations during the backward pass can be scheduled w/o waiting for the gradients from earlier layers.
 
 ## Evaluation
 
-![](../../.gitbook/assets/screen-shot-2021-05-15-at-5.16.52-pm.png)
+![](<../../.gitbook/assets/Screen Shot 2021-05-15 at 5.16.52 PM.png>)
 
 GPipe scaled up AmoebaNet in both the number of channels and the size of the input image. The giant models report competitive results on all target datasets.
 
-![](../../.gitbook/assets/screen-shot-2021-05-15-at-5.17.01-pm.png)
+![](<../../.gitbook/assets/Screen Shot 2021-05-15 at 5.17.01 PM.png>)
 
-![Overhead breakdown](../../.gitbook/assets/screen-shot-2021-05-15-at-5.13.26-pm.png)
+![Overhead breakdown](<../../.gitbook/assets/Screen Shot 2021-05-15 at 5.13.26 PM.png>)
 
 ## Links
 
@@ -62,4 +62,3 @@ GPipe scaled up AmoebaNet in both the number of channels and the size of the inp
 * [Presentation video by Kartik Nanda](https://www.youtube.com/watch?v=9s2cum25Kkc)
 * [A GPipe implementation in PyTorch on GitHub](https://github.com/kakaobrain/torchgpipe)
 * [The integration of GPipe is done on tensorflow/lingvo](https://github.com/tensorflow/lingvo)
-

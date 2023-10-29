@@ -8,7 +8,7 @@ In Graph Neural Network (GNN) training, existing approaches use CPUs to sample t
 2. A new "transit parallel" approach to increase the parallelism of graph sampling
 3. Optimizations (load balancing & caching) to improve GPU utilization
 
-![Nextdoor structure](../../.gitbook/assets/screen-shot-2021-08-20-at-8.23.09-pm.png)
+![Nextdoor structure](<../../.gitbook/assets/Screen Shot 2021-08-20 at 8.23.09 PM.png>)
 
 Takeaways from Shivaram's group meeting after discussing this paper include:
 
@@ -59,7 +59,7 @@ Takeaways from Shivaram's group meeting after discussing this paper include:
 * Workflow of Sampling-based GNNs: First, a graph sampling algorithm is used to sample the input graph, and the samples are then used for data parallel training
 * Currently, most implementations use CPUs for sampling, because the implementation is easier
 
-![Different graph sampling algorithms](../../.gitbook/assets/screen-shot-2021-08-20-at-7.55.05-pm.png)
+![Different graph sampling algorithms](<../../.gitbook/assets/Screen Shot 2021-08-20 at 7.55.05 PM.png>)
 
 ### Background 2: How to best utilize GPUs
 
@@ -68,13 +68,13 @@ Takeaways from Shivaram's group meeting after discussing this paper include:
 * Shared memory and registers for each SM can be used as software-managed cache
 * Avoid warp divergence
 
-![](../../.gitbook/assets/screen-shot-2021-08-20-at-7.55.58-pm.png)
+![](<../../.gitbook/assets/Screen Shot 2021-08-20 at 7.55.58 PM.png>)
 
-![](../../.gitbook/assets/screen-shot-2021-08-20-at-8.08.19-pm.png)
+![](<../../.gitbook/assets/Screen Shot 2021-08-20 at 8.08.19 PM.png>)
 
 ### Motivation: Graph sampling on CPUs is a major overhead
 
-![Existing implementations spend as much as 62% of the training time on graph sampling](../../.gitbook/assets/screen-shot-2021-08-13-at-1.45.24-pm.png)
+![Existing implementations spend as much as 62% of the training time on graph sampling](<../../.gitbook/assets/Screen Shot 2021-08-13 at 1.45.24 PM.png>)
 
 Currently, graph sampling is done on CPUs because of the ease of implementation. Nextdoor attempts to provide both easy-to-implement and fast graph sampling.
 
@@ -96,11 +96,11 @@ Currently, graph sampling is done on CPUs because of the ease of implementation.
     * Individual transit sampling: Sample mi neighbors per-transit-node
     * Collective transit sampling: Sample mi neighbors per-sample
 
-![Example algorithms expressed using this abstraction](../../.gitbook/assets/screen-shot-2021-08-20-at-8.03.07-pm.png)
+![Example algorithms expressed using this abstraction](<../../.gitbook/assets/Screen Shot 2021-08-20 at 8.03.07 PM.png>)
 
-![Required user-defined functions](../../.gitbook/assets/screen-shot-2021-08-20-at-8.03.55-pm.png)
+![Required user-defined functions](<../../.gitbook/assets/Screen Shot 2021-08-20 at 8.03.55 PM.png>)
 
-![Use cases of Nextdoor](../../.gitbook/assets/screen-shot-2021-08-20-at-8.04.36-pm.png)
+![Use cases of Nextdoor](<../../.gitbook/assets/Screen Shot 2021-08-20 at 8.04.36 PM.png>)
 
 ### Transit parallel to increase parallelism
 
@@ -116,21 +116,21 @@ Currently, graph sampling is done on CPUs because of the ease of implementation.
   2. Each sample is assigned to a group of mi threads at step i
   3. Each thread samples one neighbor
 
-![Sample parallel](../../.gitbook/assets/screen-shot-2021-08-20-at-8.15.13-pm.png)
+![Sample parallel](<../../.gitbook/assets/Screen Shot 2021-08-20 at 8.15.13 PM.png>)
 
-![Transit parallel](../../.gitbook/assets/screen-shot-2021-08-20-at-8.15.34-pm.png)
+![Transit parallel](<../../.gitbook/assets/Screen Shot 2021-08-20 at 8.15.34 PM.png>)
 
 ### Optimization techniques for GPUs (load balancing, caching)
 
 Nextdoor uses different {types of kernels, caching strategies, neighbor access strategy, transit scheduling strategy} to process transit vertices based on the number of neighbors to sample for the transit vertex, which helps to best utilize the memory/compute resources
 
-![Sub warp: A set of contiguous threads of the same warp assigned to the same sample. All sub warps have the same size, which is determined using sampleSize function for the current step.](../../.gitbook/assets/screen-shot-2021-08-20-at-8.17.36-pm.png)
+![Sub warp: A set of contiguous threads of the same warp assigned to the same sample. All sub warps have the same size, which is determined using sampleSize function for the current step.](<../../.gitbook/assets/Screen Shot 2021-08-20 at 8.17.36 PM.png>)
 
 ## Evaluation
 
-![End-to-end speedups for GNN training](../../.gitbook/assets/screen-shot-2021-08-20-at-8.20.22-pm.png)
+![End-to-end speedups for GNN training](<../../.gitbook/assets/Screen Shot 2021-08-20 at 8.20.22 PM.png>)
 
-![Nextdoor against existing graph sampling implementations](../../.gitbook/assets/screen-shot-2021-08-20-at-8.20.57-pm.png)
+![Nextdoor against existing graph sampling implementations](<../../.gitbook/assets/Screen Shot 2021-08-20 at 8.20.57 PM.png>)
 
 The original paper also included some microbenchmarks of speedups of SP, TP, and the overhead of the GroupBy operation, etc.
 

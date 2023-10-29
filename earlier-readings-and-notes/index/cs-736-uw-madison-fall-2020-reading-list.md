@@ -21,9 +21,9 @@ This semester, we are reading many of the paper that the OS community has placed
    1. &#x20;**RAID** [**- Questions**](https://canvas.wisc.edu/courses/205576/pages/Questions%3A%20RAID?titleize=0)\
       Patterson, D., Gibson, G., and Katz, R., [**A Case for Redundant Arrays of Inexpensive Disks (RAID)Links to an external site.**](http://pages.cs.wisc.edu/\~dusseau/Classes/CS736/Papers/raid.ps) Proceedings of the 1988 ACM SIGMOD Conference on Management of Data, Chicago IL, June 1988.  SIGOPS Hall of Fame Award
    2. &#x20;**RDP (No questions yet)**\
-      ****[**Row-Diagonal Parity for Double Disk Failure Correction (Links to an external site.)**](https://www.usenix.org/conference/fast-04/row-diagonal-parity-double-disk-failure-correction)[**, (Links to an external site.)**](https://www.usenix.org/conference/fast-04/row-diagonal-parity-double-disk-failure-correction) Proceedings of USENIX File and Storage Technology (FAST), 2004, FAST Test of Time Award
+      [**Row-Diagonal Parity for Double Disk Failure Correction (Links to an external site.)**](https://www.usenix.org/conference/fast-04/row-diagonal-parity-double-disk-failure-correction)[**, (Links to an external site.)**](https://www.usenix.org/conference/fast-04/row-diagonal-parity-double-disk-failure-correction) Proceedings of USENIX File and Storage Technology (FAST), 2004, FAST Test of Time Award
 3. &#x20;**Measurement**
-   1. &#x20;**iBench** [**- Questions**](https://canvas.wisc.edu/courses/205576/pages/Questions%3A%20iBench?titleize=0)__\
+   1. &#x20;**iBench** [**- Questions**](https://canvas.wisc.edu/courses/205576/pages/Questions%3A%20iBench?titleize=0)\
       _Tyler Harter, Chris Dragga, Michael Vaughn, Andrea C. Arpaci-Dusseau, Remzi H. Arpaci-Dusseau_ [ **A file is not a file: understanding the I/O behavior of Apple desktop applications  Links to an external site.**](http://research.cs.wisc.edu/wind/Publications/ibench-sosp11.pdf)SOSP '11 Proceedings of the Twenty-Third ACM Symposium on Operating Systems Principles Pages 71-83 SOSP Best Paper, UW-Madison Authors
 4. &#x20;**Archival Storage and Deduplication-**[**Questions**](https://canvas.wisc.edu/courses/205576/pages/questions-archival-storage)
    1. &#x20;**SnapMirror** [\
@@ -36,7 +36,7 @@ This semester, we are reading many of the paper that the OS community has placed
       **Avoiding the Disk Bottleneck in the Data Domain Deduplication File System,**](broken-reference)2008\
       FAST Test of Time Award
 5. &#x20;**Caching**
-   1. **ARC (No questions yet)**[****\
+   1. **ARC (No questions yet)**[\
       **ARC: A Self-Tuning, Low Overhead Replacement Cache,**](broken-reference) 2003 FAST Test of Time Award
 6. &#x20;**Crash Consistency**
    1. &#x20;**Alice -** [**Questions**](https://canvas.wisc.edu/courses/205576/pages/Questions%3A%20Alice?titleize=0)\
@@ -49,7 +49,7 @@ This semester, we are reading many of the paper that the OS community has placed
    2. &#x20;**Bourbon (preprint in hotcrp)**\
       _Yifan Dai, Yien Xu, Aishwarya Ganesan, Ramnatthan Alagappan, Brian Kroth, Andrea Arpaci-Dusseau, and Remzi Arpaci-Dusseau_. From WiscKey to Bourbon: A Learned Index for Log-Structured Merge Trees. _In 14th USENIX Symposium on Operating Systems Design and Implementation (OSDI’20), October 2020._  UW-Madison Authors
       1. **Optional Background: WiscKey -** [**Questions**](https://canvas.wisc.edu/courses/205576/pages/questions-wisckey)[\
-         _Lanyue Lu_Links to an external site.](http://www.cs.wisc.edu/\~ll/)_,_ [_Thanumalayan Sankaranarayana PillaiLinks to an external site._](http://www.cs.wisc.edu/\~madthanu/)_,_ [_Andrea C. Arpaci-DusseauLinks to an external site._](http://www.cs.wisc.edu/\~dusseau/)_,_[_Remzi H. Arpaci-DusseauLinks to an external site._](http://www.cs.wisc.edu/\~remzi/) **** [**WiscKey: Separating Keys from Values in SSD-conscious Storage** Links to an external site.](http://research.cs.wisc.edu/adsl/Publications/wisckey-fast16.pdf)Proceedings of the 14th USENIX Conference on File and Storage Technologies (FAST '16) UW-Madison Authors
+         _Lanyue Lu_Links to an external site.](http://www.cs.wisc.edu/\~ll/)_,_ [_Thanumalayan Sankaranarayana PillaiLinks to an external site._](http://www.cs.wisc.edu/\~madthanu/)_,_ [_Andrea C. Arpaci-DusseauLinks to an external site._](http://www.cs.wisc.edu/\~dusseau/)_,_[_Remzi H. Arpaci-DusseauLinks to an external site._](http://www.cs.wisc.edu/\~remzi/)  [**WiscKey: Separating Keys from Values in SSD-conscious Storage** Links to an external site.](http://research.cs.wisc.edu/adsl/Publications/wisckey-fast16.pdf)Proceedings of the 14th USENIX Conference on File and Storage Technologies (FAST '16) UW-Madison Authors
 8. &#x20;**Persistent Memory**
    1. &#x20;**Mnemosyne**\
       _Haris Volos, Andres Jaan Tack, Michael M. Swift._ [_Mnemosyne: Lightweight Persistent MemoryLinks to an external site._](https://pages.cs.wisc.edu/\~swift/papers/asplos11\_mnemosyne.pdf)_, ASPLOS '11: Proceedings of the 16th International Conference on Architectural, UW-Madison Authors_
@@ -65,7 +65,7 @@ This semester, we are reading many of the paper that the OS community has placed
 
 ## Process Synchronization and Scalability
 
-1. &#x20;**Background: Monitors, Theory and Practice-** [**Questions: Monitors**](https://canvas.wisc.edu/courses/205576/pages/Questions%3A%20Monitors?titleize=0) ****&#x20;
+1. &#x20;**Background: Monitors, Theory and Practice-** [**Questions: Monitors**](https://canvas.wisc.edu/courses/205576/pages/Questions%3A%20Monitors?titleize=0)&#x20;
    1. &#x20;**Monitors**\
       C.A.R. Hoare  [**Monitors: An Operating System Structuring Concept Links to an external site.**](http://pages.cs.wisc.edu/\~remzi/Classes/736/Fall2010/Papers/hoare-monitors.pdf)Communications of the ACM 17, 10, October 1974, pp. 549-557 &#x20;
    2. &#x20;**Mesa**\
@@ -79,7 +79,7 @@ This semester, we are reading many of the paper that the OS community has placed
    1. &#x20;**Delegation -** [**Questions: Delegation**](https://canvas.wisc.edu/courses/205576/pages/Questions%3A%20Delegation?titleize=0)\
       Jean-Pierre Lozi and Florian David and Gael Thomas and Julia Lawall and Gilles Muller, [**Remote Core Locking: Migrating Critical-Section Execution to Improve the Performance of Multithreaded** **Applications,**  (Links to an external site.)](https://www.usenix.org/system/files/conference/atc12/atc12-final237.pdf)USENIX Annual Technical Conference (ATC'12), 2012. &#x20;
    2. &#x20;**Shuffle Locks**\
-      ****Sanidhya Kashyap,  Irina Calciu, Xiaohe Cheng, Changwoo Min, Taesoo Kim, [**Scalable and Practical Locking with Shufflin** (Links to an external site.)](https://dl.acm.org/doi/10.1145/3341301.3359629)[**g,** ](broken-reference) SOSP'19
+      Sanidhya Kashyap,  Irina Calciu, Xiaohe Cheng, Changwoo Min, Taesoo Kim, [**Scalable and Practical Locking with Shufflin** (Links to an external site.)](https://dl.acm.org/doi/10.1145/3341301.3359629)[**g,** ](broken-reference) SOSP'19
 
 ## Scheduling
 
@@ -87,7 +87,7 @@ This semester, we are reading many of the paper that the OS community has placed
    1. &#x20;**Scheduler Activations -** [**Questions**](https://canvas.wisc.edu/courses/205576/pages/Questions%3A%20Scheduler%20Activations?titleize=0)\
       Anderson, T., Bershad, B., Lazowska, E., and Levy, H. [**Scheduler Activations: Effective Kernel Support for the User-Level Management of ParallelismLinks to an external site.**](http://pages.cs.wisc.edu/\~dusseau/Classes/CS736/Papers/scheduler.pdf) ACM Transactions on Computer Systems, Vol. 10, No. 1, February 1992, pp. 53-79.&#x20;
    2. &#x20;**SEDA**\
-      ****Matt Welsh, David Culler, Eric Brewer (UC Berkeley) [**SEDA: An Architecture for Well-Conditioned, Scalable Internet Services (Links to an external site.)**](http://www.sosp.org/2001/papers/welsh.pdf) SOSP'01
+      Matt Welsh, David Culler, Eric Brewer (UC Berkeley) [**SEDA: An Architecture for Well-Conditioned, Scalable Internet Services (Links to an external site.)**](http://www.sosp.org/2001/papers/welsh.pdf) SOSP'01
 2. &#x20;**Background: Local CPU Schedulers and Resource Tracking**
    1. &#x20;**Lottery Scheduling -** [**Questions**](https://canvas.wisc.edu/courses/205576/pages/Questions%3A%20Lottery?titleize=0)\
       Waldspurger, C.A. and Weihl, W.E. [**Lottery Scheduling: Flexible Proportional-Share Resource Mangement Links to an external site.**](http://pages.cs.wisc.edu/\~dusseau/Classes/CS736/Papers/lottery-osdi94.ps)Proceedings of the First Symposium on Operating Systems Design and Implementation, Monterey CA, November 1994, pp. 1-11.
@@ -99,15 +99,15 @@ This semester, we are reading many of the paper that the OS community has placed
    2. &#x20;**TAM -** [**Questions**](https://canvas.wisc.edu/courses/205576/pages/Questions%3A%20TAM?titleize=0)\
       Suli Yang, Jing Liu, Andrea C. Arpaci-Dusseau, and Remzi H. Arpaci-Dusseau [**Principled Schedulability Analysis for Distributed Storage Systems using Thread Architecture Models**  (Links to an external site.)](https://www.usenix.org/conference/osdi18/presentation/yang)_(OSDI'18) UW-Madison Authors_
       1. &#x20;_Optional Background_\
-         __**Split-Level I/O Scheduling**[\
-         Links to an external site.](http://www.cs.wisc.edu/\~suli/)_Suli Yang, Tyler Harter, Nishant Agrawal, Salini Selvaraj Kowsalya, Anand Krishnamurthy, Samer Al-Kiswany, Andrea C. Arpaci-Dusseau, Remzi H. Arpaci-Dusseau_ __ [**Split-Level I/O Scheduling** Links to an external site.](http://research.cs.wisc.edu/adsl/Publications/split-sosp15.pdf)Proceedings of the 25th ACM Symposium on Operating Systems Principles (SOSP '15) UW-Madison Authors
+         **Split-Level I/O Scheduling**[\
+         Links to an external site.](http://www.cs.wisc.edu/\~suli/)_Suli Yang, Tyler Harter, Nishant Agrawal, Salini Selvaraj Kowsalya, Anand Krishnamurthy, Samer Al-Kiswany, Andrea C. Arpaci-Dusseau, Remzi H. Arpaci-Dusseau_  [**Split-Level I/O Scheduling** Links to an external site.](http://research.cs.wisc.edu/adsl/Publications/split-sosp15.pdf)Proceedings of the 25th ACM Symposium on Operating Systems Principles (SOSP '15) UW-Madison Authors
 4. &#x20;**Current System Scheduling**
-   1. &#x20;_**Monotasks -**_ [_**Questions**_](https://canvas.wisc.edu/courses/205576/pages/Questions%3A%20Monotasks?titleize=0)__\
+   1. &#x20;_**Monotasks -**_ [_**Questions**_](https://canvas.wisc.edu/courses/205576/pages/Questions%3A%20Monotasks?titleize=0)\
       _Kay Ousterhout (UC Berkeley); Christopher Canel (Carnegie Mellon University); Sylvia Ratnasamy (UC Berkeley); Scott Shenker_ [_**Monotasks: Architecting for Performance Clarity in Data Analytics Frameworks (Links to an external site.)**_](https://dl.acm.org/authorize?N47256)_**,** SOSP'17_
    2. &#x20;**Arachne -** [**Questions: Arachne**](https://canvas.wisc.edu/courses/205576/pages/Questions%3A%20Arachne?titleize=0)\
       _Henry Qin, Qian Li, Jacqueline Speiser, Peter Kraft, and John Ousterhout,Stanford University,_[  (Links to an external site.)](https://www.usenix.org/conference/osdi18/presentation/qin)[**Arachne: Core-Aware Thread Management  (Links to an external site.)**](https://www.usenix.org/conference/osdi18/presentation/qin)[_OSDI'18_ (Links to an external site.)](https://www.usenix.org/conference/osdi18/presentation/qin)
 5. &#x20;_**Current System Scheduling 2**_
-   1. &#x20;**Themis**[ **(Links to an external site.)**](http://shivaram.org/publications/themis-nsdi2020.pdf)[__\
+   1. &#x20;**Themis**[ **(Links to an external site.)**](http://shivaram.org/publications/themis-nsdi2020.pdf)[\
       &#x20;_(Links to an external site.)_](http://shivaram.org/publications/themis-nsdi2020.pdf)_Kshiteej Mahajan, Arjun Balasubramanian, Arjun Singhvi, Shivaram Venkataraman, and Aditya Akella, University of Wisconsin-Madison;_Amar Phanishayee,_Microsoft Research;_Shuchi Chawla,_University of Wisconsin-Madison,_ [Themis: Fair and Efficient GPU Cluster Scheduling (Links to an external site.)](http://shivaram.org/publications/themis-nsdi2020.pdf)- NSDI 2020, UW-Madison Authors
 
 ## OS Structure and Virtual Machines
@@ -129,8 +129,8 @@ This semester, we are reading many of the paper that the OS community has placed
       Ritchie, D.M. and Thompson, K. [**The UNIX Time-Sharing SystemLinks to an external site.**](http://pages.cs.wisc.edu/\~dusseau/Classes/CS736/Papers/unix-cacm.ps.gz) Communications of the ACM, Vol. 17, No. 7, July 1974, pp. 365-375.  SIGOPS Hall of Fame Award
    2. &#x20;**Disaggregation**\
       _Yizhou Shan, Yutong Huang, Yilun Chen, and Yiying Zhang,_ [**LegoOS: A Disseminated, Distributed OS for Hardware Resource Disaggregation,** (Links to an external site.)](https://www.usenix.org/conference/osdi18/presentation/shan)OSDI 2018
-   3. &#x20;**HLLs -** [**Questions**](https://canvas.wisc.edu/courses/205576/pages/Questions%3A%20Biscuit?titleize=0)****\
-      ****_Cody Cutler, M. Frans Kaashoek, and Robert T. Morris, MIT CSAIL,_ [**The benefits and costs of writing a POSIX kernel in a high-level language,** (Links to an external site.)](https://www.usenix.org/conference/osdi18/presentation/cutler)OSDI 2018
+   3. &#x20;**HLLs -** [**Questions**](https://canvas.wisc.edu/courses/205576/pages/Questions%3A%20Biscuit?titleize=0)\
+      _Cody Cutler, M. Frans Kaashoek, and Robert T. Morris, MIT CSAIL,_ [**The benefits and costs of writing a POSIX kernel in a high-level language,** (Links to an external site.)](https://www.usenix.org/conference/osdi18/presentation/cutler)OSDI 2018
 4. &#x20;**Virtual Machines**
    1. &#x20;**Disco -** [**Questions**](https://canvas.wisc.edu/courses/205576/pages/Questions%3A%20Disco?titleize=0)\
       Edouard Bugnion, Scott Devine, Mendel Rosenblum. [**Disco: Running Commodity Operating Systems on Scalable MultiprocessorsLinks to an external site.**](http://pages.cs.wisc.edu/\~dusseau/Classes/CS736/Papers/disco.ps.gz) Proceedings of The Sixteenth Symposium on Operating Systems Principles (October 1997).  SIGOPS Hall of Fame Award
@@ -147,13 +147,13 @@ This semester, we are reading many of the paper that the OS community has placed
 
 1. &#x20;**Profiling and Binary Code**
    1. &#x20;**KernInst**\
-      ****_Ariel Tamches and Barton P. Miller,_ "Fine-Grained Dynamic Instrumentation of Commodity Operating System Kernels",3rd Symposium on Operating Systems Design and Implementation (OSDI),New Orleans, Louisiana, February 1999. UW-Madison Authors
+      _Ariel Tamches and Barton P. Miller,_ "Fine-Grained Dynamic Instrumentation of Commodity Operating System Kernels",3rd Symposium on Operating Systems Design and Implementation (OSDI),New Orleans, Louisiana, February 1999. UW-Madison Authors
       1. &#x20;**Optional**
          1. _Nathan E. Rosenblum, Xiaojin (Jerry) Zhu and Barton P. Miller,_ "Who Wrote This Code? Identifying the Authors of Program Binaries", 2011 European Symposium on Research in Computer Security (ESORICS), Leuven, Belgium, September 2011. UW-Madison Authors
          2. &#x20;[_Xiaozhu Meng (Links to an external site.)_](https://www.researchgate.net/profile/Xiaozhu\_Meng) _and Barton P. Miller,_ Binary Code is Not Easy, International Symposium on Software Testing and Analysis, 2016 UW-Madison Authors
 2. &#x20;**Symbolic Execution and Debugging Experience**
    1. &#x20;**KLEE**\
-      ****_Cristian Cadar, Daniel Dunbar, and Dawson Engler._ **KLEE: Unassisted and Automatic Generation of High-Coverage Tests for Complex Systems Programs.** In OSDI’08, SIGOPS Hall of Fame Award
+      _Cristian Cadar, Daniel Dunbar, and Dawson Engler._ **KLEE: Unassisted and Automatic Generation of High-Coverage Tests for Complex Systems Programs.** In OSDI’08, SIGOPS Hall of Fame Award
    2. **Debug**\
       Kirk Glerum, Kinshuman Kinshumann, Steve Greenberg, Gabriel Aul, Vince Orgovan, Greg Nichols, David Grant, Gretchen Loihle, and Galen Hunt.[**Debugging in the (Very) Large: Ten Years of Implementation and Experience**](broken-reference)**. In SOSP ’09,** SIGOPS Hall of Fame Award
 3. &#x20;**Summary of System Design**
@@ -166,10 +166,10 @@ This semester, we are reading many of the paper that the OS community has placed
    [Tenex, A Paged Time Sharing System for the PDP-10 (Links to an external site.)](http://dl.acm.org/citation.cfm?id=361271) \
    Communications of the ACM 15(3), March 1972. [SIGOPS Hall of Fame Award (Links to an external site.)](http://doi.acm.org/10.1145/1368506.1368525)
 2. Daley, R.C., and Dennis, J.B. \
-   [**Virtual Memory, Processes, and Sharing in MULTICSLinks to an external site.**](http://pages.cs.wisc.edu/\~dusseau/Classes/CS736/Papers/multics.pdf) **** \
+   [**Virtual Memory, Processes, and Sharing in MULTICSLinks to an external site.**](http://pages.cs.wisc.edu/\~dusseau/Classes/CS736/Papers/multics.pdf) \
    Communications of the ACM, Vol. 11, No. 5, May 1968, pp. 306-312. (Multics paper in [SIGOPS Hall of Fame (Links to an external site.)](http://doi.acm.org/10.1145/1368506.1368525))
 3. &#x20;R. Rashid and A. Tevanian and M. Young and D. Golub and R. Baron and D. Black and W. Bolosky and J. Chew, \
-   [**Machine-Independent Virtual Memory Management for Paged Uniprocessor and Multiprocessor ArchitecturesLinks to an external site.**](http://pages.cs.wisc.edu/\~dusseau/Classes/CS736/Papers/mach-vm.pdf) **** [**SIGOPS Hall of Fame Award (Links to an external site.)**](http://doi.acm.org/10.1145/1368506.1368525)\
+   [**Machine-Independent Virtual Memory Management for Paged Uniprocessor and Multiprocessor ArchitecturesLinks to an external site.**](http://pages.cs.wisc.edu/\~dusseau/Classes/CS736/Papers/mach-vm.pdf) [**SIGOPS Hall of Fame Award (Links to an external site.)**](http://doi.acm.org/10.1145/1368506.1368525)\
    Proceedings of the 2nd International Conference on Architectural Support for Programming Languages and Operating System (ASPLOS), 1987.  (Mach in [SIGOPS Hall of Fame (Links to an external site.)](http://doi.acm.org/10.1145/1368506.1368525))
 4. J. Liedtke. \
    [On micro-kernel construction (Links to an external site.)](http://doi.acm.org/10.1145/224056.224075).\

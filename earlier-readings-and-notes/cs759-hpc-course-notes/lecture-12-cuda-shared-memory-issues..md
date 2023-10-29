@@ -4,7 +4,7 @@
 
 * Last time
   * Aspects related to how GPU memory operations take place
-    * Registers, local memory, shared memory, global memory \(texture & constant memories\)
+    * Registers, local memory, shared memory, global memory (texture & constant memories)
 * Today
   * GPU mem operations: focus on shared memory
   * GPU mem operations: focus on global memory
@@ -27,30 +27,30 @@
       * Multicast: some threads in a warp access the same bank
   * For visualizations, see the slides
 
-![An example of bank conflicts](../../.gitbook/assets/screen-shot-2021-02-27-at-12.34.20-pm.png)
+![An example of bank conflicts](<../../.gitbook/assets/Screen Shot 2021-02-27 at 12.34.20 PM.png>)
 
-![Linear addressing](../../.gitbook/assets/screen-shot-2021-02-27-at-12.37.49-pm.png)
-
-### Example
-
-![](../../.gitbook/assets/screen-shot-2021-02-27-at-12.43.13-pm.png)
-
-![](../../.gitbook/assets/screen-shot-2021-02-27-at-12.43.26-pm.png)
-
-## Getting the results right \(broadly for parallel computing\)
+![Linear addressing](<../../.gitbook/assets/Screen Shot 2021-02-27 at 12.37.49 PM.png>)
 
 ### Example
 
-![We are all good](../../.gitbook/assets/screen-shot-2021-02-27-at-12.48.01-pm.png)
+![](<../../.gitbook/assets/Screen Shot 2021-02-27 at 12.43.13 PM.png>)
 
-![All hell break loose](../../.gitbook/assets/screen-shot-2021-02-27-at-12.48.18-pm.png)
+![](<../../.gitbook/assets/Screen Shot 2021-02-27 at 12.43.26 PM.png>)
+
+## Getting the results right (broadly for parallel computing)
+
+### Example
+
+![We are all good](<../../.gitbook/assets/Screen Shot 2021-02-27 at 12.48.01 PM.png>)
+
+![All hell break loose](<../../.gitbook/assets/Screen Shot 2021-02-27 at 12.48.18 PM.png>)
 
 ### Data Hazards
 
 * Three types of data hazards
-  * RAW: Read-After-Write \(j ought to read only after the write by i occurred\)
-  * WAR: Write-After-Read \(j ought to write only after the read by i occurred\)
-  * WAW: Write-After-Write \(j ought to write only after the write by i occurred\)
+  * RAW: Read-After-Write (j ought to read only after the write by i occurred)
+  * WAR: Write-After-Read (j ought to write only after the read by i occurred)
+  * WAW: Write-After-Write (j ought to write only after the write by i occurred)
 * Moral of the story: The ordering of memory operations is important
 * Types of memory consistency
   * Sequential consistency: All reads and all writes are in-order
@@ -67,10 +67,10 @@
 * volatile applies equally well to sequential computing
 * `__threadfence()` is specific to parallel computing
 
-## Getting the results fast \(for specifically GPU computing\)
+## Getting the results fast (for specifically GPU computing)
 
 * Issues
-  * Not all global memory accesses are equally efficient \(higher priority\)
+  * Not all global memory accesses are equally efficient (higher priority)
   * Not all shared memory accesses are equally efficient
 * Two aspects of global memory access are relevant
   * The layout/pattern of the access
@@ -80,7 +80,6 @@
     * If all threads in a warp access data inside only one memory block, it's great
 * Good memory accesses are coalesced and properly aligned
 
-![Coalesced and aligned](../../.gitbook/assets/screen-shot-2021-02-27-at-1.32.07-pm.png)
+![Coalesced and aligned](<../../.gitbook/assets/Screen Shot 2021-02-27 at 1.32.07 PM.png>)
 
-![Coalesced but not aligned](../../.gitbook/assets/screen-shot-2021-02-27-at-1.32.20-pm.png)
-
+![Coalesced but not aligned](<../../.gitbook/assets/Screen Shot 2021-02-27 at 1.32.20 PM.png>)

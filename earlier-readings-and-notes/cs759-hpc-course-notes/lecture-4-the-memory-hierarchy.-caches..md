@@ -16,16 +16,16 @@
 * Clock cycle: The length of the period for the processor clock (e.g., a 1GHz processor has a clock cycle of 1 nanosecond)
 * The CPU Performance Equation: CPU Execution Time = Instruction Count \* Clock-Cycles per Instructions (CPI) \* Clock Cycle Time = Instruction Count \* Clock-Cycles per Instructions (CPI) / Clock Rate
 
-![The SPEC CPU benchmark. CPI<1: Multiple-issue is in play. For combinational optimization, there are probably a lot of pipeline stalls](../../.gitbook/assets/screen-shot-2021-02-01-at-11.33.19-am.png)
+![The SPEC CPU benchmark. CPI<1: Multiple-issue is in play. For combinational optimization, there are probably a lot of pipeline stalls](<../../.gitbook/assets/Screen Shot 2021-02-01 at 11.33.19 AM.png>)
 
 ## Memory & Cache
 
 * SRAM (Static Random Access Memory): Expensive but fast (short access time), bulky, transistor hog, needs no refresh
 * DRAM (Dynamic \~): Cheap but slow, information stored as a charge in a capacitor, higher capacity per unit area, needs refresh every 10-100ms, sensitive to disturbances
 
-![](../../.gitbook/assets/screen-shot-2021-02-01-at-1.53.41-pm.png)
+![](<../../.gitbook/assets/Screen Shot 2021-02-01 at 1.53.41 PM.png>)
 
-![](../../.gitbook/assets/screen-shot-2021-02-01-at-1.56.23-pm.png)
+![](<../../.gitbook/assets/Screen Shot 2021-02-01 at 1.56.23 PM.png>)
 
 The memory hierarchy (the pyramid of tradeoffs):
 
@@ -39,9 +39,9 @@ The memory hierarchy (the pyramid of tradeoffs):
       * Instruction caches: Stores instructions
     * The ratio between cache size & main memory size: \~1:1000
 
-![](../../.gitbook/assets/screen-shot-2021-02-01-at-1.58.22-pm.png)
+![](<../../.gitbook/assets/Screen Shot 2021-02-01 at 1.58.22 PM.png>)
 
-![](../../.gitbook/assets/screen-shot-2021-02-01-at-1.58.38-pm.png)
+![](<../../.gitbook/assets/Screen Shot 2021-02-01 at 1.58.38 PM.png>)
 
 The reason why cache works is the principle of locality: Programs tend to use data and instructions with addresses near or equal to those they have used recently.
 

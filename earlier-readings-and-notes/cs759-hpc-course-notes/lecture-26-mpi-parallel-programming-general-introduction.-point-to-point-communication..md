@@ -5,7 +5,7 @@
 * Last time
   * Wrapped up “Critical thinking” segment. Went through a case study, saw more than 100X speed up
     * No function-call blockers; loop unrolling & re-association; dropped in the wide-register vectorization
-  * Started discussion about parallel computing via message passing \(multi-process parallel computing\)
+  * Started discussion about parallel computing via message passing (multi-process parallel computing)
     * Covered the hardware aspects related to HPC
 * Today
   * HPC via MPI: discuss the basic ideas/paradigms
@@ -15,15 +15,15 @@
 
 ### Introduction to message passing and MPI
 
-* CUDA: A kernel \(a small snippet of code\) is run by all threads spawned via an execution configuration
+* CUDA: A kernel (a small snippet of code) is run by all threads spawned via an execution configuration
 * OpenMP: All threads execute an omp parallel region, work sharing
 * MPI: The entire code is executed in parallel by all processses
 
-![Hello world example](../../.gitbook/assets/screen-shot-2021-03-30-at-2.53.16-pm.png)
+![Hello world example](<../../.gitbook/assets/Screen Shot 2021-03-30 at 2.53.16 PM.png>)
 
 * MPI does branching based on the process rank
   * Very similar to GPU computing, where one thread does work based on its thread index
-  * Very similar to OpenMP function omp\_get\_thread\_num\(\)
+  * Very similar to OpenMP function omp\_get\_thread\_num()
 * Each MPI process has its own program counter and virtual address space
   * The variables of each program have the same name but live in different virtual memories and assume different values
 * MPI can be used whenever it is possible for processes to exchange messages:
@@ -33,20 +33,20 @@
     * Data is passed through the main memory instead of a network
     * Different ranks share the same physical memory, but they are each tied to separate virtual memory spaces
 
-![](../../.gitbook/assets/screen-shot-2021-03-30-at-3.10.19-pm.png)
+![](<../../.gitbook/assets/Screen Shot 2021-03-30 at 3.10.19 PM.png>)
 
-![](../../.gitbook/assets/screen-shot-2021-03-30-at-2.58.49-pm.png)
+![](<../../.gitbook/assets/Screen Shot 2021-03-30 at 2.58.49 PM.png>)
 
-![MPI vs. OpenMP](../../.gitbook/assets/screen-shot-2021-03-30-at-3.12.33-pm.png)
+![MPI vs. OpenMP](<../../.gitbook/assets/Screen Shot 2021-03-30 at 3.12.33 PM.png>)
 
-![MPI vs. CUDA](../../.gitbook/assets/screen-shot-2021-03-30-at-3.13.01-pm.png)
+![MPI vs. CUDA](<../../.gitbook/assets/Screen Shot 2021-03-30 at 3.13.01 PM.png>)
 
-### Point-to-Point \(P2P\) Communication
+### Point-to-Point (P2P) Communication
 
-![](../../.gitbook/assets/screen-shot-2021-03-30-at-3.46.14-pm.png)
+![](<../../.gitbook/assets/Screen Shot 2021-03-30 at 3.46.14 PM.png>)
 
 * P2P: Simplest form of message passing communication
-* One process sends a message to another process \(MPI\__Send, MPI\__Recv\)
+* One process sends a message to another process (MPI\__Send, MPI\__Recv)
 * `int MPI_Send(void *buf, int count, MPI_Datatype datatype, int dst, int tag, MPI_Comm comm)`
   * buf: starting point of the message with count elements, each described with datatype
   * dst: rank of the destination process within the comm communicator
@@ -69,5 +69,4 @@
   * Eager mode: Small messages, the content of the buffer is picked up right away by the MPI runtime
   * Rendezvous mode: Large amount of data, the sender function waits for the receiver to post a receive before the runtime facilitates the sending of the actual data of the message
 
-![MPI data types](../../.gitbook/assets/screen-shot-2021-03-30-at-3.48.40-pm.png)
-
+![MPI data types](<../../.gitbook/assets/Screen Shot 2021-03-30 at 3.48.40 PM.png>)

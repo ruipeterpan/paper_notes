@@ -42,13 +42,13 @@ Disco uses virtual machines to run multiple commodity operating systems on large
 
 The motivation is to enable existing commodity operating systems to handle Non-Uniform Memory Access (NUMA) architectures. Instead of modifying existing operating systems to run on scalable shared-memory multiprocessors, an additional layer (VM monitor) is inserted between the hardware and the OS.
 
-![Course notes by Prof. Andrea. Left: SMP (symmetrical multiprocessor uniform memory access machine), right: cc-NUMA](../../.gitbook/assets/screen-shot-2021-01-03-at-7.41.45-pm.png)
+![Course notes by Prof. Andrea. Left: SMP (symmetrical multiprocessor uniform memory access machine), right: cc-NUMA](<../../.gitbook/assets/Screen Shot 2021-01-03 at 7.41.45 PM.png>)
 
 Cache-coherent Non-Uniform Memory Architecture (cc-NUMA) makes hardware scalable, while SMP ensures the same performance to all memory from everywhere. Both ensure correctness, though.
 
 ## Design and Implementation
 
-![Disco is a layer between OSes and hardware](../../.gitbook/assets/screen-shot-2021-01-03-at-7.46.13-pm.png)
+![Disco is a layer between OSes and hardware](<../../.gitbook/assets/Screen Shot 2021-01-03 at 7.46.13 PM.png>)
 
 The advantages of using virtual machines in the context of this work are:
 
@@ -70,31 +70,31 @@ The drawbacks of using virtual machines are:
   * Hard to communicate between standalone VMs
   * Most OSes require exclusive access to disks
 
-![High-level challenges of using virtual machines](../../.gitbook/assets/screen-shot-2021-01-03-at-7.52.20-pm.png)
+![High-level challenges of using virtual machines](<../../.gitbook/assets/Screen Shot 2021-01-03 at 7.52.20 PM.png>)
 
-![How Disco virtualizes CPU. Three priviliged levels: user, supervisor, and kernel.](../../.gitbook/assets/screen-shot-2021-01-03-at-7.53.38-pm.png)
+![How Disco virtualizes CPU. Three priviliged levels: user, supervisor, and kernel.](<../../.gitbook/assets/Screen Shot 2021-01-03 at 7.53.38 PM.png>)
 
-![How Disco virtualizes memory. Users generate virtual addresses, OS translates to physical addreses, Disco translates to machine addresses.](../../.gitbook/assets/screen-shot-2021-01-03-at-7.56.46-pm.png)
+![How Disco virtualizes memory. Users generate virtual addresses, OS translates to physical addreses, Disco translates to machine addresses.](<../../.gitbook/assets/Screen Shot 2021-01-03 at 7.56.46 PM.png>)
 
-![](../../.gitbook/assets/screen-shot-2021-01-03-at-8.04.35-pm.png)
+![](<../../.gitbook/assets/Screen Shot 2021-01-03 at 8.04.35 PM.png>)
 
-![Records copy-on-write to track shared data efficiently.](../../.gitbook/assets/screen-shot-2021-01-03-at-8.27.31-pm.png)
+![Records copy-on-write to track shared data efficiently.](<../../.gitbook/assets/Screen Shot 2021-01-03 at 8.27.31 PM.png>)
 
-![Send becomes additional mapping (emulate device); Copy becomes additional mapping](../../.gitbook/assets/screen-shot-2021-01-03-at-8.27.39-pm.png)
+![Send becomes additional mapping (emulate device); Copy becomes additional mapping](<../../.gitbook/assets/Screen Shot 2021-01-03 at 8.27.39 PM.png>)
 
-![Changes Disco made to IRIX to improve performance](../../.gitbook/assets/screen-shot-2021-01-03-at-8.29.50-pm.png)
+![Changes Disco made to IRIX to improve performance](<../../.gitbook/assets/Screen Shot 2021-01-03 at 8.29.50 PM.png>)
 
 ## Evaluation
 
-![](../../.gitbook/assets/screen-shot-2021-01-03-at-8.36.57-pm.png)
+![](<../../.gitbook/assets/Screen Shot 2021-01-03 at 8.36.57 PM.png>)
 
-![Pmake & Database do a lot of syscalls, often traps into Disco, which then goes to kernel. The extra 16% overhead for those workloads is due to the extra work handling TLB misses. The kernel time being less is because Disco zeros the pages (does work instead of IRIX).](../../.gitbook/assets/screen-shot-2021-01-03-at-8.37.10-pm.png)
+![Pmake & Database do a lot of syscalls, often traps into Disco, which then goes to kernel. The extra 16% overhead for those workloads is due to the extra work handling TLB misses. The kernel time being less is because Disco zeros the pages (does work instead of IRIX).](<../../.gitbook/assets/Screen Shot 2021-01-03 at 8.37.10 PM.png>)
 
-![Disco does a good job sharing buffer cache space across VMs and sharing IRIX text.](../../.gitbook/assets/screen-shot-2021-01-03-at-8.40.11-pm.png)
+![Disco does a good job sharing buffer cache space across VMs and sharing IRIX text.](<../../.gitbook/assets/Screen Shot 2021-01-03 at 8.40.11 PM.png>)
 
-![No migration + replication, just looking at how much more scalable is Disco than IRIX due to optimizations of not having locks in which IRIX does a bad job at. IRIX on 8-processor cc-NUMA machine. 2VM -> 8VM actually improves because Disco does not have bad lock](../../.gitbook/assets/screen-shot-2021-01-03-at-8.40.22-pm.png)
+![No migration + replication, just looking at how much more scalable is Disco than IRIX due to optimizations of not having locks in which IRIX does a bad job at. IRIX on 8-processor cc-NUMA machine. 2VM -> 8VM actually improves because Disco does not have bad lock](<../../.gitbook/assets/Screen Shot 2021-01-03 at 8.40.22 PM.png>)
 
-![Much less time accessing remote memory, more local memory.](../../.gitbook/assets/screen-shot-2021-01-03-at-8.49.23-pm.png)
+![Much less time accessing remote memory, more local memory.](<../../.gitbook/assets/Screen Shot 2021-01-03 at 8.49.23 PM.png>)
 
 This paper started off VMWare (which was founded by authors of Disco in 1998 and successfully commercialized this work) and revived virtual machines for the next 20 years. Now VMs are commodities, and every cloud provider and virtually every enterprise uses VMs today.
 
@@ -110,6 +110,6 @@ This paper started off VMWare (which was founded by authors of Disco in 1998 and
 * [Discussion panel from CS 736 @ UW-Madison](http://pages.cs.wisc.edu/\~swift/classes/cs736-fa12/blog/2012/09/disco\_running\_commodity\_operat.html)
 * [Lecture slides from CS 262a @ Berkeley by Prof. Ion Stoica and Ali Ghodsi](https://ucbrise.github.io/cs262a-spring2018/notes/10-VMs-Disco-Xen.pdf)
 
-{% file src="../../.gitbook/assets/21-disco-instructor-notes-combined-with-questions.pdf" %}
+{% file src="../../.gitbook/assets/21-Disco-Instructor-Notes Combined with Questions.pdf" %}
 Prof. Andrea's notes on Disco
 {% endfile %}

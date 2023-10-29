@@ -10,7 +10,7 @@
 
 ## Know your hardware
 
-![Know your bandwidth/latency](../../.gitbook/assets/screen-shot-2021-04-10-at-11.39.24-pm.png)
+![Know your bandwidth/latency](<../../.gitbook/assets/Screen Shot 2021-04-10 at 11.39.24 PM.png>)
 
 ## Choose the right algorithm
 
@@ -19,7 +19,7 @@
   * Memory transactions are rarely considered: they are specific to the hardware
 * Assess the arithmetic intensity associated with your problem
 
-![](../../.gitbook/assets/screen-shot-2021-04-10-at-11.43.21-pm.png)
+![](<../../.gitbook/assets/Screen Shot 2021-04-10 at 11.43.21 PM.png>)
 
 * Simple optimization: Fusing transformations and do not bring data into the cache twice
 
@@ -28,13 +28,12 @@
 * Aggressive optimizations done by the compiler might change the behavior of your code
 * To help the compiler:
   * Allow it to see as much code as possible
-  * Provide flags to convey information \(e.g., the target architecture\)
+  * Provide flags to convey information (e.g., the target architecture)
 * There are a lot of amazing things covered in this lecture. The takeaways are:
   * Compilers are fantastic
   * Know them better to use them wisely
 * A quick example is down below. Refer to the [slides](https://uwmadison.app.box.com/s/kapdp4qt18c6869dnaenlo35iytnlp2r) for a lot more fun facts
 
-![](../../.gitbook/assets/screen-shot-2021-04-10-at-11.59.06-pm.png)
+![](<../../.gitbook/assets/Screen Shot 2021-04-10 at 11.59.06 PM.png>)
 
-![](../../.gitbook/assets/screen-shot-2021-04-10-at-11.59.17-pm.png)
-
+![](<../../.gitbook/assets/Screen Shot 2021-04-10 at 11.59.17 PM.png>)

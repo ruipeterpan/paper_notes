@@ -332,6 +332,7 @@ Don't feel obliged to copy my timeline exactly -- this is just for your referenc
 * [Matt Might's HOWTO: Apply for and get into grad school for science, engineering, math, and computer science](https://matt.might.net/articles/how-to-apply-and-get-in-to-graduate-school-in-science-mathematics-engineering-or-computer-science/)
 * [Reflecting on CS Graduate Admissions](https://da-data.blogspot.com/2015/03/reflecting-on-cs-graduate-admissions.html) by Prof. David Anderson
 * [Graduate Study Survival Guide](https://cs.uwaterloo.ca/\~thachisu/survival.pdf) by Prof. Toshiya Hachisuka
+* [EPFL EPIC Guide](https://epic-guide.github.io/applying) by students at EPFL
 * [Chris Liu's list of resources for CS grad school application](https://chrisliu298.io/posts/grad-school-application.html)
 * [USA Computer Science PhD Application Advice](https://www.youtube.com/watch?v=IprN9fPV2LI) by Prof. Shriram Krishnamurthi
 * [My CS Ph.D.: Whether, why, and how to get a Ph.D. in CS](https://mycsphd.org/) by UCSD CSE

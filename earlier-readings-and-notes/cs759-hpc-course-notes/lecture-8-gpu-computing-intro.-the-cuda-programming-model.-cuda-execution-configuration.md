@@ -13,13 +13,13 @@
 * MISD: Multiple Instruction/Single Data
 * MIMD: Multiple Instruction/Multiple Data
 
-![](../../.gitbook/assets/screen-shot-2021-02-10-at-1.56.21-pm.png)
+![](<../../.gitbook/assets/Screen Shot 2021-02-10 at 1.56.21 PM.png>)
 
-![](../../.gitbook/assets/screen-shot-2021-02-10-at-1.56.37-pm.png)
+![](<../../.gitbook/assets/Screen Shot 2021-02-10 at 1.56.37 PM.png>)
 
-![](../../.gitbook/assets/screen-shot-2021-02-10-at-1.57.07-pm.png)
+![](<../../.gitbook/assets/Screen Shot 2021-02-10 at 1.57.07 PM.png>)
 
-![](../../.gitbook/assets/screen-shot-2021-02-10-at-1.57.23-pm.png)
+![](<../../.gitbook/assets/Screen Shot 2021-02-10 at 1.57.23 PM.png>)
 
 ## Amdahl's Law (Law of Diminishing Returns)
 
@@ -27,17 +27,17 @@ The overall speedup relies on the worst-performing sections the most (see more e
 
 ## GPU Computing with CUDA
 
-![](../../.gitbook/assets/screen-shot-2021-02-10-at-2.05.01-pm.png)
+![](<../../.gitbook/assets/Screen Shot 2021-02-10 at 2.05.01 PM.png>)
 
-![](../../.gitbook/assets/screen-shot-2021-02-10-at-2.05.23-pm.png)
+![](<../../.gitbook/assets/Screen Shot 2021-02-10 at 2.05.23 PM.png>)
 
-![Fermi](../../.gitbook/assets/screen-shot-2021-02-10-at-2.09.29-pm.png)
+![Fermi](<../../.gitbook/assets/Screen Shot 2021-02-10 at 2.09.29 PM.png>)
 
-![Volta](../../.gitbook/assets/screen-shot-2021-02-10-at-2.10.08-pm.png)
+![Volta](<../../.gitbook/assets/Screen Shot 2021-02-10 at 2.10.08 PM.png>)
 
-![Ampere](../../.gitbook/assets/screen-shot-2021-02-10-at-2.10.27-pm.png)
+![Ampere](<../../.gitbook/assets/Screen Shot 2021-02-10 at 2.10.27 PM.png>)
 
-![](../../.gitbook/assets/screen-shot-2021-02-10-at-2.11.08-pm.png)
+![](<../../.gitbook/assets/Screen Shot 2021-02-10 at 2.11.08 PM.png>)
 
 
 

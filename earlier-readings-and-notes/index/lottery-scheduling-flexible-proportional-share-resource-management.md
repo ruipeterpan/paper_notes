@@ -43,17 +43,17 @@ Existing schedulers do not have accurate control over computational service rate
 
 ## Design and Implementation
 
-![It really is this simple!](../../.gitbook/assets/screen-shot-2020-12-16-at-9.23.10-pm.png)
+![It really is this simple!](<../../.gitbook/assets/Screen Shot 2020-12-16 at 9.23.10 PM.png>)
 
 How lottery scheduling works on a high level is really intuitive. The interesting stuff is some of the low-level, modular mechanisms listed below:
 
 ### Ticket Currencies
 
-![](../../.gitbook/assets/screen-shot-2020-12-16-at-9.28.39-pm.png)
+![](<../../.gitbook/assets/Screen Shot 2020-12-16 at 9.28.39 PM.png>)
 
 Currencies provides abstraction barriers across logical truct boundaries.
 
-![With currencies, the inflation is contained/insulated within a currency.](../../.gitbook/assets/screen-shot-2020-12-16-at-9.48.31-pm.png)
+![With currencies, the inflation is contained/insulated within a currency.](<../../.gitbook/assets/Screen Shot 2020-12-16 at 9.48.31 PM.png>)
 
 ### Ticket Transfers
 
@@ -71,9 +71,9 @@ If a client only consumes a fraction f of its allocated resources, it can be gra
 
 Some interesting graphs:
 
-![A 2:! ticket allocation leads to an actual 2.01:1 runtime ratio. However, a drawback we can notice here is that allocation is very random and unstable (notice the unit of the x-axis)](../../.gitbook/assets/screen-shot-2020-12-16-at-9.43.51-pm.png)
+![A 2:! ticket allocation leads to an actual 2.01:1 runtime ratio. However, a drawback we can notice here is that allocation is very random and unstable (notice the unit of the x-axis)](<../../.gitbook/assets/Screen Shot 2020-12-16 at 9.43.51 PM.png>)
 
 ## Links
 
-* [Paper PDF](https://www.usenix.org/legacy/publications/library/proceedings/osdi/full_papers/waldspurger.pdf)
+* [Paper PDF](https://www.usenix.org/legacy/publications/library/proceedings/osdi/full\_papers/waldspurger.pdf)
 * [Lottery and Stride Scheduling on YouTube](https://youtu.be/qAx4IxrOoAM) by CS4414 @ U of Virginia

@@ -4,7 +4,7 @@
 
 This work proposes tensor parallelism (TP), where tensors are partitioned across devices and are only aggregated for operations that require the whole tensor. A key insight of TP is that matrix multiplication can be split between multiple GPUs to parallelize computation and save memory.
 
-&#x20;![](../../.gitbook/assets/parallelism-tp-parallel\_gemm.png)
+&#x20;![](<../../.gitbook/assets/parallelism-tp-parallel\_gemm (1).png>)
 
 Each transformer layer consists of a self-attention block followed by a two-layer, multi-layer perceptron (MLP). To parallelize an MLP, column parallelism can be used to split the matrix multiplication, and synchronizations are not needed until the very end of the computation. Parallelizing the multi-headed attention layers is even easier since they are already inherently parallel. As a result, each transformer layer requires two allreduce during the forward pass and two allreduce during the backward pass.
 

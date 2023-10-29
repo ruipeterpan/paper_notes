@@ -14,10 +14,10 @@
 ### Example 0
 
 * Stream 1 & 2 are defined and initialized already
-  * Use the two copy sub-engines at the same time: copy in \(stream1\), copy out \(stream2\)
+  * Use the two copy sub-engines at the same time: copy in (stream1), copy out (stream2)
   * Postpone launching of myKernel in stream2until the copy operation in stream1is completed
 
-```text
+```
 cudaEvent_t event;
 cudaEventCreate(&event);                           // create event
 cudaMemcpyAsync(d_in, in, size, H2D, stream1);     // 1) H2D copy of new input
@@ -31,28 +31,28 @@ someCPUfunction(blah, blahblah)                    // this gets executed right a
 
 ### Example 1
 
-![](../../.gitbook/assets/screen-shot-2021-03-01-at-11.23.24-am.png)
+![](<../../.gitbook/assets/Screen Shot 2021-03-01 at 11.23.24 AM.png>)
 
-![Stage 3 enqueues the set of GPU operations that need to be undertaken \(the &quot;chunkification&quot;\)](../../.gitbook/assets/screen-shot-2021-03-01-at-11.23.40-am.png)
+![Stage 3 enqueues the set of GPU operations that need to be undertaken (the "chunkification")](<../../.gitbook/assets/Screen Shot 2021-03-01 at 11.23.40 AM.png>)
 
-![Concurrency \(manual pipelining\)](../../.gitbook/assets/screen-shot-2021-03-01-at-11.26.23-am.png)
+![Concurrency (manual pipelining)](<../../.gitbook/assets/Screen Shot 2021-03-01 at 11.26.23 AM.png>)
 
 ### Example 2.1
 
 * Similar to example 1, but with two streams to increase the speed of execution
-* This actually doesn't give a big speedup \(62 ms -&gt; 61 ms\)
+* This actually doesn't give a big speedup (62 ms -> 61 ms)
 
-![](../../.gitbook/assets/screen-shot-2021-03-01-at-11.33.11-am.png)
+![](<../../.gitbook/assets/Screen Shot 2021-03-01 at 11.33.11 AM.png>)
 
-![](../../.gitbook/assets/screen-shot-2021-03-01-at-11.33.24-am.png)
+![](<../../.gitbook/assets/Screen Shot 2021-03-01 at 11.33.24 AM.png>)
 
-![Note that the kernel stays the same](../../.gitbook/assets/screen-shot-2021-03-01-at-11.33.38-am.png)
+![Note that the kernel stays the same](<../../.gitbook/assets/Screen Shot 2021-03-01 at 11.33.38 AM.png>)
 
-![There is actually no overlap of copy &amp; execution...](../../.gitbook/assets/screen-shot-2021-03-01-at-11.38.44-am.png)
+![There is actually no overlap of copy & execution...](<../../.gitbook/assets/Screen Shot 2021-03-01 at 11.38.44 AM.png>)
 
 ### Example 2.2
 
-![](../../.gitbook/assets/screen-shot-2021-03-01-at-11.39.16-am.png)
+![](<../../.gitbook/assets/Screen Shot 2021-03-01 at 11.39.16 AM.png>)
 
 * Streams recap
   * Concurrency brings two flavors:
@@ -61,7 +61,7 @@ someCPUfunction(blah, blahblah)                    // this gets executed right a
 * CUDA/GPU computing recap
   * Generally, any application that fits the SIMD paradigm can benefit from using GPUs
     * Good speedups at a small time and financial investment
-  * Hardware is changing faster than software 
+  * Hardware is changing faster than software&#x20;
 
 ## Debugging & Profiling in CUDA
 
@@ -71,14 +71,13 @@ someCPUfunction(blah, blahblah)                    // this gets executed right a
 * For more usage, see the slides
   * Program execution control
   * Thread focus
-  * Program state inspection \(stack trace, source variables, memory, HW registers, code disassembly\)
-  * Run-time error detection \(cuda-memcheck\)
+  * Program state inspection (stack trace, source variables, memory, HW registers, code disassembly)
+  * Run-time error detection (cuda-memcheck)
   * Tips, best practices, and misc notes
 * I still prefer `printf()`, change my mind. /s
 
 ### Profiling
 
-* Nsight Compute \(only focus on GPU; ncu to collect data, ncu-ui to visualize interactively\)
-* Nsight Systems \(focus on the whole system\)
-* nvprof \(being deprecated rn\)
-
+* Nsight Compute (only focus on GPU; ncu to collect data, ncu-ui to visualize interactively)
+* Nsight Systems (focus on the whole system)
+* nvprof (being deprecated rn)

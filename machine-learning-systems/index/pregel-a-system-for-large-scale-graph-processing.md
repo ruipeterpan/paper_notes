@@ -1,4 +1,4 @@
-# Pregel: A System for Large-Scale Graph Processing
+# \[2010 SIGMOD] Pregel: A System for Large-Scale Graph Processing
 
 ## One-line Summary
 
@@ -33,7 +33,7 @@ Pregel is a computational model/message passing abstraction that allows users to
 
 Graphs are getting bigger (in terms of #vertices/#edges). A list of challenges in implementing large-scale graph processing algorithms is as follows.
 
-![](../../.gitbook/assets/screen-shot-2021-06-18-at-11.12.57-pm.png)
+![](<../../.gitbook/assets/Screen Shot 2021-06-18 at 11.12.57 PM.png>)
 
 Pregel is a system for processing large-scale graphs in a distributed fashion. Its API allows for arbitrary graph algorithms to be expressed with ease.
 
@@ -45,9 +45,9 @@ Pregel is a system for processing large-scale graphs in a distributed fashion. I
 > \
 > Algorithm termination is based on every vertex voting to halt. In superstep 0, every vertex is in the active state; all active vertices participate in the computation of any given superstep. A vertex deactivates itself by voting to halt. This means that the vertex has no further work to do unless triggered externally, and the Pregel framework will not execute that vertex in subsequent supersteps unless it receives a message. If reactivated by a message, a vertex must explicitly deactivate itself again. The algorithm as a whole terminates when all vertices are simultaneously inactive and there are no messages in transit.
 
-![A simple example where the largest value is propageted to every vertex.](../../.gitbook/assets/screen-shot-2021-06-18-at-8.24.38-pm.png)
+![A simple example where the largest value is propageted to every vertex.](<../../.gitbook/assets/Screen Shot 2021-06-18 at 8.24.38 PM.png>)
 
-![The Pregel API](../../.gitbook/assets/screen-shot-2021-06-18-at-10.48.55-pm.png)
+![The Pregel API](<../../.gitbook/assets/Screen Shot 2021-06-18 at 10.48.55 PM.png>)
 
 ### Combiners
 
@@ -87,19 +87,19 @@ At the beginning of a superstep, the master instructs the workers to save the pa
 
 ### PageRank
 
-![](../../.gitbook/assets/screen-shot-2021-06-19-at-12.07.07-am.png)
+![](<../../.gitbook/assets/Screen Shot 2021-06-19 at 12.07.07 AM.png>)
 
 ### Shortest Paths
 
-![In this example, as the receiving vertex of a message only needs to know the shortest distance (the minimum of all distances sent by neighboring vertices), a combiner can be utilized.](../../.gitbook/assets/screen-shot-2021-06-19-at-12.07.39-am.png)
+![In this example, as the receiving vertex of a message only needs to know the shortest distance (the minimum of all distances sent by neighboring vertices), a combiner can be utilized.](<../../.gitbook/assets/Screen Shot 2021-06-19 at 12.07.39 AM.png>)
 
 See more examples (bipartite matching, semi-clustering) in the paper :\_D
 
 ## Evaluation
 
-![SSSP: Single-source shortest paths. Scalability! Let's go!](../../.gitbook/assets/screen-shot-2021-06-19-at-12.13.06-am.png)
+![SSSP: Single-source shortest paths. Scalability! Let's go!](<../../.gitbook/assets/Screen Shot 2021-06-19 at 12.13.06 AM.png>)
 
-![In a realistic setting (log-normal random graphs), the performance also scales.](../../.gitbook/assets/screen-shot-2021-06-19-at-12.14.18-am.png)
+![In a realistic setting (log-normal random graphs), the performance also scales.](<../../.gitbook/assets/Screen Shot 2021-06-19 at 12.14.18 AM.png>)
 
 ## Links
 

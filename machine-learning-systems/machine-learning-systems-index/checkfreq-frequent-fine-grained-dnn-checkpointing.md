@@ -1,4 +1,4 @@
-# CheckFreq: Frequent, Fine-Grained DNN Checkpointing
+# \[2021 FAST] CheckFreq: Frequent, Fine-Grained DNN Checkpointing
 
 ## One-line Summary
 
@@ -46,7 +46,7 @@ CheckFreq is an automated checkpointing framework for DNN training.
 
 CheckFreq decouples the traditional checkpointing into two phases: `snapshot()` and `persist()`. `snapshot()` serializes the training state and copies it from the GPU memory to a user-space buffer in CPU memory. `persist()` writes the serialized content to disk. These two phases are pipelined with DNN training computation.
 
-![](../../.gitbook/assets/screen-shot-2021-05-21-at-2.44.34-pm.png)
+![](<../../.gitbook/assets/Screen Shot 2021-05-21 at 2.44.34 PM.png>)
 
 In the optimal case, as the model weights are synchronized in the last phase of an iteration, we can pipeline the `snapshot()` with the forward & backward pass of the next iteration, minimizing the checkpoint stall.
 
@@ -56,7 +56,7 @@ The authors also found that doing the snapshot on the GPU has an orders-of-magni
 
 Current data iterators do not guarantee the order of data items after resuming. CheckFreq resolves this by using a seed that is a function of the epoch number to reconstruct the shuffle order after resuming.
 
-![](../../.gitbook/assets/screen-shot-2021-05-21-at-3.07.00-pm.png)
+![](<../../.gitbook/assets/Screen Shot 2021-05-21 at 3.07.00 PM.png>)
 
 ### Policy: When to checkpoint?
 
@@ -65,17 +65,17 @@ Current data iterators do not guarantee the order of data items after resuming. 
 The key idea is to come up with a frequency of checkpointing every k iterations such that:
 
 1. The cost of 1 checkpoint can be amortized over k iterations
-2. The runtime overhead of checkpointing is within a user-defined threshold of the actual compute time \(say 5%\)
+2. The runtime overhead of checkpointing is within a user-defined threshold of the actual compute time (say 5%)
 
-To accomplish this, CheckFreq profiles: the iteration time \(Ti\), time to perform weight update \(Tw\), time to create an in-memory GPU copy \(Tg\), time to create an in-memory CPU copy \(Tc\), time to write to storage \(Ts\), size of checkpoint \(m\), peak GPU memory utilization \(M\), and total GPU memory \(Mmax\). Then, the frequency is determined as follows:
+To accomplish this, CheckFreq profiles: the iteration time (Ti), time to perform weight update (Tw), time to create an in-memory GPU copy (Tg), time to create an in-memory CPU copy (Tc), time to write to storage (Ts), size of checkpoint (m), peak GPU memory utilization (M), and total GPU memory (Mmax). Then, the frequency is determined as follows:
 
-![](../../.gitbook/assets/screen-shot-2021-05-21-at-2.56.32-pm.png)
+![](<../../.gitbook/assets/Screen Shot 2021-05-21 at 2.56.32 PM.png>)
 
 #### Adaptive rate tuning: Manages interference from other jobs
 
 Consider the following example
 
-![](../../.gitbook/assets/screen-shot-2021-05-21-at-3.17.16-pm.png)
+![](<../../.gitbook/assets/Screen Shot 2021-05-21 at 3.17.16 PM.png>)
 
 * Isolated: When a job runs alone, the checkpointing overhead is kept at 5% as specified by the user
 * Static: When another job space-shares the same GPU, checkpointing at the previous frequency results in a 35% overhead
@@ -83,14 +83,13 @@ Consider the following example
 
 ## Evaluation
 
-![](../../.gitbook/assets/screen-shot-2021-05-21-at-3.19.34-pm.png)
+![](<../../.gitbook/assets/Screen Shot 2021-05-21 at 3.19.34 PM.png>)
 
-![](../../.gitbook/assets/screen-shot-2021-05-21-at-3.20.27-pm.png)
+![](<../../.gitbook/assets/Screen Shot 2021-05-21 at 3.20.27 PM.png>)
 
 ## Links
 
 * [Paper PDF](https://www.usenix.org/system/files/fast21-mohan.pdf)
 * [Presentation video at FAST '21](https://www.youtube.com/watch?v=E3uaeaqfjcY)
-* [Presentation slides at FAST '21](https://www.usenix.org/sites/default/files/conference/protected-files/fast21_slides_mohan.pdf)
+* [Presentation slides at FAST '21](https://www.usenix.org/sites/default/files/conference/protected-files/fast21\_slides\_mohan.pdf)
 * [msr-fiddle/CheckFreq on GitHub](https://github.com/msr-fiddle/CheckFreq)
-

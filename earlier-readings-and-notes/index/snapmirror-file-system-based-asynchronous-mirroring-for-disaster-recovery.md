@@ -32,17 +32,17 @@ SnapMirror is an asynchronous mirroring technology that leverages file system sn
 
 ## Background & Motivation
 
-There are currently two main mechanisms for data recovery \(in case of data unavailability like a fire in the datacenter\):
+There are currently two main mechanisms for data recovery (in case of data unavailability like a fire in the datacenter):
 
-* Rely on affordable tape but risk the loss of a full day of data and face many hours or even days to recover \(**inadequate protection**\)
-* Have the benefits of a fully synchronized on-line remote mirror, but pay steep costs in both write latency and network bandwidth to maintain the mirror \(**too expensive in performance and/or network bandwidth**\)
+* Rely on affordable tape but risk the loss of a full day of data and face many hours or even days to recover (**inadequate protection**)
+* Have the benefits of a fully synchronized on-line remote mirror, but pay steep costs in both write latency and network bandwidth to maintain the mirror (**too expensive in performance and/or network bandwidth**)
 
 SnapMirror allows a mirror volume to lag behind the primary volume to substantially reduce the costs of maintaining a mirror while bounding the amount of data loss. The amount of the lag is a tunable parameter that allows data managers to achieve the right balance between potential data loss and cost.
 
 There are a few challenges in maintaining an async mirror:
 
 1. The system must determine which blocks need to be transferred to the mirror to minimize data transfer
-2. The destination must have \(or is able to be recovered to\) a self-consistent state
+2. The destination must have (or is able to be recovered to) a self-consistent state
 3. For performance, disk reads on the source and writes on the destination must be efficient
 
 SnapMirror leverages the internal data structures of NetApp's WAFL file system to solve these issues.
@@ -59,17 +59,17 @@ To preserve a consistent image of a file system, a snapshot, we simply save a co
 
 A mirror is a block-by-block, read-only, online replica of the file system. Copies are made to the same logical block on the destination as the source. The fsinfo block is updated at the end.
 
-![The block is transferred only in the last case.](../../.gitbook/assets/screen-shot-2020-12-28-at-11.31.16-am.png)
+![The block is transferred only in the last case.](<../../.gitbook/assets/Screen Shot 2020-12-28 at 11.31.16 AM.png>)
 
-![Only certain blocks are tranferred](../../.gitbook/assets/screen-shot-2020-12-28-at-11.39.29-am.png)
+![Only certain blocks are tranferred](<../../.gitbook/assets/Screen Shot 2020-12-28 at 11.39.29 AM.png>)
 
 ## Evaluation
 
-![The performance impact of active map usage](../../.gitbook/assets/screen-shot-2020-12-28-at-11.40.25-am.png)
+![The performance impact of active map usage](<../../.gitbook/assets/Screen Shot 2020-12-28 at 11.40.25 AM.png>)
 
-![SnapMirror&apos;s data scan scales much better than that of logical replication.](../../.gitbook/assets/screen-shot-2020-12-28-at-11.42.01-am.png)
+![SnapMirror's data scan scales much better than that of logical replication.](<../../.gitbook/assets/Screen Shot 2020-12-28 at 11.42.01 AM.png>)
 
-![As the update interval is tuned up, the resource requirement decreases by a lot.](../../.gitbook/assets/screen-shot-2020-12-28-at-11.43.15-am.png)
+![As the update interval is tuned up, the resource requirement decreases by a lot.](<../../.gitbook/assets/Screen Shot 2020-12-28 at 11.43.15 AM.png>)
 
 ## New Vocabulary
 
@@ -77,9 +77,10 @@ A mirror is a block-by-block, read-only, online replica of the file system. Copi
 
 ## Links
 
-* [Paper PDF](https://www.usenix.org/legacy/publications/library/proceedings/fast02/full_papers/patterson/patterson.pdf)
+* [Paper PDF](https://www.usenix.org/legacy/publications/library/proceedings/fast02/full\_papers/patterson/patterson.pdf)
 * [Asynchronous SnapMirror disaster recovery basic by NetApp](https://docs.netapp.com/ontap-9/index.jsp?topic=%2Fcom.netapp.doc.pow-dap%2FGUID-18263F03-486B-434C-A190-C05D3AFC05DD.html)
 * Thanks to Brian Chang for the paper review notes!
 
-{% file src="../../.gitbook/assets/snap-mirror.pdf" caption="Prof. Andrea\'s notes on SnapMirror" %}
-
+{% file src="../../.gitbook/assets/Snap mirror.pdf" %}
+Prof. Andrea's notes on SnapMirror
+{% endfile %}

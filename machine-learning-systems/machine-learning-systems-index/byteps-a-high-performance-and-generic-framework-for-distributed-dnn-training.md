@@ -1,4 +1,4 @@
-# BytePS: A High Performance and Generic Framework for Distributed DNN Training
+# \[2020 OSDI] BytePS: A High Performance and Generic Framework for Distributed DNN Training
 
 ## One-line Summary
 
@@ -10,7 +10,7 @@ In this paper, the authors introduced BytePS, a unified architecture for acceler
 2. Background
    1. Distributed DNN Training
    2. All-reduce
-   3. Parameter Server \(PS\)
+   3. Parameter Server (PS)
 3. Motivation and BytePS Architecture
    1. Motivation
    2. Architecture Overview
@@ -37,11 +37,11 @@ In this paper, the authors introduced BytePS, a unified architecture for acceler
 
 ## Background & Motivation
 
-Existing architectures \(all\_reduce and parameter server\) for distributed DNN training are insufficient.
+Existing architectures (all\_reduce and parameter server) for distributed DNN training are insufficient.
 
-![The two architectures for distributed training based on data parallelism: All-reduce and PS](../../.gitbook/assets/screen-shot-2020-11-30-at-11.23.14-am.png)
+![The two architectures for distributed training based on data parallelism: All-reduce and PS](<../../.gitbook/assets/Screen Shot 2020-11-30 at 11.23.14 AM.png>)
 
-![Even with ByteScheduler, we are still 30% away from the optimal performance](../../.gitbook/assets/screen-shot-2020-11-30-at-11.17.12-am.png)
+![Even with ByteScheduler, we are still 30% away from the optimal performance](<../../.gitbook/assets/Screen Shot 2020-11-30 at 11.17.12 AM.png>)
 
 The paper analyzed three problems that led to this slowdown, and then presented a solution to each problem:
 
@@ -51,13 +51,13 @@ The paper analyzed three problems that led to this slowdown, and then presented 
 
 ### Sub-optimal Inter-machine Communication
 
-![](../../.gitbook/assets/screen-shot-2020-11-30-at-11.27.44-am.png)
+![](<../../.gitbook/assets/Screen Shot 2020-11-30 at 11.27.44 AM.png>)
 
 For allreduce, the CPUs are not leveraged properly as the communication is between GPUs only. For PS, if there are insufficient CPUs for servers, bottlenecks may be created. **The solution is an optimal communication strategy that unifies allreduce and PS.**
 
 ### Sub-optimal Intra-machine Communication
 
-![](../../.gitbook/assets/screen-shot-2020-11-30-at-11.29.52-am.png)
+![](<../../.gitbook/assets/Screen Shot 2020-11-30 at 11.29.52 AM.png>)
 
 There are often multiple GPUs in a GPU machine IRL. The internal topology is also a network, which results in bottlenecks. **The solution is intra-machine optimizations that accommodate diverse intra-machine topologies.**
 
@@ -71,11 +71,11 @@ In the parameter server setup, the GPU workers send the gradients to CPU servers
 
 PS only uses links between CPUs and GPUs and does not utilize the bandwidth between GPU machines. In the allreduce setup, the communication solely relies on inter-GPU communications, not utilizing the CPU at all. BytePS takes the best of both worlds and combines these two strategies. In the paper, the authors presented an optimal partition strategy that adjusts the proportion of CPU-GPU and GPU-GPU communications.
 
-![](../../.gitbook/assets/screen-shot-2020-11-30-at-11.57.04-am.png)
+![](<../../.gitbook/assets/Screen Shot 2020-11-30 at 11.57.04 AM.png>)
 
 ### Sub-optimal Intra-machine Communication
 
-![I might come back to this later, this is a bit complicated to understand for now :P](../../.gitbook/assets/screen-shot-2020-11-30-at-12.00.35-pm.png)
+![I might come back to this later, this is a bit complicated to understand for now :P](<../../.gitbook/assets/Screen Shot 2020-11-30 at 12.00.35 PM.png>)
 
 ### The CPU Bottleneck
 
@@ -83,29 +83,28 @@ The PS server's role can be divided into two parts: Gradient Summation & Paramet
 
 ### System Architecture Overview
 
-![](../../.gitbook/assets/screen-shot-2020-11-30-at-12.05.47-pm.png)
+![](<../../.gitbook/assets/Screen Shot 2020-11-30 at 12.05.47 PM.png>)
 
 ## Evaluation
 
-![BytePS achieves near-optimal communication performance](../../.gitbook/assets/screen-shot-2020-11-30-at-12.14.50-pm.png)
+![BytePS achieves near-optimal communication performance](<../../.gitbook/assets/Screen Shot 2020-11-30 at 12.14.50 PM.png>)
 
-![10% - 20% gains](../../.gitbook/assets/screen-shot-2020-11-30-at-12.17.47-pm.png)
+![10% - 20% gains](<../../.gitbook/assets/Screen Shot 2020-11-30 at 12.17.47 PM.png>)
 
-![BytePS outperforms allreduce &amp; PS by up to 84% and 245%, respectively](../../.gitbook/assets/screen-shot-2020-11-30-at-12.19.10-pm.png)
+![BytePS outperforms allreduce & PS by up to 84% and 245%, respectively](<../../.gitbook/assets/Screen Shot 2020-11-30 at 12.19.10 PM.png>)
 
-![Breakdown of Performance Gains](../../.gitbook/assets/screen-shot-2020-11-30-at-12.20.02-pm.png)
+![Breakdown of Performance Gains](<../../.gitbook/assets/Screen Shot 2020-11-30 at 12.20.02 PM.png>)
 
 ## New Vocabulary
 
-* Network Interface Controller \(NIC\): 
-* PCI Express \(PCIe\): 
-* Goodput: Throughput that's good. Goodput is the rate at which **useful** data passes through a link, while throughput measures the rate at which **all** data passes through a link. For example, in a local area network \(LAN\), goodput only measures the throughput of the original data, while throughput also measures all the protocol overhead information \(packet headers, etc.\).
+* Network Interface Controller (NIC):&#x20;
+* PCI Express (PCIe):&#x20;
+* Goodput: Throughput that's good. Goodput is the rate at which **useful** data passes through a link, while throughput measures the rate at which **all** data passes through a link. For example, in a local area network (LAN), goodput only measures the throughput of the original data, while throughput also measures all the protocol overhead information (packet headers, etc.).
 
 ## Links
 
 * [Paper PDF](https://www.usenix.org/system/files/osdi20-jiang.pdf)
-* [Presentation Video at OSDI '20](https://www.youtube.com/watch?v=j8PHNglSZX8&feature=emb_logo&ab_channel=USENIX)
-* [Presentation Slides PDF](https://www.usenix.org/sites/default/files/conference/protected-files/osdi20_slides_jiang.pdf)
+* [Presentation Video at OSDI '20](https://www.youtube.com/watch?v=j8PHNglSZX8\&feature=emb\_logo\&ab\_channel=USENIX)
+* [Presentation Slides PDF](https://www.usenix.org/sites/default/files/conference/protected-files/osdi20\_slides\_jiang.pdf)
 * [BytePS on GitHub](https://github.com/bytedance/byteps)
 * [The rationale for BytePS](https://github.com/bytedance/byteps/blob/master/docs/rationale.md)
-

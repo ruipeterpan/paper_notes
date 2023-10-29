@@ -14,7 +14,7 @@ This paper presents a new distributed caching mechanism for addressing load imba
 
 Cloud service providers use large clusters to store data. The data access workload is skewed (power law distribution), which creates load imbalance, resulting in low throughput and long tail latencies. The objective is to achieve load balancing in distributed storage systems.
 
-![](../../.gitbook/assets/IMG\_49EC455512C4-1.jpeg)A common approach is to add a front-end cache node as a load balancer.&#x20;
+![](<../../.gitbook/assets/IMG\_49EC455512C4-1 (1).jpeg>)A common approach is to add a front-end cache node as a load balancer.&#x20;
 
 ![](<../../.gitbook/assets/Screen Shot 2022-07-03 at 10.04.17 PM.png>)The problem is that nowadays, cloud-scale distributed storage spans across many clusters, which exposes scalability issues. Given that the cache throughput is 10-100 times of the server throughput, one caching node (e.g., a switch) can only guarantee load balancing for 10-100 servers (a few racks of servers within a cluster). In other words, a single cache node only guarantees intra-cluster load balancing, not inter-cluster load balancing.
 

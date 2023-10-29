@@ -1,8 +1,8 @@
 # How to Create Picture-in-Picture Effect / Video Overlay for a Presentation Video
 
-The picture-in-picture effect \(video overlay\) allows you to place a video clip in a small frame on top of another so that they play at the same time like this:
+The picture-in-picture effect (video overlay) allows you to place a video clip in a small frame on top of another so that they play at the same time like this:
 
-![Source: https://www.youtube.com/watch?v=YNJYrM4ecww](../../.gitbook/assets/ynjyrm4ecwwhd.jpg)
+![Source: https://www.youtube.com/watch?v=YNJYrM4ecww](../../.gitbook/assets/YNJYrM4ecwwhd.jpg)
 
 There are multiple ways to make such videos. Here, I will be introducing my workflow on macOS to create these videos using an easy-to-use, PowerPoint-like application, [ActivePresenter](https://atomisystems.com/activepresenter/) by Atomi Systems.
 
@@ -11,7 +11,7 @@ There are multiple ways to make such videos. Here, I will be introducing my work
 * [Download and install ActivePresenter](https://atomisystems.com/download/)
 * A computer that runs Windows /  macOS
 * A webcam
-* A microphone \(recommended for audio quality\)
+* A microphone (recommended for audio quality)
 
 ## Creating Presentation Slides
 
@@ -25,13 +25,11 @@ When recording a video clip, considering using a microphone to record the audio.
 
 ## Managing Animations, Closed Captions, etc.
 
-![](../../.gitbook/assets/screen-shot-2020-12-01-at-11.05.20-pm.png)
+![](<../../.gitbook/assets/Screen Shot 2020-12-01 at 11.05.20 PM.png>)
 
-ActivePresenter has a neat functionality that allows users to control the timeline of events in a slide. By dragging the horizontal bars, I can control when elements appear/disappear, adjust the properties of the embedded video clip, and even add closed captions. Closed captions can either be exported as soft subtitles \(.SRT\) that can be uploaded to platforms like YouTube or as hard subtitles embedded into videos.
+ActivePresenter has a neat functionality that allows users to control the timeline of events in a slide. By dragging the horizontal bars, I can control when elements appear/disappear, adjust the properties of the embedded video clip, and even add closed captions. Closed captions can either be exported as soft subtitles (.SRT) that can be uploaded to platforms like YouTube or as hard subtitles embedded into videos.
 
 ## Exporting the video
 
 As easy as a click of a button, final videos can be exported as mp4 files.
-
-
 

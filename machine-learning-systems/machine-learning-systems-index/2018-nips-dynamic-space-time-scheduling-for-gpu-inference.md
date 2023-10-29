@@ -8,11 +8,7 @@ The authors evaluated different multiplexing (time & space) techniques for ML in
 
 Almost all cloud inference service providers/frameworks assign each model an exclusive GPU. This, combined with the small batch sizes used in an online setting, results in low hardware utilization. Current approaches that multiplex workloads have different tradeoffs, and there is no single solution that wins on all criteria.
 
-| Approach                                   | Utilization | Performance (throughput/latency) | Predictability/Performance Isolation |
-| ------------------------------------------ | ----------- | -------------------------------- | ------------------------------------ |
-| Exclusive access                           | Poor        | Good                             | Good                                 |
-| Time multiplexing (CUDA context switching) | Average     | Poor                             | Good                                 |
-| Spatial multiplexing                       | Good        | Average                          | Poor                                 |
+<table><thead><tr><th>Approach</th><th width="150">Utilization</th><th width="179.18672199170126">Performance (throughput/latency)</th><th width="223">Predictability/Performance Isolation</th></tr></thead><tbody><tr><td>Exclusive access</td><td>Poor</td><td>Good</td><td>Good</td></tr><tr><td>Time multiplexing (CUDA context switching)</td><td>Average</td><td>Poor</td><td>Good</td></tr><tr><td>Spatial multiplexing</td><td>Good</td><td>Average</td><td>Poor</td></tr></tbody></table>
 
 ## Design & Implementation
 

@@ -28,7 +28,7 @@ The authors analyze some SSD behaviors and provide insights into some "unwritten
 
 ## Background & Motivation
 
-![Multiple pages form a block, and multiple blocks form a channel. Channels are connected with a bus, and the bus is connected to a controller. The FTL lies within the controller, and it handles address mapping, garbage collection, and wear-leveling. The RAM the FTL connects to stores the mapping table and the data cache.](../../.gitbook/assets/screen-shot-2021-01-08-at-1.47.41-pm.png)
+![Multiple pages form a block, and multiple blocks form a channel. Channels are connected with a bus, and the bus is connected to a controller. The FTL lies within the controller, and it handles address mapping, garbage collection, and wear-leveling. The RAM the FTL connects to stores the mapping table and the data cache.](<../../.gitbook/assets/Screen Shot 2021-01-08 at 1.47.41 PM.png>)
 
 The SSD performance is improving and thus the storage stack is shifting from the HDD era to the SSD era. However, if we misuse SSDs, performance degradation & fluctuation and early end of device life will occur.  The authors look into the right way to achieve high performance with SSDs. For HDDs, the unwritten contracts include:
 
@@ -39,37 +39,37 @@ In this work, the authors present five rules for SSDs.
 
 ## The Five Rules
 
-### Request Scale \(RS\)
+### Request Scale (RS)
 
-Clients should issue large requests or multiple concurrent, outstanding small requests to get more throughput and benefit from the internal parallelism \(multiple channels\) of SSDs. A small request scale leads to low resource utilization. On violation, the low internal parallelism leads to 18x less read bandwidth and 10x less write bandwidth.
+Clients should issue large requests or multiple concurrent, outstanding small requests to get more throughput and benefit from the internal parallelism (multiple channels) of SSDs. A small request scale leads to low resource utilization. On violation, the low internal parallelism leads to 18x less read bandwidth and 10x less write bandwidth.
 
-### Locality \(LC\)
+### Locality (LC)
 
-Clients should access with locality \(temporal and/or spatial\). Possible benefits include reduced translation cache misses, reduced translation cache reads/writes, reduced data cache misses, and reduced write-amp from flash garbage collection. On violation, the performance impact is 2.2x average response time.
+Clients should access with locality (temporal and/or spatial). Possible benefits include reduced translation cache misses, reduced translation cache reads/writes, reduced data cache misses, and reduced write-amp from flash garbage collection. On violation, the performance impact is 2.2x average response time.
 
-### Aligned Sequentiality \(AL\)
+### Aligned Sequentiality (AL)
 
 Clients should start writing at the aligned beginning of a block boundary and write files sequentially using large write requests. For an FTL that can do hybrid block mapping, this requires fewer entries in the translation table. In hybrid FTLs, there are both page-level mapping and block-level mapping. Page-level is flexible but takes more space, and block-level is less flexible but takes less space.
 
-![](../../.gitbook/assets/screen-shot-2021-01-08-at-1.15.58-pm.png)
+![](<../../.gitbook/assets/Screen Shot 2021-01-08 at 1.15.58 PM.png>)
 
-### Grouping by Death Time \(GP\)
+### Grouping by Death Time (GP)
 
-To prevent garbage collection \(and thus data movement\), all data in an erase block should be discarded at the same time. On violation, the performance penalty and write amplification leads to 4.8x less write bandwidth, 1.6x less throughput, and 1.8x less block erasure count.
+To prevent garbage collection (and thus data movement), all data in an erase block should be discarded at the same time. On violation, the performance penalty and write amplification leads to 4.8x less write bandwidth, 1.6x less throughput, and 1.8x less block erasure count.
 
-![](../../.gitbook/assets/screen-shot-2021-01-08-at-1.16.09-pm.png)
+![](<../../.gitbook/assets/Screen Shot 2021-01-08 at 1.16.09 PM.png>)
 
-### Uniform Lifetime \(LT\)
+### Uniform Lifetime (LT)
 
 Clients of SSDs should create data with similar lifetimes. Uneven lifetime leads to uneven wearout, and FTLs may perform wear-leveling which incurs data movements. On violation, the performance penalty and write amplification leads to 1.6x less write latency.
 
-![](../../.gitbook/assets/screen-shot-2021-01-08-at-1.17.21-pm.png)
+![](<../../.gitbook/assets/Screen Shot 2021-01-08 at 1.17.21 PM.png>)
 
-![](../../.gitbook/assets/screen-shot-2021-01-08-at-1.17.33-pm.png)
+![](<../../.gitbook/assets/Screen Shot 2021-01-08 at 1.17.33 PM.png>)
 
 ## Evaluation
 
-WiscSim, the first SSD simulator that supports NCQ, and WiscSee, a discrete-event SSD simulator, are used to study and understand system performance for every FS/app pair. Applications studied include LevelDB, RocksDB, SQLite \(rollback + write-ahead-logging mode\), and the Varmail benchmark. File systems studied include ext4, XFS, and F2FS \(designed for SSDs\).
+WiscSim, the first SSD simulator that supports NCQ, and WiscSee, a discrete-event SSD simulator, are used to study and understand system performance for every FS/app pair. Applications studied include LevelDB, RocksDB, SQLite (rollback + write-ahead-logging mode), and the Varmail benchmark. File systems studied include ext4, XFS, and F2FS (designed for SSDs).
 
 ### Observations
 
@@ -116,5 +116,6 @@ The following are observed:
 * [Paper PDF](https://dl.acm.org/doi/pdf/10.1145/3064176.3064187)
 * [Review notes by Mark Callaghan](http://smalldatum.blogspot.com/2020/10/comments-on-unwritten-contract-of-solid.html)
 
-{% file src="../../.gitbook/assets/contractssds \(1\).pptx" caption="Prof. Andrea\'s course slides on this work" %}
-
+{% file src="../../.gitbook/assets/ContractSSDs (1).pptx" %}
+Prof. Andrea's course slides on this work
+{% endfile %}

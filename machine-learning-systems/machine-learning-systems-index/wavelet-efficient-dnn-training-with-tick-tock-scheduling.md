@@ -6,7 +6,7 @@ Both data and model parallelism suffer from system under-utilization. Wavelet ex
 
 That was an unnecessarily long sentence... GRE took its toll on me!
 
-![Example of how Wavelet is applied to data parallel training](../../.gitbook/assets/screen-shot-2021-05-11-at-8.05.32-pm.png)
+![Example of how Wavelet is applied to data parallel training](<../../.gitbook/assets/Screen Shot 2021-05-11 at 8.05.32 PM.png>)
 
 ## Paper Structure Outline
 
@@ -45,7 +45,7 @@ Bigger models & datasets call for large-scale distributed machine learning train
 
 In Fig. 1 (see above), computation is memory-bounded during the forward propagation. Between time 0.4 and 0.6, memory is underutilized in the backward propagation. Moreover, \~60% of on-chip compute cores are underutilized.
 
-![The same thing happens for model parallelism where the memory valley is longer. With pipelining = using GPipe.](../../.gitbook/assets/screen-shot-2021-05-11-at-8.09.48-pm.png)
+![The same thing happens for model parallelism where the memory valley is longer. With pipelining = using GPipe.](<../../.gitbook/assets/Screen Shot 2021-05-11 at 8.09.48 PM.png>)
 
 There are existing job multiplexing schemes that boost system utilization. [Gandiva](gandiva-introspective-cluster-scheduling-for-deep-learning.md) lets 2 low-utilization jobs space-share a GPU. [Salus](2020-sigcomm-reducto-on-camera-filtering-for-resource-efficient-real-time-video-analytics/salus-fine-grained-gpu-sharing-primitives-for-deep-learning-applications.md) provides fine-grained memory sharing via the GPU Lane abstraction. However, neither scheme contributes to the training progress of a single job. In this work, Wavelet relaxes the gang scheduling scheme and accelerates a single job while improving the system utilization.
 
@@ -55,13 +55,13 @@ There are existing job multiplexing schemes that boost system utilization. [Gand
 
 #### Model synchronization
 
-![How Wavelet handles the extra tock-wave during model synchronization](../../.gitbook/assets/screen-shot-2021-05-11-at-8.18.40-pm.png)
+![How Wavelet handles the extra tock-wave during model synchronization](<../../.gitbook/assets/Screen Shot 2021-05-11 at 8.18.40 PM.png>)
 
 In vanilla allreduce, there are only Main & Tick waves. With this Tock wave added, Wavelet doubles the number of model synchronizations. This is the same as synchronizing over 2\*N data parallel tasks on 2\*N GPUs, thus guaranteeing convergence. &#x20;
 
 #### Overlapping memory
 
-![](../../.gitbook/assets/screen-shot-2021-05-11-at-8.22.16-pm.png)
+![](<../../.gitbook/assets/Screen Shot 2021-05-11 at 8.22.16 PM.png>)
 
 In gang scheduling, the memory of all GPUs is underutilized during backprop. Tick-tock scheduling injects tock-wave tasks right after the tick-wave tasks finish the forward pass. To concurrently run 2 tasks (tick & tock), 2 model replicas are maintained on the GPU since the two waves train on different data. In the memory, the size of the model is way smaller than the size of the intermediate results, so no need to worry about the extra memory.
 
@@ -71,7 +71,7 @@ CUDA computation kernels are launched in separate CUDA streams to ensure ordered
 
 ### Model parallelism
 
-![](../../.gitbook/assets/screen-shot-2021-05-11-at-8.27.24-pm.png)
+![](<../../.gitbook/assets/Screen Shot 2021-05-11 at 8.27.24 PM.png>)
 
 In the vanilla pipelined process (white blocks), only 1 batch is active in the system and at most 1 GPU is active at a time. Each GPU also holds the same model partition during the whole training process.
 

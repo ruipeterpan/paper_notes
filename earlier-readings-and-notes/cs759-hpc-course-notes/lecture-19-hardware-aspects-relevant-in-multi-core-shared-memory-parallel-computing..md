@@ -10,11 +10,11 @@
 
 ## Multi-core Parallel Computing with OpenMP
 
-![Opportunities for efficiency gains](../../.gitbook/assets/screen-shot-2021-03-22-at-11.56.06-am.png)
+![Opportunities for efficiency gains](<../../.gitbook/assets/Screen Shot 2021-03-22 at 11.56.06 AM.png>)
 
 * OpenMP targets parallelism on SMP architectures
 * It is handy when
-  * You have a multi-core processor, say 16 cores/socket \(go beyond that and we suffer from diminishing returns due to overheads\)
+  * You have a multi-core processor, say 16 cores/socket (go beyond that and we suffer from diminishing returns due to overheads)
   * Might have multiple sockets, say 2
   * You have a good amount of system memory, say 64 GB
 * Processes and threads are similar in the sense that they are both independent sequences of execution
@@ -24,7 +24,7 @@
   * Data parallelism: The processing of a large amount of data elements can be done in parallel
   * Task parallelism: The execution of a collection of tasks can be performed in parallel
 
-![Hello world for OpenMP](../../.gitbook/assets/screen-shot-2021-03-22-at-12.09.44-pm.png)
+![Hello world for OpenMP](<../../.gitbook/assets/Screen Shot 2021-03-22 at 12.09.44 PM.png>)
 
 * The OMP parallel region is similar to a CUDA kernel: both are executed by threads
   * A major difference
@@ -34,9 +34,7 @@
 * Most OpenMP constructs are compiler directives. In C/C++, they take the form of `pragmas`
 * Programming model: A master thread spawns a team of threads
 
-![](../../.gitbook/assets/screen-shot-2021-03-22-at-12.12.27-pm.png)
-
-
+![](<../../.gitbook/assets/Screen Shot 2021-03-22 at 12.12.27 PM.png>)
 
 
 

@@ -26,13 +26,13 @@
   * Exclusive: the only valid copy in any cache
   * Read-only: A valid copy but other caches may contain it
   * Invalid: Out of date and cannot be used
-* In this simplified coherency model, 
+* In this simplified coherency model,&#x20;
   * A read on an invalid or absent cache line will be cached as read-only or exclusive
   * A write on a line not in an exclusive state will cause all other copies to be marked invalid and the written line to be marked exclusive
 
-![Snooping-based](../../.gitbook/assets/screen-shot-2021-04-10-at-9.32.30-pm.png)
+![Snooping-based](<../../.gitbook/assets/Screen Shot 2021-04-10 at 9.32.30 PM.png>)
 
-![4 states of the MESI protocol](../../.gitbook/assets/screen-shot-2021-04-10-at-9.35.09-pm.png)
+![4 states of the MESI protocol](<../../.gitbook/assets/Screen Shot 2021-04-10 at 9.35.09 PM.png>)
 
 ### False Sharing
 
@@ -45,5 +45,4 @@
 * This module brings together knowledge about
   * Compilers and how they work
   * Memory aspects: Pointers, hierarchy, latencies, bandwidths
-  * Instruction Level Parallelism \(pipelining, jump instructions, branch prediction, wide registers, etc.\)
-
+  * Instruction Level Parallelism (pipelining, jump instructions, branch prediction, wide registers, etc.)

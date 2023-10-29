@@ -17,13 +17,13 @@ Sequential computing is facing these steep hills to climb:
 
 ### Memory Wall
 
-![](../../.gitbook/assets/screen-shot-2021-02-09-at-1.01.20-am.png)
+![](<../../.gitbook/assets/Screen Shot 2021-02-09 at 1.01.20 AM.png>)
 
 Take-home message: Try to stay away from long and winding conversations with the main memory
 
 ### ILP Wall
 
-![ILP elicits very complex microarchitecture](../../.gitbook/assets/screen-shot-2021-02-09-at-1.05.15-am.png)
+![ILP elicits very complex microarchitecture](<../../.gitbook/assets/Screen Shot 2021-02-09 at 1.05.15 AM.png>)
 
 Instruction pipelining; Superscalar execution; Out-of-order execution; Register renaming; Speculative execution; Branch prediction
 
@@ -35,9 +35,8 @@ Power, and not manufacturing, limits traditional general-purpose microarchitectu
 
 ### Recap
 
-![](../../.gitbook/assets/screen-shot-2021-02-09-at-1.12.19-am.png)
+![](<../../.gitbook/assets/Screen Shot 2021-02-09 at 1.12.19 AM.png>)
 
 ## Now What?
 
-![](../../.gitbook/assets/screen-shot-2021-02-09-at-1.16.11-am.png)
-
+![](<../../.gitbook/assets/Screen Shot 2021-02-09 at 1.16.11 AM.png>)

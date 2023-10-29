@@ -1,10 +1,10 @@
-# Analysis of Large-Scale Multi-Tenant GPU Clusters for DNN Training Workloads
+# \[2019 ATC] Analysis of Large-Scale Multi-Tenant GPU Clusters for DNN Training Workloads
 
 ## One-line Summary
 
 This paper presents a characterization study of large-scale GPU clusters for DNN training. It uncovers some inefficiencies in cluster utilization and presents some lessons for better cluster manager decisions.
 
-This paper means a lot to me in that this is the first paper that I read through thoroughly :\)
+This paper means a lot to me in that this is the first paper that I read through thoroughly :)
 
 ## Paper Structure Outline
 
@@ -41,39 +41,39 @@ The authors first present an overview of Philly, a large, multi-tenant GPU-based
 
 ## Microsoft Philly
 
-![](../../.gitbook/assets/screen-shot-2020-12-31-at-3.42.57-pm.png)
+![](<../../.gitbook/assets/Screen Shot 2020-12-31 at 3.42.57 PM.png>)
 
-![](../../.gitbook/assets/screen-shot-2020-12-31-at-4.02.21-pm.png)
+![](<../../.gitbook/assets/Screen Shot 2020-12-31 at 4.02.21 PM.png>)
 
 The three main steps in Fig. 1 are:
 
-1. **Incoming jobs and queuing**: The scheduler needs to perform gang scheduling while being locality-aware. Each production group is provided with a virtual cluster and a quota \(in terms of \#GPUs to each virtual cluster\).
-2. **Job placement and utilization**: The scheduler aims to maximize locality and minimize fragmentation of resources \(from smaller jobs, e.g. 1-GPU jobs\). There is a trade-off between colocation and distribution, though, as placing different jobs on the same server could lead to lower GPU utilization \(because of interference in shared resources like RDMA and PCIe\).
+1. **Incoming jobs and queuing**: The scheduler needs to perform gang scheduling while being locality-aware. Each production group is provided with a virtual cluster and a quota (in terms of #GPUs to each virtual cluster).
+2. **Job placement and utilization**: The scheduler aims to maximize locality and minimize fragmentation of resources (from smaller jobs, e.g. 1-GPU jobs). There is a trade-off between colocation and distribution, though, as placing different jobs on the same server could lead to lower GPU utilization (because of interference in shared resources like RDMA and PCIe).
 3. **Training progress and completion**: Jobs can finish with three statuses: passed, killed, or unsuccessful. Failed jobs are retried a few times to overcome non-deterministic failures.
 
 The logs are collected over a 75-day period and it consists of 96260 jobs over 14 virtual clusters. There are three main sources of the logs:
 
-1. YARN scheduler log: job arrival time, \# GPUs requested, GPU allocation status, job finish status
+1. YARN scheduler log: job arrival time, # GPUs requested, GPU allocation status, job finish status
 2. stdout & stderr logs from ML frameworks
-3. Ganglia monitoring system log: Per-minute statistics on hardware usage \(CPU, memory, network, GPU utilization\)
+3. Ganglia monitoring system log: Per-minute statistics on hardware usage (CPU, memory, network, GPU utilization)
 
 ## Impact of Locality Awareness
 
 ### Queueing Delays
 
-![The scheduler works in practice to trade-off locality for lower scheduling delay](../../.gitbook/assets/screen-shot-2020-12-31-at-5.44.01-pm.png)
+![The scheduler works in practice to trade-off locality for lower scheduling delay](<../../.gitbook/assets/Screen Shot 2020-12-31 at 5.44.01 PM.png>)
 
-![There are two types of delays: Fair-share denotes fairness \(which is common in conventional data analytics clusters\), while fragmentation denotes locality requirement and resource fragmentation \(which is more prevalent in DL clusters\).](../../.gitbook/assets/screen-shot-2020-12-31-at-5.44.25-pm.png)
+![There are two types of delays: Fair-share denotes fairness (which is common in conventional data analytics clusters), while fragmentation denotes locality requirement and resource fragmentation (which is more prevalent in DL clusters).](<../../.gitbook/assets/Screen Shot 2020-12-31 at 5.44.25 PM.png>)
 
 ### GPU Utilization
 
-![GPU utilization is low \(lower in distributed training\) because of \(1\) distribution across servers and \(2\) intra-server interference](../../.gitbook/assets/screen-shot-2020-12-31-at-5.36.39-pm.png)
+![GPU utilization is low (lower in distributed training) because of (1) distribution across servers and (2) intra-server interference](<../../.gitbook/assets/Screen Shot 2020-12-31 at 5.36.39 PM.png>)
 
-![](../../.gitbook/assets/screen-shot-2020-12-31-at-5.55.48-pm.png)
+![](<../../.gitbook/assets/Screen Shot 2020-12-31 at 5.55.48 PM.png>)
 
-![GPU utilization when running 8 and 16 GPU jobs on dedicated servers](../../.gitbook/assets/screen-shot-2020-12-31-at-5.56.15-pm.png)
+![GPU utilization when running 8 and 16 GPU jobs on dedicated servers](<../../.gitbook/assets/Screen Shot 2020-12-31 at 5.56.15 PM.png>)
 
-![In general, DL training jobs underutilize GPU processing cycles regardless of their job sizes.](../../.gitbook/assets/screen-shot-2020-12-31-at-5.56.57-pm.png)
+![In general, DL training jobs underutilize GPU processing cycles regardless of their job sizes.](<../../.gitbook/assets/Screen Shot 2020-12-31 at 5.56.57 PM.png>)
 
 Relaxing locality constraints:
 
@@ -87,25 +87,25 @@ Relaxing locality constraints:
     * Low queueing time
   * Cons
     * Contention in the use of network
-    * Risk of intra-server interference \(across jobs\)
+    * Risk of intra-server interference (across jobs)
 
 ## Training Progress and Completion
 
-![A significant fraction \(30.7%\) of jobs are either termintated by users or are unsuccessful. These jobs constitute ~55% of the total GPU time.](../../.gitbook/assets/screen-shot-2020-12-31-at-5.58.08-pm.png)
+![A significant fraction (30.7%) of jobs are either termintated by users or are unsuccessful. These jobs constitute \~55% of the total GPU time.](<../../.gitbook/assets/Screen Shot 2020-12-31 at 5.58.08 PM.png>)
 
 As observed in the above table, it is important to understand the reasons behind these failures, as fewer unsuccessful jobs would mean more resources for successful jobs.
 
 ### Training Iterations
 
-![](../../.gitbook/assets/screen-shot-2020-12-31-at-6.02.05-pm.png)
+![](<../../.gitbook/assets/Screen Shot 2020-12-31 at 6.02.05 PM.png>)
 
-~80% of passed jobs require all epochs executed to reach the lowest loss. However, an average of 62% and 56% \(for passed jobs and killed jobs, respectively\) GPU times for each job are used to improve the convergence accuracy by merely 0.1%. This suggests that jobs can be terminated early to save considerable resources.
+\~80% of passed jobs require all epochs executed to reach the lowest loss. However, an average of 62% and 56% (for passed jobs and killed jobs, respectively) GPU times for each job are used to improve the convergence accuracy by merely 0.1%. This suggests that jobs can be terminated early to save considerable resources.
 
 ### Job Failures
 
-![](../../.gitbook/assets/screen-shot-2020-12-31-at-6.06.22-pm.png)
+![](<../../.gitbook/assets/Screen Shot 2020-12-31 at 6.06.22 PM.png>)
 
-The failures happen across the whole stack: Infrastructure \(GPU, HDFS, resource scheduler\), ML frameworks \(PyTorch, TensorFlow\), and user programs \(shitty code :P\). A failure classifier is used to analyze the causes of the job failures. The most important failures are from these classifications:
+The failures happen across the whole stack: Infrastructure (GPU, HDFS, resource scheduler), ML frameworks (PyTorch, TensorFlow), and user programs (shitty code :P). A failure classifier is used to analyze the causes of the job failures. The most important failures are from these classifications:
 
 1. **Incorrect inputs**: Model files or input data stored in the external HDFS storage cannot be read
 2. **Semantic error**: Errors that happen due to library version mismatch or other dependencies of the user training program not being setup correctly
@@ -119,7 +119,7 @@ An analysis on the failure frequency show that:
 1. Failures repeat for the same job/user
 2. User/programming errors lead to a lot of failures
 
-An analysis on the runtime to failure \(RTF\) shows that:
+An analysis on the runtime to failure (RTF) shows that:
 
 1. RTF exhibits high variability with many short RTFs
 2. Infrastructure failures occur infrequently but have much longer RTF
@@ -135,10 +135,9 @@ The authors also find that large jobs with programming semantic errors tend to f
 ## Links
 
 * [Paper PDF](https://www.usenix.org/system/files/atc19-jeon.pdf)
-* [Full presentation video at USENIX ATC '19](https://www.youtube.com/watch?v=FoA1M7wAZ3I&ab_channel=USENIX)
-* [Lightning talk at USENIX '19](https://www.youtube.com/watch?v=ClEpCcZru_Q&ab_channel=MyeongjaeJeon)
+* [Full presentation video at USENIX ATC '19](https://www.youtube.com/watch?v=FoA1M7wAZ3I\&ab\_channel=USENIX)
+* [Lightning talk at USENIX '19](https://www.youtube.com/watch?v=ClEpCcZru\_Q\&ab\_channel=MyeongjaeJeon)
 * [Full presentation slides](https://www.usenix.org/sites/default/files/conference/protected-files/atc19-slides-jeon.pdf)
-* [Lightning talk slides](https://www.usenix.org/sites/default/files/conference/protected-files/atc19_slides_lt_jeon.pdf)
+* [Lightning talk slides](https://www.usenix.org/sites/default/files/conference/protected-files/atc19\_slides\_lt\_jeon.pdf)
 * [Philly traces on GitHub](https://github.com/msr-fiddle/philly-traces)
 * [Project Fiddle](https://www.microsoft.com/en-us/research/project/fiddle/)
-

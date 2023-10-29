@@ -53,11 +53,11 @@ Traditional fine-grained pipelining used in today's tasks (multitasks) are repla
 
 In this paper, the authors presented MonoSpark, which is essentially Apache Spark with the above design choices integrated.
 
-![](../../.gitbook/assets/screen-shot-2020-12-25-at-11.56.33-am.png)
+![](<../../.gitbook/assets/Screen Shot 2020-12-25 at 11.56.33 AM.png>)
 
-![](../../.gitbook/assets/screen-shot-2020-12-25-at-11.59.53-am.png)
+![](<../../.gitbook/assets/Screen Shot 2020-12-25 at 11.59.53 AM.png>)
 
-![](../../.gitbook/assets/screen-shot-2020-12-25-at-12.03.03-pm.png)
+![](<../../.gitbook/assets/Screen Shot 2020-12-25 at 12.03.03 PM.png>)
 
 On each worker, monotasks are scheduled using two layers of schedulers.
 
@@ -74,31 +74,31 @@ MonoSpark is compatible with Spark's public API in that if someone has an applic
 
 Three benchmark workloads are used: Sort, Big Data Benchmark, and Machine Learning.
 
-![Notice how in query 1c, MonoSpark is 9% slower](../../.gitbook/assets/screen-shot-2020-12-25-at-12.27.22-pm.png)
+![Notice how in query 1c, MonoSpark is 9% slower](<../../.gitbook/assets/Screen Shot 2020-12-25 at 12.27.22 PM.png>)
 
-![](../../.gitbook/assets/screen-shot-2020-12-25-at-12.29.18-pm.png)
+![](<../../.gitbook/assets/Screen Shot 2020-12-25 at 12.29.18 PM.png>)
 
 ### When is MonoSpark slower than Spark?
 
 1. **When a workload is not broken into sufficiently many multitasks**: MonoSpark's coarser-grained pipelining will sacrifice performance when the pipelining is too coarse
 2. **Disk writes**: In disk monotasks, all writes are flushed to disk to ensure that future disk monotasks get dedicated use of the disk, while Spark writes data to buffer cache and does not force data to disk.
 
-![](../../.gitbook/assets/screen-shot-2020-12-25-at-12.25.56-pm.png)
+![](<../../.gitbook/assets/Screen Shot 2020-12-25 at 12.25.56 PM.png>)
 
 ### Why is MonoSpark faster than Spark in some cases?
 
 1. Per-resource schedulers control contention, which results in higher disk bandwidth for workloads that run on hard disk drives, due to avoiding unnecessary seeks.
 2. Per-resource schedulers allow monotasks to fully utilize the bottleneck resource without unnecessary contention.
 
-![](../../.gitbook/assets/screen-shot-2020-12-25-at-12.26.19-pm.png)
+![](<../../.gitbook/assets/Screen Shot 2020-12-25 at 12.26.19 PM.png>)
 
 ### Reasoning about performance
 
-![Predicting runtime on different hardware](../../.gitbook/assets/screen-shot-2020-12-25-at-12.32.56-pm.png)
+![Predicting runtime on different hardware](<../../.gitbook/assets/Screen Shot 2020-12-25 at 12.32.56 PM.png>)
 
-![Predicting with both hardware and software changes. 4x more machines -> 10x improvement predicted with at most 23% error](../../.gitbook/assets/screen-shot-2020-12-25-at-12.33.46-pm.png)
+![Predicting with both hardware and software changes. 4x more machines -> 10x improvement predicted with at most 23% error](<../../.gitbook/assets/Screen Shot 2020-12-25 at 12.33.46 PM.png>)
 
-![Monotasks schedulers automatically select ideal concurrency because they have better control](../../.gitbook/assets/screen-shot-2020-12-25-at-12.35.56-pm.png)
+![Monotasks schedulers automatically select ideal concurrency because they have better control](<../../.gitbook/assets/Screen Shot 2020-12-25 at 12.35.56 PM.png>)
 
 ## Links
 

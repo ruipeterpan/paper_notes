@@ -1,4 +1,4 @@
-# The Google File System
+# \[2003 SOSP] The Google File System
 
 ## One-line Summary
 
@@ -76,7 +76,7 @@ GFS is a system for distributed file storage. The design of GFS is motivated by 
     * Fully decentralized
     * Built on Distributed Hash Tables (DHT)
 
-![\~80% of the files are < 4K](../../.gitbook/assets/screen-shot-2021-09-16-at-9.43.59-am.png)
+![\~80% of the files are < 4K](<../../.gitbook/assets/Screen Shot 2021-09-16 at 9.43.59 AM.png>)
 
 * Google was only five years old in 2003: It was a relatively young company. Instead of scaling up (buying expensive servers), they chose to scale out (using commodity, inexpensive hardware), due to the huge amount of data.
 * Certain aspects of the workload drive the design choices. The following observations are different from the assumptions made by previous distributed storage systems:
@@ -88,7 +88,7 @@ GFS is a system for distributed file storage. The design of GFS is motivated by 
 
 ## Design and Implementation
 
-![](../../.gitbook/assets/screen-shot-2021-09-15-at-1.30.23-pm.png)
+![](<../../.gitbook/assets/Screen Shot 2021-09-15 at 1.30.23 PM.png>)
 
 * Files are split into chunks. Each 64-MB chunk (this is much larger than traditional file system block sizes) of a file can be identified by a 64-bit ID, and the chunks are distributed on multiple machines (GFS chunkservers). Moreover, multiple (3 by default) replicas of each chunk are stored for fault tolerance. If the replication factor of a file falls below a goal (due to machine failures/corrupted replicas), chunks are re-replicated.
   * Chunk size trade-offs:
@@ -102,7 +102,7 @@ GFS is a system for distributed file storage. The design of GFS is motivated by 
 * GFS clients only communicate with the GFS master about the metadata of the file, and the actual I/O is done between the client and the chunkservers. GFS also caches (chunk handle, chunk location) to reduce the GFS master's workload.
 * The master keeps track of an operation log, the only persistent record of metadata. In case of a master failure, it can recover the file system state by replaying the operation log.
 
-![What happens during a write (this graph is used to describe a lease mechanism for maintain a global mutation order)](../../.gitbook/assets/screen-shot-2021-09-15-at-2.50.04-pm.png)
+![What happens during a write (this graph is used to describe a lease mechanism for maintain a global mutation order)](<../../.gitbook/assets/Screen Shot 2021-09-15 at 2.50.04 PM.png>)
 
 * Data flow: The data is pushed linearly along a chain of chunkservers to fully utilize each machine's outgoing bandwidth. Aside from that, each machine forwards the data to the closest (the distance can be estimated from IP addresses) machine to avoid network bottleneck.
 * GFS also provides an atomic append operation, record append, that allows multiple clients to concurrently append to the same file. If this is done using traditional writes, clients would need to do complicated & expensive synchronization.
@@ -112,9 +112,9 @@ GFS is a system for distributed file storage. The design of GFS is motivated by 
 
 ## Evaluation
 
-![](../../.gitbook/assets/screen-shot-2021-09-15-at-3.35.21-pm.png)
+![](<../../.gitbook/assets/Screen Shot 2021-09-15 at 3.35.21 PM.png>)
 
-![Cluster A is for development and cluster B is for production. Read rate > write rate](../../.gitbook/assets/screen-shot-2021-09-15-at-3.35.31-pm.png)
+![Cluster A is for development and cluster B is for production. Read rate > write rate](<../../.gitbook/assets/Screen Shot 2021-09-15 at 3.35.31 PM.png>)
 
 ## Links & References
 

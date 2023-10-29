@@ -1,4 +1,4 @@
-# Accordion: Adaptive Gradient Communication via Critical Learning Regime Identification
+# \[2021 MLSys] Accordion: Adaptive Gradient Communication via Critical Learning Regime Identification
 
 ## One-line Summary
 
@@ -37,21 +37,21 @@ Accordion dynamically adjusts the gradient compression rate and batch size durin
 
 Current methods to alleviate gradient communication bottlenecks include:
 
-* Lossy gradient compression \(reduce the size of data communicated\)
-  * Choosing the compression ratio is a tradeoff between final accuracy & communication overhead\)
+* Lossy gradient compression (reduce the size of data communicated)
+  * Choosing the compression ratio is a tradeoff between final accuracy & communication overhead)
   * Can be generalized into three groups: quantization, sparsification, and low rank approximation
-* Increase batch size \(reduce the frequency of per-epoch communication\)
+* Increase batch size (reduce the frequency of per-epoch communication)
   * This leads to degradation in final accuracy
 
-In this work, the authors relax the "fixed communication" scheme and use adaptive schemes. The authors build on the idea of critical regimes so that avoiding gradient compression \(lowering the compression rate\) during critical regimes mitigates accuracy loss. Accordion is also able to adjust the batch size.
+In this work, the authors relax the "fixed communication" scheme and use adaptive schemes. The authors build on the idea of critical regimes so that avoiding gradient compression (lowering the compression rate) during critical regimes mitigates accuracy loss. Accordion is also able to adjust the batch size.
 
 ## Design and Implementation
 
-![](../../.gitbook/assets/screen-shot-2021-02-09-at-11.24.25-pm.png)
+![](<../../.gitbook/assets/Screen Shot 2021-02-09 at 11.24.25 PM.png>)
 
-In the example above, if low compression is used for the first 20 epochs and the 10 epochs after epoch 150 and high compression is used in other places, the overall communication will be close to high compression, and the accuracy will be the same as using low compression throughout \(communication is also reduced significantly\).
+In the example above, if low compression is used for the first 20 epochs and the 10 epochs after epoch 150 and high compression is used in other places, the overall communication will be close to high compression, and the accuracy will be the same as using low compression throughout (communication is also reduced significantly).
 
-![Whatever that symbol is, it is the threshold for declaring critical regimes.](../../.gitbook/assets/screen-shot-2021-02-09-at-11.29.01-pm.png)
+![Whatever that symbol is, it is the threshold for declaring critical regimes.](<../../.gitbook/assets/Screen Shot 2021-02-09 at 11.29.01 PM.png>)
 
 Critical regimes are identified by measuring the rate of change in gradient norms. This technique has a low computational and memory overhead.
 
@@ -59,19 +59,18 @@ For batch sizes, small batches are used only in critical regimes, and this resul
 
 ## Evaluation
 
-![Accordion with PowerSGD](../../.gitbook/assets/screen-shot-2021-02-09-at-11.32.57-pm.png)
+![Accordion with PowerSGD](<../../.gitbook/assets/Screen Shot 2021-02-09 at 11.32.57 PM.png>)
 
-![Accordion with TopK](../../.gitbook/assets/screen-shot-2021-02-09-at-11.33.21-pm.png)
+![Accordion with TopK](<../../.gitbook/assets/Screen Shot 2021-02-09 at 11.33.21 PM.png>)
 
-![Accordion with large batch size](../../.gitbook/assets/screen-shot-2021-02-09-at-11.33.37-pm.png)
+![Accordion with large batch size](<../../.gitbook/assets/Screen Shot 2021-02-09 at 11.33.37 PM.png>)
 
-More evaluations are available in the paper appendix. This paper has the longest appendix I've ever seen :\)
+More evaluations are available in the paper appendix. This paper has the longest appendix I've ever seen :)
 
 ## Links
 
 * [Paper PDF](https://proceedings.mlsys.org/paper/2021/file/1d7f7abc18fcb43975065399b0d1e48e-Paper.pdf)
-* [Presentation video \(Poster\) at MLSys '21](https://slideslive.com/38952703/accordion-adaptive-gradient-communication-via-critical-learning-regime-identification?ref=account-folder-80869-folders)
-* [Presentation video \(Oral\) at MLSys '21](https://slideslive.com/38952732/oral-accordion-adaptive-gradient-communication-via-critical-learning-regime-identification?ref=account-folder-80870-folders)
+* [Presentation video (Poster) at MLSys '21](https://slideslive.com/38952703/accordion-adaptive-gradient-communication-via-critical-learning-regime-identification?ref=account-folder-80869-folders)
+* [Presentation video (Oral) at MLSys '21](https://slideslive.com/38952732/oral-accordion-adaptive-gradient-communication-via-critical-learning-regime-identification?ref=account-folder-80870-folders)
 * Presentation slides at MLSys '21
 * [Accordion on GitHub](https://github.com/uw-mad-dash/Accordion)
-

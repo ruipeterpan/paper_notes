@@ -35,27 +35,27 @@ A resource container is an operating systems abstraction that separates the noti
 
 ## Background & Motivation
 
-In resource management, current systems do not separate the notion of "protection domain" \(where the accounting of the tasks is done\) and "resource principal" \(where actual work gets performed\). Processes and threads are both resource principals as well as protection domains. Also, an application does not have control over how much resources the kernel consumes on behalf of the application. In this work, the two notions are separated by the new operating systems abstraction, resource containers.
+In resource management, current systems do not separate the notion of "protection domain" (where the accounting of the tasks is done) and "resource principal" (where actual work gets performed). Processes and threads are both resource principals as well as protection domains. Also, an application does not have control over how much resources the kernel consumes on behalf of the application. In this work, the two notions are separated by the new operating systems abstraction, resource containers.
 
-Existing models include \(1\) process-per connection, \(2\) single-process event-driven connection, and \(3\) multi-threaded server.
+Existing models include (1) process-per connection, (2) single-process event-driven connection, and (3) multi-threaded server.
 
-![](../../.gitbook/assets/screen-shot-2021-01-02-at-11.14.37-pm.png)
+![](<../../.gitbook/assets/Screen Shot 2021-01-02 at 11.14.37 PM.png>)
 
-![](../../.gitbook/assets/screen-shot-2021-01-02-at-11.14.49-pm.png)
+![](<../../.gitbook/assets/Screen Shot 2021-01-02 at 11.14.49 PM.png>)
 
-![](../../.gitbook/assets/screen-shot-2021-01-02-at-11.15.01-pm.png)
+![](<../../.gitbook/assets/Screen Shot 2021-01-02 at 11.15.01 PM.png>)
 
 The authors then presented some analyses in section 3 to analyze the shortcomings of the current models.
 
-![](../../.gitbook/assets/screen-shot-2021-01-02-at-11.54.07-pm.png)
+![](<../../.gitbook/assets/Screen Shot 2021-01-02 at 11.54.07 PM.png>)
 
-![](../../.gitbook/assets/screen-shot-2021-01-02-at-11.54.16-pm.png)
+![](<../../.gitbook/assets/Screen Shot 2021-01-02 at 11.54.16 PM.png>)
 
 ## Design and Implementation
 
-![](../../.gitbook/assets/screen-shot-2021-01-02-at-11.55.11-pm.png)
+![](<../../.gitbook/assets/Screen Shot 2021-01-02 at 11.55.11 PM.png>)
 
-Instead of binding threads of application space processes, threads bind to different resource containers \(RC\), a new abstraction that extends into the kernel and thus has knowledge of which os entities are doing work for which application-level clients. Resource containers logically contain all types of resources \(CPU time, sockets, control blocks, network buffers\) being used by an application. Containers are also attached with attributes to limit resources \(CPU availability\), provide scheduling priorities, and network QoS values.
+Instead of binding threads of application space processes, threads bind to different resource containers (RC), a new abstraction that extends into the kernel and thus has knowledge of which os entities are doing work for which application-level clients. Resource containers logically contain all types of resources (CPU time, sockets, control blocks, network buffers) being used by an application. Containers are also attached with attributes to limit resources (CPU availability), provide scheduling priorities, and network QoS values.
 
 To use resource containers with multiple threads:
 
@@ -76,13 +76,13 @@ To use resource containers with events:
 
 Resource containers allow explicit and fine-grained control over resource consumption at both user-level and kernel-level. They can provide accurate resource accounting, enabling web servers to provide differentiated QoS.
 
-![Restricting resource usage of dynamic requests allows the OS to deliver a certain degree of fairness across containers](../../.gitbook/assets/screen-shot-2021-01-02-at-11.48.40-pm.png)
+![Restricting resource usage of dynamic requests allows the OS to deliver a certain degree of fairness across containers](<../../.gitbook/assets/Screen Shot 2021-01-02 at 11.48.40 PM.png>)
 
-![RCs are effective in the prioritized handling of clients \(have better response time\) as they prevent work in the kernel](../../.gitbook/assets/screen-shot-2021-01-02-at-11.48.55-pm.png)
+![RCs are effective in the prioritized handling of clients (have better response time) as they prevent work in the kernel](<../../.gitbook/assets/Screen Shot 2021-01-02 at 11.48.55 PM.png>)
 
-![Resource utilization can be controlled by isolating static requests being serviced](../../.gitbook/assets/screen-shot-2021-01-02-at-11.49.02-pm.png)
+![Resource utilization can be controlled by isolating static requests being serviced](<../../.gitbook/assets/Screen Shot 2021-01-02 at 11.49.02 PM.png>)
 
-![Containers help provide a certain amount of immunity against a DOS attack by SYN flooding.](../../.gitbook/assets/screen-shot-2021-01-02-at-11.52.24-pm.png)
+![Containers help provide a certain amount of immunity against a DOS attack by SYN flooding.](<../../.gitbook/assets/Screen Shot 2021-01-02 at 11.52.24 PM.png>)
 
 ## New Vocabulary
 
@@ -92,10 +92,11 @@ Resource containers allow explicit and fine-grained control over resource consum
 
 ## Links
 
-* [Paper PDF](https://www.usenix.org/legacy/publications/library/proceedings/osdi99/full_papers/banga/banga.pdf)
-* [Lecture slides from EECS 443 @ Northwestern University](https://users.cs.northwestern.edu/~fabianb/classes/eecs-443-w09/lectures/RContainers.pdf)
-* [Lecture slides from CS 5204 @ Virginia Polytechnic](http://courses.cs.vt.edu/~cs5204/fall14-butt/lectures/ResourceContainers.pdf)
-* [Discussion panel from CS 736 @ UW-Madison](http://pages.cs.wisc.edu/~swift/classes/cs736-fa12/blog/2012/10/resource_containers_a_new_faci.html)
+* [Paper PDF](https://www.usenix.org/legacy/publications/library/proceedings/osdi99/full\_papers/banga/banga.pdf)
+* [Lecture slides from EECS 443 @ Northwestern University](https://users.cs.northwestern.edu/\~fabianb/classes/eecs-443-w09/lectures/RContainers.pdf)
+* [Lecture slides from CS 5204 @ Virginia Polytechnic](http://courses.cs.vt.edu/\~cs5204/fall14-butt/lectures/ResourceContainers.pdf)
+* [Discussion panel from CS 736 @ UW-Madison](http://pages.cs.wisc.edu/\~swift/classes/cs736-fa12/blog/2012/10/resource\_containers\_a\_new\_faci.html)
 
-{% file src="../../.gitbook/assets/17-resourcecontainers.pptx" caption="CS 736 course slides on resource containers by Prof. Andrea Arpaci-Dusseau" %}
-
+{% file src="../../.gitbook/assets/17-resourcecontainers.pptx" %}
+CS 736 course slides on resource containers by Prof. Andrea Arpaci-Dusseau
+{% endfile %}

@@ -54,13 +54,13 @@ The work is based on an existing LSM system, WiscKey, which is significantly fas
 
 ### Beneficial regimes
 
-![Read-only experiments on WiscKey when data resides on memory and different storage devices. Works better with faster data access (InMemory > Optane > SATA SSD)](../../.gitbook/assets/screen-shot-2021-01-04-at-11.18.12-am.png)
+![Read-only experiments on WiscKey when data resides on memory and different storage devices. Works better with faster data access (InMemory > Optane > SATA SSD)](<../../.gitbook/assets/Screen Shot 2021-01-04 at 11.18.12 AM.png>)
 
 Learned indexes can only speed up indexing time.
 
 ### Bourbon Learning
 
-![](../../.gitbook/assets/screen-shot-2021-01-04-at-11.23.03-am.png)
+![](<../../.gitbook/assets/Screen Shot 2021-01-04 at 11.23.03 AM.png>)
 
 Bourbon uses piecewise linear regression (PLR) to model the data as it has low overheads during learning and lookups, and the space overhead is small as well. Bourbon can learn individual sstables files (file learning) or entire levels (level learning). Level learning can be beneficial for read-only workloads, while for mixed workloads, level learning performs worse than file learning.
 
@@ -116,21 +116,21 @@ Possible directions for future improvements include:
 * Develop a model of T\_build on-line or calculate C\_build such that it is not simply T\_build
 * Sort the work queue by some function other than B\_model - C\_model
 
-![Bourbon lookups](../../.gitbook/assets/screen-shot-2021-01-04-at-11.23.29-am.png)
+![Bourbon lookups](<../../.gitbook/assets/Screen Shot 2021-01-04 at 11.23.29 AM.png>)
 
 ## Evaluation
 
-![](../../.gitbook/assets/screen-shot-2021-01-04-at-11.25.28-am.png)
+![](<../../.gitbook/assets/Screen Shot 2021-01-04 at 11.25.28 AM.png>)
 
-![Bourbon works better with datasets of fewer segments](../../.gitbook/assets/screen-shot-2021-01-04-at-11.25.42-am.png)
+![Bourbon works better with datasets of fewer segments](<../../.gitbook/assets/Screen Shot 2021-01-04 at 11.25.42 AM.png>)
 
-![Bourbon works better with sequential loads than random loads, as random loads cause many negative lookups and Bourbon offers less gain for negative lookups](../../.gitbook/assets/screen-shot-2021-01-04-at-11.26.16-am.png)
+![Bourbon works better with sequential loads than random loads, as random loads cause many negative lookups and Bourbon offers less gain for negative lookups](<../../.gitbook/assets/Screen Shot 2021-01-04 at 11.26.16 AM.png>)
 
-![CBA: At lower write rates, learn most files, resulting in best foreground latency. At higher write rates, limited learning, resulting in significantly less learning time and a foreground latency close to always-learn policy. At all write rates: Minimal total CPU time.](../../.gitbook/assets/screen-shot-2021-01-04-at-11.27.45-am.png)
+![CBA: At lower write rates, learn most files, resulting in best foreground latency. At higher write rates, limited learning, resulting in significantly less learning time and a foreground latency close to always-learn policy. At all write rates: Minimal total CPU time.](<../../.gitbook/assets/Screen Shot 2021-01-04 at 11.27.45 AM.png>)
 
-![](../../.gitbook/assets/screen-shot-2021-01-04-at-11.29.02-am.png)
+![](<../../.gitbook/assets/Screen Shot 2021-01-04 at 11.29.02 AM.png>)
 
-![YCSB & SOSD: Read-only gains holds for real benchmarks; Have less gain when write rate is higher; Accelerate reads without affecting writes](../../.gitbook/assets/screen-shot-2021-01-04-at-11.29.13-am.png)
+![YCSB & SOSD: Read-only gains holds for real benchmarks; Have less gain when write rate is higher; Accelerate reads without affecting writes](<../../.gitbook/assets/Screen Shot 2021-01-04 at 11.29.13 AM.png>)
 
 ## New Vocabulary
 
@@ -143,6 +143,6 @@ Possible directions for future improvements include:
 * [Presentation slides at OSDI '20](https://www.usenix.org/sites/default/files/conference/protected-files/osdi20\_slides\_dai.pdf)
 * Thanks to Yifan Dai and Yien Xu for the paper review notes!
 
-{% file src="../../.gitbook/assets/contractssds.pptx" %}
+{% file src="../../.gitbook/assets/ContractSSDs.pptx" %}
 Prof. Andrea's course slides on the SSD paper and Bourbon
 {% endfile %}

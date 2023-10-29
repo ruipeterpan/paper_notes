@@ -46,15 +46,15 @@ In datacenters, the monolithic server model has been used for decades. It's faci
 1. **Inefficient resource utilization**: With a server being the physical boundary of resource allocation, under-utilization occurs. See the figure below for an example.
 2. **Poor hardware elasticity**: It's difficult to add/move/remove/reconfigure hardware components after they have been installed in a monolithic server.
 3. **Coarse failure domain**: When a hardware component in a monolithic server fails, the whole server goes down.
-4. **Bad support for heterogeneity**: As the monolithic server model tightly couples hardware devices with each other and with a motherboard, it is very difficult to make new hardware devices \(GPU, TPU, DPU, NVM, NVMe-based SSDs, etc.\) work with existing servers.
+4. **Bad support for heterogeneity**: As the monolithic server model tightly couples hardware devices with each other and with a motherboard, it is very difficult to make new hardware devices (GPU, TPU, DPU, NVM, NVMe-based SSDs, etc.) work with existing servers.
 
-![Resource under-utilization](../../.gitbook/assets/screen-shot-2020-12-22-at-9.46.45-am.png)
+![Resource under-utilization](<../../.gitbook/assets/Screen Shot 2020-12-22 at 9.46.45 AM.png>)
 
 To break the server-centric monolithic server model, the authors suggested a hardware resource disaggregation architecture.
 
 ## Splitkernel
 
-![As a backbone of LegoOS, Splitkernel disseminates traditional OS functionalities into loosely-coupled monitors \(process monitor, memory monitor, and storage monitor\) and offers resource allocation and failure handling of a distributed set of hardware components. ](../../.gitbook/assets/screen-shot-2020-12-22-at-9.53.31-am.png)
+![As a backbone of LegoOS, Splitkernel disseminates traditional OS functionalities into loosely-coupled monitors (process monitor, memory monitor, and storage monitor) and offers resource allocation and failure handling of a distributed set of hardware components. ](<../../.gitbook/assets/Screen Shot 2020-12-22 at 9.53.31 AM.png>)
 
 ## LegoOS Design
 
@@ -62,23 +62,23 @@ LegoOS' design targets three types of hardware components: processor, memory, an
 
 ### Hardware Architecture
 
-![](../../.gitbook/assets/screen-shot-2020-12-22-at-10.06.54-am.png)
+![](<../../.gitbook/assets/Screen Shot 2020-12-22 at 10.06.54 AM.png>)
 
-1. **Separating process and memory functionalities**: All hardware memory functionalities \(page tables, TLBs, MMU\) are moved to mComponents. Only caches are left at the pComponent side. "With a clean separation of process and memory hardware units, the allocation and manage- ment of memory can be completely transparent to pCom- ponents. Each mComponent can choose its own memory allocation technique and virtual to physical memory ad- dress mappings \(e.g., segmentation\)."
-2. **Processor virtual caches**: As all memory functionalities are moved to mComponents, pComponents will only see virtual addresses. To resolve this, LegoOS organizes all levels of pComponent caches as virtual caches. With virtual caches comes two potential problems: synonyms and homonyms. LegoOS resolves synonyms by not allowing writable inter-process memory sharing, and it resolves homonyms by storing an address space ID \(ASID\) with each cache line, and differentiate a virtual address in different address spaces using ASIDs.
+1. **Separating process and memory functionalities**: All hardware memory functionalities (page tables, TLBs, MMU) are moved to mComponents. Only caches are left at the pComponent side. "With a clean separation of process and memory hardware units, the allocation and manage- ment of memory can be completely transparent to pCom- ponents. Each mComponent can choose its own memory allocation technique and virtual to physical memory ad- dress mappings (e.g., segmentation)."
+2. **Processor virtual caches**: As all memory functionalities are moved to mComponents, pComponents will only see virtual addresses. To resolve this, LegoOS organizes all levels of pComponent caches as virtual caches. With virtual caches comes two potential problems: synonyms and homonyms. LegoOS resolves synonyms by not allowing writable inter-process memory sharing, and it resolves homonyms by storing an address space ID (ASID) with each cache line, and differentiate a virtual address in different address spaces using ASIDs.
 3. **Separating memory for performance and for capacity**
 
 ### Process Management
 
-> Let a thread run to the end with no scheduling or kernel preemption except when a pComponent has to schedule more threads than its cores. \(Because LegoOS does not push for perfect core utilization when scheduling individual threads and instead aims to minimize scheduling and context switch performance overheads.\)
+> Let a thread run to the end with no scheduling or kernel preemption except when a pComponent has to schedule more threads than its cores. (Because LegoOS does not push for perfect core utilization when scheduling individual threads and instead aims to minimize scheduling and context switch performance overheads.)
 
 LegoOS also process monitor configures and amnages ExCache. Finally, LegoOS supports Linux ABIs for backward compatibility and easy adoption of LegoOS.
 
 ### Memory Management
 
 * Virtual memory space management: A two-level approach to manage distributed virtual memory spaces.
-  * Higher level: Split each virtual memory ad- dress space into coarse-grained, fix-sized virtual regions, or vRegions \(e.g., of 1 GB\).
-  * Lower level: Stores user process virtual memory area \(vma\) information, such as virtual address ranges and permissions, in vma trees.
+  * Higher level: Split each virtual memory ad- dress space into coarse-grained, fix-sized virtual regions, or vRegions (e.g., of 1 GB).
+  * Lower level: Stores user process virtual memory area (vma) information, such as virtual address ranges and permissions, in vma trees.
 * Physical memory space management: Each mComponent can choose their own way of physical memory allocation and own mechanism of virtual-to-physical memory address mapping.
 
 ### Storage Management
@@ -98,26 +98,25 @@ LegoOS supports 113 syscalls, 15 pseudo-files, and 10 vectored syscall opcodes. 
 
 ## Evaluation
 
-![](../../.gitbook/assets/screen-shot-2020-12-22-at-9.48.13-am.png)
+![](<../../.gitbook/assets/Screen Shot 2020-12-22 at 9.48.13 AM.png>)
 
-![](../../.gitbook/assets/screen-shot-2020-12-22-at-9.48.36-am.png)
+![](<../../.gitbook/assets/Screen Shot 2020-12-22 at 9.48.36 AM.png>)
 
 
 
 ## New Vocabulary
 
-* Monolithic server: A single server that contains all the hardware resources \(typically a processor, some main memory, and a disk or an SSD\) that are needed to run a user program.
+* Monolithic server: A single server that contains all the hardware resources (typically a processor, some main memory, and a disk or an SSD) that are needed to run a user program.
 * SLOC: Abbreviation for "Source Lines of Code".
 * ABI: [Application Binary Interface](https://stackoverflow.com/a/2456882).
-* [Synonyms & Homonyms](http://www.inf.ed.ac.uk/teaching/courses/car/Notes/2016-17/lecture09-virtual_memory.pdf): Synonyms happens when a physical address maps to multiple virtual addresses \(and thus multiple virtual cache lines\) as a re- sult of memory sharing across processes, and the update of one virtual cache line will not reflect to other lines that share the data. The homonym problem happens when two address spaces use the same virtual address for their own different data.
+* [Synonyms & Homonyms](http://www.inf.ed.ac.uk/teaching/courses/car/Notes/2016-17/lecture09-virtual\_memory.pdf): Synonyms happens when a physical address maps to multiple virtual addresses (and thus multiple virtual cache lines) as a re- sult of memory sharing across processes, and the update of one virtual cache line will not reflect to other lines that share the data. The homonym problem happens when two address spaces use the same virtual address for their own different data.
 * Cache lines: A cache line is the unit of data transfer between the cache and main memory.
 
 ## Links
 
 * [Paper PDF](https://www.usenix.org/system/files/osdi18-shan.pdf)
 * [Presentation Video at OSDI '18](https://www.youtube.com/watch?v=GX74Q2-ZOQE)
-* [Presentation Video at USENIX ATC '19](https://www.youtube.com/watch?v=KJqYHuL59_s)
-* [Presentation Slides](https://www.usenix.org/sites/default/files/conference/protected-files/osdi18_slides_shan.pdf)
+* [Presentation Video at USENIX ATC '19](https://www.youtube.com/watch?v=KJqYHuL59\_s)
+* [Presentation Slides](https://www.usenix.org/sites/default/files/conference/protected-files/osdi18\_slides\_shan.pdf)
 * [LegoOS on GitHub](https://github.com/WukLab/LegoOS)
 * Thanks to Yuhao Zhang for the review notes!
-
